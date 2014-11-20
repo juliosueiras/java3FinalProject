@@ -96,6 +96,8 @@
 
 	<!-- ========= The main target "all" ========= -->
 	<target name="all" depends="clean,compile,sonar" />
-   <target depends="clean" description="Clean build products." name="clean-ear"/>
+    <property name="servlet.jar"
+        value="web/WEB-INF/tomcat8/servlet-api.jar"/>  
+    <target depends="clean" description="Clean build products." name="clean-ear"/>
 
 </project>
