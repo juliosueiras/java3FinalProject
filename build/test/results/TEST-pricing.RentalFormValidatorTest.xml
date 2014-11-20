@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="5" hostname="juliosueiras-laptop" name="pricing.RentalFormValidatorTest" skipped="0" tests="7" time="0.087" timestamp="2014-11-20T06:44:19">
+<testsuite errors="0" failures="5" hostname="juliosueiras-laptop" name="pricing.RentalFormValidatorTest" skipped="0" tests="7" time="0.09" timestamp="2014-11-20T07:58:02">
   <properties>
     <property name="libs.jsp-compiler.javadoc" value="" />
     <property name="netbeans.autoupdate.country" value="CA" />
@@ -31,12 +31,12 @@
     <property name="libs.DataBindingME-PIM.maven-pom" value="" />
     <property name="libs.Java-EE-GlassFish-v3-Prelude.javadoc" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javaee-doc-api.jar" />
     <property name="jdk.home" value="/usr/lib/jvm/java-8-oracle" />
+    <property name="directory.deployment.supported" value="true" />
     <property name="libs.javac-api.src" value="" />
     <property name="javadoc.noindex" value="false" />
     <property name="libs.jpa2-persistence.classpath" value="/usr/local/netbeans-8.0.1/java/modules/ext/hibernate4/hibernate-jpa-2.1-api-1.0.0.Final.jar" />
     <property name="sun.os.patch.level" value="unknown" />
     <property name="libs.Java-EE-GlassFish-v3-Prelude.src" value="" />
-    <property name="do.tmp.war.package" value="true" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
     <property name="nb.show.statistics.ui" value="usageStatisticsEnabled" />
     <property name="netbeans.autoupdate.variant" value="" />
@@ -54,7 +54,6 @@
     <property name="libs.jstl.classpath" value="/usr/local/netbeans-8.0.1/enterprise/modules/ext/jstl-impl.jar:/usr/local/netbeans-8.0.1/enterprise/modules/ext/jstl-api.jar" />
     <property name="libs.testng.src" value="" />
     <property name="ant.file.type.finalProject-impl" value="file" />
-    <property name="nu.validator.spec.alt-advice" value="jar:file:/usr/local/netbeans-8.0.1/ide/modules/ext/validator.jar!/nu/validator/localentities/files/wiki_whatwg_org_wiki_Validator_nu_alt_advice" />
     <property name="libs.spring-webmvc3.0.src" value="" />
     <property name="libs.restapi.classpath" value="/usr/local/netbeans-8.0.1/enterprise/modules/ext/jaxrs-2.0/javax.ws.rs-api-2.0.jar" />
     <property name="runmain.jvmargs" value="" />
@@ -70,7 +69,7 @@
     <property name="libs.j2me_common_ant.maven-pom" value="" />
     <property name="libs.spring-webmvc3.0.maven-pom" value="" />
     <property name="libs.swing-layout.maven-pom" value="" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner pricing.RentalFormValidatorTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/build/test/results/TEST-pricing.RentalFormValidatorTest.xml crashfile=/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/build/junitvmwatcher6240047648235769955.properties propsfile=/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/build/junit361674393811963306.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner pricing.RentalFormValidatorTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/build/test/results/TEST-pricing.RentalFormValidatorTest.xml crashfile=/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/build/junitvmwatcher402744532211463156.properties propsfile=/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/build/junit5745876031986480184.properties" />
     <property name="build.classes.dir" value="build/web/WEB-INF/classes" />
     <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
     <property name="ap.supported.internal" value="true" />
@@ -78,8 +77,8 @@
     <property name="libs.jaxws21.javadoc" value="/usr/local/netbeans-8.0.1/java/docs/jaxws-api-doc.zip" />
     <property name="libs.spring-webmvc4.0.javadoc" value="" />
     <property name="build.web.excludes" value="**/*.java,**/*.form" />
-    <property name="includes" value="**" />
-    <property name="browser.context" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject" />
+    <property name="includes" value="pricing/**/*Test.java" />
+    <property name="browser.context" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/test/pricing" />
     <property name="user.country" value="CA" />
     <property name="javadoc.encoding" value="UTF-8" />
     <property name="javac.classpath" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/javaee-web-api-7.0/javaee-web-api-7.0.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/webservices-api-osgi.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.annotation-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/jaxb-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.servlet.jsp.jstl.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.ejb-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.enterprise.concurrent-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.interceptor-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.ws.rs-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.enterprise.deploy-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.el.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.enterprise.concurrent.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.servlet.jsp-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.xml.registry-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.servlet.jsp.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.security.auth.message-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.websocket-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.resource-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/bean-validator.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/webservices-osgi.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/jaxb-osgi.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.json.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.batch-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.inject.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.servlet.jsp.jstl-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.persistence.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.servlet-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.mail.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.faces.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.management.j2ee-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.security.jacc-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/weld-osgi-bundle.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.xml.rpc-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.jms-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.transaction-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/jaxm-api.jar" />
@@ -98,6 +97,7 @@
     <property name="libs.Comet-GlassFish-v3.maven-pom" value="" />
     <property name="libs.groovy-all.src" value="" />
     <property name="netbeans.dynamic.classpath" value="/usr/local/netbeans-8.0.1/platform/core/org-openide-filesystems.jar:/usr/local/netbeans-8.0.1/platform/core/core.jar:/usr/local/netbeans-8.0.1/platform/core/locale/core_zh_CN.jar:/usr/local/netbeans-8.0.1/platform/core/locale/core_pt_BR.jar:/usr/local/netbeans-8.0.1/platform/core/locale/org-openide-filesystems_zh_CN.jar:/usr/local/netbeans-8.0.1/platform/core/locale/org-openide-filesystems_ja.jar:/usr/local/netbeans-8.0.1/platform/core/locale/org-openide-filesystems_ru.jar:/usr/local/netbeans-8.0.1/platform/core/locale/core_ja.jar:/usr/local/netbeans-8.0.1/platform/core/locale/org-openide-filesystems_pt_BR.jar:/usr/local/netbeans-8.0.1/platform/core/locale/core_ru.jar:/usr/local/netbeans-8.0.1/nb/core/org-netbeans-upgrader.jar:/usr/local/netbeans-8.0.1/nb/core/locale/org-netbeans-upgrader_ru.jar:/usr/local/netbeans-8.0.1/nb/core/locale/org-netbeans-upgrader_pt_BR.jar:/usr/local/netbeans-8.0.1/nb/core/locale/core_nb_zh_CN.jar:/usr/local/netbeans-8.0.1/nb/core/locale/core_nb_ja.jar:/usr/local/netbeans-8.0.1/nb/core/locale/core_nb_ru.jar:/usr/local/netbeans-8.0.1/nb/core/locale/core_nb_pt_BR.jar:/usr/local/netbeans-8.0.1/nb/core/locale/org-netbeans-upgrader_zh_CN.jar:/usr/local/netbeans-8.0.1/nb/core/locale/org-netbeans-upgrader_ja.jar:/usr/local/netbeans-8.0.1/nb/core/locale/core_nb.jar" />
+    <property name="auxiliary.org-netbeans-modules-css-prep.sass_2e_mappings" value="/scss:/css" />
     <property name="java.vm.specification.version" value="1.8" />
     <property name="libs.hibernate4-support.src" value="" />
     <property name="libs.primefaces.classpath" value="/usr/local/netbeans-8.0.1/enterprise/modules/ext/primefaces/primefaces-5.0.jar" />
@@ -109,6 +109,7 @@
     <property name="sonar.jdbc.username" value="sonar" />
     <property name="netbeans.autoupdate.language" value="en" />
     <property name="java.vendor" value="Oracle Corporation" />
+    <property name="auxiliary.org-netbeans-modules-css-prep.less_2e_enabled" value="false" />
     <property name="libs.javaee-api-6.0.javadoc" value="/usr/local/netbeans-8.0.1/enterprise/docs/javaee-doc-api.jar" />
     <property name="sun.font.fontmanager" value="sun.awt.X11FontManager" />
     <property name="javac.debug" value="true" />
@@ -204,6 +205,7 @@
     <property name="libs.hibernate4-persistencemodelgen.src" value="" />
     <property name="javadoc.preview" value="true" />
     <property name="libs.jpa20-persistence.javadoc" value="/usr/local/netbeans-8.0.1/java/modules/ext/docs/javax.persistence-2.1.0-doc.zip" />
+    <property name="nbplatform.default.harness.dir" value="/usr/local/netbeans-8.0.1/harness" />
     <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre" />
     <property name="sonar.sources" value="src" />
     <property name="libs.jsp-compilation.src" value="" />
@@ -290,25 +292,26 @@
     <property name="libs.jsp-compilation-syscp.maven-pom" value="" />
     <property name="netbeans.default_userdir_root" value="/home/juliosueiras/.netbeans" />
     <property name="sun.cpu.isalist" value="" />
-    <property name="libs.spring-framework400.javadoc" value="" />
     <property name="libs.CopyLibs.javadoc" value="" />
+    <property name="libs.spring-framework400.javadoc" value="" />
     <property name="org.openide.specification.version" value="6.2" />
     <property name="j2ee.server.home" value="/home/juliosueiras/Servers/Tomcat8" />
     <property name="libs.DataBindingME-PIM.classpath" value="/usr/local/netbeans-8.0.1/mobility/modules/ext/netbeans_databindingme_pim.jar" />
     <property name="user.home" value="/home/juliosueiras" />
     <property name="annotation.processing.processors.list" value="" />
     <property name="debug-args-line" value="-Xdebug" />
+    <property name="auxiliary.org-netbeans-modules-web-clientproject-api.js_2e_libs_2e_folder" value="js/libs" />
     <property name="libs.primefaces.maven-pom" value="" />
     <property name="libs.javaee-api-6.0.maven-pom" value="" />
     <property name="libs.JWSAntTasks.src" value="" />
     <property name="libs.CopyLibs.maven-pom" value="" />
-    <property name="libs.absolutelayout.javadoc" value="" />
     <property name="libs.spring-framework300.javadoc" value="" />
+    <property name="libs.absolutelayout.javadoc" value="" />
     <property name="java.specification.name" value="Java Platform API Specification" />
-    <property name="nu.validator.spec.microsyntax-descriptions" value="jar:file:/usr/local/netbeans-8.0.1/ide/modules/ext/validator.jar!/nu/validator/localentities/files/wiki_whatwg_org_wiki_MicrosyntaxDescriptions" />
     <property name="no.dist.ear.dir" value="true" />
     <property name="libs.CopyLibs.prop-version" value="2.0" />
     <property name="libraries.dir" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib" />
+    <property name="auxiliary.org-netbeans-modules-css-prep.sass_2e_compiler_2e_options" value="" />
     <property name="java.specification.vendor" value="Oracle Corporation" />
     <property name="libs.javac-api.classpath" value="/usr/local/netbeans-8.0.1/java/modules/ext/nb-javac-api.jar" />
     <property name="java.version" value="1.8.0_25" />
@@ -328,14 +331,14 @@
     <property name="netbeans.home+have.tests" value="true" />
     <property name="libs.testng.maven-pom" value="" />
     <property name="libs.jaxb.src" value="" />
-    <property name="libs.javaee-endorsed-api-7.0.displayName" value="Java EE 7 Endorsed API Library" />
     <property name="libs.jaxb.classpath" value="/usr/local/netbeans-8.0.1/ide/modules/ext/jaxb/jaxb-impl.jar:/usr/local/netbeans-8.0.1/ide/modules/ext/jaxb/jaxb-xjc.jar:/usr/local/netbeans-8.0.1/ide/modules/ext/jaxb/jaxb1-impl.jar:/usr/local/netbeans-8.0.1/ide/modules/ext/jaxb/activation.jar:/usr/local/netbeans-8.0.1/ide/modules/ext/jaxb/api/jaxb-api.jar:/usr/local/netbeans-8.0.1/ide/modules/ext/jaxb/api/jsr173_1.0_api.jar" />
-    <property name="libs.j2me_common_ant.classpath" value="/usr/local/netbeans-8.0.1/mobility/modules/org-netbeans-modules-j2me-common-ant.jar:/usr/local/netbeans-8.0.1/java/modules/org-netbeans-modules-classfile.jar" />
+    <property name="libs.javaee-endorsed-api-7.0.displayName" value="Java EE 7 Endorsed API Library" />
     <property name="dist.javadoc.dir" value="dist/javadoc" />
-    <property name="libs.spring-webmvc3.0.classpath" value="/usr/local/netbeans-8.0.1/java/modules/ext/spring-3.0/spring-webmvc-3.2.7.RELEASE.jar" />
+    <property name="libs.j2me_common_ant.classpath" value="/usr/local/netbeans-8.0.1/mobility/modules/org-netbeans-modules-j2me-common-ant.jar:/usr/local/netbeans-8.0.1/java/modules/org-netbeans-modules-classfile.jar" />
     <property name="libs.swing-layout.classpath" value="/usr/local/netbeans-8.0.1/platform/modules/ext/swing-layout-1.0.4.jar" />
-    <property name="jspc.dtds" value="/resources/dtds/" />
+    <property name="libs.spring-webmvc3.0.classpath" value="/usr/local/netbeans-8.0.1/java/modules/ext/spring-3.0/spring-webmvc-3.2.7.RELEASE.jar" />
     <property name="libs.javaee-web-api-7.0.maven-pom" value="" />
+    <property name="jspc.dtds" value="/resources/dtds/" />
     <property name="libs.restlib.src" value="" />
     <property name="javac.source" value="1.8" />
     <property name="build.generated.dir" value="build/generated" />
@@ -343,22 +346,24 @@
     <property name="line.separator" value="&#xa;" />
     <property name="java.specification.version" value="1.8" />
     <property name="libraries.path" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/nblibraries.properties" />
-    <property name="libs.jaxws21.maven-pom" value="" />
     <property name="java.vm.info" value="mixed mode" />
+    <property name="libs.jaxws21.maven-pom" value="" />
     <property name="nb.junit.batch" value="true" />
+    <property name="auxiliary.org-netbeans-modules-css-prep.sass_2e_enabled" value="false" />
     <property name="sonar.language" value="java" />
     <property name="sun.boot.class.path" value="/usr/local/netbeans-8.0.1/enterprise/modules/ext/javaee6-endorsed/javax.annotation.jar:/usr/local/netbeans-8.0.1/enterprise/modules/ext/javaee6-endorsed/jaxb-api-osgi.jar:/usr/local/netbeans-8.0.1/enterprise/modules/ext/javaee6-endorsed/webservices-api-osgi.jar:/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes" />
     <property name="javac.target" value="1.8" />
     <property name="build.test.classes.dir" value="build/test/classes" />
     <property name="src.dir" value="src/java" />
-    <property name="libs.jpa2-persistence.src" value="" />
     <property name="annotation.processing.enabled" value="true" />
+    <property name="libs.jpa2-persistence.src" value="" />
     <property name="libs.jsf20.src" value="" />
     <property name="libs.jpa20-persistence.src" value="" />
     <property name="libs.DataBindingME-SVG.maven-pom" value="" />
     <property name="libs.jsf12.src" value="" />
     <property name="j2ee.platform" value="1.7-web" />
     <property name="libs.JAVADB_DRIVER_LABEL.maven-pom" value="" />
+    <property name="nbplatform.default.netbeans.dest.dir" value="/usr/local/netbeans-8.0.1" />
     <property name="libs.struts.javadoc" value="/usr/local/netbeans-8.0.1/enterprise/docs/struts-1.3.10-javadoc.zip" />
     <property name="ignore.failing.tests" value="true" />
     <property name="libs.Comet-GlassFish-v3.classpath" value="" />
@@ -375,27 +380,27 @@
     <property name="debug-transport-by-os" value="dt_socket" />
     <property name="sun.jnu.encoding" value="UTF-8" />
     <property name="libs.MySQLDriver.src" value="" />
+    <property name="auxiliary.org-netbeans-modules-css-prep.less_2e_mappings" value="/less:/css" />
     <property name="java.runtime.version" value="1.8.0_25-b17" />
     <property name="build.test.results.dir" value="build/test/results" />
     <property name="jna.platform.library.path" value="/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/lib64:/usr/lib:/lib" />
-    <property name="do.tmp.war.package.with.custom.manifest" value="true" />
     <property name="default.javac.target" value="1.8" />
     <property name="libs.junit_4.classpath" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/junit_4/junit-4.10.jar" />
     <property name="user.timezone" value="America/Toronto" />
     <property name="nb.junit.single" value="false" />
     <property name="libs.junit_4.displayName" value="JUnit 4.10" />
-    <property name="libs.JAVADB_DRIVER_LABEL.javadoc" value="" />
     <property name="libs.javaee-endorsed-api-6.0.maven-pom" value="" />
+    <property name="libs.JAVADB_DRIVER_LABEL.javadoc" value="" />
     <property name="netbeans.dirs" value="/usr/local/netbeans-8.0.1/nb:/usr/local/netbeans-8.0.1/ergonomics:/usr/local/netbeans-8.0.1/ide:/usr/local/netbeans-8.0.1/extide:/usr/local/netbeans-8.0.1/java:/usr/local/netbeans-8.0.1/apisupport:/usr/local/netbeans-8.0.1/webcommon:/usr/local/netbeans-8.0.1/websvccommon:/usr/local/netbeans-8.0.1/enterprise:/usr/local/netbeans-8.0.1/mobility:/usr/local/netbeans-8.0.1/profiler:/usr/local/netbeans-8.0.1/python:/usr/local/netbeans-8.0.1/php:/usr/local/netbeans-8.0.1/identity:/usr/local/netbeans-8.0.1/harness:/usr/local/netbeans-8.0.1/cnd:/usr/local/netbeans-8.0.1/dlight:/usr/local/netbeans-8.0.1/groovy:/usr/local/netbeans-8.0.1/extra:/usr/local/netbeans-8.0.1/javacard:/usr/local/netbeans-8.0.1/javafx:" />
-    <property name="libs.jsf20.javadoc" value="/usr/local/netbeans-8.0.1/enterprise/docs/javaee-doc-api.jar" />
     <property name="libs.jstl.javadoc" value="/usr/local/netbeans-8.0.1/enterprise/docs/javaee-doc-api.jar" />
+    <property name="libs.jsf20.javadoc" value="/usr/local/netbeans-8.0.1/enterprise/docs/javaee-doc-api.jar" />
     <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext" />
     <property name="libs.metro.src" value="" />
     <property name="endorsed.classpath" value="/usr/local/netbeans-8.0.1/enterprise/modules/ext/javaee6-endorsed/javax.annotation.jar:/usr/local/netbeans-8.0.1/enterprise/modules/ext/javaee6-endorsed/jaxb-api-osgi.jar:/usr/local/netbeans-8.0.1/enterprise/modules/ext/javaee6-endorsed/webservices-api-osgi.jar" />
     <property name="libs.absolutelayout.classpath" value="/usr/local/netbeans-8.0.1/java/modules/ext/AbsoluteLayout.jar" />
     <property name="excludes" value="" />
-    <property name="libs.metro.classpath" value="/usr/local/netbeans-8.0.1/ide/modules/ext/jaxb/activation.jar:/usr/local/netbeans-8.0.1/enterprise/modules/ext/metro/webservices-api.jar:/usr/local/netbeans-8.0.1/enterprise/modules/ext/metro/webservices-extra-api.jar:/usr/local/netbeans-8.0.1/enterprise/modules/ext/metro/webservices-extra.jar:/usr/local/netbeans-8.0.1/enterprise/modules/ext/metro/webservices-rt.jar:/usr/local/netbeans-8.0.1/enterprise/modules/ext/metro/webservices-tools.jar" />
     <property name="libs.restlib.maven-pom" value="" />
+    <property name="libs.metro.classpath" value="/usr/local/netbeans-8.0.1/ide/modules/ext/jaxb/activation.jar:/usr/local/netbeans-8.0.1/enterprise/modules/ext/metro/webservices-api.jar:/usr/local/netbeans-8.0.1/enterprise/modules/ext/metro/webservices-extra-api.jar:/usr/local/netbeans-8.0.1/enterprise/modules/ext/metro/webservices-extra.jar:/usr/local/netbeans-8.0.1/enterprise/modules/ext/metro/webservices-rt.jar:/usr/local/netbeans-8.0.1/enterprise/modules/ext/metro/webservices-tools.jar" />
     <property name="libs.jpa2-persistence.javadoc" value="/usr/local/netbeans-8.0.1/java/modules/ext/docs/javax.persistence-2.1.0-doc.zip" />
     <property name="libs.DataBindingME.javadoc" value="/usr/local/netbeans-8.0.1/mobility/modules/docs/netbeans_databindingme-api.zip" />
     <property name="java.class.path" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/javaee-web-api-7.0/javaee-web-api-7.0.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/webservices-api-osgi.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.annotation-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/jaxb-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.servlet.jsp.jstl.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.ejb-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.enterprise.concurrent-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.interceptor-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.ws.rs-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.enterprise.deploy-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.el.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.enterprise.concurrent.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.servlet.jsp-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.xml.registry-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.servlet.jsp.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.security.auth.message-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.websocket-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.resource-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/bean-validator.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/webservices-osgi.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/jaxb-osgi.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.json.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.batch-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.inject.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.servlet.jsp.jstl-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.persistence.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.servlet-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.mail.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.faces.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.management.j2ee-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.security.jacc-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/weld-osgi-bundle.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.xml.rpc-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.jms-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/javax.transaction-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/Java-EE-GlassFish-v3-Prelude/jaxm-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/build/web/WEB-INF/classes:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/junit_4/junit-4.10.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/build/test/classes:/home/juliosueiras/Servers/Tomcat8/lib/annotations-api.jar:/home/juliosueiras/Servers/Tomcat8/lib/catalina-ant.jar:/home/juliosueiras/Servers/Tomcat8/lib/catalina-ha.jar:/home/juliosueiras/Servers/Tomcat8/lib/catalina-storeconfig.jar:/home/juliosueiras/Servers/Tomcat8/lib/catalina-tribes.jar:/home/juliosueiras/Servers/Tomcat8/lib/catalina.jar:/home/juliosueiras/Servers/Tomcat8/lib/ecj-4.4.jar:/home/juliosueiras/Servers/Tomcat8/lib/el-api.jar:/home/juliosueiras/Servers/Tomcat8/lib/jasper-el.jar:/home/juliosueiras/Servers/Tomcat8/lib/jasper.jar:/home/juliosueiras/Servers/Tomcat8/lib/jsp-api.jar:/home/juliosueiras/Servers/Tomcat8/lib/servlet-api.jar:/home/juliosueiras/Servers/Tomcat8/lib/tomcat-api.jar:/home/juliosueiras/Servers/Tomcat8/lib/tomcat-coyote.jar:/home/juliosueiras/Servers/Tomcat8/lib/tomcat-dbcp.jar:/home/juliosueiras/Servers/Tomcat8/lib/tomcat-i18n-es.jar:/home/juliosueiras/Servers/Tomcat8/lib/tomcat-i18n-fr.jar:/home/juliosueiras/Servers/Tomcat8/lib/tomcat-i18n-ja.jar:/home/juliosueiras/Servers/Tomcat8/lib/tomcat-jdbc.jar:/home/juliosueiras/Servers/Tomcat8/lib/tomcat-jni.jar:/home/juliosueiras/Servers/Tomcat8/lib/tomcat-spdy.jar:/home/juliosueiras/Servers/Tomcat8/lib/tomcat-util-scan.jar:/home/juliosueiras/Servers/Tomcat8/lib/tomcat-util.jar:/home/juliosueiras/Servers/Tomcat8/lib/tomcat-websocket.jar:/home/juliosueiras/Servers/Tomcat8/lib/websocket-api.jar:/usr/local/netbeans-8.0.1/extide/ant/lib/ant-launcher.jar:/usr/local/netbeans-8.0.1/extide/ant/lib/ant.jar:/usr/local/netbeans-8.0.1/extide/ant/lib/ant-junit.jar:/usr/local/netbeans-8.0.1/extide/ant/lib/ant-junit4.jar" />
@@ -414,14 +419,14 @@
     <property name="libs.restlib.javadoc" value="" />
     <property name="war.content.additional" value="" />
     <property name="sonar.projectKey" value="org.codehaus.sonar:example-java-ant" />
-    <property name="libs.JAXB-ENDORSED.classpath" value="/usr/local/netbeans-8.0.1/ide/modules/ext/jaxb/api/jaxb-api.jar" />
-    <property name="j2ee.platform.embeddableejb.classpath" value="" />
     <property name="nb.internal.action.name" value="test" />
+    <property name="j2ee.platform.embeddableejb.classpath" value="" />
+    <property name="libs.JAXB-ENDORSED.classpath" value="/usr/local/netbeans-8.0.1/ide/modules/ext/jaxb/api/jaxb-api.jar" />
     <property name="forceRedeploy" value="false" />
     <property name="libs.javaee-api-7.0.javadoc" value="/usr/local/netbeans-8.0.1/enterprise/docs/javaee-doc-api.jar" />
     <property name="libs.eclipselink.classpath" value="/usr/local/netbeans-8.0.1/java/modules/ext/eclipselink/eclipselink.jar:/usr/local/netbeans-8.0.1/java/modules/ext/eclipselink/javax.persistence_2.1.0.v201304241213.jar:/usr/local/netbeans-8.0.1/java/modules/ext/eclipselink/org.eclipse.persistence.jpa.jpql_2.5.2.v20140319-9ad6abd.jar" />
-    <property name="libs.beans-binding.javadoc" value="/usr/local/netbeans-8.0.1/java/docs/beansbinding-1.2.1-doc.zip" />
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+    <property name="libs.beans-binding.javadoc" value="/usr/local/netbeans-8.0.1/java/docs/beansbinding-1.2.1-doc.zip" />
     <property name="java.vm.vendor" value="Oracle Corporation" />
     <property name="libs.CopyLibs.classpath" value="/usr/local/netbeans-8.0.1/java/ant/extra/org-netbeans-modules-java-j2seproject-copylibstask.jar" />
     <property name="libs.spring-framework300.classpath" value="/usr/local/netbeans-8.0.1/ide/modules/org-apache-commons-logging.jar:/usr/local/netbeans-8.0.1/java/modules/ext/cglib-2.2.jar:/usr/local/netbeans-8.0.1/java/modules/ext/spring-3.0/spring-aop-3.2.7.RELEASE.jar:/usr/local/netbeans-8.0.1/java/modules/ext/spring-3.0/spring-aspects-3.2.7.RELEASE.jar:/usr/local/netbeans-8.0.1/java/modules/ext/spring-3.0/spring-beans-3.2.7.RELEASE.jar:/usr/local/netbeans-8.0.1/java/modules/ext/spring-3.0/spring-build-src-3.2.7.RELEASE.jar:/usr/local/netbeans-8.0.1/java/modules/ext/spring-3.0/spring-context-3.2.7.RELEASE.jar:/usr/local/netbeans-8.0.1/java/modules/ext/spring-3.0/spring-context-support-3.2.7.RELEASE.jar:/usr/local/netbeans-8.0.1/java/modules/ext/spring-3.0/spring-core-3.2.7.RELEASE.jar:/usr/local/netbeans-8.0.1/java/modules/ext/spring-3.0/spring-expression-3.2.7.RELEASE.jar:/usr/local/netbeans-8.0.1/java/modules/ext/spring-3.0/spring-framework-bom-3.2.7.RELEASE.jar:/usr/local/netbeans-8.0.1/java/modules/ext/spring-3.0/spring-instrument-3.2.7.RELEASE.jar:/usr/local/netbeans-8.0.1/java/modules/ext/spring-3.0/spring-instrument-tomcat-3.2.7.RELEASE.jar:/usr/local/netbeans-8.0.1/java/modules/ext/spring-3.0/spring-jdbc-3.2.7.RELEASE.jar:/usr/local/netbeans-8.0.1/java/modules/ext/spring-3.0/spring-jms-3.2.7.RELEASE.jar:/usr/local/netbeans-8.0.1/java/modules/ext/spring-3.0/spring-orm-3.2.7.RELEASE.jar:/usr/local/netbeans-8.0.1/java/modules/ext/spring-3.0/spring-oxm-3.2.7.RELEASE.jar:/usr/local/netbeans-8.0.1/java/modules/ext/spring-3.0/spring-struts-3.2.7.RELEASE.jar:/usr/local/netbeans-8.0.1/java/modules/ext/spring-3.0/spring-test-3.2.7.RELEASE.jar:/usr/local/netbeans-8.0.1/java/modules/ext/spring-3.0/spring-tx-3.2.7.RELEASE.jar:/usr/local/netbeans-8.0.1/java/modules/ext/spring-3.0/spring-web-3.2.7.RELEASE.jar:/usr/local/netbeans-8.0.1/java/modules/ext/spring-3.0/spring-webmvc-3.2.7.RELEASE.jar:/usr/local/netbeans-8.0.1/java/modules/ext/spring-3.0/spring-webmvc-portlet-3.2.7.RELEASE.jar" />
@@ -438,9 +443,9 @@
     <property name="libs.junit.src" value="" />
     <property name="annotation.processing.source.output" value="build/generated-sources/ap-source-output" />
     <property name="sonar.sourceEncoding" value="UTF-8" />
-    <property name="libs.CopyLibs.displayName" value="CopyLibs Task" />
-    <property name="build.dir" value="build" />
     <property name="libs.CopyLibs.src" value="" />
+    <property name="build.dir" value="build" />
+    <property name="libs.CopyLibs.displayName" value="CopyLibs Task" />
     <property name="libs.jsp-compilation.classpath" value="/usr/local/netbeans-8.0.1/extide/ant/lib/ant.jar:/usr/local/netbeans-8.0.1/enterprise/modules/ext/servlet3.1-jsp2.3-api.jar:/usr/local/netbeans-8.0.1/enterprise/modules/ext/glassfish-jspparser-4.0.jar:/usr/local/netbeans-8.0.1/enterprise/modules/ext/jsf-2_2/javax.faces.jar:/usr/local/netbeans-8.0.1/enterprise/modules/ext/jstl-api.jar:/usr/local/netbeans-8.0.1/extide/ant/lib/ant-launcher.jar" />
     <property name="selected.browser" value="default" />
     <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on April 29 2014" />
@@ -448,46 +453,47 @@
     <property name="build.classes.excludes" value="**/*.java,**/*.form" />
     <property name="jdkBug6558476" value="false" />
     <property name="javadoc.nonavbar" value="false" />
+    <property name="auxiliary.org-netbeans-modules-css-prep.less_2e_compiler_2e_options" value="" />
     <property name="libs.spring-webmvc4.0.classpath" value="/usr/local/netbeans-8.0.1/java/modules/ext/spring-4/spring-webmvc-4.0.1.RELEASE.jar" />
     <property name="platform.active" value="default_platform" />
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
     <property name="war.ear.name" value="finalProject.war" />
     <property name="libs.javaee-web-api-7.0.javadoc" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/lib/javaee-web-api-7.0/javaee-doc-api.jar" />
   </properties>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testGetErrors" time="0.003" />
-  <testcase classname="pricing.RentalFormValidatorTest" name="testSetErrorCodes" time="0.004">
-    <failure message="The test case is a prototype." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: The test case is a prototype.
-	at pricing.RentalFormValidatorTest.testSetErrorCodes(RentalFormValidatorTest.java:83)
-</failure>
-  </testcase>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCustomerNull" time="0.0">
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCustomerNull" time="0.008">
     <failure message="The test case is a prototype." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: The test case is a prototype.
 	at pricing.RentalFormValidatorTest.testIsCustomerNull(RentalFormValidatorTest.java:119)
 </failure>
   </testcase>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCustomerNumeric" time="0.001">
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsValid" time="0.001" />
+  <testcase classname="pricing.RentalFormValidatorTest" name="testGetErrors" time="0.0" />
+  <testcase classname="pricing.RentalFormValidatorTest" name="testSetErrorCodes" time="0.001">
+    <failure message="The test case is a prototype." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: The test case is a prototype.
+	at pricing.RentalFormValidatorTest.testSetErrorCodes(RentalFormValidatorTest.java:83)
+</failure>
+  </testcase>
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCustomerNumeric" time="0.002">
     <failure message="The test case is a prototype." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: The test case is a prototype.
 	at pricing.RentalFormValidatorTest.testIsCustomerNumeric(RentalFormValidatorTest.java:131)
 </failure>
   </testcase>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupDayNull" time="0.002">
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupDayNull" time="0.001">
     <failure message="The test case is a prototype." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: The test case is a prototype.
 	at pricing.RentalFormValidatorTest.testIsPickupDayNull(RentalFormValidatorTest.java:143)
 </failure>
   </testcase>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupDayInRange" time="0.001">
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupDayInRange" time="0.002">
     <failure message="The test case is a prototype." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: The test case is a prototype.
 	at pricing.RentalFormValidatorTest.testIsPickupDayInRange(RentalFormValidatorTest.java:155)
 </failure>
   </testcase>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsValid" time="0.0" />
-  <system-out><![CDATA[getErrors
+  <system-out><![CDATA[isCustomerNull
+isValid
+getErrors
 setErrorCodes
-isCustomerNull
 isCustomerNumeric
 isPickupDayNull
 isPickupDayInRange
-isValid
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
