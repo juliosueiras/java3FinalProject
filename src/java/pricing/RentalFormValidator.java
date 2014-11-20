@@ -17,14 +17,11 @@ public class RentalFormValidator{
     private HttpServletRequest formRequest;
     private ArrayList<Integer> errorCodes;
     RentalBean bean = new RentalBean();
-//    ArrayList<Error> errorList;
-//    Error error;
     
 
     public RentalFormValidator(HttpServletRequest formRequest) {
         this.formRequest = formRequest;
         this.errorCodes = new ArrayList<Integer>();
-//        this.errorList = new ArrayList<Error>();
     }
     
     public boolean isValid(){
@@ -55,6 +52,7 @@ public class RentalFormValidator{
             errorCodes.add(1012);
             return false;
         }
+        bean.setCustomerNumber(formRequest.getParameter("customerNo"));
         return true;
     }
     
@@ -71,6 +69,7 @@ public class RentalFormValidator{
             errorCodes.add(1022);
             return false;
         }
+        bean.setPickupDay(Integer.parseInt(formRequest.getParameter("pickupDay")));
         return true;
     }
     
@@ -87,6 +86,7 @@ public class RentalFormValidator{
             errorCodes.add(1032);
             return false;
         }
+        bean.setPickupMon(Integer.parseInt(formRequest.getParameter("pickupMonth")));
         return true;
     }
     
@@ -103,6 +103,7 @@ public class RentalFormValidator{
             errorCodes.add(1042);
             return false;
         }
+        bean.setPickupYear(Integer.parseInt(formRequest.getParameter("pickupYear")));
         return true;
     }
     
@@ -119,6 +120,7 @@ public class RentalFormValidator{
             errorCodes.add(1052);
             return false;
         }
+        bean.setPickupHour(Integer.parseInt(formRequest.getParameter("pickupHour")));
         return true;
     }
     
@@ -135,6 +137,7 @@ public class RentalFormValidator{
             errorCodes.add(1062);
             return false;
         }
+        bean.setDropoffDay(Integer.parseInt(formRequest.getParameter("dropoffDay")));
         return true;
     }
     
@@ -151,6 +154,7 @@ public class RentalFormValidator{
             errorCodes.add(1072);
             return false;
         }
+        bean.setDropoffMon(Integer.parseInt(formRequest.getParameter("dropoffMonth")));
         return true;
     }
     
@@ -167,6 +171,7 @@ public class RentalFormValidator{
             errorCodes.add(1082);
             return false;
         }
+        bean.setDropoffYear(Integer.parseInt(formRequest.getParameter("dropoffYear")));
         return true;
     }
     
@@ -183,6 +188,7 @@ public class RentalFormValidator{
             errorCodes.add(1092);
             return false;
         }
+        bean.setDropoffHour(Integer.parseInt(formRequest.getParameter("dropoffHour")));
         return true;
     }
 }
