@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+   <duplication lines="22" tokens="147">
+      <file line="60"
+            path="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/dcd/graph/ConstructorNode.java"/>
+      <file line="39"
+            path="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/dcd/graph/MethodNode.java"/>
+      <codefragment><![CDATA[	public int compareTo(ConstructorNode that) {
+		// Order by name
+		int cmp = this.getName().compareTo(that.getName());
+		if (cmp == 0) {
+			// Order by parameter list length
+			cmp = this.getMember().getParameterTypes().length - that.getMember().getParameterTypes().length;
+			if (cmp == 0) {
+				// Order by parameter class name
+				for (int i = 0; i < this.getMember().getParameterTypes().length; i++) {
+					cmp = this.getMember().getParameterTypes()[i].getName().compareTo(
+							that.getMember().getParameterTypes()[i].getName());
+					if (cmp != 0) {
+						break;
+					}
+				}
+			}
+		}
+		return cmp;
+	}
+
+	public boolean equals(Object obj) {
+		if (obj instanceof ConstructorNode) {]]></codefragment>
+   </duplication>
+</pmd-cpd>

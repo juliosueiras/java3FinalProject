@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.1.2" timestamp="2014-11-20T04:55:22.398">
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/PMD.java">
+<violation beginline="4" endline="484" begincolumn="1" endcolumn="2" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=47, ATFD=64, TCC=0.08333333333333333)
+</violation>
+<violation beginline="367" endline="367" begincolumn="9" endcolumn="43" rule="PrematureDeclaration" ruleset="Optimization" package="net.sourceforge.pmd" class="PMD" method="getApplicableFiles" variable="startFiles" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#PrematureDeclaration" priority="3">
+Avoid declaring a variable if it is unreferenced before a possible exit point.
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/Report.java">
+<violation beginline="4" endline="511" begincolumn="1" endcolumn="2" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=61, ATFD=18, TCC=0.018893387314439947)
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/RuleSet.java">
+<violation beginline="4" endline="539" begincolumn="1" endcolumn="2" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=86, ATFD=31, TCC=0.06951871657754011)
+</violation>
+<violation beginline="313" endline="313" begincolumn="21" endcolumn="21" rule="AvoidInstanceofChecksInCatchClause" ruleset="Design" package="net.sourceforge.pmd" class="RuleSet" method="apply" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#AvoidInstanceofChecksInCatchClause" priority="3">
+An instanceof check is being performed on the caught exception.  Create a separate catch clause for this exception type.
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/RuleSetFactory.java">
+<violation beginline="4" endline="742" begincolumn="1" endcolumn="2" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=126, ATFD=136, TCC=0.05194805194805195)
+</violation>
+<violation beginline="246" endline="246" begincolumn="32" endcolumn="65" rule="UnusedPrivateMethod" ruleset="Unused Code" package="net.sourceforge.pmd" class="RuleSetFactory" method="classNotFoundProblem" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/unusedcode.html#UnusedPrivateMethod" priority="3">
+Avoid unused private methods such as 'classNotFoundProblem(Exception)'.
+</violation>
+<violation beginline="591" endline="591" begincolumn="31" endcolumn="56" rule="UnusedPrivateMethod" ruleset="Unused Code" package="net.sourceforge.pmd" class="RuleSetFactory" method="valueFrom" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/unusedcode.html#UnusedPrivateMethod" priority="3">
+Avoid unused private methods such as 'valueFrom(Node)'.
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/RuleSetWriter.java">
+<violation beginline="4" endline="370" begincolumn="1" endcolumn="3" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=61, ATFD=60, TCC=0.0718954248366013)
+</violation>
+<violation beginline="193" endline="193" begincolumn="18" endcolumn="70" rule="UnusedPrivateMethod" ruleset="Unused Code" package="net.sourceforge.pmd" class="RuleSetWriter" method="setIfNonNull" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/unusedcode.html#UnusedPrivateMethod" priority="3">
+Avoid unused private methods such as 'setIfNonNull(Object,Element,String)'.
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/ant/PMDTask.java">
+<violation beginline="4" endline="239" begincolumn="1" endcolumn="2" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.ant" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=49, ATFD=6, TCC=0.014844804318488529)
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/benchmark/BenchmarkReport.java">
+<violation beginline="21" endline="21" begincolumn="68" endcolumn="70" rule="AvoidPrefixingMethodParameters" ruleset="Controversial" package="net.sourceforge.pmd.benchmark" class="BenchmarkReport" method="generate" variable="out" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/controversial.html#AvoidPrefixingMethodParameters" priority="4">
+Avoid prefixing parameters by in, out or inOut. Uses Javadoc to document this behavior.
+</violation>
+<violation beginline="28" endline="28" begincolumn="82" endcolumn="84" rule="AvoidPrefixingMethodParameters" ruleset="Controversial" package="net.sourceforge.pmd.benchmark" class="BenchmarkReport" method="generate" variable="out" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/controversial.html#AvoidPrefixingMethodParameters" priority="4">
+Avoid prefixing parameters by in, out or inOut. Uses Javadoc to document this behavior.
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/benchmark/BenchmarkResult.java">
+<violation beginline="36" endline="36" begincolumn="36" endcolumn="53" rule="UselessParentheses" ruleset="Unnecessary" package="net.sourceforge.pmd.benchmark" class="BenchmarkResult" method="compareTo" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/benchmark/Benchmarker.java">
+<violation beginline="41" endline="234" begincolumn="26" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="net.sourceforge.pmd.benchmark" class="Benchmarker" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#UseUtilityClass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/benchmark/StringBuilderCR.java">
+<violation beginline="15" endline="15" begincolumn="23" endcolumn="35" rule="AvoidStringBufferField" ruleset="String and StringBuffer" package="net.sourceforge.pmd.benchmark" class="StringBuilderCR" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/strings.html#AvoidStringBufferField" priority="3">
+StringBuffers can grow quite a lot, and so may become a source of memory leak (if the owning class has a long life time).
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/benchmark/TextReport.java">
+<violation beginline="34" endline="34" begincolumn="75" endcolumn="77" rule="AvoidPrefixingMethodParameters" ruleset="Controversial" package="net.sourceforge.pmd.benchmark" class="TextReport" method="generate" variable="out" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/controversial.html#AvoidPrefixingMethodParameters" priority="4">
+Avoid prefixing parameters by in, out or inOut. Uses Javadoc to document this behavior.
+</violation>
+<violation beginline="66" endline="66" begincolumn="89" endcolumn="91" rule="AvoidPrefixingMethodParameters" ruleset="Controversial" package="net.sourceforge.pmd.benchmark" class="TextReport" method="generate" variable="out" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/controversial.html#AvoidPrefixingMethodParameters" priority="4">
+Avoid prefixing parameters by in, out or inOut. Uses Javadoc to document this behavior.
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/cli/PMDCommandLineInterface.java">
+<violation beginline="21" endline="185" begincolumn="38" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="net.sourceforge.pmd.cli" class="PMDCommandLineInterface" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#UseUtilityClass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/cli/PMDParameters.java">
+<violation beginline="84" endline="84" begincolumn="13" endcolumn="52" rule="PrematureDeclaration" ruleset="Optimization" package="net.sourceforge.pmd.cli" class="PMDParameters$PropertyConverter" method="convert" variable="properties" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#PrematureDeclaration" priority="3">
+Avoid declaring a variable if it is unreferenced before a possible exit point.
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/cli/XPathCLI.java">
+<violation beginline="34" endline="79" begincolumn="23" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="net.sourceforge.pmd.cli" class="XPathCLI" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#UseUtilityClass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/cpd/AbstractTokenizer.java">
+<violation beginline="94" endline="94" begincolumn="17" endcolumn="42" rule="UselessParentheses" ruleset="Unnecessary" package="net.sourceforge.pmd.cpd" class="AbstractTokenizer" method="parseString" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="98" endline="98" begincolumn="51" endcolumn="68" rule="UselessParentheses" ruleset="Unnecessary" package="net.sourceforge.pmd.cpd" class="AbstractTokenizer" method="parseString" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/cpd/CPDCommandLineInterface.java">
+<violation beginline="17" endline="148" begincolumn="38" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="net.sourceforge.pmd.cpd" class="CPDCommandLineInterface" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#UseUtilityClass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="94" endline="99" begincolumn="25" endcolumn="33" rule="ForLoopsMustUseBraces" ruleset="Braces" package="net.sourceforge.pmd.cpd" class="CPDCommandLineInterface" method="addSourcesFilesToCPD" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/braces.html#ForLoopsMustUseBraces" priority="3">
+Avoid using for statements without curly braces
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/cpd/CPDConfiguration.java">
+<violation beginline="4" endline="338" begincolumn="1" endcolumn="2" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.cpd" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=63, ATFD=24, TCC=0.03508771929824561)
+</violation>
+<violation beginline="122" endline="123" begincolumn="13" endcolumn="67" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.sourceforge.pmd.cpd" class="CPDConfiguration" method="postContruct" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/cpd/GUI.java">
+<violation beginline="4" endline="786" begincolumn="1" endcolumn="2" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.cpd" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=122, ATFD=153, TCC=0.005279034690799397)
+</violation>
+<violation beginline="556" endline="556" begincolumn="13" endcolumn="26" rule="UseCollectionIsEmpty" ruleset="Design" package="net.sourceforge.pmd.cpd" class="GUI" method="setLabelFor" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#UseCollectionIsEmpty" priority="3">
+Substitute calls to size() == 0 (or size() != 0, size() &gt; 0, size() &lt; 1) with calls to isEmpty()
+</violation>
+<violation beginline="654" endline="654" begincolumn="58" endcolumn="69" rule="UselessParentheses" ruleset="Unnecessary" package="net.sourceforge.pmd.cpd" class="GUI" method="actionPerformed" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/dcd/ClassLoaderUtil.java">
+<violation beginline="14" endline="167" begincolumn="30" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="net.sourceforge.pmd.dcd" class="ClassLoaderUtil" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#UseUtilityClass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/dcd/DCD.java">
+<violation beginline="48" endline="173" begincolumn="18" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="net.sourceforge.pmd.dcd" class="DCD" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#UseUtilityClass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/dcd/UsageNodeVisitor.java">
+<violation beginline="4" endline="231" begincolumn="1" endcolumn="3" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.dcd" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=51, ATFD=21, TCC=0.04678362573099415)
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/lang/LanguageRegistry.java">
+<violation beginline="30" endline="35" begincolumn="22" endcolumn="5" rule="AvoidProtectedMethodInFinalClassNotExtending" ruleset="Design" package="net.sourceforge.pmd.lang" class="LanguageRegistry" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#AvoidProtectedMethodInFinalClassNotExtending" priority="3">
+Avoid protected methods in a final class that doesnt extend anything other than Object.  Change to private or package access.
+</violation>
+<violation beginline="31" endline="33" begincolumn="9" endcolumn="9" rule="NonThreadSafeSingleton" ruleset="Design" package="net.sourceforge.pmd.lang" class="LanguageRegistry" method="getInstance" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#NonThreadSafeSingleton" priority="3">
+Singleton is not thread safe
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/lang/ast/AbstractNode.java">
+<violation beginline="4" endline="392" begincolumn="1" endcolumn="3" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.lang.ast" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=76, ATFD=19, TCC=0.018893387314439947)
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/lang/dfa/NodeType.java">
+<violation beginline="13" endline="86" begincolumn="23" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="net.sourceforge.pmd.lang.dfa" class="NodeType" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#UseUtilityClass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/lang/dfa/SequenceChecker.java">
+<violation beginline="190" endline="190" begincolumn="14" endcolumn="29" rule="OneDeclarationPerLine" ruleset="Controversial" package="net.sourceforge.pmd.lang.dfa" class="SequenceChecker" method="run" variable="i" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/controversial.html#OneDeclarationPerLine" priority="4">
+Use one line for each declaration, it enhances code readability.
+</violation>
+<violation beginline="205" endline="205" begincolumn="13" endcolumn="25" rule="GuardLogStatementJavaUtil" ruleset="Java Logging" package="net.sourceforge.pmd.lang.dfa" class="SequenceChecker" method="run" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/logging-java.html#GuardLogStatementJavaUtil" priority="2">
+There is log block not surrounded by if
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/lang/dfa/StackObject.java">
+<violation beginline="28" endline="28" begincolumn="15" endcolumn="109" rule="UselessParentheses" ruleset="Unnecessary" package="net.sourceforge.pmd.lang.dfa" class="StackObject" method="toString" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/lang/dfa/pathfinder/DAAPathFinder.java">
+<violation beginline="4" endline="332" begincolumn="1" endcolumn="2" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.lang.dfa.pathfinder" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=65, ATFD=54, TCC=0.0)
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/lang/dfa/report/ReportHTMLPrintVisitor.java">
+<violation beginline="131" endline="131" begincolumn="22" endcolumn="57" rule="UnusedPrivateMethod" ruleset="Unused Code" package="net.sourceforge.pmd.lang.dfa.report" class="ReportHTMLPrintVisitor" method="renderViolation" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/unusedcode.html#UnusedPrivateMethod" priority="3">
+Avoid unused private methods such as 'renderViolation(ViolationNode)'.
+</violation>
+<violation beginline="141" endline="141" begincolumn="22" endcolumn="53" rule="UnusedPrivateMethod" ruleset="Unused Code" package="net.sourceforge.pmd.lang.dfa.report" class="ReportHTMLPrintVisitor" method="renderPackage" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/unusedcode.html#UnusedPrivateMethod" priority="3">
+Avoid unused private methods such as 'renderPackage(PackageNode)'.
+</violation>
+<violation beginline="160" endline="160" begincolumn="22" endcolumn="49" rule="UnusedPrivateMethod" ruleset="Unused Code" package="net.sourceforge.pmd.lang.dfa.report" class="ReportHTMLPrintVisitor" method="renderClass" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/unusedcode.html#UnusedPrivateMethod" priority="3">
+Avoid unused private methods such as 'renderClass(ClassNode)'.
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/lang/dfa/report/ReportTree.java">
+<violation beginline="161" endline="162" begincolumn="25" endcolumn="48" rule="UnusedPrivateMethod" ruleset="Unused Code" package="net.sourceforge.pmd.lang.dfa.report" class="ReportTree" method="equalsNodeInLevel" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/unusedcode.html#UnusedPrivateMethod" priority="3">
+Avoid unused private methods such as 'equalsNodeInLevel(AbstractReportNode,AbstractReportNode)'.
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/lang/rule/AbstractDelegateRule.java">
+<violation beginline="4" endline="228" begincolumn="1" endcolumn="3" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.lang.rule" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=49, ATFD=34, TCC=8.865248226950354E-4)
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/lang/rule/AbstractRule.java">
+<violation beginline="4" endline="447" begincolumn="1" endcolumn="2" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.lang.rule" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=58, ATFD=25, TCC=0.05204872646733112)
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/lang/rule/RuleReference.java">
+<violation beginline="253" endline="253" begincolumn="37" endcolumn="77" rule="UselessParentheses" ruleset="Unnecessary" package="net.sourceforge.pmd.lang.rule" class="RuleReference" method="isSame" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="258" endline="258" begincolumn="37" endcolumn="85" rule="UselessParentheses" ruleset="Unnecessary" package="net.sourceforge.pmd.lang.rule" class="RuleReference" method="isSame" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="271" endline="271" begincolumn="25" endcolumn="95" rule="UselessParentheses" ruleset="Unnecessary" package="net.sourceforge.pmd.lang.rule" class="RuleReference" method="hasDescriptor" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/lang/rule/properties/AbstractPackagedProperty.java">
+<violation beginline="90" endline="90" begincolumn="22" endcolumn="80" rule="UnusedPrivateMethod" ruleset="Unused Code" package="net.sourceforge.pmd.lang.rule.properties" class="AbstractPackagedProperty" method="checkValidPackages" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/unusedcode.html#UnusedPrivateMethod" priority="3">
+Avoid unused private methods such as 'checkValidPackages(Object,String)'.
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/lang/rule/properties/AbstractProperty.java">
+<violation beginline="4" endline="392" begincolumn="1" endcolumn="2" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.lang.rule.properties" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=65, ATFD=6, TCC=0.0291005291005291)
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/lang/rule/properties/PropertyDescriptorFactory.java">
+<violation beginline="9" endline="115" begincolumn="40" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="net.sourceforge.pmd.lang.rule.properties" class="PropertyDescriptorFactory" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#UseUtilityClass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/lang/rule/properties/factories/BasicPropertyDescriptorFactory.java">
+<violation beginline="4" endline="227" begincolumn="1" endcolumn="2" rule="TooManyStaticImports" ruleset="Import Statements" package="net.sourceforge.pmd.lang.rule.properties.factories" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/lang/rule/properties/factories/PropertyDescriptorUtil.java">
+<violation beginline="37" endline="93" begincolumn="37" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="net.sourceforge.pmd.lang.rule.properties.factories" class="PropertyDescriptorUtil" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#UseUtilityClass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/lang/rule/stat/StatisticalRuleHelper.java">
+<violation beginline="58" endline="58" begincolumn="36" endcolumn="52" rule="UselessParentheses" ruleset="Unnecessary" package="net.sourceforge.pmd.lang.rule.stat" class="StatisticalRuleHelper" method="apply" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="133" endline="133" begincolumn="18" endcolumn="66" rule="UnusedPrivateMethod" ruleset="Unused Code" package="net.sourceforge.pmd.lang.rule.stat" class="StatisticalRuleHelper" method="makeViolations" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/unusedcode.html#UnusedPrivateMethod" priority="3">
+Avoid unused private methods such as 'makeViolations(RuleContext,Set)'.
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/lang/rule/xpath/JaxenXPathRuleQuery.java">
+<violation beginline="204" endline="204" begincolumn="18" endcolumn="57" rule="UnusedPrivateMethod" ruleset="Unused Code" package="net.sourceforge.pmd.lang.rule.xpath" class="JaxenXPathRuleQuery" method="indexXPath" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/unusedcode.html#UnusedPrivateMethod" priority="3">
+Avoid unused private methods such as 'indexXPath(XPath,String)'.
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/lang/xpath/Initializer.java">
+<violation beginline="18" endline="61" begincolumn="26" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="net.sourceforge.pmd.lang.xpath" class="Initializer" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#UseUtilityClass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/lang/xpath/PMDFunctions.java">
+<violation beginline="6" endline="32" begincolumn="27" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="net.sourceforge.pmd.lang.xpath" class="PMDFunctions" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#UseUtilityClass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/processor/MonoThreadProcessor.java">
+<violation beginline="81" endline="81" begincolumn="22" endcolumn="87" rule="UnusedPrivateMethod" ruleset="Unused Code" package="net.sourceforge.pmd.processor" class="MonoThreadProcessor" method="addError" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/unusedcode.html#UnusedPrivateMethod" priority="3">
+Avoid unused private methods such as 'addError(Report,String,Exception,String)'.
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/processor/PmdRunnable.java">
+<violation beginline="52" endline="52" begincolumn="22" endcolumn="89" rule="UnusedPrivateMethod" ruleset="Unused Code" package="net.sourceforge.pmd.processor" class="PmdRunnable" method="addErrorAndShutdown" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/unusedcode.html#UnusedPrivateMethod" priority="3">
+Avoid unused private methods such as 'addErrorAndShutdown(Report,Exception,String)'.
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/renderers/CSVRenderer.java">
+<violation beginline="89" endline="89" begincolumn="38" endcolumn="48" rule="UnusedPrivateMethod" ruleset="Unused Code" package="net.sourceforge.pmd.renderers" class="CSVRenderer" method="csvWriter" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/unusedcode.html#UnusedPrivateMethod" priority="3">
+Avoid unused private methods such as 'csvWriter()'.
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/renderers/RendererFactory.java">
+<violation beginline="22" endline="143" begincolumn="30" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="net.sourceforge.pmd.renderers" class="RendererFactory" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#UseUtilityClass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/renderers/SummaryHTMLRenderer.java">
+<violation beginline="63" endline="63" begincolumn="21" endcolumn="33" rule="InsufficientStringBufferDeclaration" ruleset="String and StringBuffer" package="net.sourceforge.pmd.renderers" class="SummaryHTMLRenderer" method="renderSummary" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/strings.html#InsufficientStringBufferDeclaration" priority="3">
+StringBuffer constructor is initialized with size 16, but has at least 41 characters appended.
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/util/ClasspathClassLoader.java">
+<violation beginline="60" endline="60" begincolumn="25" endcolumn="64" rule="UnusedPrivateMethod" ruleset="Unused Code" package="net.sourceforge.pmd.util" class="ClasspathClassLoader" method="addFileURLs" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/unusedcode.html#UnusedPrivateMethod" priority="3">
+Avoid unused private methods such as 'addFileURLs(List,URL)'.
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/util/CollectionUtil.java">
+<violation beginline="4" endline="318" begincolumn="1" endcolumn="2" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.util" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=49, ATFD=41, TCC=0.0)
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/util/EmptyIterator.java">
+<violation beginline="21" endline="23" begincolumn="29" endcolumn="9" rule="UnnecessaryFinalModifier" ruleset="Unnecessary" package="net.sourceforge.pmd.util" class="EmptyIterator" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/unnecessary.html#UnnecessaryFinalModifier" priority="3">
+Unnecessary final modifier in final class
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/util/FileFinder.java">
+<violation beginline="29" endline="29" begincolumn="18" endcolumn="74" rule="UnusedPrivateMethod" ruleset="Unused Code" package="net.sourceforge.pmd.util" class="FileFinder" method="scanDirectory" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/unusedcode.html#UnusedPrivateMethod" priority="3">
+Avoid unused private methods such as 'scanDirectory(File,List,boolean)'.
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/util/StringUtil.java">
+<violation beginline="4" endline="520" begincolumn="1" endcolumn="1" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.util" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=86, ATFD=13, TCC=0.0)
+</violation>
+<violation beginline="33" endline="33" begincolumn="17" endcolumn="57" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.sourceforge.pmd.util" class="StringUtil" method="startsWithAny" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/util/database/DBType.java">
+<violation beginline="4" endline="414" begincolumn="1" endcolumn="2" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.util.database" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=66, ATFD=38, TCC=0.2761904761904762)
+</violation>
+<violation beginline="119" endline="120" begincolumn="12" endcolumn="67" rule="AssignmentInOperand" ruleset="Controversial" package="net.sourceforge.pmd.util.database" class="DBType" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/controversial.html#AssignmentInOperand" priority="3">
+Avoid assignments in operands
+</violation>
+<violation beginline="125" endline="125" begincolumn="17" endcolumn="69" rule="AssignmentInOperand" ruleset="Controversial" package="net.sourceforge.pmd.util.database" class="DBType" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/controversial.html#AssignmentInOperand" priority="3">
+Avoid assignments in operands
+</violation>
+<violation beginline="287" endline="288" begincolumn="9" endcolumn="24" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.sourceforge.pmd.util.database" class="DBType" method="equals" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="289" endline="290" begincolumn="9" endcolumn="25" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.sourceforge.pmd.util.database" class="DBType" method="equals" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="291" endline="292" begincolumn="9" endcolumn="25" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.sourceforge.pmd.util.database" class="DBType" method="equals" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="295" endline="296" begincolumn="13" endcolumn="29" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.sourceforge.pmd.util.database" class="DBType" method="equals" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="297" endline="298" begincolumn="16" endcolumn="25" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.sourceforge.pmd.util.database" class="DBType" method="equals" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="300" endline="301" begincolumn="13" endcolumn="29" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.sourceforge.pmd.util.database" class="DBType" method="equals" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="302" endline="303" begincolumn="16" endcolumn="25" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.sourceforge.pmd.util.database" class="DBType" method="equals" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="305" endline="306" begincolumn="13" endcolumn="29" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.sourceforge.pmd.util.database" class="DBType" method="equals" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="307" endline="308" begincolumn="16" endcolumn="25" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.sourceforge.pmd.util.database" class="DBType" method="equals" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="310" endline="311" begincolumn="13" endcolumn="29" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.sourceforge.pmd.util.database" class="DBType" method="equals" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="312" endline="313" begincolumn="16" endcolumn="25" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.sourceforge.pmd.util.database" class="DBType" method="equals" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="315" endline="316" begincolumn="13" endcolumn="29" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.sourceforge.pmd.util.database" class="DBType" method="equals" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="317" endline="318" begincolumn="16" endcolumn="25" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.sourceforge.pmd.util.database" class="DBType" method="equals" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="319" endline="320" begincolumn="9" endcolumn="25" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.sourceforge.pmd.util.database" class="DBType" method="equals" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="322" endline="323" begincolumn="13" endcolumn="29" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.sourceforge.pmd.util.database" class="DBType" method="equals" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="324" endline="325" begincolumn="16" endcolumn="25" rule="IfStmtsMustUseBraces" ruleset="Braces" package="net.sourceforge.pmd.util.database" class="DBType" method="equals" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="404" endline="404" begincolumn="7" endcolumn="19" rule="GuardLogStatementJavaUtil" ruleset="Java Logging" package="net.sourceforge.pmd.util.database" class="DBType" method="setProperties" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/logging-java.html#GuardLogStatementJavaUtil" priority="2">
+There is log block not surrounded by if
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/util/database/DBURI.java">
+<violation beginline="4" endline="568" begincolumn="1" endcolumn="2" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.util.database" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=60, ATFD=42, TCC=0.059770114942528735)
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/util/designer/CodeEditorTextPane.java">
+<violation beginline="36" endline="36" begincolumn="41" endcolumn="52" rule="UselessParentheses" ruleset="Unnecessary" package="net.sourceforge.pmd.util.designer" class="CodeEditorTextPane" method="getPosition" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/util/designer/Designer.java">
+<violation beginline="4" endline="1039" begincolumn="1" endcolumn="2" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.util.designer" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=157, ATFD=168, TCC=0.021176470588235293)
+</violation>
+<violation beginline="862" endline="862" begincolumn="29" endcolumn="83" rule="UnusedPrivateMethod" ruleset="Unused Code" package="net.sourceforge.pmd.util.designer" class="Designer" method="makeTextComponentUndoable" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/unusedcode.html#UnusedPrivateMethod" priority="3">
+Avoid unused private methods such as 'makeTextComponentUndoable(JTextComponent)'.
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/util/filter/Filters.java">
+<violation beginline="16" endline="203" begincolumn="22" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="net.sourceforge.pmd.util.filter" class="Filters" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#UseUtilityClass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/util/viewer/Viewer.java">
+<violation beginline="15" endline="20" begincolumn="21" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="net.sourceforge.pmd.util.viewer" class="Viewer" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#UseUtilityClass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/util/viewer/model/AttributeToolkit.java">
+<violation beginline="17" endline="39" begincolumn="31" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="net.sourceforge.pmd.util.viewer.model" class="AttributeToolkit" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#UseUtilityClass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-core/src/main/java/net/sourceforge/pmd/util/viewer/util/NLS.java">
+<violation beginline="14" endline="30" begincolumn="18" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="net.sourceforge.pmd.util.viewer.util" class="NLS" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#UseUtilityClass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+</file>
+</pmd>

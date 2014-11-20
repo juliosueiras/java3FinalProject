@@ -68,36 +68,72 @@
     nbproject/build-impl.xml file. 
 
     -->
-	<!-- Define the Sonar properties -->
-	<property name="sonar.projectKey" value="org.codehaus.sonar:example-java-ant" />
-	<property name="sonar.projectName" value="Simple Java Project analyzed with the Sonar Ant Task" />
-	<property name="sonar.projectVersion" value="1.0" />
-	<property name="sonar.language" value="java" />
-	<property name="sonar.sources" value="src" />
-	<property name="sonar.binaries" value="target" />
-	<property name="sonar.sourceEncoding" value="UTF-8" />
+
+	<!-- Define the Sonar properties > -->
+     <mkdir dir="./build/test/results"/> 
+	<!-- <property name="sonar.projectKey" value="org.codehaus.sonar:example-java-ant" /> -->
+	<!-- <property name="sonar.projectName" value="Simple Java Project analyzed with the Sonar Ant Task" /> -->
+	<!-- <property name="sonar.projectVersion" value="1.0" /> -->
+	<!-- <property name="sonar.language" value="java" /> -->
+	<!-- <property name="sonar.sources" value="src" /> -->
+	<!-- <property name="sonar.binaries" value="target" /> -->
+	<!-- <property name="sonar.sourceEncoding" value="UTF-8" /> -->
 
 	<!-- Add your basic Sonar configuration below: sonar.jdbc.url, sonar.jdbc.username, etc. properties -->
-    <property name="sonar.jdbc.url" value="jdbc:h2:tcp://localhost:9092/sonar"/>
-	<property name="sonar.jdbc.username" value="sonar"/>
-	<property name="sonar.jdbc.password" value="sonar"/>
+    <!-- <property name="sonar.jdbc.url" value="jdbc:h2:tcp://localhost:9092/sonar"/> -->
+	<!-- <property name="sonar.jdbc.username" value="sonar"/> -->
+	<!-- <property name="sonar.jdbc.password" value="sonar"/> -->
 
 
-	<!-- ========= Define Sonar target ========= -->
-	<target name="sonar" depends="compile">
-		<taskdef uri="antlib:org.sonar.ant" resource="org/sonar/ant/antlib.xml">
+	<!--  ========= Define Sonar target =========  -->
+	<!-- <target name="sonar" depends="compile"> -->
+		<!-- <taskdef uri="antlib:org.sonar.ant" resource="org/sonar/ant/antlib.xml"> -->
 			<!-- Update the following line, or put the "sonar-ant-task-*.jar" file in your "$HOME/.ant/lib" folder -->
-            <classpath path="~/SonarQube/sonar-ant-task-2.2.jar" />
-		</taskdef>
+    <!--         <classpath path="~/SonarQube/sonar-ant-task-2.2.jar" /> -->
+		<!-- </taskdef> -->
 
-		<!-- Execute Sonar -->
-		<sonar:sonar />
-	</target>
+		<!--  Execute Sonar  -->
+		<!-- <sonar:sonar /> -->
+	<!-- </target> -->
+
+    <target name="junitreport" description="Create a report for the rest result">
+        <mkdir dir="junithtml"/>
+        <junitreport todir="./build/test/report/html">
+            <fileset dir="./build/test/results">
+                <include name="*.xml"/>
+            </fileset>
+            <report format="frames" todir="./build/test/report/html" styledir="./lib/ant"/>
+        </junitreport>
+    </target>
+
+    <junitreport todir="./build/test/results">
+        <fileset dir="./build/test/results">
+            <include name="TEST-*.xml"/>
+        </fileset>
+        <report format="frames" todir="./build/test/report/html"/>
+    </junitreport>
+
 
 	<!-- ========= The main target "all" ========= -->
-	<target name="all" depends="clean,compile,sonar" />
+	<target name="all" depends="clean,compile" />
     <property name="servlet.jar"
         value="web/WEB-INF/tomcat8/servlet-api.jar"/>  
     <target depends="clean" description="Clean build products." name="clean-ear"/>
 
+    <taskdef uri="antlib:org.jacoco.ant" resource="org/jacoco/ant/antlib.xml">
+        <classpath path="lib/jacoco/jacocoant.jar"/>
+    </taskdef>
+
+    <target name="cpd">
+        <taskdef name="cpd" classname="net.sourceforge.pmd.cpd.CPDTask" />
+        <cpd minimumTokenCount="100" outputFile="./cpd.txt">
+            <fileset dir="./">
+                <include name="**/*.java"/>
+            </fileset>
+        </cpd>
+    </target>
+
+
+
 </project>
+

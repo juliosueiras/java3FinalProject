@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.1.2" timestamp="2014-11-20T04:55:41.289">
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-cs/src/main/java/net/sourceforge/pmd/cpd/CsTokenizer.java">
+<violation beginline="4" endline="223" begincolumn="1" endcolumn="2" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.cpd" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=52, ATFD=20, TCC=0.0)
+</violation>
+<violation beginline="59" endline="59" begincolumn="61" endcolumn="62" rule="AddEmptyString" ruleset="Optimization" package="net.sourceforge.pmd.cpd" class="CsTokenizer" method="tokenize" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#AddEmptyString" priority="3">
+Do not add empty strings
+</violation>
+<violation beginline="63" endline="63" begincolumn="61" endcolumn="62" rule="AddEmptyString" ruleset="Optimization" package="net.sourceforge.pmd.cpd" class="CsTokenizer" method="tokenize" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#AddEmptyString" priority="3">
+Do not add empty strings
+</violation>
+<violation beginline="79" endline="79" begincolumn="57" endcolumn="58" rule="AddEmptyString" ruleset="Optimization" package="net.sourceforge.pmd.cpd" class="CsTokenizer" method="tokenize" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/optimizations.html#AddEmptyString" priority="3">
+Do not add empty strings
+</violation>
+</file>
+</pmd>

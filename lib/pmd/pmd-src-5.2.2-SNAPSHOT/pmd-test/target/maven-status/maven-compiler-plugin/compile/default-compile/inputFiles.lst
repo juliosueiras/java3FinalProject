@@ -1,0 +1,11 @@
+/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-test/src/main/java/net/sourceforge/pmd/cli/BaseCLITest.java
+/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-test/src/main/java/net/sourceforge/pmd/ant/AbstractAntTestHelper.java
+/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-test/src/main/java/net/sourceforge/pmd/testframework/TestDescriptor.java
+/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-test/src/main/java/net/sourceforge/pmd/AbstractLanguageVersionTest.java
+/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-test/src/main/java/net/sourceforge/pmd/lang/ParserOptionsTest.java
+/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-test/src/main/java/net/sourceforge/pmd/testframework/PMDTestRunner.java
+/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-test/src/main/java/net/sourceforge/pmd/AbstractRuleSetFactoryTest.java
+/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-test/src/main/java/net/sourceforge/pmd/testframework/AbstractTokenizerTest.java
+/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-test/src/main/java/net/sourceforge/pmd/testframework/StreamUtil.java
+/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-test/src/main/java/net/sourceforge/pmd/testframework/RuleTst.java
+/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-test/src/main/java/net/sourceforge/pmd/testframework/SimpleAggregatorTst.java
