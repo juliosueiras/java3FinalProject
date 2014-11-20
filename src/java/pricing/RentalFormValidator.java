@@ -25,8 +25,77 @@ public class RentalFormValidator{
     }
     
     public boolean isValid(){
+        boolean valid = true;
         
-        return false;
+        if (isCustomerNull()) {
+            valid = false;
+        }
+        if (!isCustomerNumeric()) {
+            valid = false;
+        }
+        if (isPickupDayNull()) {
+            valid = false;
+        } 
+        if (!isPickupDayInRange()) {
+            valid = false;
+        }
+        if (isPickupMonthNull()) {
+            valid = false;
+        }
+        if (!isPickupMonthInRange()) {
+            valid = false;
+        }
+        if (isPickupYearNull()) {
+            valid = false;
+        }
+        if (!isPickupYearInRange()) {
+            valid = false;
+        }
+        if (isPickupHourNull()) {
+            valid = false;
+        }
+        if (!isPickupHourInRange()) {
+            valid = false;
+        }
+        
+        if (isDropoffDayNull()) {
+            valid = false;
+        }
+        if (!isDropoffDayInRange()) {
+            valid = false;
+        }
+        if (isDropoffMonthNull()) {
+            valid = false;
+        }
+        if (!isDropoffMonthInRange()) {
+            valid = false;
+        }
+        if (isDropoffYearNull()) {
+            valid = false;
+        }
+        if (!isDropoffYearInRange()) {
+            valid = false;
+        }
+        if (isDropoffHourNull()) {
+            valid = false;
+        }
+        if (!isDropoffHourInRange()) {
+            valid = false;
+        }
+        if (isCreditCardTypeNull()) {
+            valid = false;
+        }
+        if (!isCreditCardTypeInRange()) {
+            valid = false;
+        }
+        if (isCreditCardNoNull()) {
+            valid = false;
+        }
+        if (!isCreditCardNoInRange()) {
+            valid = false;
+        }
+        
+        return valid;
     }
 
     public void setErrorCodes(ArrayList<Integer> errorCodes) {
@@ -40,9 +109,9 @@ public class RentalFormValidator{
     public boolean isCustomerNull(){
         if(formRequest.getParameter("customerNo").isEmpty()){
             errorCodes.add(1011);
-            return false;
+            return true;
         }
-        return true;
+        return false;
     }
     
     public boolean isCustomerNumeric(){
@@ -59,9 +128,9 @@ public class RentalFormValidator{
     public boolean isPickupDayNull(){
         if(formRequest.getParameter("pickupDay").isEmpty()){
             errorCodes.add(1021);
-            return false;
+            return true;
         }
-        return true;
+        return false;
     }
     
     public boolean isPickupDayInRange(){
@@ -76,9 +145,9 @@ public class RentalFormValidator{
     public boolean isPickupMonthNull(){
         if(formRequest.getParameter("pickupMonth").isEmpty()){
             errorCodes.add(1031);
-            return false;
+            return true;
         }
-        return true;
+        return false;
     }
     
     public boolean isPickupMonthInRange(){
@@ -93,13 +162,13 @@ public class RentalFormValidator{
     public boolean isPickupYearNull(){
         if(formRequest.getParameter("pickupYear").isEmpty()){
             errorCodes.add(1041);
-            return false;
+            return true;
         }
-        return true;
+        return false;
     }
     
     public boolean isPickupYearInRange(){
-        if (Integer.parseInt(formRequest.getParameter("pickupYear")) == 2014 || Integer.parseInt(formRequest.getParameter("pickupYear")) == 2015) {
+        if (Integer.parseInt(formRequest.getParameter("pickupYear")) != 2014 || Integer.parseInt(formRequest.getParameter("pickupYear")) != 2015) {
             errorCodes.add(1042);
             return false;
         }
@@ -110,9 +179,9 @@ public class RentalFormValidator{
     public boolean isPickupHourNull(){
         if(formRequest.getParameter("pickupHour").isEmpty()){
             errorCodes.add(1051);
-            return false;
+            return true;
         }
-        return true;
+        return false;
     }
     
     public boolean isPickupHourInRange(){
@@ -127,9 +196,9 @@ public class RentalFormValidator{
     public boolean isDropoffDayNull(){
         if(formRequest.getParameter("dropoffDay").isEmpty()){
             errorCodes.add(1061);
-            return false;
+            return true;
         }
-        return true;
+        return false;
     }
     
     public boolean isDropoffDayInRange(){
@@ -144,9 +213,9 @@ public class RentalFormValidator{
     public boolean isDropoffMonthNull(){
         if(formRequest.getParameter("dropoffMonth").isEmpty()){
             errorCodes.add(1071);
-            return false;
+            return true;
         }
-        return true;
+        return false;
     }
     
     public boolean isDropoffMonthInRange(){
@@ -161,9 +230,9 @@ public class RentalFormValidator{
     public boolean isDropoffYearNull(){
         if(formRequest.getParameter("dropoffYear").isEmpty()){
             errorCodes.add(1081);
-            return false;
+            return true;
         }
-        return true;
+        return false;
     }
     
     public boolean isDropoffYearInRange(){
@@ -178,9 +247,9 @@ public class RentalFormValidator{
     public boolean isDropoffHourNull(){
         if(formRequest.getParameter("dropoffHour").isEmpty()){
             errorCodes.add(1091);
-            return false;
+            return true;
         }
-        return true;
+        return false;
     }
     
     public boolean isDropoffHourInRange(){
@@ -189,6 +258,72 @@ public class RentalFormValidator{
             return false;
         }
         bean.setDropoffHour(Integer.parseInt(formRequest.getParameter("dropoffHour")));
+        return true;
+    }
+    
+    public boolean isCarTypeNull(){
+        if(formRequest.getParameter("cartype").isEmpty()){
+            errorCodes.add(1101);
+            return true;
+        }
+        return false;
+    }
+    
+    public boolean isCarTypeInRange(){
+        if (!formRequest.getParameter("cartype").equalsIgnoreCase("economy") 
+                || !formRequest.getParameter("cartype").equalsIgnoreCase("standard")
+                || !formRequest.getParameter("cartype").equalsIgnoreCase("luxury")
+                || !formRequest.getParameter("cartype").equalsIgnoreCase("minivan")) {
+            errorCodes.add(1102);
+            return false;
+        }
+        bean.setDropoffHour(Integer.parseInt(formRequest.getParameter("dropoffHour")));
+        return true;
+    }
+    
+    public boolean isCreditCardTypeNull(){
+        if(formRequest.getParameter("creditCardType").isEmpty()){
+            errorCodes.add(1111);
+            return true;
+        }
+        return false;
+    }
+    
+    public boolean isCreditCardTypeInRange(){
+        if( !formRequest.getParameter("cerditCardType").equalsIgnoreCase("visa") 
+                || !formRequest.getParameter("cerditCardType").equalsIgnoreCase("mastercard")) {
+            errorCodes.add(1112);
+            return false;
+        }
+        bean.setCardType(formRequest.getParameter("cerditCardType"));
+        return true;
+    }
+    
+    public boolean isCreditCardNoNull(){
+        if(formRequest.getParameter("creditCardNo").isEmpty()){
+            errorCodes.add(1121);
+            return true;
+        }
+        return false;
+    }
+    
+    public boolean isCreditCardNoInRange(){
+        String cardType = formRequest.getParameter("creditCardType");
+        String cardNo = formRequest.getParameter("creditCardNo").trim();
+        
+        if (cardType.equalsIgnoreCase("visa")) {
+            if (cardNo.indexOf(0) != '4' && (cardNo.length() != 13 || cardNo.length() != 16)) {
+                errorCodes.add(1122);
+                return false;
+            }
+        } else if (cardType.equalsIgnoreCase("mastercard")) {
+            if ( (!cardNo.startsWith("51") || !cardNo.startsWith("52") || !cardNo.startsWith("53") || !cardNo.startsWith("54") || !cardNo.startsWith("55"))
+                    && cardNo.length() != 16) {
+                errorCodes.add(1122);
+                return false;
+            }
+        }
+        bean.setCardNumber(formRequest.getParameter(cardNo));
         return true;
     }
 }

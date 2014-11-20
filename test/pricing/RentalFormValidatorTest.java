@@ -22,6 +22,7 @@ public class RentalFormValidatorTest {
     
     private MockRequest mockRequest;
     private RentalFormValidator instance;
+    MockRequest currRequest;
     
     public RentalFormValidatorTest() {
     }
@@ -36,6 +37,19 @@ public class RentalFormValidatorTest {
     
     @Before
     public void setUp() {
+        currRequest = new MockRequest();
+        currRequest.setParameter("customerNo", "1111");
+        currRequest.setParameter("pickupDay", "1");
+        currRequest.setParameter("pickupMonth", "1");
+        currRequest.setParameter("pickupYear", "2014");
+        currRequest.setParameter("pickupHour", "10");
+        currRequest.setParameter("dropoffDay", "1");
+        currRequest.setParameter("dropoffMonth", "1");
+        currRequest.setParameter("dropoffYear", "2014");
+        currRequest.setParameter("dropoffHour", "10");
+        currRequest.setParameter("cartype", "standard");
+        currRequest.setParameter("cerditCardType", "visa");
+        currRequest.setParameter("creditCardNo", "4111111111111111");
     }
     
     @After

@@ -21,6 +21,11 @@ import static org.junit.Assert.*;
  */
 public class RentalBeanTest {
     
+    // testGetWeeklyCompact, testGetWeekdayCompact, testGetWeekendCompact
+    // testGetWeeklyStandard, testGetWeekdayStandard, testGetWeekendStandard
+    // testGetWeeklyLuxuary, testGetWeekdayLuxuary, testGetWeekendLuxuary
+    // testGetWeeklyMinivan, testGetWeekdayMinivan, testGetWeekendMinivan
+    
     public RentalBeanTest() {
     }
     
