@@ -1,13 +1,13 @@
 <html xmlns:string="xalan://java.lang.String" xmlns:lxslt="http://xml.apache.org/xslt">
 <head>
 <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Unit Test Results: pricing.PriceScheduleTest</title>
+<title>Unit Test Results: pricing.RentalFormValidatorTest</title>
 <link rel="stylesheet" type="text/css" title="Style" href="../stylesheet.css">
 <script type="text/javascript" language="JavaScript">
         var TestCases = new Array();
         var cur;
         
-    cur = TestCases['pricing.PriceScheduleTest'] = new Array();
+    cur = TestCases['pricing.RentalFormValidatorTest'] = new Array();
     
         cur[''] = '======';
     
@@ -393,7 +393,7 @@
     
         cur['sun.io.unicode.encoding'] = 'UnicodeLittle';
     
-        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner pricing.PriceScheduleTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/root/java3FinalProject/build/test/results/TEST-pricing.PriceScheduleTest.xml crashfile=/root/java3FinalProject/build/junitvmwatcher5382537211070844280.properties propsfile=/root/java3FinalProject/build/junit2995093008995088606.properties';
+        cur['sun.java.command'] = 'org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner pricing.RentalFormValidatorTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/root/java3FinalProject/build/test/results/TEST-pricing.RentalFormValidatorTest.xml crashfile=/root/java3FinalProject/build/junitvmwatcher8179462125515337290.properties propsfile=/root/java3FinalProject/build/junit2187379234591411035.properties';
     
         cur['sun.java.launcher'] = 'SUN_STANDARD';
     
@@ -414,6 +414,8 @@
         cur['testng.debug.mode'] = '';
     
         cur['testng.mode'] = 'testng';
+    
+        cur['tests.failed'] = 'true';
     
         cur['user.country'] = 'US';
     
@@ -478,82 +480,34 @@
 </tr>
 </table>
 <hr size="1">
-<h3>Class pricing.PriceScheduleTest</h3>
+<h3>Class pricing.RentalFormValidatorTest</h3>
 <table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
 <tr valign="top">
 <th width="80%">Name</th><th>Tests</th><th>Errors</th><th>Failures</th><th>Skipped</th><th nowrap>Time(s)</th><th nowrap>Time Stamp</th><th>Host</th>
 </tr>
-<tr valign="top" class="Failure">
-<td><a title="Display all tests" href="0_PriceScheduleTest.html">PriceScheduleTest</a></td><td><a title="Display all tests" href="0_PriceScheduleTest.html">9</a></td><td>0</td><td><a title="Display only failures" href="0_PriceScheduleTest-fails.html">9</a></td><td>0</td><td>0.191</td><td>2014-11-20T19:45:33</td><td>juliosueirasstuff</td>
+<tr valign="top" class="Error">
+<td><a title="Display all tests" href="2_RentalFormValidatorTest.html">RentalFormValidatorTest</a></td><td><a title="Display all tests" href="2_RentalFormValidatorTest.html">7</a></td><td><a title="Display only errors" href="2_RentalFormValidatorTest-errors.html">1</a></td><td><a title="Display only failures" href="2_RentalFormValidatorTest-fails.html">5</a></td><td>0</td><td>0.197</td><td>2014-11-20T19:45:35</td><td>juliosueirasstuff</td>
 </tr>
 </table>
-<h2>Failures</h2>
+<h2>Errors</h2>
 <table class="details" border="0" cellpadding="5" cellspacing="2" width="95%">
 <tr valign="top">
 <th>Name</th><th>Status</th><th width="80%">Type</th><th nowrap>Time(s)</th>
 </tr>
-<tr valign="top" class="Failure">
-<td><a name="testGetWeeklyRate"></a>testGetWeeklyRate</td><td>Failure</td><td>The test case is a prototype.<br>
+<tr valign="top" class="Error">
+<td><a name="testIsValid"></a>testIsValid</td><td>Error</td><td>N/A<br>
 <br>
-<code>junit.framework.AssertionFailedError: The test case is a prototype.<br>	at pricing.PriceScheduleTest.testGetWeeklyRate(PriceScheduleTest.java:133)<br>
-</code></td><td>0.026</td>
-</tr>
-<tr valign="top" class="Failure">
-<td><a name="testSetWeeklyRate"></a>testSetWeeklyRate</td><td>Failure</td><td>The test case is a prototype.<br>
-<br>
-<code>junit.framework.AssertionFailedError: The test case is a prototype.<br>	at pricing.PriceScheduleTest.testSetWeeklyRate(PriceScheduleTest.java:146)<br>
-</code></td><td>0.001</td>
-</tr>
-<tr valign="top" class="Failure">
-<td><a name="testToString"></a>testToString</td><td>Failure</td><td>expected:&lt;[]&gt; but was:&lt;[CarRates{typeName=null, weekdayRate=null, weekendRate=null, weeklyRate=null}]&gt;<br>
-<br>
-<code>junit.framework.AssertionFailedError: expected:&lt;[]&gt; but was:&lt;[CarRates{typeName=null, weekdayRate=null, weekendRate=null, weeklyRate=null}]&gt;<br>	at pricing.PriceScheduleTest.testToString(PriceScheduleTest.java:158)<br>
-</code></td><td>0.002</td>
-</tr>
-<tr valign="top" class="Failure">
-<td><a name="testGetTypeName"></a>testGetTypeName</td><td>Failure</td><td>expected:&lt;&gt; but was:&lt;null&gt;<br>
-<br>
-<code>junit.framework.AssertionFailedError: expected:&lt;&gt; but was:&lt;null&gt;<br>	at pricing.PriceScheduleTest.testGetTypeName(PriceScheduleTest.java:50)<br>
-</code></td><td>0.001</td>
-</tr>
-<tr valign="top" class="Failure">
-<td><a name="testSetTypeName"></a>testSetTypeName</td><td>Failure</td><td>The test case is a prototype.<br>
-<br>
-<code>junit.framework.AssertionFailedError: The test case is a prototype.<br>	at pricing.PriceScheduleTest.testSetTypeName(PriceScheduleTest.java:65)<br>
-</code></td><td>0.001</td>
-</tr>
-<tr valign="top" class="Failure">
-<td><a name="testGetWeekdayRate"></a>testGetWeekdayRate</td><td>Failure</td><td>The test case is a prototype.<br>
-<br>
-<code>junit.framework.AssertionFailedError: The test case is a prototype.<br>	at pricing.PriceScheduleTest.testGetWeekdayRate(PriceScheduleTest.java:79)<br>
-</code></td><td>0.006</td>
-</tr>
-<tr valign="top" class="Failure">
-<td><a name="testSetWeekdayRate"></a>testSetWeekdayRate</td><td>Failure</td><td>The test case is a prototype.<br>
-<br>
-<code>junit.framework.AssertionFailedError: The test case is a prototype.<br>	at pricing.PriceScheduleTest.testSetWeekdayRate(PriceScheduleTest.java:92)<br>
-</code></td><td>0.005</td>
-</tr>
-<tr valign="top" class="Failure">
-<td><a name="testGetWeekendRate"></a>testGetWeekendRate</td><td>Failure</td><td>The test case is a prototype.<br>
-<br>
-<code>junit.framework.AssertionFailedError: The test case is a prototype.<br>	at pricing.PriceScheduleTest.testGetWeekendRate(PriceScheduleTest.java:106)<br>
-</code></td><td>0.001</td>
-</tr>
-<tr valign="top" class="Failure">
-<td><a name="testSetWeekendRate"></a>testSetWeekendRate</td><td>Failure</td><td>The test case is a prototype.<br>
-<br>
-<code>junit.framework.AssertionFailedError: The test case is a prototype.<br>	at pricing.PriceScheduleTest.testSetWeekendRate(PriceScheduleTest.java:119)<br>
-</code></td><td>0.002</td>
+<code>java.lang.NullPointerException<br>	at pricing.RentalFormValidator.isCustomerNull(RentalFormValidator.java:110)<br>	at pricing.RentalFormValidator.isValid(RentalFormValidator.java:30)<br>	at pricing.RentalFormValidatorTest.testIsValid(RentalFormValidatorTest.java:67)<br>
+</code></td><td>0.029</td>
 </tr>
 </table>
 <div class="Properties">
-<a href="javascript:displayProperties('pricing.PriceScheduleTest');">
+<a href="javascript:displayProperties('pricing.RentalFormValidatorTest');">
                     Properties &raquo;
                 </a>
 </div>
 <div class="Properties">
-<a href="./0_PriceScheduleTest-out.html">
+<a href="./2_RentalFormValidatorTest-out.html">
                         System.out &raquo;
                     </a>
 </div>
