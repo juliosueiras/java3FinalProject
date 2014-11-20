@@ -1,0 +1,1756 @@
+<?xml version="1.0" encoding="UTF-8"?><TestSessionContainer xmlns="http://www.codecover.org/xml/testsession-container" Date="1416473277143" TestSessionContainerId="da3cff5f-c93a-4d7d-9772-522c05ef95ac" version="1.0">
+<SrcFileList>
+<SrcFile Content="/*&#10; * To change this license header, choose License Headers in Project Properties.&#10; * To change this template file, choose Tools | Templates&#10; * and open the template in the editor.&#10; */&#10;package pricing;&#10;&#10;import java.beans.*;&#10;import java.io.Serializable;&#10;import java.math.BigDecimal;&#10;import java.util.HashMap;&#10;/**&#10; *&#10; * @author jhlee&#10; */&#10;public class RentalBean implements Serializable{&#10;    private int pickupYear;&#10;    private int pickupMon;&#10;    private int pickupDay;&#10;    private int pickupHour;&#10;    private int pickupMin;&#10;    private int dropoffYear;&#10;    private int dropoffMon;&#10;    private int dropoffDay;&#10;    private int dropoffHour;&#10;    private int dropoffMin;&#10;    private String rentalType;&#10;    private String cardType;&#10;    private String cardNumber;&#10;    private String customerNumber;&#10;    private BigDecimal taxRate;&#10;    private BigDecimal price;&#10;    private PriceSchedule priceSchedule;&#10;      &#10;    public RentalBean() {&#10;       &#10;    }&#10;    &#10;    /**&#10;     * method for price estimation based on business rules&#10;     * @return &#10;     */&#10;&#10;    public PriceSchedule getPriceSchedule() {&#10;        return priceSchedule;&#10;    }&#10;    &#10;    /**&#10;     * @return the pickupYear&#10;     */&#10;    public int getPickupYear() {&#10;        return pickupYear;&#10;    }&#10;&#10;    /**&#10;     * @param pickupYear the pickupYear to set&#10;     */&#10;    public void setPickupYear(int pickupYear) {&#10;        this.pickupYear = pickupYear;&#10;    }&#10;&#10;    /**&#10;     * @return the pickupMon&#10;     */&#10;    public int getPickupMon() {&#10;        return pickupMon;&#10;    }&#10;&#10;    /**&#10;     * @param pickupMon the pickupMon to set&#10;     */&#10;    public void setPickupMon(int pickupMon) {&#10;        this.pickupMon = pickupMon;&#10;    }&#10;&#10;    /**&#10;     * @return the pickupDay&#10;     */&#10;    public int getPickupDay() {&#10;        return pickupDay;&#10;    }&#10;&#10;    /**&#10;     * @param pickupDay the pickupDay to set&#10;     */&#10;    public void setPickupDay(int pickupDay) {&#10;            this.pickupDay = pickupDay;&#10;    }&#10;&#10;    /**&#10;     * @return the pickupHour&#10;     */&#10;    public int getPickupHour() {&#10;        return pickupHour;&#10;    }&#10;&#10;    /**&#10;     * @param pickupHour the pickupHour to set&#10;     */&#10;    public void setPickupHour(int pickupHour) {&#10;        this.pickupHour = pickupHour;&#10;    }&#10;&#10;    /**&#10;     * @return the pickupMin&#10;     */&#10;    public int getPickupMin() {&#10;        return pickupMin;&#10;    }&#10;&#10;    /**&#10;     * @param pickupMin the pickupMin to set&#10;     */&#10;    public void setPickupMin(int pickupMin) {&#10;        this.pickupMin = pickupMin;&#10;    }&#10;&#10;    /**&#10;     * @return the dropoffYear&#10;     */&#10;    public int getDropoffYear() {&#10;        return dropoffYear;&#10;    }&#10;&#10;    /**&#10;     * @param dropoffYear the dropoffYear to set&#10;     */&#10;    public void setDropoffYear(int dropoffYear) {&#10;        this.dropoffYear = dropoffYear;&#10;    }&#10;&#10;    /**&#10;     * @return the dropoffMon&#10;     */&#10;    public int getDropoffMon() {&#10;        return dropoffMon;&#10;    }&#10;&#10;    /**&#10;     * @param dropoffMon the dropoffMon to set&#10;     */&#10;    public void setDropoffMon(int dropoffMon) {&#10;        this.dropoffMon = dropoffMon;&#10;    }&#10;&#10;    /**&#10;     * @return the dropoffDay&#10;     */&#10;    public int getDropoffDay() {&#10;        return dropoffDay;&#10;    }&#10;&#10;    /**&#10;     * @param dropoffDay the dropoffDay to set&#10;     */&#10;    public void setDropoffDay(int dropoffDay) {&#10;        this.dropoffDay = dropoffDay;&#10;    }&#10;&#10;    /**&#10;     * @return the dropoffHour&#10;     */&#10;    public int getDropoffHour() {&#10;        return dropoffHour;&#10;    }&#10;&#10;    /**&#10;     * @param dropoffHour the dropoffHour to set&#10;     */&#10;    public void setDropoffHour(int dropoffHour) {&#10;        this.dropoffHour = dropoffHour;&#10;    }&#10;&#10;    /**&#10;     * @return the dropoffMin&#10;     */&#10;    public int getDropoffMin() {&#10;        return dropoffMin;&#10;    }&#10;&#10;    /**&#10;     * @param dropoffMin the dropoffMin to set&#10;     */&#10;    public void setDropoffMin(int dropoffMin) {&#10;        this.dropoffMin = dropoffMin;&#10;    }&#10;&#10;    /**&#10;     * @return the rentalType&#10;     */&#10;    public String getRentalType() {&#10;        return rentalType;&#10;    }&#10;&#10;    /**&#10;     * @param rentalType the rentalType to set&#10;     */&#10;    public void setRentalType(String rentalType) {&#10;        this.rentalType = rentalType;&#10;    }&#10;&#10;    /**&#10;     * @return the cardType&#10;     */&#10;    public String getCardType() {&#10;        return cardType;&#10;    }&#10;&#10;    /**&#10;     * @param cardType the cardType to set&#10;     */&#10;    public void setCardType(String cardType) {&#10;        this.cardType = cardType;&#10;    }&#10;&#10;    /**&#10;     * @return the cardNumber&#10;     */&#10;    public String getCardNumber() {&#10;        return cardNumber;&#10;    }&#10;&#10;    /**&#10;     * @param cardNumber the cardNumber to set&#10;     */&#10;    public void setCardNumber(String cardNumber) {&#10;        this.cardNumber = cardNumber;&#10;    }&#10;&#10;    /**&#10;     * @return the taxRate&#10;     */&#10;    public BigDecimal getTaxRate() {&#10;        return taxRate;&#10;    }&#10;&#10;    /**&#10;     * @param taxRate the taxRate to set&#10;     */&#10;    public void setTaxRate(BigDecimal taxRate) {&#10;        this.taxRate = taxRate;&#10;    }&#10;&#10;    /**&#10;     * @return the price&#10;     */&#10;    public BigDecimal getPrice() {&#10;        return price;&#10;    }&#10;&#10;    /**&#10;     * @param price the price to set&#10;     */&#10;    public void setPrice(BigDecimal price) {&#10;        this.price = price;&#10;    }&#10;&#10;    /**&#10;     * @param priceSchedule the priceSchedule to set&#10;     */&#10;    public void setPriceSchedule(PriceSchedule priceSchedule) {&#10;        this.priceSchedule = priceSchedule;&#10;    }   &#10;&#10;    public String getCustomerNumber() {&#10;        return customerNumber;&#10;    }&#10;&#10;    public void setCustomerNumber(String customerNumber) {&#10;        this.customerNumber = customerNumber;&#10;    }&#10;}&#10;" Filename="RentalBean.java" Intrnl_Id="1"/>
+<SrcFile Content="/*&#10; * To change this license header, choose License Headers in Project Properties.&#10; * To change this template file, choose Tools | Templates&#10; * and open the template in the editor.&#10; */&#10;package pricing;&#10;&#10;import java.math.BigDecimal;&#10;import java.util.ArrayList;&#10;import javax.servlet.http.HttpServletRequest;&#10;&#10;/**&#10; *&#10; * @author jhlee&#10; */&#10;public class RentalFormValidator{&#10;    private HttpServletRequest formRequest;&#10;    private ArrayList&lt;Integer&gt; errorCodes;&#10;    RentalBean bean = new RentalBean();&#10;    &#10;&#10;    public RentalFormValidator(HttpServletRequest formRequest) {&#10;        this.formRequest = formRequest;&#10;        this.errorCodes = new ArrayList&lt;Integer&gt;();&#10;    }&#10;    &#10;    public boolean isValid(){&#10;        &#10;        return false;&#10;    }&#10;&#10;    public void setErrorCodes(ArrayList&lt;Integer&gt; errorCodes) {&#10;        this.errorCodes = errorCodes;&#10;    }&#10;    &#10;    public ArrayList&lt;Integer&gt; getErrors(){&#10;        return errorCodes;&#10;    }&#10;    &#10;    public boolean isCustomerNull(){&#10;        if(formRequest.getParameter(&quot;customerNo&quot;).isEmpty()){&#10;            errorCodes.add(1011);&#10;            return false;&#10;        }&#10;        return true;&#10;    }&#10;    &#10;    public boolean isCustomerNumeric(){&#10;        try {&#10;            Integer.valueOf(formRequest.getParameter(&quot;customerNo&quot;));&#10;        } catch (NumberFormatException e) {&#10;            errorCodes.add(1012);&#10;            return false;&#10;        }&#10;        bean.setCustomerNumber(formRequest.getParameter(&quot;customerNo&quot;));&#10;        return true;&#10;    }&#10;    &#10;    public boolean isPickupDayNull(){&#10;        if(formRequest.getParameter(&quot;pickupDay&quot;).isEmpty()){&#10;            errorCodes.add(1021);&#10;            return false;&#10;        }&#10;        return true;&#10;    }&#10;    &#10;    public boolean isPickupDayInRange(){&#10;        if (Integer.parseInt(formRequest.getParameter(&quot;pickupDay&quot;)) &lt; 1 || Integer.parseInt(formRequest.getParameter(&quot;pickupDay&quot;)) &gt; 31) {&#10;            errorCodes.add(1022);&#10;            return false;&#10;        }&#10;        bean.setPickupDay(Integer.parseInt(formRequest.getParameter(&quot;pickupDay&quot;)));&#10;        return true;&#10;    }&#10;    &#10;    public boolean isPickupMonthNull(){&#10;        if(formRequest.getParameter(&quot;pickupMonth&quot;).isEmpty()){&#10;            errorCodes.add(1031);&#10;            return false;&#10;        }&#10;        return true;&#10;    }&#10;    &#10;    public boolean isPickupMonthInRange(){&#10;        if (Integer.parseInt(formRequest.getParameter(&quot;pickupMonth&quot;)) &lt; 1 || Integer.parseInt(formRequest.getParameter(&quot;pickupMonth&quot;)) &gt; 12) {&#10;            errorCodes.add(1032);&#10;            return false;&#10;        }&#10;        bean.setPickupMon(Integer.parseInt(formRequest.getParameter(&quot;pickupMonth&quot;)));&#10;        return true;&#10;    }&#10;    &#10;    public boolean isPickupYearNull(){&#10;        if(formRequest.getParameter(&quot;pickupYear&quot;).isEmpty()){&#10;            errorCodes.add(1041);&#10;            return false;&#10;        }&#10;        return true;&#10;    }&#10;    &#10;    public boolean isPickupYearInRange(){&#10;        if (Integer.parseInt(formRequest.getParameter(&quot;pickupYear&quot;)) == 2014 || Integer.parseInt(formRequest.getParameter(&quot;pickupYear&quot;)) == 2015) {&#10;            errorCodes.add(1042);&#10;            return false;&#10;        }&#10;        bean.setPickupYear(Integer.parseInt(formRequest.getParameter(&quot;pickupYear&quot;)));&#10;        return true;&#10;    }&#10;    &#10;    public boolean isPickupHourNull(){&#10;        if(formRequest.getParameter(&quot;pickupHour&quot;).isEmpty()){&#10;            errorCodes.add(1051);&#10;            return false;&#10;        }&#10;        return true;&#10;    }&#10;    &#10;    public boolean isPickupHourInRange(){&#10;        if (Integer.parseInt(formRequest.getParameter(&quot;pickupHour&quot;)) &lt; 0 || Integer.parseInt(formRequest.getParameter(&quot;pickupHour&quot;)) &gt; 23) {&#10;            errorCodes.add(1052);&#10;            return false;&#10;        }&#10;        bean.setPickupHour(Integer.parseInt(formRequest.getParameter(&quot;pickupHour&quot;)));&#10;        return true;&#10;    }&#10;    &#10;    public boolean isDropoffDayNull(){&#10;        if(formRequest.getParameter(&quot;dropoffDay&quot;).isEmpty()){&#10;            errorCodes.add(1061);&#10;            return false;&#10;        }&#10;        return true;&#10;    }&#10;    &#10;    public boolean isDropoffDayInRange(){&#10;        if (Integer.parseInt(formRequest.getParameter(&quot;dropoffDay&quot;)) &lt; 1 || Integer.parseInt(formRequest.getParameter(&quot;dropoffDay&quot;)) &gt; 31) {&#10;            errorCodes.add(1062);&#10;            return false;&#10;        }&#10;        bean.setDropoffDay(Integer.parseInt(formRequest.getParameter(&quot;dropoffDay&quot;)));&#10;        return true;&#10;    }&#10;    &#10;    public boolean isDropoffMonthNull(){&#10;        if(formRequest.getParameter(&quot;dropoffMonth&quot;).isEmpty()){&#10;            errorCodes.add(1071);&#10;            return false;&#10;        }&#10;        return true;&#10;    }&#10;    &#10;    public boolean isDropoffMonthInRange(){&#10;        if (Integer.parseInt(formRequest.getParameter(&quot;dropoffMonth&quot;)) &lt; 1 || Integer.parseInt(formRequest.getParameter(&quot;dropoffMonth&quot;)) &gt; 12) {&#10;            errorCodes.add(1072);&#10;            return false;&#10;        }&#10;        bean.setDropoffMon(Integer.parseInt(formRequest.getParameter(&quot;dropoffMonth&quot;)));&#10;        return true;&#10;    }&#10;    &#10;    public boolean isDropoffYearNull(){&#10;        if(formRequest.getParameter(&quot;dropoffYear&quot;).isEmpty()){&#10;            errorCodes.add(1081);&#10;            return false;&#10;        }&#10;        return true;&#10;    }&#10;    &#10;    public boolean isDropoffYearInRange(){&#10;        if (Integer.parseInt(formRequest.getParameter(&quot;dropoffDay&quot;)) == 2014 || Integer.parseInt(formRequest.getParameter(&quot;dropoffDay&quot;)) == 2015) {&#10;            errorCodes.add(1082);&#10;            return false;&#10;        }&#10;        bean.setDropoffYear(Integer.parseInt(formRequest.getParameter(&quot;dropoffYear&quot;)));&#10;        return true;&#10;    }&#10;    &#10;    public boolean isDropoffHourNull(){&#10;        if(formRequest.getParameter(&quot;dropoffHour&quot;).isEmpty()){&#10;            errorCodes.add(1091);&#10;            return false;&#10;        }&#10;        return true;&#10;    }&#10;    &#10;    public boolean isDropoffHourInRange(){&#10;        if (Integer.parseInt(formRequest.getParameter(&quot;dropoffHour&quot;)) &lt; 0 || Integer.parseInt(formRequest.getParameter(&quot;dropoffHour&quot;)) &gt; 23) {&#10;            errorCodes.add(1092);&#10;            return false;&#10;        }&#10;        bean.setDropoffHour(Integer.parseInt(formRequest.getParameter(&quot;dropoffHour&quot;)));&#10;        return true;&#10;    }&#10;}&#10;" Filename="RentalFormValidator.java" Intrnl_Id="2"/>
+<SrcFile Content="/*&#13;&#10; *CarRates is used to represent the name of a class of rental car,&#13;&#10; *such as &quot;Compact&quot; and all associated prices (e.g. weekly rate, weekday rate)&#13;&#10; */&#13;&#10;package pricing;&#13;&#10;&#13;&#10;import java.io.Serializable;&#13;&#10;import java.math.BigDecimal;&#13;&#10;&#13;&#10;/**&#13;&#10; *&#13;&#10; * @author Joseph Sant&#13;&#10; */&#13;&#10;public class PriceSchedule implements Serializable {&#13;&#10;     private String typeName;&#13;&#10;     private BigDecimal weekdayRate;&#13;&#10;     private BigDecimal weekendRate;&#13;&#10;     private BigDecimal weeklyRate;&#13;&#10;&#13;&#10;    public PriceSchedule(String typeName, BigDecimal weekdayRate, BigDecimal weekendRate, BigDecimal weeklyRate) {&#13;&#10;        this.typeName = typeName;&#13;&#10;        this.weekdayRate = weekdayRate;&#13;&#10;        this.weekendRate = weekendRate;&#13;&#10;        this.weeklyRate = weeklyRate;&#13;&#10;    }&#13;&#10;&#13;&#10;    public PriceSchedule() {&#13;&#10;    }&#13;&#10;&#13;&#10;    /**&#13;&#10;     * @return the typeName&#13;&#10;     */&#13;&#10;    public String getTypeName() {&#13;&#10;        return typeName;&#13;&#10;    }&#13;&#10;&#13;&#10;    /**&#13;&#10;     * @param typeName the typeName to set&#13;&#10;     */&#13;&#10;    public void setTypeName(String typeName) {&#13;&#10;        this.typeName = typeName;&#13;&#10;    }&#13;&#10;&#13;&#10;    /**&#13;&#10;     * @return the weekdayRate&#13;&#10;     */&#13;&#10;    public BigDecimal getWeekdayRate() {&#13;&#10;        return weekdayRate;&#13;&#10;    }&#13;&#10;&#13;&#10;    /**&#13;&#10;     * @param weekdayRate the weekdayRate to set&#13;&#10;     */&#13;&#10;    public void setWeekdayRate(BigDecimal weekdayRate) {&#13;&#10;        this.weekdayRate = weekdayRate;&#13;&#10;    }&#13;&#10;&#13;&#10;    /**&#13;&#10;     * @return the weekendRate&#13;&#10;     */&#13;&#10;    public BigDecimal getWeekendRate() {&#13;&#10;        return weekendRate;&#13;&#10;    }&#13;&#10;&#13;&#10;    /**&#13;&#10;     * @param weekendRate the weekendRate to set&#13;&#10;     */&#13;&#10;    public void setWeekendRate(BigDecimal weekendRate) {&#13;&#10;        this.weekendRate = weekendRate;&#13;&#10;    }&#13;&#10;&#13;&#10;    /**&#13;&#10;     * @return the weeklyRate&#13;&#10;     */&#13;&#10;    public BigDecimal getWeeklyRate() {&#13;&#10;        return weeklyRate;&#13;&#10;    }&#13;&#10;&#13;&#10;    /**&#13;&#10;     * @param weeklyRate the weeklyRate to set&#13;&#10;     */&#13;&#10;    public void setWeeklyRate(BigDecimal weeklyRate) {&#13;&#10;        this.weeklyRate = weeklyRate;&#13;&#10;    }&#13;&#10;&#13;&#10;    @Override&#13;&#10;    public String toString() {&#13;&#10;        return &quot;CarRates{&quot; + &quot;typeName=&quot; + typeName +&#13;&#10;                &quot;, weekdayRate=&quot; + weekdayRate +&#13;&#10;                &quot;, weekendRate=&quot; + weekendRate +&#13;&#10;                &quot;, weeklyRate=&quot; + weeklyRate + '}';&#13;&#10;    }    &#13;&#10;}&#13;&#10;" Filename="PriceSchedule.java" Intrnl_Id="3"/>
+</SrcFileList>
+<CritList>
+<CritListEntry Name="org.codecover.model.utils.criteria.LoopCoverage" PluginName="org.codecover"/>
+<CritListEntry Name="org.codecover.model.utils.criteria.ConditionCoverage" PluginName="org.codecover"/>
+<CritListEntry Name="org.codecover.model.utils.criteria.BranchCoverage" PluginName="org.codecover"/>
+<CritListEntry Name="org.codecover.model.utils.criteria.StatementCoverage" PluginName="org.codecover"/>
+</CritList>
+<BoolOpList>
+<BoolOp Arity="2" Intrnl_Id="4" Name="conditional or (||)">
+<BoolAssgnmntBoolMapList>
+<MapEntry BoolAssgnmnt="00" Value="false"/>
+<MapEntry BoolAssgnmnt="01" Value="true"/>
+<MapEntry BoolAssgnmnt="12" Value="true"/>
+</BoolAssgnmntBoolMapList>
+</BoolOp>
+</BoolOpList>
+<HierarchyLvlTypeList>
+<HierarchyLvlType EnglishName="package" IntrnlName="package" Intrnl_Id="5"/>
+<HierarchyLvlType EnglishName="method" IntrnlName="method" Intrnl_Id="6"/>
+<HierarchyLvlType EnglishName="class" IntrnlName="class" Intrnl_Id="7"/>
+<HierarchyLvlType EnglishName="default package" IntrnlName="default package" Intrnl_Id="8"/>
+</HierarchyLvlTypeList>
+<MASTRoot>
+<HierarchyLvl HierarchyLvlId="73" HierarchyLvlTypeId="8" Intrnl_Id="9" Name="default package">
+<Header/>
+<LocList/>
+<HierarchyLvl HierarchyLvlId="72" HierarchyLvlTypeId="5" Intrnl_Id="10" Name="pricing">
+<Header/>
+<LocList/>
+<HierarchyLvl HierarchyLvlId="36" HierarchyLvlTypeId="7" Intrnl_Id="11" Name="RentalBean">
+<Header>
+<Loc EndOffset="383" SrcFileId="1" StartOffset="336"/>
+</Header>
+<LocList>
+<Loc EndOffset="5487" SrcFileId="1" StartOffset="336"/>
+</LocList>
+<HierarchyLvl HierarchyLvlId="1" HierarchyLvlTypeId="6" Intrnl_Id="12" Name="RentalBean">
+<Header>
+<Loc EndOffset="923" SrcFileId="1" StartOffset="904"/>
+</Header>
+<LocList>
+<Loc EndOffset="939" SrcFileId="1" StartOffset="904"/>
+</LocList>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="2" HierarchyLvlTypeId="6" Intrnl_Id="13" Name="getPriceSchedule">
+<Header>
+<Loc EndOffset="1080" SrcFileId="1" StartOffset="1041"/>
+</Header>
+<LocList>
+<Loc EndOffset="1118" SrcFileId="1" StartOffset="1041"/>
+</LocList>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="3" HierarchyLvlTypeId="6" Intrnl_Id="14" Name="getPickupYear">
+<Header>
+<Loc EndOffset="1200" SrcFileId="1" StartOffset="1174"/>
+</Header>
+<LocList>
+<Loc EndOffset="1235" SrcFileId="1" StartOffset="1174"/>
+</LocList>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="4" HierarchyLvlTypeId="6" Intrnl_Id="15" Name="setPickupYear">
+<Header>
+<Loc EndOffset="1345" SrcFileId="1" StartOffset="1304"/>
+</Header>
+<LocList>
+<Loc EndOffset="1391" SrcFileId="1" StartOffset="1304"/>
+</LocList>
+<StmntSeq Intrnl_Id="16">
+<LocList>
+<Loc EndOffset="1385" SrcFileId="1" StartOffset="1356"/>
+</LocList>
+<BasicStmnt CovItemId="S1" CovItemPrefix="pricing.RentalBean.java" Intrnl_Id="17">
+<LocList>
+<Loc EndOffset="1385" SrcFileId="1" StartOffset="1356"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="5" HierarchyLvlTypeId="6" Intrnl_Id="18" Name="getPickupMon">
+<Header>
+<Loc EndOffset="1467" SrcFileId="1" StartOffset="1442"/>
+</Header>
+<LocList>
+<Loc EndOffset="1501" SrcFileId="1" StartOffset="1442"/>
+</LocList>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="6" HierarchyLvlTypeId="6" Intrnl_Id="19" Name="setPickupMon">
+<Header>
+<Loc EndOffset="1607" SrcFileId="1" StartOffset="1568"/>
+</Header>
+<LocList>
+<Loc EndOffset="1651" SrcFileId="1" StartOffset="1568"/>
+</LocList>
+<StmntSeq Intrnl_Id="20">
+<LocList>
+<Loc EndOffset="1645" SrcFileId="1" StartOffset="1618"/>
+</LocList>
+<BasicStmnt CovItemId="S2" CovItemPrefix="pricing.RentalBean.java" Intrnl_Id="21">
+<LocList>
+<Loc EndOffset="1645" SrcFileId="1" StartOffset="1618"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="7" HierarchyLvlTypeId="6" Intrnl_Id="22" Name="getPickupDay">
+<Header>
+<Loc EndOffset="1727" SrcFileId="1" StartOffset="1702"/>
+</Header>
+<LocList>
+<Loc EndOffset="1761" SrcFileId="1" StartOffset="1702"/>
+</LocList>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="8" HierarchyLvlTypeId="6" Intrnl_Id="23" Name="setPickupDay">
+<Header>
+<Loc EndOffset="1867" SrcFileId="1" StartOffset="1828"/>
+</Header>
+<LocList>
+<Loc EndOffset="1915" SrcFileId="1" StartOffset="1828"/>
+</LocList>
+<StmntSeq Intrnl_Id="24">
+<LocList>
+<Loc EndOffset="1909" SrcFileId="1" StartOffset="1882"/>
+</LocList>
+<BasicStmnt CovItemId="S3" CovItemPrefix="pricing.RentalBean.java" Intrnl_Id="25">
+<LocList>
+<Loc EndOffset="1909" SrcFileId="1" StartOffset="1882"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="9" HierarchyLvlTypeId="6" Intrnl_Id="26" Name="getPickupHour">
+<Header>
+<Loc EndOffset="1993" SrcFileId="1" StartOffset="1967"/>
+</Header>
+<LocList>
+<Loc EndOffset="2028" SrcFileId="1" StartOffset="1967"/>
+</LocList>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="10" HierarchyLvlTypeId="6" Intrnl_Id="27" Name="setPickupHour">
+<Header>
+<Loc EndOffset="2138" SrcFileId="1" StartOffset="2097"/>
+</Header>
+<LocList>
+<Loc EndOffset="2184" SrcFileId="1" StartOffset="2097"/>
+</LocList>
+<StmntSeq Intrnl_Id="28">
+<LocList>
+<Loc EndOffset="2178" SrcFileId="1" StartOffset="2149"/>
+</LocList>
+<BasicStmnt CovItemId="S4" CovItemPrefix="pricing.RentalBean.java" Intrnl_Id="29">
+<LocList>
+<Loc EndOffset="2178" SrcFileId="1" StartOffset="2149"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="11" HierarchyLvlTypeId="6" Intrnl_Id="30" Name="getPickupMin">
+<Header>
+<Loc EndOffset="2260" SrcFileId="1" StartOffset="2235"/>
+</Header>
+<LocList>
+<Loc EndOffset="2294" SrcFileId="1" StartOffset="2235"/>
+</LocList>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="12" HierarchyLvlTypeId="6" Intrnl_Id="31" Name="setPickupMin">
+<Header>
+<Loc EndOffset="2400" SrcFileId="1" StartOffset="2361"/>
+</Header>
+<LocList>
+<Loc EndOffset="2444" SrcFileId="1" StartOffset="2361"/>
+</LocList>
+<StmntSeq Intrnl_Id="32">
+<LocList>
+<Loc EndOffset="2438" SrcFileId="1" StartOffset="2411"/>
+</LocList>
+<BasicStmnt CovItemId="S5" CovItemPrefix="pricing.RentalBean.java" Intrnl_Id="33">
+<LocList>
+<Loc EndOffset="2438" SrcFileId="1" StartOffset="2411"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="13" HierarchyLvlTypeId="6" Intrnl_Id="34" Name="getDropoffYear">
+<Header>
+<Loc EndOffset="2524" SrcFileId="1" StartOffset="2497"/>
+</Header>
+<LocList>
+<Loc EndOffset="2560" SrcFileId="1" StartOffset="2497"/>
+</LocList>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="14" HierarchyLvlTypeId="6" Intrnl_Id="35" Name="setDropoffYear">
+<Header>
+<Loc EndOffset="2674" SrcFileId="1" StartOffset="2631"/>
+</Header>
+<LocList>
+<Loc EndOffset="2722" SrcFileId="1" StartOffset="2631"/>
+</LocList>
+<StmntSeq Intrnl_Id="36">
+<LocList>
+<Loc EndOffset="2716" SrcFileId="1" StartOffset="2685"/>
+</LocList>
+<BasicStmnt CovItemId="S6" CovItemPrefix="pricing.RentalBean.java" Intrnl_Id="37">
+<LocList>
+<Loc EndOffset="2716" SrcFileId="1" StartOffset="2685"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="15" HierarchyLvlTypeId="6" Intrnl_Id="38" Name="getDropoffMon">
+<Header>
+<Loc EndOffset="2800" SrcFileId="1" StartOffset="2774"/>
+</Header>
+<LocList>
+<Loc EndOffset="2835" SrcFileId="1" StartOffset="2774"/>
+</LocList>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="16" HierarchyLvlTypeId="6" Intrnl_Id="39" Name="setDropoffMon">
+<Header>
+<Loc EndOffset="2945" SrcFileId="1" StartOffset="2904"/>
+</Header>
+<LocList>
+<Loc EndOffset="2991" SrcFileId="1" StartOffset="2904"/>
+</LocList>
+<StmntSeq Intrnl_Id="40">
+<LocList>
+<Loc EndOffset="2985" SrcFileId="1" StartOffset="2956"/>
+</LocList>
+<BasicStmnt CovItemId="S7" CovItemPrefix="pricing.RentalBean.java" Intrnl_Id="41">
+<LocList>
+<Loc EndOffset="2985" SrcFileId="1" StartOffset="2956"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="17" HierarchyLvlTypeId="6" Intrnl_Id="42" Name="getDropoffDay">
+<Header>
+<Loc EndOffset="3069" SrcFileId="1" StartOffset="3043"/>
+</Header>
+<LocList>
+<Loc EndOffset="3104" SrcFileId="1" StartOffset="3043"/>
+</LocList>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="18" HierarchyLvlTypeId="6" Intrnl_Id="43" Name="setDropoffDay">
+<Header>
+<Loc EndOffset="3214" SrcFileId="1" StartOffset="3173"/>
+</Header>
+<LocList>
+<Loc EndOffset="3260" SrcFileId="1" StartOffset="3173"/>
+</LocList>
+<StmntSeq Intrnl_Id="44">
+<LocList>
+<Loc EndOffset="3254" SrcFileId="1" StartOffset="3225"/>
+</LocList>
+<BasicStmnt CovItemId="S8" CovItemPrefix="pricing.RentalBean.java" Intrnl_Id="45">
+<LocList>
+<Loc EndOffset="3254" SrcFileId="1" StartOffset="3225"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="19" HierarchyLvlTypeId="6" Intrnl_Id="46" Name="getDropoffHour">
+<Header>
+<Loc EndOffset="3340" SrcFileId="1" StartOffset="3313"/>
+</Header>
+<LocList>
+<Loc EndOffset="3376" SrcFileId="1" StartOffset="3313"/>
+</LocList>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="20" HierarchyLvlTypeId="6" Intrnl_Id="47" Name="setDropoffHour">
+<Header>
+<Loc EndOffset="3490" SrcFileId="1" StartOffset="3447"/>
+</Header>
+<LocList>
+<Loc EndOffset="3538" SrcFileId="1" StartOffset="3447"/>
+</LocList>
+<StmntSeq Intrnl_Id="48">
+<LocList>
+<Loc EndOffset="3532" SrcFileId="1" StartOffset="3501"/>
+</LocList>
+<BasicStmnt CovItemId="S9" CovItemPrefix="pricing.RentalBean.java" Intrnl_Id="49">
+<LocList>
+<Loc EndOffset="3532" SrcFileId="1" StartOffset="3501"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="21" HierarchyLvlTypeId="6" Intrnl_Id="50" Name="getDropoffMin">
+<Header>
+<Loc EndOffset="3616" SrcFileId="1" StartOffset="3590"/>
+</Header>
+<LocList>
+<Loc EndOffset="3651" SrcFileId="1" StartOffset="3590"/>
+</LocList>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="22" HierarchyLvlTypeId="6" Intrnl_Id="51" Name="setDropoffMin">
+<Header>
+<Loc EndOffset="3761" SrcFileId="1" StartOffset="3720"/>
+</Header>
+<LocList>
+<Loc EndOffset="3807" SrcFileId="1" StartOffset="3720"/>
+</LocList>
+<StmntSeq Intrnl_Id="52">
+<LocList>
+<Loc EndOffset="3801" SrcFileId="1" StartOffset="3772"/>
+</LocList>
+<BasicStmnt CovItemId="S10" CovItemPrefix="pricing.RentalBean.java" Intrnl_Id="53">
+<LocList>
+<Loc EndOffset="3801" SrcFileId="1" StartOffset="3772"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="23" HierarchyLvlTypeId="6" Intrnl_Id="54" Name="getRentalType">
+<Header>
+<Loc EndOffset="3888" SrcFileId="1" StartOffset="3859"/>
+</Header>
+<LocList>
+<Loc EndOffset="3923" SrcFileId="1" StartOffset="3859"/>
+</LocList>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="24" HierarchyLvlTypeId="6" Intrnl_Id="55" Name="setRentalType">
+<Header>
+<Loc EndOffset="4036" SrcFileId="1" StartOffset="3992"/>
+</Header>
+<LocList>
+<Loc EndOffset="4082" SrcFileId="1" StartOffset="3992"/>
+</LocList>
+<StmntSeq Intrnl_Id="56">
+<LocList>
+<Loc EndOffset="4076" SrcFileId="1" StartOffset="4047"/>
+</LocList>
+<BasicStmnt CovItemId="S11" CovItemPrefix="pricing.RentalBean.java" Intrnl_Id="57">
+<LocList>
+<Loc EndOffset="4076" SrcFileId="1" StartOffset="4047"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="25" HierarchyLvlTypeId="6" Intrnl_Id="58" Name="getCardType">
+<Header>
+<Loc EndOffset="4159" SrcFileId="1" StartOffset="4132"/>
+</Header>
+<LocList>
+<Loc EndOffset="4192" SrcFileId="1" StartOffset="4132"/>
+</LocList>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="26" HierarchyLvlTypeId="6" Intrnl_Id="59" Name="setCardType">
+<Header>
+<Loc EndOffset="4297" SrcFileId="1" StartOffset="4257"/>
+</Header>
+<LocList>
+<Loc EndOffset="4339" SrcFileId="1" StartOffset="4257"/>
+</LocList>
+<StmntSeq Intrnl_Id="60">
+<LocList>
+<Loc EndOffset="4333" SrcFileId="1" StartOffset="4308"/>
+</LocList>
+<BasicStmnt CovItemId="S12" CovItemPrefix="pricing.RentalBean.java" Intrnl_Id="61">
+<LocList>
+<Loc EndOffset="4333" SrcFileId="1" StartOffset="4308"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="27" HierarchyLvlTypeId="6" Intrnl_Id="62" Name="getCardNumber">
+<Header>
+<Loc EndOffset="4420" SrcFileId="1" StartOffset="4391"/>
+</Header>
+<LocList>
+<Loc EndOffset="4455" SrcFileId="1" StartOffset="4391"/>
+</LocList>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="28" HierarchyLvlTypeId="6" Intrnl_Id="63" Name="setCardNumber">
+<Header>
+<Loc EndOffset="4568" SrcFileId="1" StartOffset="4524"/>
+</Header>
+<LocList>
+<Loc EndOffset="4614" SrcFileId="1" StartOffset="4524"/>
+</LocList>
+<StmntSeq Intrnl_Id="64">
+<LocList>
+<Loc EndOffset="4608" SrcFileId="1" StartOffset="4579"/>
+</LocList>
+<BasicStmnt CovItemId="S13" CovItemPrefix="pricing.RentalBean.java" Intrnl_Id="65">
+<LocList>
+<Loc EndOffset="4608" SrcFileId="1" StartOffset="4579"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="29" HierarchyLvlTypeId="6" Intrnl_Id="66" Name="getTaxRate">
+<Header>
+<Loc EndOffset="4693" SrcFileId="1" StartOffset="4663"/>
+</Header>
+<LocList>
+<Loc EndOffset="4725" SrcFileId="1" StartOffset="4663"/>
+</LocList>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="30" HierarchyLvlTypeId="6" Intrnl_Id="67" Name="setTaxRate">
+<Header>
+<Loc EndOffset="4830" SrcFileId="1" StartOffset="4788"/>
+</Header>
+<LocList>
+<Loc EndOffset="4870" SrcFileId="1" StartOffset="4788"/>
+</LocList>
+<StmntSeq Intrnl_Id="68">
+<LocList>
+<Loc EndOffset="4864" SrcFileId="1" StartOffset="4841"/>
+</LocList>
+<BasicStmnt CovItemId="S14" CovItemPrefix="pricing.RentalBean.java" Intrnl_Id="69">
+<LocList>
+<Loc EndOffset="4864" SrcFileId="1" StartOffset="4841"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="31" HierarchyLvlTypeId="6" Intrnl_Id="70" Name="getPrice">
+<Header>
+<Loc EndOffset="4945" SrcFileId="1" StartOffset="4917"/>
+</Header>
+<LocList>
+<Loc EndOffset="4975" SrcFileId="1" StartOffset="4917"/>
+</LocList>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="32" HierarchyLvlTypeId="6" Intrnl_Id="71" Name="setPrice">
+<Header>
+<Loc EndOffset="5072" SrcFileId="1" StartOffset="5034"/>
+</Header>
+<LocList>
+<Loc EndOffset="5108" SrcFileId="1" StartOffset="5034"/>
+</LocList>
+<StmntSeq Intrnl_Id="72">
+<LocList>
+<Loc EndOffset="5102" SrcFileId="1" StartOffset="5083"/>
+</LocList>
+<BasicStmnt CovItemId="S15" CovItemPrefix="pricing.RentalBean.java" Intrnl_Id="73">
+<LocList>
+<Loc EndOffset="5102" SrcFileId="1" StartOffset="5083"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="33" HierarchyLvlTypeId="6" Intrnl_Id="74" Name="setPriceSchedule">
+<Header>
+<Loc EndOffset="5240" SrcFileId="1" StartOffset="5183"/>
+</Header>
+<LocList>
+<Loc EndOffset="5292" SrcFileId="1" StartOffset="5183"/>
+</LocList>
+<StmntSeq Intrnl_Id="75">
+<LocList>
+<Loc EndOffset="5286" SrcFileId="1" StartOffset="5251"/>
+</LocList>
+<BasicStmnt CovItemId="S16" CovItemPrefix="pricing.RentalBean.java" Intrnl_Id="76">
+<LocList>
+<Loc EndOffset="5286" SrcFileId="1" StartOffset="5251"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="34" HierarchyLvlTypeId="6" Intrnl_Id="77" Name="getCustomerNumber">
+<Header>
+<Loc EndOffset="5334" SrcFileId="1" StartOffset="5301"/>
+</Header>
+<LocList>
+<Loc EndOffset="5373" SrcFileId="1" StartOffset="5301"/>
+</LocList>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="35" HierarchyLvlTypeId="6" Intrnl_Id="78" Name="setCustomerNumber">
+<Header>
+<Loc EndOffset="5431" SrcFileId="1" StartOffset="5379"/>
+</Header>
+<LocList>
+<Loc EndOffset="5485" SrcFileId="1" StartOffset="5379"/>
+</LocList>
+<StmntSeq Intrnl_Id="79">
+<LocList>
+<Loc EndOffset="5479" SrcFileId="1" StartOffset="5442"/>
+</LocList>
+<BasicStmnt CovItemId="S17" CovItemPrefix="pricing.RentalBean.java" Intrnl_Id="80">
+<LocList>
+<Loc EndOffset="5479" SrcFileId="1" StartOffset="5442"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="59" HierarchyLvlTypeId="7" Intrnl_Id="81" Name="RentalFormValidator">
+<Header>
+<Loc EndOffset="367" SrcFileId="2" StartOffset="335"/>
+</Header>
+<LocList>
+<Loc EndOffset="6097" SrcFileId="2" StartOffset="335"/>
+</LocList>
+<StmntSeq Intrnl_Id="82">
+<LocList>
+<Loc EndOffset="495" SrcFileId="2" StartOffset="460"/>
+</LocList>
+<BasicStmnt CovItemId="S1" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="83">
+<LocList>
+<Loc EndOffset="495" SrcFileId="2" StartOffset="460"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+<HierarchyLvl HierarchyLvlId="37" HierarchyLvlTypeId="6" Intrnl_Id="84" Name="RentalFormValidator">
+<Header>
+<Loc EndOffset="564" SrcFileId="2" StartOffset="506"/>
+</Header>
+<LocList>
+<Loc EndOffset="664" SrcFileId="2" StartOffset="506"/>
+</LocList>
+<StmntSeq Intrnl_Id="85">
+<LocList>
+<Loc EndOffset="606" SrcFileId="2" StartOffset="575"/>
+<Loc EndOffset="658" SrcFileId="2" StartOffset="615"/>
+</LocList>
+<BasicStmnt CovItemId="S2" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="86">
+<LocList>
+<Loc EndOffset="606" SrcFileId="2" StartOffset="575"/>
+</LocList>
+</BasicStmnt>
+<BasicStmnt CovItemId="S3" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="87">
+<LocList>
+<Loc EndOffset="658" SrcFileId="2" StartOffset="615"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="38" HierarchyLvlTypeId="6" Intrnl_Id="88" Name="isValid">
+<Header>
+<Loc EndOffset="698" SrcFileId="2" StartOffset="674"/>
+</Header>
+<LocList>
+<Loc EndOffset="736" SrcFileId="2" StartOffset="674"/>
+</LocList>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="39" HierarchyLvlTypeId="6" Intrnl_Id="89" Name="setErrorCodes">
+<Header>
+<Loc EndOffset="798" SrcFileId="2" StartOffset="742"/>
+</Header>
+<LocList>
+<Loc EndOffset="844" SrcFileId="2" StartOffset="742"/>
+</LocList>
+<StmntSeq Intrnl_Id="90">
+<LocList>
+<Loc EndOffset="838" SrcFileId="2" StartOffset="809"/>
+</LocList>
+<BasicStmnt CovItemId="S4" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="91">
+<LocList>
+<Loc EndOffset="838" SrcFileId="2" StartOffset="809"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="40" HierarchyLvlTypeId="6" Intrnl_Id="92" Name="getErrors">
+<Header>
+<Loc EndOffset="891" SrcFileId="2" StartOffset="854"/>
+</Header>
+<LocList>
+<Loc EndOffset="925" SrcFileId="2" StartOffset="854"/>
+</LocList>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="41" HierarchyLvlTypeId="6" Intrnl_Id="93" Name="isCustomerNull">
+<Header>
+<Loc EndOffset="966" SrcFileId="2" StartOffset="935"/>
+</Header>
+<LocList>
+<Loc EndOffset="1126" SrcFileId="2" StartOffset="935"/>
+</LocList>
+<StmntSeq Intrnl_Id="94">
+<LocList>
+<Loc EndOffset="1099" SrcFileId="2" StartOffset="976"/>
+</LocList>
+<CondStmnt CovItemId="S5" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="95">
+<Branch CovItemId="B1" CovItemPrefix="pricing.RentalFormValidator.java" Implct="false" Intrnl_Id="96">
+<Cond/>
+<LocList>
+<Loc EndOffset="1099" SrcFileId="2" StartOffset="1028"/>
+</LocList>
+<StmntSeq Intrnl_Id="97">
+<LocList>
+<Loc EndOffset="1063" SrcFileId="2" StartOffset="1042"/>
+</LocList>
+<BasicStmnt CovItemId="S6" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="98">
+<LocList>
+<Loc EndOffset="1063" SrcFileId="2" StartOffset="1042"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</Branch>
+<Branch CovItemId="B2" CovItemPrefix="pricing.RentalFormValidator.java" Implct="true" Intrnl_Id="99">
+<Cond/>
+<LocList/>
+<StmntSeq Intrnl_Id="100">
+<LocList/>
+</StmntSeq>
+</Branch>
+<Keyword EndOffset="978" SrcFileId="2" StartOffset="976"/>
+<LocList>
+<Loc EndOffset="1099" SrcFileId="2" StartOffset="976"/>
+</LocList>
+<RootTerm CovItemId="C1" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="101">
+<BasicBoolTerm Intrnl_Id="102">
+<LocList>
+<Loc EndOffset="1027" SrcFileId="2" StartOffset="979"/>
+</LocList>
+</BasicBoolTerm>
+</RootTerm>
+</CondStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="42" HierarchyLvlTypeId="6" Intrnl_Id="103" Name="isCustomerNumeric">
+<Header>
+<Loc EndOffset="1170" SrcFileId="2" StartOffset="1136"/>
+</Header>
+<LocList>
+<Loc EndOffset="1467" SrcFileId="2" StartOffset="1136"/>
+</LocList>
+<StmntSeq Intrnl_Id="104">
+<LocList>
+<Loc EndOffset="1368" SrcFileId="2" StartOffset="1180"/>
+<Loc EndOffset="1440" SrcFileId="2" StartOffset="1377"/>
+</LocList>
+<CondStmnt CovItemId="S7" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="105">
+<Branch CovItemId="B3" CovItemPrefix="pricing.RentalFormValidator.java" Implct="true" Intrnl_Id="106">
+<Cond/>
+<LocList>
+<Loc EndOffset="1264" SrcFileId="2" StartOffset="1184"/>
+</LocList>
+<StmntSeq Intrnl_Id="107">
+<LocList>
+<Loc EndOffset="1254" SrcFileId="2" StartOffset="1198"/>
+</LocList>
+<BasicStmnt CovItemId="S8" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="108">
+<LocList>
+<Loc EndOffset="1254" SrcFileId="2" StartOffset="1198"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</Branch>
+<Branch CovItemId="B4" CovItemPrefix="pricing.RentalFormValidator.java" Implct="false" Intrnl_Id="109">
+<Cond>
+<Loc EndOffset="1296" SrcFileId="2" StartOffset="1265"/>
+</Cond>
+<LocList>
+<Loc EndOffset="1368" SrcFileId="2" StartOffset="1297"/>
+</LocList>
+<StmntSeq Intrnl_Id="110">
+<LocList>
+<Loc EndOffset="1332" SrcFileId="2" StartOffset="1311"/>
+</LocList>
+<BasicStmnt CovItemId="S9" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="111">
+<LocList>
+<Loc EndOffset="1332" SrcFileId="2" StartOffset="1311"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</Branch>
+<Keyword EndOffset="1183" SrcFileId="2" StartOffset="1180"/>
+<LocList>
+<Loc EndOffset="1368" SrcFileId="2" StartOffset="1180"/>
+</LocList>
+</CondStmnt>
+<BasicStmnt CovItemId="S10" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="112">
+<LocList>
+<Loc EndOffset="1440" SrcFileId="2" StartOffset="1377"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="43" HierarchyLvlTypeId="6" Intrnl_Id="113" Name="isPickupDayNull">
+<Header>
+<Loc EndOffset="1509" SrcFileId="2" StartOffset="1477"/>
+</Header>
+<LocList>
+<Loc EndOffset="1668" SrcFileId="2" StartOffset="1477"/>
+</LocList>
+<StmntSeq Intrnl_Id="114">
+<LocList>
+<Loc EndOffset="1641" SrcFileId="2" StartOffset="1519"/>
+</LocList>
+<CondStmnt CovItemId="S11" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="115">
+<Branch CovItemId="B5" CovItemPrefix="pricing.RentalFormValidator.java" Implct="false" Intrnl_Id="116">
+<Cond/>
+<LocList>
+<Loc EndOffset="1641" SrcFileId="2" StartOffset="1570"/>
+</LocList>
+<StmntSeq Intrnl_Id="117">
+<LocList>
+<Loc EndOffset="1605" SrcFileId="2" StartOffset="1584"/>
+</LocList>
+<BasicStmnt CovItemId="S12" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="118">
+<LocList>
+<Loc EndOffset="1605" SrcFileId="2" StartOffset="1584"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</Branch>
+<Branch CovItemId="B6" CovItemPrefix="pricing.RentalFormValidator.java" Implct="true" Intrnl_Id="119">
+<Cond/>
+<LocList/>
+<StmntSeq Intrnl_Id="120">
+<LocList/>
+</StmntSeq>
+</Branch>
+<Keyword EndOffset="1521" SrcFileId="2" StartOffset="1519"/>
+<LocList>
+<Loc EndOffset="1641" SrcFileId="2" StartOffset="1519"/>
+</LocList>
+<RootTerm CovItemId="C2" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="121">
+<BasicBoolTerm Intrnl_Id="122">
+<LocList>
+<Loc EndOffset="1569" SrcFileId="2" StartOffset="1522"/>
+</LocList>
+</BasicBoolTerm>
+</RootTerm>
+</CondStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="44" HierarchyLvlTypeId="6" Intrnl_Id="123" Name="isPickupDayInRange">
+<Header>
+<Loc EndOffset="1713" SrcFileId="2" StartOffset="1678"/>
+</Header>
+<LocList>
+<Loc EndOffset="2034" SrcFileId="2" StartOffset="1678"/>
+</LocList>
+<StmntSeq Intrnl_Id="124">
+<LocList>
+<Loc EndOffset="1923" SrcFileId="2" StartOffset="1723"/>
+<Loc EndOffset="2007" SrcFileId="2" StartOffset="1932"/>
+</LocList>
+<CondStmnt CovItemId="S13" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="125">
+<Branch CovItemId="B7" CovItemPrefix="pricing.RentalFormValidator.java" Implct="false" Intrnl_Id="126">
+<Cond/>
+<LocList>
+<Loc EndOffset="1923" SrcFileId="2" StartOffset="1852"/>
+</LocList>
+<StmntSeq Intrnl_Id="127">
+<LocList>
+<Loc EndOffset="1887" SrcFileId="2" StartOffset="1866"/>
+</LocList>
+<BasicStmnt CovItemId="S14" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="128">
+<LocList>
+<Loc EndOffset="1887" SrcFileId="2" StartOffset="1866"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</Branch>
+<Branch CovItemId="B8" CovItemPrefix="pricing.RentalFormValidator.java" Implct="true" Intrnl_Id="129">
+<Cond/>
+<LocList/>
+<StmntSeq Intrnl_Id="130">
+<LocList/>
+</StmntSeq>
+</Branch>
+<Keyword EndOffset="1725" SrcFileId="2" StartOffset="1723"/>
+<LocList>
+<Loc EndOffset="1923" SrcFileId="2" StartOffset="1723"/>
+</LocList>
+<RootTerm CovItemId="C3" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="131">
+<OpTerm BooleanOpId="4" Intrnl_Id="132">
+<BasicBoolTerm Intrnl_Id="133">
+<LocList>
+<Loc EndOffset="1786" SrcFileId="2" StartOffset="1727"/>
+</LocList>
+</BasicBoolTerm>
+<BasicBoolTerm Intrnl_Id="134">
+<LocList>
+<Loc EndOffset="1850" SrcFileId="2" StartOffset="1790"/>
+</LocList>
+</BasicBoolTerm>
+<LocList>
+<Loc EndOffset="1789" SrcFileId="2" StartOffset="1787"/>
+</LocList>
+</OpTerm>
+</RootTerm>
+</CondStmnt>
+<BasicStmnt CovItemId="S15" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="135">
+<LocList>
+<Loc EndOffset="2007" SrcFileId="2" StartOffset="1932"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="45" HierarchyLvlTypeId="6" Intrnl_Id="136" Name="isPickupMonthNull">
+<Header>
+<Loc EndOffset="2078" SrcFileId="2" StartOffset="2044"/>
+</Header>
+<LocList>
+<Loc EndOffset="2239" SrcFileId="2" StartOffset="2044"/>
+</LocList>
+<StmntSeq Intrnl_Id="137">
+<LocList>
+<Loc EndOffset="2212" SrcFileId="2" StartOffset="2088"/>
+</LocList>
+<CondStmnt CovItemId="S16" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="138">
+<Branch CovItemId="B9" CovItemPrefix="pricing.RentalFormValidator.java" Implct="false" Intrnl_Id="139">
+<Cond/>
+<LocList>
+<Loc EndOffset="2212" SrcFileId="2" StartOffset="2141"/>
+</LocList>
+<StmntSeq Intrnl_Id="140">
+<LocList>
+<Loc EndOffset="2176" SrcFileId="2" StartOffset="2155"/>
+</LocList>
+<BasicStmnt CovItemId="S17" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="141">
+<LocList>
+<Loc EndOffset="2176" SrcFileId="2" StartOffset="2155"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</Branch>
+<Branch CovItemId="B10" CovItemPrefix="pricing.RentalFormValidator.java" Implct="true" Intrnl_Id="142">
+<Cond/>
+<LocList/>
+<StmntSeq Intrnl_Id="143">
+<LocList/>
+</StmntSeq>
+</Branch>
+<Keyword EndOffset="2090" SrcFileId="2" StartOffset="2088"/>
+<LocList>
+<Loc EndOffset="2212" SrcFileId="2" StartOffset="2088"/>
+</LocList>
+<RootTerm CovItemId="C4" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="144">
+<BasicBoolTerm Intrnl_Id="145">
+<LocList>
+<Loc EndOffset="2140" SrcFileId="2" StartOffset="2091"/>
+</LocList>
+</BasicBoolTerm>
+</RootTerm>
+</CondStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="46" HierarchyLvlTypeId="6" Intrnl_Id="146" Name="isPickupMonthInRange">
+<Header>
+<Loc EndOffset="2286" SrcFileId="2" StartOffset="2249"/>
+</Header>
+<LocList>
+<Loc EndOffset="2613" SrcFileId="2" StartOffset="2249"/>
+</LocList>
+<StmntSeq Intrnl_Id="147">
+<LocList>
+<Loc EndOffset="2500" SrcFileId="2" StartOffset="2296"/>
+<Loc EndOffset="2586" SrcFileId="2" StartOffset="2509"/>
+</LocList>
+<CondStmnt CovItemId="S18" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="148">
+<Branch CovItemId="B11" CovItemPrefix="pricing.RentalFormValidator.java" Implct="false" Intrnl_Id="149">
+<Cond/>
+<LocList>
+<Loc EndOffset="2500" SrcFileId="2" StartOffset="2429"/>
+</LocList>
+<StmntSeq Intrnl_Id="150">
+<LocList>
+<Loc EndOffset="2464" SrcFileId="2" StartOffset="2443"/>
+</LocList>
+<BasicStmnt CovItemId="S19" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="151">
+<LocList>
+<Loc EndOffset="2464" SrcFileId="2" StartOffset="2443"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</Branch>
+<Branch CovItemId="B12" CovItemPrefix="pricing.RentalFormValidator.java" Implct="true" Intrnl_Id="152">
+<Cond/>
+<LocList/>
+<StmntSeq Intrnl_Id="153">
+<LocList/>
+</StmntSeq>
+</Branch>
+<Keyword EndOffset="2298" SrcFileId="2" StartOffset="2296"/>
+<LocList>
+<Loc EndOffset="2500" SrcFileId="2" StartOffset="2296"/>
+</LocList>
+<RootTerm CovItemId="C5" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="154">
+<OpTerm BooleanOpId="4" Intrnl_Id="155">
+<BasicBoolTerm Intrnl_Id="156">
+<LocList>
+<Loc EndOffset="2361" SrcFileId="2" StartOffset="2300"/>
+</LocList>
+</BasicBoolTerm>
+<BasicBoolTerm Intrnl_Id="157">
+<LocList>
+<Loc EndOffset="2427" SrcFileId="2" StartOffset="2365"/>
+</LocList>
+</BasicBoolTerm>
+<LocList>
+<Loc EndOffset="2364" SrcFileId="2" StartOffset="2362"/>
+</LocList>
+</OpTerm>
+</RootTerm>
+</CondStmnt>
+<BasicStmnt CovItemId="S20" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="158">
+<LocList>
+<Loc EndOffset="2586" SrcFileId="2" StartOffset="2509"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="47" HierarchyLvlTypeId="6" Intrnl_Id="159" Name="isPickupYearNull">
+<Header>
+<Loc EndOffset="2656" SrcFileId="2" StartOffset="2623"/>
+</Header>
+<LocList>
+<Loc EndOffset="2816" SrcFileId="2" StartOffset="2623"/>
+</LocList>
+<StmntSeq Intrnl_Id="160">
+<LocList>
+<Loc EndOffset="2789" SrcFileId="2" StartOffset="2666"/>
+</LocList>
+<CondStmnt CovItemId="S21" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="161">
+<Branch CovItemId="B13" CovItemPrefix="pricing.RentalFormValidator.java" Implct="false" Intrnl_Id="162">
+<Cond/>
+<LocList>
+<Loc EndOffset="2789" SrcFileId="2" StartOffset="2718"/>
+</LocList>
+<StmntSeq Intrnl_Id="163">
+<LocList>
+<Loc EndOffset="2753" SrcFileId="2" StartOffset="2732"/>
+</LocList>
+<BasicStmnt CovItemId="S22" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="164">
+<LocList>
+<Loc EndOffset="2753" SrcFileId="2" StartOffset="2732"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</Branch>
+<Branch CovItemId="B14" CovItemPrefix="pricing.RentalFormValidator.java" Implct="true" Intrnl_Id="165">
+<Cond/>
+<LocList/>
+<StmntSeq Intrnl_Id="166">
+<LocList/>
+</StmntSeq>
+</Branch>
+<Keyword EndOffset="2668" SrcFileId="2" StartOffset="2666"/>
+<LocList>
+<Loc EndOffset="2789" SrcFileId="2" StartOffset="2666"/>
+</LocList>
+<RootTerm CovItemId="C6" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="167">
+<BasicBoolTerm Intrnl_Id="168">
+<LocList>
+<Loc EndOffset="2717" SrcFileId="2" StartOffset="2669"/>
+</LocList>
+</BasicBoolTerm>
+</RootTerm>
+</CondStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="48" HierarchyLvlTypeId="6" Intrnl_Id="169" Name="isPickupYearInRange">
+<Header>
+<Loc EndOffset="2862" SrcFileId="2" StartOffset="2826"/>
+</Header>
+<LocList>
+<Loc EndOffset="3194" SrcFileId="2" StartOffset="2826"/>
+</LocList>
+<StmntSeq Intrnl_Id="170">
+<LocList>
+<Loc EndOffset="3081" SrcFileId="2" StartOffset="2872"/>
+<Loc EndOffset="3167" SrcFileId="2" StartOffset="3090"/>
+</LocList>
+<CondStmnt CovItemId="S23" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="171">
+<Branch CovItemId="B15" CovItemPrefix="pricing.RentalFormValidator.java" Implct="false" Intrnl_Id="172">
+<Cond/>
+<LocList>
+<Loc EndOffset="3081" SrcFileId="2" StartOffset="3010"/>
+</LocList>
+<StmntSeq Intrnl_Id="173">
+<LocList>
+<Loc EndOffset="3045" SrcFileId="2" StartOffset="3024"/>
+</LocList>
+<BasicStmnt CovItemId="S24" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="174">
+<LocList>
+<Loc EndOffset="3045" SrcFileId="2" StartOffset="3024"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</Branch>
+<Branch CovItemId="B16" CovItemPrefix="pricing.RentalFormValidator.java" Implct="true" Intrnl_Id="175">
+<Cond/>
+<LocList/>
+<StmntSeq Intrnl_Id="176">
+<LocList/>
+</StmntSeq>
+</Branch>
+<Keyword EndOffset="2874" SrcFileId="2" StartOffset="2872"/>
+<LocList>
+<Loc EndOffset="3081" SrcFileId="2" StartOffset="2872"/>
+</LocList>
+<RootTerm CovItemId="C7" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="177">
+<OpTerm BooleanOpId="4" Intrnl_Id="178">
+<BasicBoolTerm Intrnl_Id="179">
+<LocList>
+<Loc EndOffset="2940" SrcFileId="2" StartOffset="2876"/>
+</LocList>
+</BasicBoolTerm>
+<BasicBoolTerm Intrnl_Id="180">
+<LocList>
+<Loc EndOffset="3008" SrcFileId="2" StartOffset="2944"/>
+</LocList>
+</BasicBoolTerm>
+<LocList>
+<Loc EndOffset="2943" SrcFileId="2" StartOffset="2941"/>
+</LocList>
+</OpTerm>
+</RootTerm>
+</CondStmnt>
+<BasicStmnt CovItemId="S25" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="181">
+<LocList>
+<Loc EndOffset="3167" SrcFileId="2" StartOffset="3090"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="49" HierarchyLvlTypeId="6" Intrnl_Id="182" Name="isPickupHourNull">
+<Header>
+<Loc EndOffset="3237" SrcFileId="2" StartOffset="3204"/>
+</Header>
+<LocList>
+<Loc EndOffset="3397" SrcFileId="2" StartOffset="3204"/>
+</LocList>
+<StmntSeq Intrnl_Id="183">
+<LocList>
+<Loc EndOffset="3370" SrcFileId="2" StartOffset="3247"/>
+</LocList>
+<CondStmnt CovItemId="S26" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="184">
+<Branch CovItemId="B17" CovItemPrefix="pricing.RentalFormValidator.java" Implct="false" Intrnl_Id="185">
+<Cond/>
+<LocList>
+<Loc EndOffset="3370" SrcFileId="2" StartOffset="3299"/>
+</LocList>
+<StmntSeq Intrnl_Id="186">
+<LocList>
+<Loc EndOffset="3334" SrcFileId="2" StartOffset="3313"/>
+</LocList>
+<BasicStmnt CovItemId="S27" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="187">
+<LocList>
+<Loc EndOffset="3334" SrcFileId="2" StartOffset="3313"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</Branch>
+<Branch CovItemId="B18" CovItemPrefix="pricing.RentalFormValidator.java" Implct="true" Intrnl_Id="188">
+<Cond/>
+<LocList/>
+<StmntSeq Intrnl_Id="189">
+<LocList/>
+</StmntSeq>
+</Branch>
+<Keyword EndOffset="3249" SrcFileId="2" StartOffset="3247"/>
+<LocList>
+<Loc EndOffset="3370" SrcFileId="2" StartOffset="3247"/>
+</LocList>
+<RootTerm CovItemId="C8" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="190">
+<BasicBoolTerm Intrnl_Id="191">
+<LocList>
+<Loc EndOffset="3298" SrcFileId="2" StartOffset="3250"/>
+</LocList>
+</BasicBoolTerm>
+</RootTerm>
+</CondStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="50" HierarchyLvlTypeId="6" Intrnl_Id="192" Name="isPickupHourInRange">
+<Header>
+<Loc EndOffset="3443" SrcFileId="2" StartOffset="3407"/>
+</Header>
+<LocList>
+<Loc EndOffset="3768" SrcFileId="2" StartOffset="3407"/>
+</LocList>
+<StmntSeq Intrnl_Id="193">
+<LocList>
+<Loc EndOffset="3655" SrcFileId="2" StartOffset="3453"/>
+<Loc EndOffset="3741" SrcFileId="2" StartOffset="3664"/>
+</LocList>
+<CondStmnt CovItemId="S28" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="194">
+<Branch CovItemId="B19" CovItemPrefix="pricing.RentalFormValidator.java" Implct="false" Intrnl_Id="195">
+<Cond/>
+<LocList>
+<Loc EndOffset="3655" SrcFileId="2" StartOffset="3584"/>
+</LocList>
+<StmntSeq Intrnl_Id="196">
+<LocList>
+<Loc EndOffset="3619" SrcFileId="2" StartOffset="3598"/>
+</LocList>
+<BasicStmnt CovItemId="S29" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="197">
+<LocList>
+<Loc EndOffset="3619" SrcFileId="2" StartOffset="3598"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</Branch>
+<Branch CovItemId="B20" CovItemPrefix="pricing.RentalFormValidator.java" Implct="true" Intrnl_Id="198">
+<Cond/>
+<LocList/>
+<StmntSeq Intrnl_Id="199">
+<LocList/>
+</StmntSeq>
+</Branch>
+<Keyword EndOffset="3455" SrcFileId="2" StartOffset="3453"/>
+<LocList>
+<Loc EndOffset="3655" SrcFileId="2" StartOffset="3453"/>
+</LocList>
+<RootTerm CovItemId="C9" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="200">
+<OpTerm BooleanOpId="4" Intrnl_Id="201">
+<BasicBoolTerm Intrnl_Id="202">
+<LocList>
+<Loc EndOffset="3517" SrcFileId="2" StartOffset="3457"/>
+</LocList>
+</BasicBoolTerm>
+<BasicBoolTerm Intrnl_Id="203">
+<LocList>
+<Loc EndOffset="3582" SrcFileId="2" StartOffset="3521"/>
+</LocList>
+</BasicBoolTerm>
+<LocList>
+<Loc EndOffset="3520" SrcFileId="2" StartOffset="3518"/>
+</LocList>
+</OpTerm>
+</RootTerm>
+</CondStmnt>
+<BasicStmnt CovItemId="S30" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="204">
+<LocList>
+<Loc EndOffset="3741" SrcFileId="2" StartOffset="3664"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="51" HierarchyLvlTypeId="6" Intrnl_Id="205" Name="isDropoffDayNull">
+<Header>
+<Loc EndOffset="3811" SrcFileId="2" StartOffset="3778"/>
+</Header>
+<LocList>
+<Loc EndOffset="3971" SrcFileId="2" StartOffset="3778"/>
+</LocList>
+<StmntSeq Intrnl_Id="206">
+<LocList>
+<Loc EndOffset="3944" SrcFileId="2" StartOffset="3821"/>
+</LocList>
+<CondStmnt CovItemId="S31" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="207">
+<Branch CovItemId="B21" CovItemPrefix="pricing.RentalFormValidator.java" Implct="false" Intrnl_Id="208">
+<Cond/>
+<LocList>
+<Loc EndOffset="3944" SrcFileId="2" StartOffset="3873"/>
+</LocList>
+<StmntSeq Intrnl_Id="209">
+<LocList>
+<Loc EndOffset="3908" SrcFileId="2" StartOffset="3887"/>
+</LocList>
+<BasicStmnt CovItemId="S32" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="210">
+<LocList>
+<Loc EndOffset="3908" SrcFileId="2" StartOffset="3887"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</Branch>
+<Branch CovItemId="B22" CovItemPrefix="pricing.RentalFormValidator.java" Implct="true" Intrnl_Id="211">
+<Cond/>
+<LocList/>
+<StmntSeq Intrnl_Id="212">
+<LocList/>
+</StmntSeq>
+</Branch>
+<Keyword EndOffset="3823" SrcFileId="2" StartOffset="3821"/>
+<LocList>
+<Loc EndOffset="3944" SrcFileId="2" StartOffset="3821"/>
+</LocList>
+<RootTerm CovItemId="C10" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="213">
+<BasicBoolTerm Intrnl_Id="214">
+<LocList>
+<Loc EndOffset="3872" SrcFileId="2" StartOffset="3824"/>
+</LocList>
+</BasicBoolTerm>
+</RootTerm>
+</CondStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="52" HierarchyLvlTypeId="6" Intrnl_Id="215" Name="isDropoffDayInRange">
+<Header>
+<Loc EndOffset="4017" SrcFileId="2" StartOffset="3981"/>
+</Header>
+<LocList>
+<Loc EndOffset="4342" SrcFileId="2" StartOffset="3981"/>
+</LocList>
+<StmntSeq Intrnl_Id="216">
+<LocList>
+<Loc EndOffset="4229" SrcFileId="2" StartOffset="4027"/>
+<Loc EndOffset="4315" SrcFileId="2" StartOffset="4238"/>
+</LocList>
+<CondStmnt CovItemId="S33" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="217">
+<Branch CovItemId="B23" CovItemPrefix="pricing.RentalFormValidator.java" Implct="false" Intrnl_Id="218">
+<Cond/>
+<LocList>
+<Loc EndOffset="4229" SrcFileId="2" StartOffset="4158"/>
+</LocList>
+<StmntSeq Intrnl_Id="219">
+<LocList>
+<Loc EndOffset="4193" SrcFileId="2" StartOffset="4172"/>
+</LocList>
+<BasicStmnt CovItemId="S34" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="220">
+<LocList>
+<Loc EndOffset="4193" SrcFileId="2" StartOffset="4172"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</Branch>
+<Branch CovItemId="B24" CovItemPrefix="pricing.RentalFormValidator.java" Implct="true" Intrnl_Id="221">
+<Cond/>
+<LocList/>
+<StmntSeq Intrnl_Id="222">
+<LocList/>
+</StmntSeq>
+</Branch>
+<Keyword EndOffset="4029" SrcFileId="2" StartOffset="4027"/>
+<LocList>
+<Loc EndOffset="4229" SrcFileId="2" StartOffset="4027"/>
+</LocList>
+<RootTerm CovItemId="C11" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="223">
+<OpTerm BooleanOpId="4" Intrnl_Id="224">
+<BasicBoolTerm Intrnl_Id="225">
+<LocList>
+<Loc EndOffset="4091" SrcFileId="2" StartOffset="4031"/>
+</LocList>
+</BasicBoolTerm>
+<BasicBoolTerm Intrnl_Id="226">
+<LocList>
+<Loc EndOffset="4156" SrcFileId="2" StartOffset="4095"/>
+</LocList>
+</BasicBoolTerm>
+<LocList>
+<Loc EndOffset="4094" SrcFileId="2" StartOffset="4092"/>
+</LocList>
+</OpTerm>
+</RootTerm>
+</CondStmnt>
+<BasicStmnt CovItemId="S35" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="227">
+<LocList>
+<Loc EndOffset="4315" SrcFileId="2" StartOffset="4238"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="53" HierarchyLvlTypeId="6" Intrnl_Id="228" Name="isDropoffMonthNull">
+<Header>
+<Loc EndOffset="4387" SrcFileId="2" StartOffset="4352"/>
+</Header>
+<LocList>
+<Loc EndOffset="4549" SrcFileId="2" StartOffset="4352"/>
+</LocList>
+<StmntSeq Intrnl_Id="229">
+<LocList>
+<Loc EndOffset="4522" SrcFileId="2" StartOffset="4397"/>
+</LocList>
+<CondStmnt CovItemId="S36" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="230">
+<Branch CovItemId="B25" CovItemPrefix="pricing.RentalFormValidator.java" Implct="false" Intrnl_Id="231">
+<Cond/>
+<LocList>
+<Loc EndOffset="4522" SrcFileId="2" StartOffset="4451"/>
+</LocList>
+<StmntSeq Intrnl_Id="232">
+<LocList>
+<Loc EndOffset="4486" SrcFileId="2" StartOffset="4465"/>
+</LocList>
+<BasicStmnt CovItemId="S37" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="233">
+<LocList>
+<Loc EndOffset="4486" SrcFileId="2" StartOffset="4465"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</Branch>
+<Branch CovItemId="B26" CovItemPrefix="pricing.RentalFormValidator.java" Implct="true" Intrnl_Id="234">
+<Cond/>
+<LocList/>
+<StmntSeq Intrnl_Id="235">
+<LocList/>
+</StmntSeq>
+</Branch>
+<Keyword EndOffset="4399" SrcFileId="2" StartOffset="4397"/>
+<LocList>
+<Loc EndOffset="4522" SrcFileId="2" StartOffset="4397"/>
+</LocList>
+<RootTerm CovItemId="C12" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="236">
+<BasicBoolTerm Intrnl_Id="237">
+<LocList>
+<Loc EndOffset="4450" SrcFileId="2" StartOffset="4400"/>
+</LocList>
+</BasicBoolTerm>
+</RootTerm>
+</CondStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="54" HierarchyLvlTypeId="6" Intrnl_Id="238" Name="isDropoffMonthInRange">
+<Header>
+<Loc EndOffset="4597" SrcFileId="2" StartOffset="4559"/>
+</Header>
+<LocList>
+<Loc EndOffset="4928" SrcFileId="2" StartOffset="4559"/>
+</LocList>
+<StmntSeq Intrnl_Id="239">
+<LocList>
+<Loc EndOffset="4813" SrcFileId="2" StartOffset="4607"/>
+<Loc EndOffset="4901" SrcFileId="2" StartOffset="4822"/>
+</LocList>
+<CondStmnt CovItemId="S38" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="240">
+<Branch CovItemId="B27" CovItemPrefix="pricing.RentalFormValidator.java" Implct="false" Intrnl_Id="241">
+<Cond/>
+<LocList>
+<Loc EndOffset="4813" SrcFileId="2" StartOffset="4742"/>
+</LocList>
+<StmntSeq Intrnl_Id="242">
+<LocList>
+<Loc EndOffset="4777" SrcFileId="2" StartOffset="4756"/>
+</LocList>
+<BasicStmnt CovItemId="S39" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="243">
+<LocList>
+<Loc EndOffset="4777" SrcFileId="2" StartOffset="4756"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</Branch>
+<Branch CovItemId="B28" CovItemPrefix="pricing.RentalFormValidator.java" Implct="true" Intrnl_Id="244">
+<Cond/>
+<LocList/>
+<StmntSeq Intrnl_Id="245">
+<LocList/>
+</StmntSeq>
+</Branch>
+<Keyword EndOffset="4609" SrcFileId="2" StartOffset="4607"/>
+<LocList>
+<Loc EndOffset="4813" SrcFileId="2" StartOffset="4607"/>
+</LocList>
+<RootTerm CovItemId="C13" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="246">
+<OpTerm BooleanOpId="4" Intrnl_Id="247">
+<BasicBoolTerm Intrnl_Id="248">
+<LocList>
+<Loc EndOffset="4673" SrcFileId="2" StartOffset="4611"/>
+</LocList>
+</BasicBoolTerm>
+<BasicBoolTerm Intrnl_Id="249">
+<LocList>
+<Loc EndOffset="4740" SrcFileId="2" StartOffset="4677"/>
+</LocList>
+</BasicBoolTerm>
+<LocList>
+<Loc EndOffset="4676" SrcFileId="2" StartOffset="4674"/>
+</LocList>
+</OpTerm>
+</RootTerm>
+</CondStmnt>
+<BasicStmnt CovItemId="S40" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="250">
+<LocList>
+<Loc EndOffset="4901" SrcFileId="2" StartOffset="4822"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="55" HierarchyLvlTypeId="6" Intrnl_Id="251" Name="isDropoffYearNull">
+<Header>
+<Loc EndOffset="4972" SrcFileId="2" StartOffset="4938"/>
+</Header>
+<LocList>
+<Loc EndOffset="5133" SrcFileId="2" StartOffset="4938"/>
+</LocList>
+<StmntSeq Intrnl_Id="252">
+<LocList>
+<Loc EndOffset="5106" SrcFileId="2" StartOffset="4982"/>
+</LocList>
+<CondStmnt CovItemId="S41" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="253">
+<Branch CovItemId="B29" CovItemPrefix="pricing.RentalFormValidator.java" Implct="false" Intrnl_Id="254">
+<Cond/>
+<LocList>
+<Loc EndOffset="5106" SrcFileId="2" StartOffset="5035"/>
+</LocList>
+<StmntSeq Intrnl_Id="255">
+<LocList>
+<Loc EndOffset="5070" SrcFileId="2" StartOffset="5049"/>
+</LocList>
+<BasicStmnt CovItemId="S42" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="256">
+<LocList>
+<Loc EndOffset="5070" SrcFileId="2" StartOffset="5049"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</Branch>
+<Branch CovItemId="B30" CovItemPrefix="pricing.RentalFormValidator.java" Implct="true" Intrnl_Id="257">
+<Cond/>
+<LocList/>
+<StmntSeq Intrnl_Id="258">
+<LocList/>
+</StmntSeq>
+</Branch>
+<Keyword EndOffset="4984" SrcFileId="2" StartOffset="4982"/>
+<LocList>
+<Loc EndOffset="5106" SrcFileId="2" StartOffset="4982"/>
+</LocList>
+<RootTerm CovItemId="C14" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="259">
+<BasicBoolTerm Intrnl_Id="260">
+<LocList>
+<Loc EndOffset="5034" SrcFileId="2" StartOffset="4985"/>
+</LocList>
+</BasicBoolTerm>
+</RootTerm>
+</CondStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="56" HierarchyLvlTypeId="6" Intrnl_Id="261" Name="isDropoffYearInRange">
+<Header>
+<Loc EndOffset="5180" SrcFileId="2" StartOffset="5143"/>
+</Header>
+<LocList>
+<Loc EndOffset="5514" SrcFileId="2" StartOffset="5143"/>
+</LocList>
+<StmntSeq Intrnl_Id="262">
+<LocList>
+<Loc EndOffset="5399" SrcFileId="2" StartOffset="5190"/>
+<Loc EndOffset="5487" SrcFileId="2" StartOffset="5408"/>
+</LocList>
+<CondStmnt CovItemId="S43" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="263">
+<Branch CovItemId="B31" CovItemPrefix="pricing.RentalFormValidator.java" Implct="false" Intrnl_Id="264">
+<Cond/>
+<LocList>
+<Loc EndOffset="5399" SrcFileId="2" StartOffset="5328"/>
+</LocList>
+<StmntSeq Intrnl_Id="265">
+<LocList>
+<Loc EndOffset="5363" SrcFileId="2" StartOffset="5342"/>
+</LocList>
+<BasicStmnt CovItemId="S44" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="266">
+<LocList>
+<Loc EndOffset="5363" SrcFileId="2" StartOffset="5342"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</Branch>
+<Branch CovItemId="B32" CovItemPrefix="pricing.RentalFormValidator.java" Implct="true" Intrnl_Id="267">
+<Cond/>
+<LocList/>
+<StmntSeq Intrnl_Id="268">
+<LocList/>
+</StmntSeq>
+</Branch>
+<Keyword EndOffset="5192" SrcFileId="2" StartOffset="5190"/>
+<LocList>
+<Loc EndOffset="5399" SrcFileId="2" StartOffset="5190"/>
+</LocList>
+<RootTerm CovItemId="C15" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="269">
+<OpTerm BooleanOpId="4" Intrnl_Id="270">
+<BasicBoolTerm Intrnl_Id="271">
+<LocList>
+<Loc EndOffset="5258" SrcFileId="2" StartOffset="5194"/>
+</LocList>
+</BasicBoolTerm>
+<BasicBoolTerm Intrnl_Id="272">
+<LocList>
+<Loc EndOffset="5326" SrcFileId="2" StartOffset="5262"/>
+</LocList>
+</BasicBoolTerm>
+<LocList>
+<Loc EndOffset="5261" SrcFileId="2" StartOffset="5259"/>
+</LocList>
+</OpTerm>
+</RootTerm>
+</CondStmnt>
+<BasicStmnt CovItemId="S45" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="273">
+<LocList>
+<Loc EndOffset="5487" SrcFileId="2" StartOffset="5408"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="57" HierarchyLvlTypeId="6" Intrnl_Id="274" Name="isDropoffHourNull">
+<Header>
+<Loc EndOffset="5558" SrcFileId="2" StartOffset="5524"/>
+</Header>
+<LocList>
+<Loc EndOffset="5719" SrcFileId="2" StartOffset="5524"/>
+</LocList>
+<StmntSeq Intrnl_Id="275">
+<LocList>
+<Loc EndOffset="5692" SrcFileId="2" StartOffset="5568"/>
+</LocList>
+<CondStmnt CovItemId="S46" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="276">
+<Branch CovItemId="B33" CovItemPrefix="pricing.RentalFormValidator.java" Implct="false" Intrnl_Id="277">
+<Cond/>
+<LocList>
+<Loc EndOffset="5692" SrcFileId="2" StartOffset="5621"/>
+</LocList>
+<StmntSeq Intrnl_Id="278">
+<LocList>
+<Loc EndOffset="5656" SrcFileId="2" StartOffset="5635"/>
+</LocList>
+<BasicStmnt CovItemId="S47" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="279">
+<LocList>
+<Loc EndOffset="5656" SrcFileId="2" StartOffset="5635"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</Branch>
+<Branch CovItemId="B34" CovItemPrefix="pricing.RentalFormValidator.java" Implct="true" Intrnl_Id="280">
+<Cond/>
+<LocList/>
+<StmntSeq Intrnl_Id="281">
+<LocList/>
+</StmntSeq>
+</Branch>
+<Keyword EndOffset="5570" SrcFileId="2" StartOffset="5568"/>
+<LocList>
+<Loc EndOffset="5692" SrcFileId="2" StartOffset="5568"/>
+</LocList>
+<RootTerm CovItemId="C16" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="282">
+<BasicBoolTerm Intrnl_Id="283">
+<LocList>
+<Loc EndOffset="5620" SrcFileId="2" StartOffset="5571"/>
+</LocList>
+</BasicBoolTerm>
+</RootTerm>
+</CondStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="58" HierarchyLvlTypeId="6" Intrnl_Id="284" Name="isDropoffHourInRange">
+<Header>
+<Loc EndOffset="5766" SrcFileId="2" StartOffset="5729"/>
+</Header>
+<LocList>
+<Loc EndOffset="6095" SrcFileId="2" StartOffset="5729"/>
+</LocList>
+<StmntSeq Intrnl_Id="285">
+<LocList>
+<Loc EndOffset="5980" SrcFileId="2" StartOffset="5776"/>
+<Loc EndOffset="6068" SrcFileId="2" StartOffset="5989"/>
+</LocList>
+<CondStmnt CovItemId="S48" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="286">
+<Branch CovItemId="B35" CovItemPrefix="pricing.RentalFormValidator.java" Implct="false" Intrnl_Id="287">
+<Cond/>
+<LocList>
+<Loc EndOffset="5980" SrcFileId="2" StartOffset="5909"/>
+</LocList>
+<StmntSeq Intrnl_Id="288">
+<LocList>
+<Loc EndOffset="5944" SrcFileId="2" StartOffset="5923"/>
+</LocList>
+<BasicStmnt CovItemId="S49" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="289">
+<LocList>
+<Loc EndOffset="5944" SrcFileId="2" StartOffset="5923"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</Branch>
+<Branch CovItemId="B36" CovItemPrefix="pricing.RentalFormValidator.java" Implct="true" Intrnl_Id="290">
+<Cond/>
+<LocList/>
+<StmntSeq Intrnl_Id="291">
+<LocList/>
+</StmntSeq>
+</Branch>
+<Keyword EndOffset="5778" SrcFileId="2" StartOffset="5776"/>
+<LocList>
+<Loc EndOffset="5980" SrcFileId="2" StartOffset="5776"/>
+</LocList>
+<RootTerm CovItemId="C17" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="292">
+<OpTerm BooleanOpId="4" Intrnl_Id="293">
+<BasicBoolTerm Intrnl_Id="294">
+<LocList>
+<Loc EndOffset="5841" SrcFileId="2" StartOffset="5780"/>
+</LocList>
+</BasicBoolTerm>
+<BasicBoolTerm Intrnl_Id="295">
+<LocList>
+<Loc EndOffset="5907" SrcFileId="2" StartOffset="5845"/>
+</LocList>
+</BasicBoolTerm>
+<LocList>
+<Loc EndOffset="5844" SrcFileId="2" StartOffset="5842"/>
+</LocList>
+</OpTerm>
+</RootTerm>
+</CondStmnt>
+<BasicStmnt CovItemId="S50" CovItemPrefix="pricing.RentalFormValidator.java" Intrnl_Id="296">
+<LocList>
+<Loc EndOffset="6068" SrcFileId="2" StartOffset="5989"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="71" HierarchyLvlTypeId="7" Intrnl_Id="297" Name="PriceSchedule">
+<Header>
+<Loc EndOffset="327" SrcFileId="3" StartOffset="277"/>
+</Header>
+<LocList>
+<Loc EndOffset="2244" SrcFileId="3" StartOffset="277"/>
+</LocList>
+<HierarchyLvl HierarchyLvlId="60" HierarchyLvlTypeId="6" Intrnl_Id="298" Name="PriceSchedule">
+<Header>
+<Loc EndOffset="589" SrcFileId="3" StartOffset="481"/>
+</Header>
+<LocList>
+<Loc EndOffset="754" SrcFileId="3" StartOffset="481"/>
+</LocList>
+<StmntSeq Intrnl_Id="299">
+<LocList>
+<Loc EndOffset="626" SrcFileId="3" StartOffset="601"/>
+<Loc EndOffset="667" SrcFileId="3" StartOffset="636"/>
+<Loc EndOffset="708" SrcFileId="3" StartOffset="677"/>
+<Loc EndOffset="747" SrcFileId="3" StartOffset="718"/>
+</LocList>
+<BasicStmnt CovItemId="S1" CovItemPrefix="pricing.PriceSchedule.java" Intrnl_Id="300">
+<LocList>
+<Loc EndOffset="626" SrcFileId="3" StartOffset="601"/>
+</LocList>
+</BasicStmnt>
+<BasicStmnt CovItemId="S2" CovItemPrefix="pricing.PriceSchedule.java" Intrnl_Id="301">
+<LocList>
+<Loc EndOffset="667" SrcFileId="3" StartOffset="636"/>
+</LocList>
+</BasicStmnt>
+<BasicStmnt CovItemId="S3" CovItemPrefix="pricing.PriceSchedule.java" Intrnl_Id="302">
+<LocList>
+<Loc EndOffset="708" SrcFileId="3" StartOffset="677"/>
+</LocList>
+</BasicStmnt>
+<BasicStmnt CovItemId="S4" CovItemPrefix="pricing.PriceSchedule.java" Intrnl_Id="303">
+<LocList>
+<Loc EndOffset="747" SrcFileId="3" StartOffset="718"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="61" HierarchyLvlTypeId="6" Intrnl_Id="304" Name="PriceSchedule">
+<Header>
+<Loc EndOffset="784" SrcFileId="3" StartOffset="762"/>
+</Header>
+<LocList>
+<Loc EndOffset="793" SrcFileId="3" StartOffset="762"/>
+</LocList>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="62" HierarchyLvlTypeId="6" Intrnl_Id="305" Name="getTypeName">
+<Header>
+<Loc EndOffset="875" SrcFileId="3" StartOffset="848"/>
+</Header>
+<LocList>
+<Loc EndOffset="910" SrcFileId="3" StartOffset="848"/>
+</LocList>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="63" HierarchyLvlTypeId="6" Intrnl_Id="306" Name="setTypeName">
+<Header>
+<Loc EndOffset="1020" SrcFileId="3" StartOffset="980"/>
+</Header>
+<LocList>
+<Loc EndOffset="1064" SrcFileId="3" StartOffset="980"/>
+</LocList>
+<StmntSeq Intrnl_Id="307">
+<LocList>
+<Loc EndOffset="1057" SrcFileId="3" StartOffset="1032"/>
+</LocList>
+<BasicStmnt CovItemId="S5" CovItemPrefix="pricing.PriceSchedule.java" Intrnl_Id="308">
+<LocList>
+<Loc EndOffset="1057" SrcFileId="3" StartOffset="1032"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="64" HierarchyLvlTypeId="6" Intrnl_Id="309" Name="getWeekdayRate">
+<Header>
+<Loc EndOffset="1156" SrcFileId="3" StartOffset="1122"/>
+</Header>
+<LocList>
+<Loc EndOffset="1194" SrcFileId="3" StartOffset="1122"/>
+</LocList>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="65" HierarchyLvlTypeId="6" Intrnl_Id="310" Name="setWeekdayRate">
+<Header>
+<Loc EndOffset="1320" SrcFileId="3" StartOffset="1270"/>
+</Header>
+<LocList>
+<Loc EndOffset="1370" SrcFileId="3" StartOffset="1270"/>
+</LocList>
+<StmntSeq Intrnl_Id="311">
+<LocList>
+<Loc EndOffset="1363" SrcFileId="3" StartOffset="1332"/>
+</LocList>
+<BasicStmnt CovItemId="S6" CovItemPrefix="pricing.PriceSchedule.java" Intrnl_Id="312">
+<LocList>
+<Loc EndOffset="1363" SrcFileId="3" StartOffset="1332"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="66" HierarchyLvlTypeId="6" Intrnl_Id="313" Name="getWeekendRate">
+<Header>
+<Loc EndOffset="1462" SrcFileId="3" StartOffset="1428"/>
+</Header>
+<LocList>
+<Loc EndOffset="1500" SrcFileId="3" StartOffset="1428"/>
+</LocList>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="67" HierarchyLvlTypeId="6" Intrnl_Id="314" Name="setWeekendRate">
+<Header>
+<Loc EndOffset="1626" SrcFileId="3" StartOffset="1576"/>
+</Header>
+<LocList>
+<Loc EndOffset="1676" SrcFileId="3" StartOffset="1576"/>
+</LocList>
+<StmntSeq Intrnl_Id="315">
+<LocList>
+<Loc EndOffset="1669" SrcFileId="3" StartOffset="1638"/>
+</LocList>
+<BasicStmnt CovItemId="S7" CovItemPrefix="pricing.PriceSchedule.java" Intrnl_Id="316">
+<LocList>
+<Loc EndOffset="1669" SrcFileId="3" StartOffset="1638"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="68" HierarchyLvlTypeId="6" Intrnl_Id="317" Name="getWeeklyRate">
+<Header>
+<Loc EndOffset="1766" SrcFileId="3" StartOffset="1733"/>
+</Header>
+<LocList>
+<Loc EndOffset="1803" SrcFileId="3" StartOffset="1733"/>
+</LocList>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="69" HierarchyLvlTypeId="6" Intrnl_Id="318" Name="setWeeklyRate">
+<Header>
+<Loc EndOffset="1925" SrcFileId="3" StartOffset="1877"/>
+</Header>
+<LocList>
+<Loc EndOffset="1973" SrcFileId="3" StartOffset="1877"/>
+</LocList>
+<StmntSeq Intrnl_Id="319">
+<LocList>
+<Loc EndOffset="1966" SrcFileId="3" StartOffset="1937"/>
+</LocList>
+<BasicStmnt CovItemId="S8" CovItemPrefix="pricing.PriceSchedule.java" Intrnl_Id="320">
+<LocList>
+<Loc EndOffset="1966" SrcFileId="3" StartOffset="1937"/>
+</LocList>
+</BasicStmnt>
+</StmntSeq>
+</HierarchyLvl>
+<HierarchyLvl HierarchyLvlId="70" HierarchyLvlTypeId="6" Intrnl_Id="321" Name="toString">
+<Header>
+<Loc EndOffset="2020" SrcFileId="3" StartOffset="1981"/>
+</Header>
+<LocList>
+<Loc EndOffset="2237" SrcFileId="3" StartOffset="1981"/>
+</LocList>
+</HierarchyLvl>
+</HierarchyLvl>
+</HierarchyLvl>
+</HierarchyLvl>
+</MASTRoot>
+</TestSessionContainer>

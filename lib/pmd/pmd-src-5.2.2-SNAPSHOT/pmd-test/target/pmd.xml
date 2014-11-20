@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.1.2" timestamp="2014-11-20T04:55:33.494">
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-test/src/main/java/net/sourceforge/pmd/AbstractRuleSetFactoryTest.java">
+<violation beginline="4" endline="552" begincolumn="1" endcolumn="2" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=62, ATFD=111, TCC=0.012987012987012988)
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-test/src/main/java/net/sourceforge/pmd/lang/ParserOptionsTest.java">
+<violation beginline="4" endline="94" begincolumn="1" endcolumn="3" rule="TooManyStaticImports" ruleset="Import Statements" package="net.sourceforge.pmd.lang" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/imports.html#TooManyStaticImports" priority="3">
+Too many static imports may lead to messy code
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-test/src/main/java/net/sourceforge/pmd/testframework/RuleTst.java">
+<violation beginline="4" endline="408" begincolumn="1" endcolumn="2" rule="GodClass" ruleset="Design" package="net.sourceforge.pmd.testframework" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=67, ATFD=76, TCC=0.0)
+</violation>
+</file>
+<file name="/root/java3FinalProject/lib/pmd/pmd-src-5.2.2-SNAPSHOT/pmd-test/src/main/java/net/sourceforge/pmd/testframework/StreamUtil.java">
+<violation beginline="18" endline="18" begincolumn="51" endcolumn="52" rule="AvoidPrefixingMethodParameters" ruleset="Controversial" package="net.sourceforge.pmd.testframework" class="StreamUtil" method="toString" variable="in" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/controversial.html#AvoidPrefixingMethodParameters" priority="4">
+Avoid prefixing parameters by in, out or inOut. Uses Javadoc to document this behavior.
+</violation>
+</file>
+</pmd>

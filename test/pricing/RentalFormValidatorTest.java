@@ -92,7 +92,7 @@ public class RentalFormValidatorTest {
         System.out.println("setErrorCodes");
         ArrayList<Integer> errorCodes = null;
         RentalFormValidator instance = null;
-        instance.setErrorCodes(errorCodes);
+        //instance.setErrorCodes(errorCodes);
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }
@@ -115,9 +115,8 @@ public class RentalFormValidatorTest {
 
     /**
      * Test of isCustomerNull method, of class RentalFormValidator.
-     */
-    @Test
-    public void testIsCustomerNull(String custNo) {
+     */    @Test
+    public void testIsCustomerNull() {
 //        if (custNo.isEmpty()) {
 //            return false;
 //        }
@@ -129,7 +128,7 @@ public class RentalFormValidatorTest {
 //        return true;
         System.out.println("isCustomerNull");
         RentalFormValidator instance = null;
-        instance.isCustomerNull();
+        //instance.isCustomerNull();
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }
@@ -141,7 +140,7 @@ public class RentalFormValidatorTest {
     public void testIsCustomerNumeric() {
         System.out.println("isCustomerNumeric");
         RentalFormValidator instance = null;
-        instance.isCustomerNumeric();
+        //instance.isCustomerNumeric();
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }
@@ -153,7 +152,7 @@ public class RentalFormValidatorTest {
     public void testIsPickupDayNull() {
         System.out.println("isPickupDayNull");
         RentalFormValidator instance = null;
-        instance.isPickupDayNull();
+        //instance.isPickupDayNull();
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }
@@ -165,7 +164,7 @@ public class RentalFormValidatorTest {
     public void testIsPickupDayInRange() {
         System.out.println("isPickupDayInRange");
         RentalFormValidator instance = null;
-        instance.isPickupDayInRange();
+        //instance.isPickupDayInRange();
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
     }
