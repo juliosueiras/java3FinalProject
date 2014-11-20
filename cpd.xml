@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd-cpd>
+   <duplication lines="8" tokens="25">
+      <file line="257"
+            path="/root/java3FinalProject/./src/java/pricing/RentalFormValidator.java"/>
+      <file line="277"
+            path="/root/java3FinalProject/./src/java/pricing/RentalFormValidator.java"/>
+      <codefragment><![CDATA[            errorCodes.add(1092);
+            return false;
+        }
+        bean.setDropoffHour(Integer.parseInt(formRequest.getParameter("dropoffHour")));
+        return true;
+    }
+
+    public boolean isCarTypeNull(){]]></codefragment>
+   </duplication>
+</pmd-cpd>

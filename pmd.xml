@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="5.2.2-SNAPSHOT" timestamp="2014-11-20T15:26:30.249">
+<pmd version="5.2.2-SNAPSHOT" timestamp="2014-11-20T16:06:33.610">
 <file name="/root/java3FinalProject/src/java/pricing/PriceSchedule.java">
 <violation beginline="14" endline="93" begincolumn="8" endcolumn="1" rule="MissingSerialVersionUID" ruleset="JavaBeans" package="pricing" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/javabeans.html#MissingSerialVersionUID" priority="3">
 Classes implementing Serializable should set a serialVersionUID
