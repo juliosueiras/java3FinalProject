@@ -68,8 +68,6 @@
     nbproject/build-impl.xml file. 
 
     -->
-<<<<<<< HEAD
-=======
 
 	<!-- Define the Sonar properties > -->
      <mkdir dir="./build/test/results"/> 
@@ -134,9 +132,5 @@
             </fileset>
         </cpd>
     </target>
-
-
-
->>>>>>> 0aa71bbd04b4de12dcb8d7fbdd8a20c6b56eec83
 </project>
 
