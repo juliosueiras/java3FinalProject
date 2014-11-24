@@ -402,7 +402,7 @@ public class RentalFormValidatorTest {
         System.out.println("isCreditCardNoInRange");
         currRequest.setParameter("creditCardNo", "0");
         RentalFormValidator instance = new RentalFormValidator(currRequest);
-        boolean expResult = true;
+        boolean expResult = false;
         boolean result = instance.isCreditCardNoInRange();
         assertEquals(expResult, result);
     }
