@@ -376,7 +376,7 @@ public class RentalFormValidatorTest {
         System.out.println("isCreditCardTypeInRange");
         currRequest.setParameter("creditCardType", "visa");
         RentalFormValidator instance = new RentalFormValidator(currRequest);
-        boolean expResult = false;
+        boolean expResult = true;
         boolean result = instance.isCreditCardTypeInRange();
         assertEquals(expResult, result);
     }
@@ -389,7 +389,7 @@ public class RentalFormValidatorTest {
         System.out.println("isCreditCardNoNull");
         currRequest.setParameter("creditCardNo", "");
         RentalFormValidator instance = new RentalFormValidator(currRequest);
-        boolean expResult = true;
+        boolean expResult = false;
         boolean result = instance.isCreditCardNoNull();
         assertEquals(expResult, result);
     }
