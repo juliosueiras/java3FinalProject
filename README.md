@@ -15,6 +15,10 @@ Drone.io:
 =====
 [![Build Status](https://drone.io/github.com/juliosueiras/java3FinalProject/status.png)](https://drone.io/github.com/juliosueiras/java3FinalProject/latest)
 
+Circle CI:
+=====
+[![Circle CI](https://circleci.com/gh/juliosueiras/java3FinalProject.svg?style=svg)](https://circleci.com/gh/juliosueiras/java3FinalProject)
+
 To-Do:
 =====
 * [ ] Make Method for price estimate based on the business rules specified in the business description.
