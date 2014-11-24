@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="juliosueiras-laptop" name="pricing.RentalBeanTest" skipped="0" tests="34" time="0.129" timestamp="2014-11-24T19:52:03">
+<testsuite errors="0" failures="0" hostname="juliosueiras-laptop" name="pricing.RentalBeanTest" skipped="0" tests="34" time="0.084" timestamp="2014-11-24T19:53:58">
   <properties>
     <property name="default.javac.source" value="1.4" />
     <property name="file.encoding.pkg" value="sun.io" />
@@ -63,7 +63,7 @@
     <property name="file.encoding" value="UTF-8" />
     <property name="dist.javadoc.dir" value="dist/javadoc" />
     <property name="ant.project.default-target" value="default" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner pricing.RentalBeanTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/build/test/results/TEST-pricing.RentalBeanTest.xml crashfile=/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/build/junitvmwatcher7643868566113124464.properties propsfile=/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/build/junit2598873159380140362.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner pricing.RentalBeanTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/build/test/results/TEST-pricing.RentalBeanTest.xml crashfile=/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/build/junitvmwatcher1227432507265745673.properties propsfile=/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/build/junit6045004782311115560.properties" />
     <property name="libs.CopyLibs.displayName" value="CopyLibs Task" />
     <property name="ant.file" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/build.xml" />
     <property name="persistence.xml.dir" value="src/conf" />
@@ -74,7 +74,7 @@
     <property name="build.test.results.dir" value="build/test/results" />
     <property name="user.language" value="en" />
     <property name="line.separator" value="&#xa;" />
-    <property name="target" value="1.7" />
+    <property name="target" value="1.1" />
     <property name="libs.junit_4.displayName" value="JUnit 4.10" />
     <property name="javac.compilerargs" value="" />
     <property name="ant.file.finalProject" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/build.xml" />
@@ -218,41 +218,58 @@
     <property name="j2ee.platform.embeddableejb.classpath" value="" />
     <property name="sun.arch.data.model" value="64" />
   </properties>
-  <testcase classname="pricing.RentalBeanTest" name="testSetDropoffHour" time="0.003" />
-  <testcase classname="pricing.RentalBeanTest" name="testGetDropoffMin" time="0.002" />
+  <testcase classname="pricing.RentalBeanTest" name="testGetPickupYear" time="0.002" />
+  <testcase classname="pricing.RentalBeanTest" name="testGetPickupHour" time="0.0" />
+  <testcase classname="pricing.RentalBeanTest" name="testSetPickupHour" time="0.0" />
+  <testcase classname="pricing.RentalBeanTest" name="testGetPickupMin" time="0.0" />
+  <testcase classname="pricing.RentalBeanTest" name="testSetPickupMin" time="0.0" />
+  <testcase classname="pricing.RentalBeanTest" name="testGetDropoffYear" time="0.0" />
+  <testcase classname="pricing.RentalBeanTest" name="testSetDropoffYear" time="0.0" />
+  <testcase classname="pricing.RentalBeanTest" name="testGetDropoffMon" time="0.0" />
+  <testcase classname="pricing.RentalBeanTest" name="testSetDropoffMon" time="0.0" />
+  <testcase classname="pricing.RentalBeanTest" name="testGetDropoffDay" time="0.0" />
+  <testcase classname="pricing.RentalBeanTest" name="testSetDropoffDay" time="0.001" />
+  <testcase classname="pricing.RentalBeanTest" name="testGetDropoffHour" time="0.0" />
+  <testcase classname="pricing.RentalBeanTest" name="testSetDropoffHour" time="0.0" />
+  <testcase classname="pricing.RentalBeanTest" name="testSetPickupYear" time="0.0" />
+  <testcase classname="pricing.RentalBeanTest" name="testGetPickupMon" time="0.0" />
+  <testcase classname="pricing.RentalBeanTest" name="testSetPickupMon" time="0.001" />
+  <testcase classname="pricing.RentalBeanTest" name="testGetPickupDay" time="0.001" />
+  <testcase classname="pricing.RentalBeanTest" name="testSetPickupDay" time="0.0" />
+  <testcase classname="pricing.RentalBeanTest" name="testGetDropoffMin" time="0.0" />
   <testcase classname="pricing.RentalBeanTest" name="testSetDropoffMin" time="0.0" />
-  <testcase classname="pricing.RentalBeanTest" name="testGetRentalType" time="0.002" />
+  <testcase classname="pricing.RentalBeanTest" name="testGetRentalType" time="0.0" />
   <testcase classname="pricing.RentalBeanTest" name="testSetRentalType" time="0.0" />
   <testcase classname="pricing.RentalBeanTest" name="testGetCardType" time="0.0" />
   <testcase classname="pricing.RentalBeanTest" name="testSetCardType" time="0.0" />
   <testcase classname="pricing.RentalBeanTest" name="testGetCardNumber" time="0.0" />
   <testcase classname="pricing.RentalBeanTest" name="testSetCardNumber" time="0.0" />
-  <testcase classname="pricing.RentalBeanTest" name="testGetTaxRate" time="0.005" />
-  <testcase classname="pricing.RentalBeanTest" name="testSetTaxRate" time="0.001" />
-  <testcase classname="pricing.RentalBeanTest" name="testGetPrice" time="0.001" />
+  <testcase classname="pricing.RentalBeanTest" name="testGetTaxRate" time="0.002" />
+  <testcase classname="pricing.RentalBeanTest" name="testSetTaxRate" time="0.0" />
+  <testcase classname="pricing.RentalBeanTest" name="testGetPrice" time="0.0" />
   <testcase classname="pricing.RentalBeanTest" name="testSetPrice" time="0.0" />
   <testcase classname="pricing.RentalBeanTest" name="testSetPriceSchedule" time="0.001" />
-  <testcase classname="pricing.RentalBeanTest" name="testGetPriceSchedule" time="0.001" />
-  <testcase classname="pricing.RentalBeanTest" name="testGetCustomerNumber" time="0.002" />
+  <testcase classname="pricing.RentalBeanTest" name="testGetPriceSchedule" time="0.0" />
+  <testcase classname="pricing.RentalBeanTest" name="testGetCustomerNumber" time="0.0" />
   <testcase classname="pricing.RentalBeanTest" name="testSetCustomerNumber" time="0.0" />
-  <testcase classname="pricing.RentalBeanTest" name="testSetPickupYear" time="0.0" />
-  <testcase classname="pricing.RentalBeanTest" name="testGetPickupMon" time="0.0" />
-  <testcase classname="pricing.RentalBeanTest" name="testSetPickupMon" time="0.0" />
-  <testcase classname="pricing.RentalBeanTest" name="testSetPickupHour" time="0.0" />
-  <testcase classname="pricing.RentalBeanTest" name="testGetPickupMin" time="0.0" />
-  <testcase classname="pricing.RentalBeanTest" name="testSetPickupMin" time="0.0" />
-  <testcase classname="pricing.RentalBeanTest" name="testGetDropoffYear" time="0.001" />
-  <testcase classname="pricing.RentalBeanTest" name="testSetDropoffYear" time="0.0" />
-  <testcase classname="pricing.RentalBeanTest" name="testGetDropoffMon" time="0.0" />
-  <testcase classname="pricing.RentalBeanTest" name="testSetDropoffMon" time="0.0" />
-  <testcase classname="pricing.RentalBeanTest" name="testGetDropoffDay" time="0.001" />
-  <testcase classname="pricing.RentalBeanTest" name="testSetDropoffDay" time="0.0" />
-  <testcase classname="pricing.RentalBeanTest" name="testGetDropoffHour" time="0.0" />
-  <testcase classname="pricing.RentalBeanTest" name="testGetPickupDay" time="0.0" />
-  <testcase classname="pricing.RentalBeanTest" name="testSetPickupDay" time="0.005" />
-  <testcase classname="pricing.RentalBeanTest" name="testGetPickupHour" time="0.0" />
-  <testcase classname="pricing.RentalBeanTest" name="testGetPickupYear" time="0.0" />
-  <system-out><![CDATA[setDropoffHour
+  <system-out><![CDATA[getPickupYear
+getPickupHour
+setPickupHour
+getPickupMin
+setPickupMin
+getDropoffYear
+setDropoffYear
+getDropoffMon
+setDropoffMon
+getDropoffDay
+setDropoffDay
+getDropoffHour
+setDropoffHour
+setPickupYear
+getPickupMon
+setPickupMon
+getPickupDay
+setPickupDay
 getDropoffMin
 setDropoffMin
 getRentalType
@@ -269,23 +286,6 @@ setPriceSchedule
 getPriceSchedule
 getCustomerNumber
 setCustomerNumber
-setPickupYear
-getPickupMon
-setPickupMon
-setPickupHour
-getPickupMin
-setPickupMin
-getDropoffYear
-setDropoffYear
-getDropoffMon
-setDropoffMon
-getDropoffDay
-setDropoffDay
-getDropoffHour
-getPickupDay
-setPickupDay
-getPickupHour
-getPickupYear
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
