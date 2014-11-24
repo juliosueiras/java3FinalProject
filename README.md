@@ -14,3 +14,7 @@ Travis CI:
 Drone.io:
 =====
 [![Build Status](https://drone.io/github.com/juliosueiras/java3FinalProject/status.png)](https://drone.io/github.com/juliosueiras/java3FinalProject/latest)
+
+To-Do:
+=====
+* [ ] Make Method for price estimate based on the business rules specified in the business description.
