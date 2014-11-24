@@ -389,7 +389,7 @@ public class RentalFormValidatorTest {
         System.out.println("isCreditCardNoNull");
         currRequest.setParameter("creditCardNo", "");
         RentalFormValidator instance = new RentalFormValidator(currRequest);
-        boolean expResult = false;
+        boolean expResult = true;
         boolean result = instance.isCreditCardNoNull();
         assertEquals(expResult, result);
     }
