@@ -478,28 +478,28 @@ public class RentalBeanTest {
     }
 
     /**
-     * Test of getCustNumber method, of class RentalBean.
+     * Test of getCustomerNumber method, of class RentalBean.
      */
     @Test
-    public void testGetCustNumber() {
-        System.out.println("getCustNumber");
+    public void testGetCustomerNumber() {
+        System.out.println("getCustomerNumber");
         RentalBean instance = new RentalBean();
-        String expResult = "111";
+        int expResult = 111;
         instance.setCustomerNumber(expResult);
-        String result = instance.getCustomerNumber();
+        int result = instance.getCustomerNumber();
         assertEquals(expResult, result);
     }
 
     /**
-     * Test of setCustNumber method, of class RentalBean.
+     * Test of setCustomerNumber method, of class RentalBean.
      */
     @Test
-    public void testSetCustNumber() {
-        System.out.println("setCustNumber");
-        String custNumber = "111";
+    public void testSetCustomerNumber() {
+        System.out.println("setCustomerNumber");
+        int custNumber = 111;
         RentalBean instance = new RentalBean();
         instance.setCustomerNumber(custNumber);
-        String actual = instance.getCustomerNumber();
+        int actual = instance.getCustomerNumber();
         assertEquals(custNumber, actual);
     }
 
