@@ -27,7 +27,7 @@ public class RentalBean implements Serializable{
     private String rentalType;
     private String cardType;
     private String cardNumber;
-    private String customerNumber;
+    private int customerNumber;
     private BigDecimal taxRate;
     private BigDecimal price;
     private PriceSchedule priceSchedule;
@@ -262,11 +262,11 @@ public class RentalBean implements Serializable{
         this.priceSchedule = priceSchedule;
     }   
 
-    public String getCustomerNumber() {
+    public int getCustomerNumber() {
         return customerNumber;
     }
 
-    public void setCustomerNumber(String customerNumber) {
+    public void setCustomerNumber(int customerNumber) {
         this.customerNumber = customerNumber;
     }
 }
