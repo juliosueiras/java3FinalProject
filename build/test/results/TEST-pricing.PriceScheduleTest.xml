@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+<<<<<<< HEAD
+<testsuite errors="0" failures="9" hostname="juliosueirasstuff" name="pricing.PriceScheduleTest" skipped="0" tests="9" time="0.221" timestamp="2014-11-24T17:25:24">
+=======
 <testsuite errors="0" failures="9" hostname="l-211-057.ddi.sheridanc.on.ca" name="pricing.PriceScheduleTest" skipped="0" tests="9" time="0.158" timestamp="2014-11-20T19:11:41">
+>>>>>>> 91b0355a150364aa615f565ebf7fa379d5bd4b9a
   <properties>
     <property name="libs.jsp-compiler.javadoc" value="" />
     <property name="netbeans.autoupdate.country" value="US" />
@@ -209,6 +213,22 @@
     <property name="libs.javaee-api-6.0.src" value="" />
     <property name="netbeans.importclass" value="org.netbeans.upgrade.AutoUpgrade" />
     <property name="ant.project.default-target" value="default" />
+<<<<<<< HEAD
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner pricing.PriceScheduleTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/root/java3FinalProject/build/test/results/TEST-pricing.PriceScheduleTest.xml crashfile=/root/java3FinalProject/build/junitvmwatcher5983790695736827138.properties propsfile=/root/java3FinalProject/build/junit1984752103396106429.properties" />
+    <property name="libs.CopyLibs.displayName" value="CopyLibs Task" />
+    <property name="servlet.jar" value="web/WEB-INF/tomcat8/servlet-api.jar" />
+    <property name="ant.file" value="/root/java3FinalProject/build.xml" />
+    <property name="persistence.xml.dir" value="src/conf" />
+    <property name="libs.junit_4.src" value="/root/java3FinalProject/lib/junit_4/junit-4.10-sources.jar" />
+    <property name="junit.available" value="true" />
+    <property name="j2ee.server.instance" value="tomcat80:home=/home/juliosueiras/Servers/Tomcat8" />
+    <property name="java.io.tmpdir" value="/tmp" />
+    <property name="build.test.results.dir" value="build/test/results" />
+    <property name="user.language" value="en" />
+    <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="/tmp/null587351417" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="libs.junit_4.displayName" value="JUnit 4.10" />
+=======
     <property name="annotation.processing.run.all.processors" value="true" />
     <property name="libs.DataBindingME.maven-pom" value="" />
     <property name="libs.PostgreSQLDriver.javadoc" value="" />
@@ -239,6 +259,7 @@
     <property name="libs.jsp-compiler.classpath" value="/Applications/NetBeans/NetBeans 8.0.1.app/Contents/Resources/NetBeans/enterprise/ant/extra/jspcompile.jar" />
     <property name="dist.ear.war" value="dist/finalProject.war" />
     <property name="javac.processorpath" value="" />
+>>>>>>> 91b0355a150364aa615f565ebf7fa379d5bd4b9a
     <property name="javac.compilerargs" value="" />
     <property name="ant.file" value="/Users/jhlee/NetBeansProjects/finalProject/build.xml" />
     <property name="libs.beans-binding.maven-pom" value="" />
@@ -441,22 +462,57 @@
     <property name="war.ear.name" value="finalProject.war" />
     <property name="libs.javaee-web-api-7.0.javadoc" value="/Applications/NetBeans/NetBeans 8.0.1.app/Contents/Resources/NetBeans/enterprise/docs/javaee-doc-api.jar" />
   </properties>
+<<<<<<< HEAD
+  <testcase classname="pricing.PriceScheduleTest" name="testGetTypeName" time="0.036">
+=======
   <testcase classname="pricing.PriceScheduleTest" name="testGetTypeName" time="0.012">
+>>>>>>> 91b0355a150364aa615f565ebf7fa379d5bd4b9a
     <failure message="expected:&lt;&gt; but was:&lt;null&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;&gt; but was:&lt;null&gt;
 	at pricing.PriceScheduleTest.testGetTypeName(PriceScheduleTest.java:50)
 </failure>
   </testcase>
+<<<<<<< HEAD
+  <testcase classname="pricing.PriceScheduleTest" name="testSetWeekendRate" time="0.001">
+    <failure message="The test case is a prototype." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: The test case is a prototype.
+	at pricing.PriceScheduleTest.testSetWeekendRate(PriceScheduleTest.java:119)
+</failure>
+  </testcase>
+  <testcase classname="pricing.PriceScheduleTest" name="testGetWeeklyRate" time="0.001">
+    <failure message="The test case is a prototype." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: The test case is a prototype.
+	at pricing.PriceScheduleTest.testGetWeeklyRate(PriceScheduleTest.java:133)
+</failure>
+  </testcase>
+  <testcase classname="pricing.PriceScheduleTest" name="testSetWeeklyRate" time="0.006">
+    <failure message="The test case is a prototype." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: The test case is a prototype.
+	at pricing.PriceScheduleTest.testSetWeeklyRate(PriceScheduleTest.java:146)
+</failure>
+  </testcase>
+  <testcase classname="pricing.PriceScheduleTest" name="testToString" time="0.009">
+    <failure message="expected:&lt;[]&gt; but was:&lt;[CarRates{typeName=null, weekdayRate=null, weekendRate=null, weeklyRate=null}]&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;[]&gt; but was:&lt;[CarRates{typeName=null, weekdayRate=null, weekendRate=null, weeklyRate=null}]&gt;
+	at pricing.PriceScheduleTest.testToString(PriceScheduleTest.java:158)
+</failure>
+  </testcase>
+=======
+>>>>>>> 91b0355a150364aa615f565ebf7fa379d5bd4b9a
   <testcase classname="pricing.PriceScheduleTest" name="testSetTypeName" time="0.002">
     <failure message="The test case is a prototype." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: The test case is a prototype.
 	at pricing.PriceScheduleTest.testSetTypeName(PriceScheduleTest.java:65)
 </failure>
   </testcase>
+<<<<<<< HEAD
+  <testcase classname="pricing.PriceScheduleTest" name="testGetWeekdayRate" time="0.005">
+=======
   <testcase classname="pricing.PriceScheduleTest" name="testGetWeekdayRate" time="0.001">
+>>>>>>> 91b0355a150364aa615f565ebf7fa379d5bd4b9a
     <failure message="The test case is a prototype." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: The test case is a prototype.
 	at pricing.PriceScheduleTest.testGetWeekdayRate(PriceScheduleTest.java:79)
 </failure>
   </testcase>
+<<<<<<< HEAD
+  <testcase classname="pricing.PriceScheduleTest" name="testSetWeekdayRate" time="0.001">
+=======
   <testcase classname="pricing.PriceScheduleTest" name="testSetWeekdayRate" time="0.004">
+>>>>>>> 91b0355a150364aa615f565ebf7fa379d5bd4b9a
     <failure message="The test case is a prototype." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: The test case is a prototype.
 	at pricing.PriceScheduleTest.testSetWeekdayRate(PriceScheduleTest.java:92)
 </failure>
@@ -466,6 +522,13 @@
 	at pricing.PriceScheduleTest.testGetWeekendRate(PriceScheduleTest.java:106)
 </failure>
   </testcase>
+<<<<<<< HEAD
+  <system-out><![CDATA[getTypeName
+setWeekendRate
+getWeeklyRate
+setWeeklyRate
+toString
+=======
   <testcase classname="pricing.PriceScheduleTest" name="testSetWeekendRate" time="0.0">
     <failure message="The test case is a prototype." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: The test case is a prototype.
 	at pricing.PriceScheduleTest.testSetWeekendRate(PriceScheduleTest.java:119)
@@ -487,14 +550,18 @@
 </failure>
   </testcase>
   <system-out><![CDATA[getTypeName
+>>>>>>> 91b0355a150364aa615f565ebf7fa379d5bd4b9a
 setTypeName
 getWeekdayRate
 setWeekdayRate
 getWeekendRate
+<<<<<<< HEAD
+=======
 setWeekendRate
 getWeeklyRate
 setWeeklyRate
 toString
+>>>>>>> 91b0355a150364aa615f565ebf7fa379d5bd4b9a
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
