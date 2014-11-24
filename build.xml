@@ -7,7 +7,7 @@
 <!-- the Compile on Save feature is turned off for the project. -->
 <!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
 <!-- in the project's Project Properties dialog box.-->
-<project name="finalProject" default="default" basedir=".">
+<project name="finalProject" default="default" basedir="." xmlns:sonar="antlib:org.sonar.ant">
     <description>Builds, tests, and runs the project finalProject.</description>
     <import file="nbproject/build-impl.xml"/>
     <!--
@@ -124,38 +124,16 @@
         <classpath path="lib/jacoco/jacocoant.jar"/>
     </taskdef>
 
-    <path id="pmd.classpath">
-        <pathelement location="${build}"/>
-        <fileset dir="lib/pmd/pmd-bin-5.2.2-SNAPSHOT/lib">
-            <include name="*.jar"/>
-        </fileset>
-    </path>
-
     <target name="cpd">
-        <taskdef name="cpd" classname="net.sourceforge.pmd.cpd.CPDTask" classpathref="pmd.classpath"/>
+        <taskdef name="cpd" classname="net.sourceforge.pmd.cpd.CPDTask" />
         <cpd minimumTokenCount="100" outputFile="./cpd.txt">
             <fileset dir="./">
                 <include name="**/*.java"/>
             </fileset>
         </cpd>
     </target>
-    
-    <taskdef name="pmd" classname="net.sourceforge.pmd.ant.PMDTask" classpathref="pmd.classpath"/>
 
-    <target name="pmd">
-        <taskdef name="pmd" classname="net.sourceforge.pmd.ant.PMDTask" classpathref="pmd.classpath"/>
-        <pmd>
-            <sourceLanguage name="java" version="1.8"/>
-            <ruleset>rulesets/java/design.xml</ruleset>
-            <ruleset>java-basic</ruleset>
-            <formatter type="xml" toFile="pmd_report.html">
-                <param name="linkPrefix" value="http://pmd.sourceforge.net/xref/"/>
-            </formatter>
-            <fileset dir="src/java/">
-                <include name="**/*.java"/>
-            </fileset>
-        </pmd>
-    </target>
+
 
 
 
