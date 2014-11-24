@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="juliosueiras-laptop" name="pricing.RentalFormValidatorTest" skipped="0" tests="29" time="0.071" timestamp="2014-11-24T18:51:11">
+<testsuite errors="0" failures="0" hostname="juliosueiras-laptop" name="pricing.RentalFormValidatorTest" skipped="0" tests="29" time="0.098" timestamp="2014-11-24T19:52:03">
   <properties>
     <property name="default.javac.source" value="1.4" />
     <property name="file.encoding.pkg" value="sun.io" />
@@ -9,11 +9,11 @@
     <property name="jspc.schemas" value="/resources/schemas/" />
     <property name="test.src.dir" value="test" />
     <property name="javadoc.version" value="false" />
-    <property name="libs.CopyLibs.classpath" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar" />
+    <property name="libs.CopyLibs.classpath" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar" />
     <property name="auxiliary.org-netbeans-modules-css-prep.less_2e_mappings" value="/less:/css" />
     <property name="do.tmp.war.package.with.custom.manifest" value="true" />
-    <property name="libs.javaee-endorsed-api-6.0.classpath" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/javaee-endorsed-api-6.0/javax.annotation.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/javaee-endorsed-api-6.0/jaxb-api-osgi.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/javaee-endorsed-api-6.0/webservices-api-osgi.jar" />
-    <property name="libraries.path" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/nblibraries.properties" />
+    <property name="libs.javaee-endorsed-api-6.0.classpath" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-endorsed-api-6.0/javax.annotation.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-endorsed-api-6.0/jaxb-api-osgi.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-endorsed-api-6.0/webservices-api-osgi.jar" />
+    <property name="libraries.path" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/nblibraries.properties" />
     <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed" />
     <property name="libs.javaee-endorsed-api-7.0.displayName" value="Java EE 7 Endorsed API Library" />
     <property name="src.dir" value="src/java" />
@@ -28,7 +28,7 @@
     <property name="sun.os.patch.level" value="unknown" />
     <property name="auxiliary.org-netbeans-modules-css-prep.sass_2e_enabled" value="false" />
     <property name="java.vendor.url" value="http://java.oracle.com/" />
-    <property name="libs.javaee-api-7.0.classpath" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/javaee-api-7.0/javaee-api-7.0.jar" />
+    <property name="libs.javaee-api-7.0.classpath" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-api-7.0/javaee-api-7.0.jar" />
     <property name="do.display.browser.debug.old" value="true" />
     <property name="java.version" value="1.8.0_25" />
     <property name="build.web.excludes" value="**/*.java,**/*.form" />
@@ -37,13 +37,13 @@
     <property name="conf.dir" value="src/conf" />
     <property name="deploy.ant.properties.file" value="/Users/jhlee/Library/Application Support/NetBeans/8.0.1/tomcat80.properties" />
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
-    <property name="ant.file.finalProject-impl" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/nbproject/build-impl.xml" />
+    <property name="ant.file.finalProject-impl" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/nbproject/build-impl.xml" />
     <property name="ant.project.invoked-targets" value="test" />
     <property name="client.urlPart" value="" />
     <property name="annotation.processing.run.all.processors" value="true" />
     <property name="user.name" value="juliosueiras" />
     <property name="j2ee.deploy.on.save" value="true" />
-    <property name="empty.dir" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/build/empty" />
+    <property name="empty.dir" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/build/empty" />
     <property name="has.custom.manifest" value="true" />
     <property name="build.meta.inf.dir" value="build/web/META-INF" />
     <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
@@ -63,33 +63,34 @@
     <property name="file.encoding" value="UTF-8" />
     <property name="dist.javadoc.dir" value="dist/javadoc" />
     <property name="ant.project.default-target" value="default" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner pricing.RentalFormValidatorTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/build/test/results/TEST-pricing.RentalFormValidatorTest.xml crashfile=/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/build/junitvmwatcher6060316730619877103.properties propsfile=/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/build/junit4916903556481305579.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner pricing.RentalFormValidatorTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/build/test/results/TEST-pricing.RentalFormValidatorTest.xml crashfile=/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/build/junitvmwatcher4569929250107968316.properties propsfile=/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/build/junit2454981162979696815.properties" />
     <property name="libs.CopyLibs.displayName" value="CopyLibs Task" />
-    <property name="ant.file" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/build.xml" />
+    <property name="ant.file" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/build.xml" />
     <property name="persistence.xml.dir" value="src/conf" />
-    <property name="libs.junit_4.src" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/junit_4/junit-4.10-sources.jar" />
+    <property name="libs.junit_4.src" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/junit_4/junit-4.10-sources.jar" />
     <property name="junit.available" value="true" />
     <property name="j2ee.server.instance" value="tomcat80:home=/Applications/apache-tomcat-8.0.12" />
     <property name="java.io.tmpdir" value="/tmp" />
     <property name="build.test.results.dir" value="build/test/results" />
     <property name="user.language" value="en" />
     <property name="line.separator" value="&#xa;" />
+    <property name="target" value="1.7" />
     <property name="libs.junit_4.displayName" value="JUnit 4.10" />
     <property name="javac.compilerargs" value="" />
-    <property name="ant.file.finalProject" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/build.xml" />
+    <property name="ant.file.finalProject" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/build.xml" />
     <property name="ant.file.type" value="file" />
     <property name="war.name" value="finalProject.war" />
     <property name="jar.compress" value="false" />
     <property name="debug-transport-by-os" value="dt_socket" />
-    <property name="libs.javaee-endorsed-api-7.0.classpath" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/javaee-endorsed-api-7.0/javax.annotation-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/javaee-endorsed-api-7.0/javax.xml.soap-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/javaee-endorsed-api-7.0/jaxb-api-osgi.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/javaee-endorsed-api-7.0/jaxws-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/javaee-endorsed-api-7.0/jsr181-api.jar" />
+    <property name="libs.javaee-endorsed-api-7.0.classpath" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-endorsed-api-7.0/javax.annotation-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-endorsed-api-7.0/javax.xml.soap-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-endorsed-api-7.0/jaxb-api-osgi.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-endorsed-api-7.0/jaxws-api.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-endorsed-api-7.0/jsr181-api.jar" />
     <property name="java.vm.info" value="mixed mode" />
     <property name="libs.javaee-api-7.0.displayName" value="Java EE 7 API Library" />
     <property name="javadoc.private" value="false" />
     <property name="annotation.processing.processors.list" value="" />
     <property name="sun.desktop" value="gnome" />
-    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
     <property name="build.test.classes.dir" value="build/test/classes" />
-    <property name="libs.javaee-endorsed-api-6.0.javadoc" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/javaee-endorsed-api-6.0/javaee-doc-api.jar" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="libs.javaee-endorsed-api-6.0.javadoc" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-endorsed-api-6.0/javaee-doc-api.jar" />
     <property name="jspc.dtds" value="/resources/dtds/" />
     <property name="test.binaryexcludes" value="" />
     <property name="compile.jsps" value="false" />
@@ -97,17 +98,17 @@
     <property name="platform.active" value="default_platform" />
     <property name="ap.cmd.line.internal" value="" />
     <property name="jdkBug6558476" value="false" />
-    <property name="libs.junit_4.javadoc" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/junit_4/junit-4.10-javadoc.jar" />
-    <property name="endorsed.classpath" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/javaee-endorsed-api-6.0/javax.annotation.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/javaee-endorsed-api-6.0/jaxb-api-osgi.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/javaee-endorsed-api-6.0/webservices-api-osgi.jar" />
-    <property name="libs.javaee-web-api-7.0.classpath" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/javaee-web-api-7.0/javaee-web-api-7.0.jar" />
+    <property name="libs.junit_4.javadoc" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/junit_4/junit-4.10-javadoc.jar" />
+    <property name="endorsed.classpath" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-endorsed-api-6.0/javax.annotation.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-endorsed-api-6.0/jaxb-api-osgi.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-endorsed-api-6.0/webservices-api-osgi.jar" />
+    <property name="libs.javaee-web-api-7.0.classpath" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-web-api-7.0/javaee-web-api-7.0.jar" />
     <property name="javadoc.encoding" value="UTF-8" />
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
     <property name="ap.processors.internal" value="" />
-    <property name="libs.javaee-api-7.0.javadoc" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/javaee-api-7.0/javaee-doc-api.jar" />
+    <property name="libs.javaee-api-7.0.javadoc" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-api-7.0/javaee-doc-api.jar" />
     <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on May 9 2014" />
     <property name="javadoc.nonavbar" value="false" />
-    <property name="libs.javaee-endorsed-api-7.0.javadoc" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/javaee-endorsed-api-7.0/javaee-doc-api.jar" />
-    <property name="libs.javaee-web-api-7.0.javadoc" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/javaee-web-api-7.0/javaee-doc-api.jar" />
+    <property name="libs.javaee-endorsed-api-7.0.javadoc" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-endorsed-api-7.0/javaee-doc-api.jar" />
+    <property name="libs.javaee-web-api-7.0.javadoc" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-web-api-7.0/javaee-doc-api.jar" />
     <property name="user.properties.file" value="/Users/jhlee/Library/Application Support/NetBeans/8.0.1/build.properties" />
     <property name="auxiliary.org-netbeans-modules-css-prep.less_2e_enabled" value="false" />
     <property name="build.web.dir" value="build/web" />
@@ -116,27 +117,27 @@
     <property name="build.generated.dir" value="build/generated" />
     <property name="os.name" value="Linux" />
     <property name="java.specification.vendor" value="Oracle Corporation" />
-    <property name="run.test.classpath" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/javaee-web-api-7.0/javaee-web-api-7.0.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/javaee-api-7.0/javaee-api-7.0.jar:build/web/WEB-INF/classes:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/junit_4/junit-4.10.jar:build/test/classes" />
+    <property name="run.test.classpath" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-web-api-7.0/javaee-web-api-7.0.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-api-7.0/javaee-api-7.0.jar:build/web/WEB-INF/classes:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/junit_4/junit-4.10.jar:build/test/classes" />
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
     <property name="ap.supported.internal" value="true" />
     <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib" />
     <property name="ant.java.version" value="1.8" />
     <property name="do.tmp.war.package" value="true" />
-    <property name="basedir" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject" />
+    <property name="basedir" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject" />
     <property name="javadoc.noindex" value="false" />
     <property name="java.class.version" value="52.0" />
-    <property name="javac.test.classpath" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/javaee-web-api-7.0/javaee-web-api-7.0.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/javaee-api-7.0/javaee-api-7.0.jar:build/web/WEB-INF/classes:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/junit_4/junit-4.10.jar" />
+    <property name="javac.test.classpath" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-web-api-7.0/javaee-web-api-7.0.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-api-7.0/javaee-api-7.0.jar:build/web/WEB-INF/classes:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/junit_4/junit-4.10.jar" />
     <property name="j2ee.platform" value="1.7-web" />
-    <property name="javac.processorpath" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/javaee-web-api-7.0/javaee-web-api-7.0.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/javaee-api-7.0/javaee-api-7.0.jar" />
+    <property name="javac.processorpath" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-web-api-7.0/javaee-web-api-7.0.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-api-7.0/javaee-api-7.0.jar" />
     <property name="ant.home" value="/usr/share/ant" />
     <property name="resource.dir" value="setup" />
     <property name="javadoc.splitindex" value="true" />
-    <property name="javac.test.processorpath" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/javaee-web-api-7.0/javaee-web-api-7.0.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/javaee-api-7.0/javaee-api-7.0.jar:build/web/WEB-INF/classes:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/junit_4/junit-4.10.jar" />
+    <property name="javac.test.processorpath" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-web-api-7.0/javaee-web-api-7.0.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-api-7.0/javaee-api-7.0.jar:build/web/WEB-INF/classes:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/junit_4/junit-4.10.jar" />
     <property name="javadoc.preview" value="true" />
     <property name="runmain.jvmargs" value="" />
     <property name="auxiliary.org-netbeans-modules-css-prep.less_2e_compiler_2e_options" value="" />
     <property name="test.binarytestincludes" value="" />
-    <property name="libs.junit_4.classpath" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/junit_4/junit-4.10.jar" />
+    <property name="libs.junit_4.classpath" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/junit_4/junit-4.10.jar" />
     <property name="j2ee.compile.on.save" value="true" />
     <property name="dist.archive.excludes" value="" />
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64" />
@@ -145,18 +146,18 @@
     <property name="war.content.additional" value="" />
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
-    <property name="libraries.dir.nativedirsep" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib" />
-    <property name="javadoc.encoding.used" value="UTF-8" />
+    <property name="libraries.dir.nativedirsep" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib" />
     <property name="dist.ear.war" value="dist/finalProject.war" />
+    <property name="javadoc.encoding.used" value="UTF-8" />
     <property name="javadoc.windowtitle" value="" />
-    <property name="auxiliary.org-netbeans-modules-css-prep.sass_2e_mappings" value="/scss:/css" />
     <property name="j2ee.platform.classpath" value="/Applications/apache-tomcat-8.0.12/lib/annotations-api.jar:/Applications/apache-tomcat-8.0.12/lib/catalina-ant.jar:/Applications/apache-tomcat-8.0.12/lib/catalina-ha.jar:/Applications/apache-tomcat-8.0.12/lib/catalina-storeconfig.jar:/Applications/apache-tomcat-8.0.12/lib/catalina-tribes.jar:/Applications/apache-tomcat-8.0.12/lib/catalina.jar:/Applications/apache-tomcat-8.0.12/lib/ecj-4.4.jar:/Applications/apache-tomcat-8.0.12/lib/el-api.jar:/Applications/apache-tomcat-8.0.12/lib/jasper-el.jar:/Applications/apache-tomcat-8.0.12/lib/jasper.jar:/Applications/apache-tomcat-8.0.12/lib/jsp-api.jar:/Applications/apache-tomcat-8.0.12/lib/jstl-1.2.jar:/Applications/apache-tomcat-8.0.12/lib/jstl.jar:/Applications/apache-tomcat-8.0.12/lib/mysql-connector-java-5.1.32-bin.jar:/Applications/apache-tomcat-8.0.12/lib/servlet-api.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-api.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-coyote.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-dbcp.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-i18n-es.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-i18n-fr.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-i18n-ja.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-jdbc.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-jni.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-spdy.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-util-scan.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-util.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-websocket.jar:/Applications/apache-tomcat-8.0.12/lib/websocket-api.jar" />
+    <property name="auxiliary.org-netbeans-modules-css-prep.sass_2e_mappings" value="/scss:/css" />
     <property name="selected.browser" value="default" />
     <property name="annotation.processing.enabled" value="true" />
     <property name="webinf.dir" value="web/WEB-INF" />
     <property name="run.jvmargs.ide" value="" />
-    <property name="libs.CopyLibs.prop-version" value="2.0" />
     <property name="nb.junit.single" value="false" />
+    <property name="libs.CopyLibs.prop-version" value="2.0" />
     <property name="build.generated.sources.dir" value="build/generated-sources" />
     <property name="ant.project.name" value="finalProject" />
     <property name="java.vm.specification.version" value="1.8" />
@@ -172,23 +173,23 @@
     <property name="java.vm.vendor" value="Oracle Corporation" />
     <property name="libs.javaee-endorsed-api-6.0.displayName" value="Java EE 6 Endorsed API Library" />
     <property name="libs.javaee-web-api-7.0.prop-maven-dependencies" value="javax:javaee-web-api:7.0:jar" />
-    <property name="user.dir" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject" />
+    <property name="user.dir" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject" />
     <property name="debug-transport" value="dt_socket" />
     <property name="libs.javaee-api-7.0.prop-maven-dependencies" value="javax:javaee-api:7.0:jar" />
     <property name="sun.cpu.endian" value="little" />
     <property name="ant.file.type.finalProject-impl" value="file" />
-    <property name="endorsed.classpath.cmd.line.arg" value="-Xbootclasspath/p:&apos;/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/javaee-endorsed-api-6.0/javax.annotation.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/javaee-endorsed-api-6.0/jaxb-api-osgi.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/javaee-endorsed-api-6.0/webservices-api-osgi.jar&apos;" />
-    <property name="test.binaryincludes" value="&lt;nothing&gt;" />
-    <property name="libraries.dir" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib" />
+    <property name="endorsed.classpath.cmd.line.arg" value="-Xbootclasspath/p:&apos;/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-endorsed-api-6.0/javax.annotation.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-endorsed-api-6.0/jaxb-api-osgi.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-endorsed-api-6.0/webservices-api-osgi.jar&apos;" />
+    <property name="libraries.dir" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib" />
     <property name="java.vm.version" value="25.25-b02" />
-    <property name="java.class.path" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/javaee-web-api-7.0/javaee-web-api-7.0.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/javaee-api-7.0/javaee-api-7.0.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/build/web/WEB-INF/classes:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/junit_4/junit-4.10.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/build/test/classes:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.9.4.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar" />
+    <property name="test.binaryincludes" value="&lt;nothing&gt;" />
     <property name="dist.war" value="dist/finalProject.war" />
+    <property name="java.class.path" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-web-api-7.0/javaee-web-api-7.0.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-api-7.0/javaee-api-7.0.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/build/web/WEB-INF/classes:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/junit_4/junit-4.10.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/build/test/classes:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.9.4.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar" />
     <property name="ant.library.dir" value="/usr/share/ant/lib" />
     <property name="os.arch" value="amd64" />
     <property name="javac.deprecation" value="false" />
     <property name="build.classes.excludes" value="**/*.java,**/*.form" />
     <property name="dist.dir" value="dist" />
-    <property name="debug.classpath" value="build/web/WEB-INF/classes:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/javaee-web-api-7.0/javaee-web-api-7.0.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/javaee-api-7.0/javaee-api-7.0.jar" />
+    <property name="debug.classpath" value="build/web/WEB-INF/classes:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-web-api-7.0/javaee-web-api-7.0.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-api-7.0/javaee-api-7.0.jar" />
     <property name="sun.java.launcher" value="SUN_STANDARD" />
     <property name="do.display.browser" value="true" />
     <property name="annotation.processing.enabled.in.editor" value="true" />
@@ -196,8 +197,8 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation" />
     <property name="file.separator" value="/" />
     <property name="java.runtime.version" value="1.8.0_25-b17" />
-    <property name="sun.boot.class.path" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/javaee-endorsed-api-6.0/javax.annotation.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/javaee-endorsed-api-6.0/jaxb-api-osgi.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/javaee-endorsed-api-6.0/webservices-api-osgi.jar:/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes" />
-    <property name="debug.test.classpath" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/javaee-web-api-7.0/javaee-web-api-7.0.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/javaee-api-7.0/javaee-api-7.0.jar:build/web/WEB-INF/classes:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/junit_4/junit-4.10.jar:build/test/classes" />
+    <property name="sun.boot.class.path" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-endorsed-api-6.0/javax.annotation.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-endorsed-api-6.0/jaxb-api-osgi.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-endorsed-api-6.0/webservices-api-osgi.jar:/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes" />
+    <property name="debug.test.classpath" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-web-api-7.0/javaee-web-api-7.0.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-api-7.0/javaee-api-7.0.jar:build/web/WEB-INF/classes:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/junit_4/junit-4.10.jar:build/test/classes" />
     <property name="nb.junit.batch" value="true" />
     <property name="have.tests" value="true" />
     <property name="libs.junit_4.prop-maven-dependencies" value="junit:junit:4.10:jar" />
@@ -206,67 +207,56 @@
     <property name="javadoc.notree" value="false" />
     <property name="do.debug.server" value="true" />
     <property name="ant.file.type.finalProject" value="file" />
-    <property name="default.javac.target" value="1.4" />
-    <property name="javac.classpath" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/javaee-web-api-7.0/javaee-web-api-7.0.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/java3FinalProject/lib/javaee-api-7.0/javaee-api-7.0.jar" />
+    <property name="javac.classpath" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-web-api-7.0/javaee-web-api-7.0.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-api-7.0/javaee-api-7.0.jar" />
     <property name="javadoc.additionalparam" value="" />
+    <property name="default.javac.target" value="1.4" />
     <property name="build.classes.dir" value="build/web/WEB-INF/classes" />
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="javac.target" value="1.8" />
     <property name="java.specification.version" value="1.8" />
-    <property name="j2ee.platform.embeddableejb.classpath" value="" />
     <property name="war.ear.name" value="finalProject.war" />
+    <property name="j2ee.platform.embeddableejb.classpath" value="" />
     <property name="sun.arch.data.model" value="64" />
   </properties>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsValid" time="0.004" />
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffYearNull" time="0.001" />
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCarTypeNull" time="0.005" />
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCarTypeInRange" time="0.0" />
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCreditCardTypeNull" time="0.0" />
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCreditCardTypeInRange" time="0.001" />
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCreditCardNoNull" time="0.0" />
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCreditCardNoInRange" time="0.0" />
+  <testcase classname="pricing.RentalFormValidatorTest" name="testGetBean" time="0.001" />
+  <testcase classname="pricing.RentalFormValidatorTest" name="testSetBean" time="0.0" />
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsValid" time="0.0" />
+  <testcase classname="pricing.RentalFormValidatorTest" name="testGetErrorCodes" time="0.0" />
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupYearNull" time="0.0" />
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupYearInRange" time="0.001" />
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupHourNull" time="0.0" />
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupHourInRange" time="0.0" />
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffDayNull" time="0.0" />
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffDayInRange" time="0.002" />
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffMonthNull" time="0.001" />
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffMonthInRange" time="0.0" />
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffYearNull" time="0.0" />
   <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffYearInRange" time="0.0" />
   <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffHourNull" time="0.0" />
   <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffHourInRange" time="0.0" />
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCarTypeNull" time="0.001" />
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCarTypeInRange" time="0.0" />
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCreditCardTypeNull" time="0.0" />
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCreditCardTypeInRange" time="0.0" />
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCreditCardNoNull" time="0.0" />
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCreditCardNoInRange" time="0.001" />
-  <testcase classname="pricing.RentalFormValidatorTest" name="testSetBean" time="0.0" />
-  <testcase classname="pricing.RentalFormValidatorTest" name="testGetErrorCodes" time="0.0" />
-  <testcase classname="pricing.RentalFormValidatorTest" name="testSetErrorCodes" time="0.0" />
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCustomerNull" time="0.0" />
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCustomerNumeric" time="0.001" />
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupDayNull" time="0.001" />
-  <testcase classname="pricing.RentalFormValidatorTest" name="testGetBean" time="0.0" />
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupDayInRange" time="0.001" />
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupDayNull" time="0.0" />
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupDayInRange" time="0.0" />
   <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupMonthNull" time="0.0" />
   <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupMonthInRange" time="0.0" />
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupYearNull" time="0.0" />
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupYearInRange" time="0.0" />
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupHourNull" time="0.001" />
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupHourInRange" time="0.0" />
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffDayNull" time="0.0" />
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffDayInRange" time="0.0" />
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffMonthNull" time="0.0" />
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffMonthInRange" time="0.001" />
-  <system-out><![CDATA[isValid
-isDropoffYearNull
-isDropoffYearInRange
-isDropoffHourNull
-isDropoffHourInRange
-isCarTypeNull
+  <testcase classname="pricing.RentalFormValidatorTest" name="testSetErrorCodes" time="0.0" />
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCustomerNull" time="0.001" />
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCustomerNumeric" time="0.0" />
+  <system-out><![CDATA[isCarTypeNull
 isCarTypeInRange
 isCreditCardTypeNull
 isCreditCardTypeInRange
 isCreditCardNoNull
 isCreditCardNoInRange
-setBean
-getErrors
-setErrorCodes
-isCustomerNull
-isCustomerNumeric
-isPickupDayNull
 getBean
-isPickupDayInRange
-isPickupMonthNull
-isPickupMonthInRange
+setBean
+isValid
+getErrors
 isPickupYearNull
 isPickupYearInRange
 isPickupHourNull
@@ -275,6 +265,17 @@ isDropoffDayNull
 isDropoffDayInRange
 isDropoffMonthNull
 isDropoffMonthInRange
+isDropoffYearNull
+isDropoffYearInRange
+isDropoffHourNull
+isDropoffHourInRange
+isPickupDayNull
+isPickupDayInRange
+isPickupMonthNull
+isPickupMonthInRange
+setErrorCodes
+isCustomerNull
+isCustomerNumeric
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
