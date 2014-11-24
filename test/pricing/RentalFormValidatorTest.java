@@ -19,20 +19,20 @@ import static org.junit.Assert.*;
  * @author jhlee
  */
 public class RentalFormValidatorTest {
-    
+
     private MockRequest currRequest;
-    
+
     public RentalFormValidatorTest() {
     }
-    
+
     @BeforeClass
     public static void setUpClass() {
     }
-    
+
     @AfterClass
     public static void tearDownClass() {
     }
-    
+
     @Before
     public void setUp() {
         currRequest = new MockRequest();
@@ -49,7 +49,7 @@ public class RentalFormValidatorTest {
         currRequest.setParameter("creditCardType", "visa");
         currRequest.setParameter("creditCardNo", "4111111111111111");
     }
-    
+
     @After
     public void tearDown() {
     }
@@ -363,7 +363,7 @@ public class RentalFormValidatorTest {
         System.out.println("isCreditCardTypeNull");
         currRequest.setParameter("creditCardType", "");
         RentalFormValidator instance = new RentalFormValidator(currRequest);
-        boolean expResult = true;
+        boolean expResult = false;
         boolean result = instance.isCreditCardTypeNull();
         assertEquals(expResult, result);
     }
@@ -435,5 +435,5 @@ public class RentalFormValidatorTest {
         RentalBean expResult = instance.getBean();
         assertEquals(expResult, bean);
     }
-    
+
 }
