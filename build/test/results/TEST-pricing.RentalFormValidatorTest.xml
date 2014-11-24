@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="1" failures="5" hostname="juliosueirasstuff" name="pricing.RentalFormValidatorTest" skipped="0" tests="7" time="0.197" timestamp="2014-11-20T19:45:35">
+<testsuite errors="1" failures="5" hostname="juliosueirasstuff" name="pricing.RentalFormValidatorTest" skipped="0" tests="7" time="0.172" timestamp="2014-11-24T17:25:26">
   <properties>
     <property name="default.javac.source" value="1.4" />
     <property name="file.encoding.pkg" value="sun.io" />
@@ -63,7 +63,7 @@
     <property name="file.encoding" value="UTF-8" />
     <property name="dist.javadoc.dir" value="dist/javadoc" />
     <property name="ant.project.default-target" value="default" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner pricing.RentalFormValidatorTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/root/java3FinalProject/build/test/results/TEST-pricing.RentalFormValidatorTest.xml crashfile=/root/java3FinalProject/build/junitvmwatcher8179462125515337290.properties propsfile=/root/java3FinalProject/build/junit2187379234591411035.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner pricing.RentalFormValidatorTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/root/java3FinalProject/build/test/results/TEST-pricing.RentalFormValidatorTest.xml crashfile=/root/java3FinalProject/build/junitvmwatcher2755662289214906752.properties propsfile=/root/java3FinalProject/build/junit8423387600400103878.properties" />
     <property name="libs.CopyLibs.displayName" value="CopyLibs Task" />
     <property name="servlet.jar" value="web/WEB-INF/tomcat8/servlet-api.jar" />
     <property name="ant.file" value="/root/java3FinalProject/build.xml" />
@@ -74,7 +74,7 @@
     <property name="java.io.tmpdir" value="/tmp" />
     <property name="build.test.results.dir" value="build/test/results" />
     <property name="user.language" value="en" />
-    <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="/tmp/null837076007" />
+    <property name="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer0" value="/tmp/null587351417" />
     <property name="line.separator" value="&#xa;" />
     <property name="libs.junit_4.displayName" value="JUnit 4.10" />
     <property name="javac.compilerargs" value="" />
@@ -219,7 +219,7 @@
     <property name="sun.arch.data.model" value="64" />
     <property name="" value="======" />
   </properties>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsValid" time="0.029">
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsValid" time="0.018">
     <error type="java.lang.NullPointerException">java.lang.NullPointerException
 	at pricing.RentalFormValidator.isCustomerNull(RentalFormValidator.java:110)
 	at pricing.RentalFormValidator.isValid(RentalFormValidator.java:30)
@@ -227,12 +227,12 @@
 </error>
   </testcase>
   <testcase classname="pricing.RentalFormValidatorTest" name="testGetErrors" time="0.001" />
-  <testcase classname="pricing.RentalFormValidatorTest" name="testSetErrorCodes" time="0.006">
+  <testcase classname="pricing.RentalFormValidatorTest" name="testSetErrorCodes" time="0.007">
     <failure message="The test case is a prototype." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: The test case is a prototype.
 	at pricing.RentalFormValidatorTest.testSetErrorCodes(RentalFormValidatorTest.java:97)
 </failure>
   </testcase>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCustomerNull" time="0.006">
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCustomerNull" time="0.001">
     <failure message="The test case is a prototype." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: The test case is a prototype.
 	at pricing.RentalFormValidatorTest.testIsCustomerNull(RentalFormValidatorTest.java:133)
 </failure>
@@ -242,12 +242,12 @@
 	at pricing.RentalFormValidatorTest.testIsCustomerNumeric(RentalFormValidatorTest.java:145)
 </failure>
   </testcase>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupDayNull" time="0.007">
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupDayNull" time="0.001">
     <failure message="The test case is a prototype." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: The test case is a prototype.
 	at pricing.RentalFormValidatorTest.testIsPickupDayNull(RentalFormValidatorTest.java:157)
 </failure>
   </testcase>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupDayInRange" time="0.001">
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupDayInRange" time="0.004">
     <failure message="The test case is a prototype." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: The test case is a prototype.
 	at pricing.RentalFormValidatorTest.testIsPickupDayInRange(RentalFormValidatorTest.java:169)
 </failure>
