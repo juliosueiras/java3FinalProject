@@ -68,8 +68,6 @@
     nbproject/build-impl.xml file. 
 
     -->
-<<<<<<< HEAD
-=======
 
 	<!-- Define the Sonar properties > -->
      <mkdir dir="./build/test/results"/> 
@@ -126,17 +124,38 @@
         <classpath path="lib/jacoco/jacocoant.jar"/>
     </taskdef>
 
+    <path id="pmd.classpath">
+        <pathelement location="${build}"/>
+        <fileset dir="lib/pmd/pmd-bin-5.2.2-SNAPSHOT/lib">
+            <include name="*.jar"/>
+        </fileset>
+    </path>
+
     <target name="cpd">
-        <taskdef name="cpd" classname="net.sourceforge.pmd.cpd.CPDTask" />
+        <taskdef name="cpd" classname="net.sourceforge.pmd.cpd.CPDTask" classpathref="pmd.classpath"/>
         <cpd minimumTokenCount="100" outputFile="./cpd.txt">
             <fileset dir="./">
                 <include name="**/*.java"/>
             </fileset>
         </cpd>
     </target>
+    
+    <taskdef name="pmd" classname="net.sourceforge.pmd.ant.PMDTask" classpathref="pmd.classpath"/>
 
+    <target name="pmd">
+        <taskdef name="pmd" classname="net.sourceforge.pmd.ant.PMDTask" classpathref="pmd.classpath"/>
+        <pmd>
+            <sourceLanguage name="java" version="1.8"/>
+            <ruleset>rulesets/java/design.xml</ruleset>
+            <ruleset>java-basic</ruleset>
+            <formatter type="xml" toFile="pmd_report.html">
+                <param name="linkPrefix" value="http://pmd.sourceforge.net/xref/"/>
+            </formatter>
+            <fileset dir="src/java/">
+                <include name="**/*.java"/>
+            </fileset>
+        </pmd>
+    </target>
 
-
->>>>>>> 0aa71bbd04b4de12dcb8d7fbdd8a20c6b56eec83
 </project>
 

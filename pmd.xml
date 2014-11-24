@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.2.2-SNAPSHOT" timestamp="2014-11-20T16:06:33.610">
+<file name="/root/java3FinalProject/src/java/pricing/PriceSchedule.java">
+<violation beginline="14" endline="93" begincolumn="8" endcolumn="1" rule="MissingSerialVersionUID" ruleset="JavaBeans" package="pricing" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/javabeans.html#MissingSerialVersionUID" priority="3">
+Classes implementing Serializable should set a serialVersionUID
+</violation>
+<violation beginline="15" endline="15" begincolumn="14" endcolumn="29" rule="CommentRequired" ruleset="Comments" package="pricing" class="PriceSchedule" variable="typeName" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="16" endline="16" begincolumn="14" endcolumn="36" rule="CommentRequired" ruleset="Comments" package="pricing" class="PriceSchedule" variable="weekdayRate" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="17" endline="17" begincolumn="14" endcolumn="36" rule="CommentRequired" ruleset="Comments" package="pricing" class="PriceSchedule" variable="weekendRate" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="18" endline="18" begincolumn="14" endcolumn="35" rule="CommentRequired" ruleset="Comments" package="pricing" class="PriceSchedule" variable="weeklyRate" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="20" endline="20" begincolumn="26" endcolumn="40" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="pricing" class="PriceSchedule" method="PriceSchedule" variable="typeName" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'typeName' is not assigned and could be declared final
+</violation>
+<violation beginline="20" endline="20" begincolumn="43" endcolumn="64" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="pricing" class="PriceSchedule" method="PriceSchedule" variable="weekdayRate" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'weekdayRate' is not assigned and could be declared final
+</violation>
+<violation beginline="20" endline="20" begincolumn="67" endcolumn="88" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="pricing" class="PriceSchedule" method="PriceSchedule" variable="weekendRate" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'weekendRate' is not assigned and could be declared final
+</violation>
+<violation beginline="20" endline="20" begincolumn="91" endcolumn="111" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="pricing" class="PriceSchedule" method="PriceSchedule" variable="weeklyRate" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'weeklyRate' is not assigned and could be declared final
+</violation>
+<violation beginline="20" endline="25" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="pricing" class="PriceSchedule" method="PriceSchedule" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="27" endline="28" begincolumn="12" endcolumn="5" rule="UncommentedEmptyConstructor" ruleset="Design" package="pricing" class="PriceSchedule" method="PriceSchedule" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/design.html#UncommentedEmptyConstructor" priority="3">
+Document empty constructor
+</violation>
+<violation beginline="27" endline="28" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="pricing" class="PriceSchedule" method="PriceSchedule" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="40" endline="40" begincolumn="29" endcolumn="43" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="pricing" class="PriceSchedule" method="setTypeName" variable="typeName" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'typeName' is not assigned and could be declared final
+</violation>
+<violation beginline="54" endline="54" begincolumn="32" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="pricing" class="PriceSchedule" method="setWeekdayRate" variable="weekdayRate" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'weekdayRate' is not assigned and could be declared final
+</violation>
+<violation beginline="68" endline="68" begincolumn="32" endcolumn="53" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="pricing" class="PriceSchedule" method="setWeekendRate" variable="weekendRate" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'weekendRate' is not assigned and could be declared final
+</violation>
+<violation beginline="82" endline="82" begincolumn="31" endcolumn="51" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="pricing" class="PriceSchedule" method="setWeeklyRate" variable="weeklyRate" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'weeklyRate' is not assigned and could be declared final
+</violation>
+<violation beginline="87" endline="92" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="pricing" class="PriceSchedule" method="toString" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+</file>
+<file name="/root/java3FinalProject/src/java/pricing/RentalBean.java">
+<violation beginline="11" endline="11" begincolumn="1" endcolumn="25" rule="UnusedImports" ruleset="Import Statements" package="pricing" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.util.HashMap'
+</violation>
+<violation beginline="16" endline="272" begincolumn="8" endcolumn="1" rule="MissingSerialVersionUID" ruleset="JavaBeans" package="pricing" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/javabeans.html#MissingSerialVersionUID" priority="3">
+Classes implementing Serializable should set a serialVersionUID
+</violation>
+<violation beginline="16" endline="272" begincolumn="8" endcolumn="1" rule="TooManyFields" ruleset="Code Size" package="pricing" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/codesize.html#TooManyFields" priority="3">
+Too many fields
+</violation>
+<violation beginline="17" endline="17" begincolumn="13" endcolumn="27" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalBean" variable="pickupYear" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="18" endline="18" begincolumn="13" endcolumn="26" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalBean" variable="pickupMon" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="19" endline="19" begincolumn="13" endcolumn="26" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalBean" variable="pickupDay" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="20" endline="20" begincolumn="13" endcolumn="27" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalBean" variable="pickupHour" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="21" endline="21" begincolumn="13" endcolumn="26" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalBean" variable="pickupMin" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="22" endline="22" begincolumn="13" endcolumn="28" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalBean" variable="dropoffYear" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="23" endline="23" begincolumn="13" endcolumn="27" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalBean" variable="dropoffMon" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="24" endline="24" begincolumn="13" endcolumn="27" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalBean" variable="dropoffDay" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="25" endline="25" begincolumn="13" endcolumn="28" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalBean" variable="dropoffHour" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="26" endline="26" begincolumn="13" endcolumn="27" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalBean" variable="dropoffMin" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="27" endline="27" begincolumn="13" endcolumn="30" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalBean" variable="rentalType" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="28" endline="28" begincolumn="13" endcolumn="28" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalBean" variable="cardType" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="29" endline="29" begincolumn="13" endcolumn="30" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalBean" variable="cardNumber" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="30" endline="30" begincolumn="13" endcolumn="34" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalBean" variable="customerNumber" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="31" endline="31" begincolumn="13" endcolumn="31" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalBean" variable="taxRate" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="32" endline="32" begincolumn="13" endcolumn="29" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalBean" variable="price" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="33" endline="33" begincolumn="13" endcolumn="40" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalBean" variable="priceSchedule" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="35" endline="37" begincolumn="12" endcolumn="5" rule="UnnecessaryConstructor" ruleset="Controversial" package="pricing" class="RentalBean" method="RentalBean" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#UnnecessaryConstructor" priority="3">
+Avoid unnecessary constructors - the compiler will generate these for you
+</violation>
+<violation beginline="35" endline="37" begincolumn="12" endcolumn="5" rule="UncommentedEmptyConstructor" ruleset="Design" package="pricing" class="RentalBean" method="RentalBean" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/design.html#UncommentedEmptyConstructor" priority="3">
+Document empty constructor
+</violation>
+<violation beginline="35" endline="37" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalBean" method="RentalBean" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="58" endline="58" begincolumn="31" endcolumn="44" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="pricing" class="RentalBean" method="setPickupYear" variable="pickupYear" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'pickupYear' is not assigned and could be declared final
+</violation>
+<violation beginline="72" endline="72" begincolumn="30" endcolumn="42" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="pricing" class="RentalBean" method="setPickupMon" variable="pickupMon" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'pickupMon' is not assigned and could be declared final
+</violation>
+<violation beginline="86" endline="86" begincolumn="30" endcolumn="42" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="pricing" class="RentalBean" method="setPickupDay" variable="pickupDay" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'pickupDay' is not assigned and could be declared final
+</violation>
+<violation beginline="100" endline="100" begincolumn="31" endcolumn="44" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="pricing" class="RentalBean" method="setPickupHour" variable="pickupHour" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'pickupHour' is not assigned and could be declared final
+</violation>
+<violation beginline="114" endline="114" begincolumn="30" endcolumn="42" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="pricing" class="RentalBean" method="setPickupMin" variable="pickupMin" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'pickupMin' is not assigned and could be declared final
+</violation>
+<violation beginline="128" endline="128" begincolumn="32" endcolumn="46" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="pricing" class="RentalBean" method="setDropoffYear" variable="dropoffYear" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'dropoffYear' is not assigned and could be declared final
+</violation>
+<violation beginline="142" endline="142" begincolumn="31" endcolumn="44" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="pricing" class="RentalBean" method="setDropoffMon" variable="dropoffMon" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'dropoffMon' is not assigned and could be declared final
+</violation>
+<violation beginline="156" endline="156" begincolumn="31" endcolumn="44" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="pricing" class="RentalBean" method="setDropoffDay" variable="dropoffDay" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'dropoffDay' is not assigned and could be declared final
+</violation>
+<violation beginline="170" endline="170" begincolumn="32" endcolumn="46" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="pricing" class="RentalBean" method="setDropoffHour" variable="dropoffHour" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'dropoffHour' is not assigned and could be declared final
+</violation>
+<violation beginline="184" endline="184" begincolumn="31" endcolumn="44" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="pricing" class="RentalBean" method="setDropoffMin" variable="dropoffMin" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'dropoffMin' is not assigned and could be declared final
+</violation>
+<violation beginline="198" endline="198" begincolumn="31" endcolumn="47" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="pricing" class="RentalBean" method="setRentalType" variable="rentalType" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'rentalType' is not assigned and could be declared final
+</violation>
+<violation beginline="212" endline="212" begincolumn="29" endcolumn="43" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="pricing" class="RentalBean" method="setCardType" variable="cardType" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'cardType' is not assigned and could be declared final
+</violation>
+<violation beginline="226" endline="226" begincolumn="31" endcolumn="47" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="pricing" class="RentalBean" method="setCardNumber" variable="cardNumber" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'cardNumber' is not assigned and could be declared final
+</violation>
+<violation beginline="240" endline="240" begincolumn="28" endcolumn="45" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="pricing" class="RentalBean" method="setTaxRate" variable="taxRate" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'taxRate' is not assigned and could be declared final
+</violation>
+<violation beginline="254" endline="254" begincolumn="26" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="pricing" class="RentalBean" method="setPrice" variable="price" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'price' is not assigned and could be declared final
+</violation>
+<violation beginline="261" endline="261" begincolumn="34" endcolumn="60" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="pricing" class="RentalBean" method="setPriceSchedule" variable="priceSchedule" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'priceSchedule' is not assigned and could be declared final
+</violation>
+<violation beginline="265" endline="267" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalBean" method="getCustomerNumber" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="269" endline="269" begincolumn="35" endcolumn="55" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="pricing" class="RentalBean" method="setCustomerNumber" variable="customerNumber" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'customerNumber' is not assigned and could be declared final
+</violation>
+<violation beginline="269" endline="271" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalBean" method="setCustomerNumber" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+</file>
+<file name="/root/java3FinalProject/src/java/pricing/RentalFormValidator.java">
+<violation beginline="6" endline="329" begincolumn="1" endcolumn="2" rule="GodClass" ruleset="Design" package="pricing" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/design.html#GodClass" priority="3">
+Possible God class (WMC=90, ATFD=30, TCC=0.002849002849002849)
+</violation>
+<violation beginline="8" endline="8" begincolumn="1" endcolumn="28" rule="UnusedImports" ruleset="Import Statements" package="pricing" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/imports.html#UnusedImports" priority="4">
+Avoid unused imports such as 'java.math.BigDecimal'
+</violation>
+<violation beginline="16" endline="329" begincolumn="8" endcolumn="1" rule="CyclomaticComplexity" ruleset="Code Size" package="pricing" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/codesize.html#CyclomaticComplexity" priority="3">
+The class 'RentalFormValidator' has a Cyclomatic Complexity of 3 (Highest = 23).
+</violation>
+<violation beginline="16" endline="329" begincolumn="8" endcolumn="1" rule="ModifiedCyclomaticComplexity" ruleset="Code Size" package="pricing" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/codesize.html#ModifiedCyclomaticComplexity" priority="3">
+The class 'RentalFormValidator' has a Modified Cyclomatic Complexity of 3 (Highest = 23).
+</violation>
+<violation beginline="16" endline="329" begincolumn="8" endcolumn="1" rule="StdCyclomaticComplexity" ruleset="Code Size" package="pricing" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/codesize.html#StdCyclomaticComplexity" priority="3">
+The class 'RentalFormValidator' has a Standard Cyclomatic Complexity of 3 (Highest = 23).
+</violation>
+<violation beginline="17" endline="17" begincolumn="32" endcolumn="42" rule="BeanMembersShouldSerialize" ruleset="JavaBeans" package="pricing" class="RentalFormValidator" variable="formRequest" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="17" endline="17" begincolumn="32" endcolumn="42" rule="ImmutableField" ruleset="Design" package="pricing" class="RentalFormValidator" variable="formRequest" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'formRequest' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="17" endline="17" begincolumn="13" endcolumn="43" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalFormValidator" variable="formRequest" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="18" endline="18" begincolumn="13" endcolumn="30" rule="LooseCoupling" ruleset="Coupling" package="pricing" class="RentalFormValidator" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/coupling.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="18" endline="18" begincolumn="32" endcolumn="41" rule="BeanMembersShouldSerialize" ruleset="JavaBeans" package="pricing" class="RentalFormValidator" variable="errorCodes" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="18" endline="18" begincolumn="13" endcolumn="42" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalFormValidator" variable="errorCodes" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="19" endline="19" begincolumn="16" endcolumn="19" rule="BeanMembersShouldSerialize" ruleset="JavaBeans" package="pricing" class="RentalFormValidator" variable="bean" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="19" endline="19" begincolumn="5" endcolumn="39" rule="DefaultPackage" ruleset="Controversial" package="pricing" class="RentalFormValidator" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DefaultPackage" priority="3">
+Use explicit scoping instead of the default package private level
+</violation>
+<violation beginline="19" endline="19" begincolumn="5" endcolumn="39" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalFormValidator" variable="bean" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+fieldCommentRequirement Required
+</violation>
+<violation beginline="22" endline="22" begincolumn="32" endcolumn="61" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="pricing" class="RentalFormValidator" method="RentalFormValidator" variable="formRequest" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'formRequest' is not assigned and could be declared final
+</violation>
+<violation beginline="22" endline="25" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalFormValidator" method="RentalFormValidator" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="27" endline="99" begincolumn="12" endcolumn="5" rule="CyclomaticComplexity" ruleset="Code Size" package="pricing" class="RentalFormValidator" method="isValid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/codesize.html#CyclomaticComplexity" priority="3">
+The method 'isValid' has a Cyclomatic Complexity of 23.
+</violation>
+<violation beginline="27" endline="99" begincolumn="12" endcolumn="5" rule="ModifiedCyclomaticComplexity" ruleset="Code Size" package="pricing" class="RentalFormValidator" method="isValid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/codesize.html#ModifiedCyclomaticComplexity" priority="3">
+The method 'isValid' has a Modified Cyclomatic Complexity of 23.
+</violation>
+<violation beginline="27" endline="99" begincolumn="12" endcolumn="5" rule="StdCyclomaticComplexity" ruleset="Code Size" package="pricing" class="RentalFormValidator" method="isValid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/codesize.html#StdCyclomaticComplexity" priority="3">
+The method 'isValid' has a Standard Cyclomatic Complexity of 23.
+</violation>
+<violation beginline="27" endline="99" begincolumn="12" endcolumn="5" rule="NPathComplexity" ruleset="Code Size" package="pricing" class="RentalFormValidator" method="isValid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/codesize.html#NPathComplexity" priority="3">
+The method isValid() has an NPath complexity of 4194304
+</violation>
+<violation beginline="27" endline="99" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalFormValidator" method="isValid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="28" endline="31" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '28'-'31').
+</violation>
+<violation beginline="31" endline="34" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '31'-'34').
+</violation>
+<violation beginline="34" endline="37" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '34'-'37').
+</violation>
+<violation beginline="37" endline="40" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '37'-'40').
+</violation>
+<violation beginline="40" endline="43" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '40'-'43').
+</violation>
+<violation beginline="43" endline="46" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '43'-'46').
+</violation>
+<violation beginline="46" endline="49" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '46'-'49').
+</violation>
+<violation beginline="49" endline="52" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '49'-'52').
+</violation>
+<violation beginline="52" endline="55" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '52'-'55').
+</violation>
+<violation beginline="55" endline="58" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '55'-'58').
+</violation>
+<violation beginline="58" endline="62" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '58'-'62').
+</violation>
+<violation beginline="62" endline="65" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '62'-'65').
+</violation>
+<violation beginline="65" endline="68" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '65'-'68').
+</violation>
+<violation beginline="65" endline="71" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '65'-'71').
+</violation>
+<violation beginline="65" endline="74" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '65'-'74').
+</violation>
+<violation beginline="65" endline="77" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '65'-'77').
+</violation>
+<violation beginline="65" endline="80" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '65'-'80').
+</violation>
+<violation beginline="65" endline="83" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '65'-'83').
+</violation>
+<violation beginline="68" endline="71" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '68'-'71').
+</violation>
+<violation beginline="68" endline="74" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '68'-'74').
+</violation>
+<violation beginline="68" endline="77" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '68'-'77').
+</violation>
+<violation beginline="68" endline="80" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '68'-'80').
+</violation>
+<violation beginline="68" endline="83" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '68'-'83').
+</violation>
+<violation beginline="68" endline="86" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '68'-'86').
+</violation>
+<violation beginline="68" endline="89" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '68'-'89').
+</violation>
+<violation beginline="68" endline="92" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '68'-'92').
+</violation>
+<violation beginline="68" endline="95" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '68'-'95').
+</violation>
+<violation beginline="71" endline="74" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '71'-'74').
+</violation>
+<violation beginline="71" endline="77" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '71'-'77').
+</violation>
+<violation beginline="71" endline="80" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '71'-'80').
+</violation>
+<violation beginline="71" endline="83" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '71'-'83').
+</violation>
+<violation beginline="71" endline="86" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '71'-'86').
+</violation>
+<violation beginline="71" endline="89" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '71'-'89').
+</violation>
+<violation beginline="71" endline="92" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '71'-'92').
+</violation>
+<violation beginline="71" endline="95" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '71'-'95').
+</violation>
+<violation beginline="74" endline="77" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '74'-'77').
+</violation>
+<violation beginline="74" endline="80" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '74'-'80').
+</violation>
+<violation beginline="74" endline="83" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '74'-'83').
+</violation>
+<violation beginline="74" endline="86" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '74'-'86').
+</violation>
+<violation beginline="74" endline="89" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '74'-'89').
+</violation>
+<violation beginline="74" endline="92" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '74'-'92').
+</violation>
+<violation beginline="74" endline="95" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '74'-'95').
+</violation>
+<violation beginline="77" endline="80" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '77'-'80').
+</violation>
+<violation beginline="77" endline="83" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '77'-'83').
+</violation>
+<violation beginline="77" endline="86" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '77'-'86').
+</violation>
+<violation beginline="77" endline="89" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '77'-'89').
+</violation>
+<violation beginline="77" endline="92" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '77'-'92').
+</violation>
+<violation beginline="77" endline="95" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '77'-'95').
+</violation>
+<violation beginline="80" endline="83" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '80'-'83').
+</violation>
+<violation beginline="80" endline="86" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '80'-'86').
+</violation>
+<violation beginline="80" endline="89" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '80'-'89').
+</violation>
+<violation beginline="80" endline="92" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '80'-'92').
+</violation>
+<violation beginline="80" endline="95" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '80'-'95').
+</violation>
+<violation beginline="83" endline="86" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '83'-'86').
+</violation>
+<violation beginline="83" endline="89" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '83'-'89').
+</violation>
+<violation beginline="83" endline="92" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '83'-'92').
+</violation>
+<violation beginline="83" endline="95" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '83'-'95').
+</violation>
+<violation beginline="86" endline="89" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '86'-'89').
+</violation>
+<violation beginline="86" endline="92" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '86'-'92').
+</violation>
+<violation beginline="86" endline="95" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '86'-'95').
+</violation>
+<violation beginline="89" endline="92" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '89'-'92').
+</violation>
+<violation beginline="89" endline="95" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '89'-'95').
+</violation>
+<violation beginline="92" endline="95" begincolumn="13" endcolumn="25" rule="DataflowAnomalyAnalysis" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isValid" variable="valid" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#DataflowAnomalyAnalysis" priority="5">
+Found 'DD'-anomaly for variable 'valid' (lines '92'-'95').
+</violation>
+<violation beginline="101" endline="101" begincolumn="31" endcolumn="48" rule="LooseCoupling" ruleset="Coupling" package="pricing" class="RentalFormValidator" method="setErrorCodes" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/coupling.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="101" endline="101" begincolumn="31" endcolumn="59" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="pricing" class="RentalFormValidator" method="setErrorCodes" variable="errorCodes" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'errorCodes' is not assigned and could be declared final
+</violation>
+<violation beginline="101" endline="103" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalFormValidator" method="setErrorCodes" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="105" endline="105" begincolumn="12" endcolumn="29" rule="LooseCoupling" ruleset="Coupling" package="pricing" class="RentalFormValidator" method="getErrors" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/coupling.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="105" endline="107" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalFormValidator" method="getErrors" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="109" endline="115" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalFormValidator" method="isCustomerNull" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="110" endline="110" begincolumn="12" endcolumn="59" rule="LawOfDemeter" ruleset="Coupling" package="pricing" class="RentalFormValidator" method="isCustomerNull" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="112" endline="112" begincolumn="13" endcolumn="24" rule="OnlyOneReturn" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isCustomerNull" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="117" endline="126" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalFormValidator" method="isCustomerNumeric" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="122" endline="122" begincolumn="13" endcolumn="25" rule="OnlyOneReturn" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isCustomerNumeric" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="128" endline="134" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalFormValidator" method="isPickupDayNull" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="129" endline="129" begincolumn="12" endcolumn="58" rule="LawOfDemeter" ruleset="Coupling" package="pricing" class="RentalFormValidator" method="isPickupDayNull" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="129" endline="129" begincolumn="37" endcolumn="47" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="pricing" class="RentalFormValidator" method="isPickupDayNull" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;pickupDay&quot; appears 4 times in this file; the first occurrence is on line 129
+</violation>
+<violation beginline="131" endline="131" begincolumn="13" endcolumn="24" rule="OnlyOneReturn" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isPickupDayNull" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="136" endline="143" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalFormValidator" method="isPickupDayInRange" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="139" endline="139" begincolumn="13" endcolumn="25" rule="OnlyOneReturn" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isPickupDayInRange" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="145" endline="151" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalFormValidator" method="isPickupMonthNull" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="146" endline="146" begincolumn="12" endcolumn="60" rule="LawOfDemeter" ruleset="Coupling" package="pricing" class="RentalFormValidator" method="isPickupMonthNull" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="146" endline="146" begincolumn="37" endcolumn="49" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="pricing" class="RentalFormValidator" method="isPickupMonthNull" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;pickupMonth&quot; appears 4 times in this file; the first occurrence is on line 146
+</violation>
+<violation beginline="148" endline="148" begincolumn="13" endcolumn="24" rule="OnlyOneReturn" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isPickupMonthNull" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="153" endline="160" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalFormValidator" method="isPickupMonthInRange" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="156" endline="156" begincolumn="13" endcolumn="25" rule="OnlyOneReturn" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isPickupMonthInRange" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="162" endline="168" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalFormValidator" method="isPickupYearNull" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="163" endline="163" begincolumn="12" endcolumn="59" rule="LawOfDemeter" ruleset="Coupling" package="pricing" class="RentalFormValidator" method="isPickupYearNull" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="163" endline="163" begincolumn="37" endcolumn="48" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="pricing" class="RentalFormValidator" method="isPickupYearNull" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;pickupYear&quot; appears 4 times in this file; the first occurrence is on line 163
+</violation>
+<violation beginline="165" endline="165" begincolumn="13" endcolumn="24" rule="OnlyOneReturn" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isPickupYearNull" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="170" endline="177" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalFormValidator" method="isPickupYearInRange" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="173" endline="173" begincolumn="13" endcolumn="25" rule="OnlyOneReturn" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isPickupYearInRange" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="179" endline="185" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalFormValidator" method="isPickupHourNull" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="180" endline="180" begincolumn="12" endcolumn="59" rule="LawOfDemeter" ruleset="Coupling" package="pricing" class="RentalFormValidator" method="isPickupHourNull" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="180" endline="180" begincolumn="37" endcolumn="48" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="pricing" class="RentalFormValidator" method="isPickupHourNull" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;pickupHour&quot; appears 4 times in this file; the first occurrence is on line 180
+</violation>
+<violation beginline="182" endline="182" begincolumn="13" endcolumn="24" rule="OnlyOneReturn" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isPickupHourNull" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="187" endline="194" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalFormValidator" method="isPickupHourInRange" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="190" endline="190" begincolumn="13" endcolumn="25" rule="OnlyOneReturn" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isPickupHourInRange" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="196" endline="202" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalFormValidator" method="isDropoffDayNull" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="197" endline="197" begincolumn="12" endcolumn="59" rule="LawOfDemeter" ruleset="Coupling" package="pricing" class="RentalFormValidator" method="isDropoffDayNull" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="197" endline="197" begincolumn="37" endcolumn="48" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="pricing" class="RentalFormValidator" method="isDropoffDayNull" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;dropoffDay&quot; appears 6 times in this file; the first occurrence is on line 197
+</violation>
+<violation beginline="199" endline="199" begincolumn="13" endcolumn="24" rule="OnlyOneReturn" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isDropoffDayNull" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="204" endline="211" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalFormValidator" method="isDropoffDayInRange" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="207" endline="207" begincolumn="13" endcolumn="25" rule="OnlyOneReturn" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isDropoffDayInRange" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="213" endline="219" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalFormValidator" method="isDropoffMonthNull" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="214" endline="214" begincolumn="12" endcolumn="61" rule="LawOfDemeter" ruleset="Coupling" package="pricing" class="RentalFormValidator" method="isDropoffMonthNull" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="214" endline="214" begincolumn="37" endcolumn="50" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="pricing" class="RentalFormValidator" method="isDropoffMonthNull" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;dropoffMonth&quot; appears 4 times in this file; the first occurrence is on line 214
+</violation>
+<violation beginline="216" endline="216" begincolumn="13" endcolumn="24" rule="OnlyOneReturn" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isDropoffMonthNull" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="221" endline="228" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalFormValidator" method="isDropoffMonthInRange" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="224" endline="224" begincolumn="13" endcolumn="25" rule="OnlyOneReturn" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isDropoffMonthInRange" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="230" endline="236" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalFormValidator" method="isDropoffYearNull" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="231" endline="231" begincolumn="12" endcolumn="60" rule="LawOfDemeter" ruleset="Coupling" package="pricing" class="RentalFormValidator" method="isDropoffYearNull" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="233" endline="233" begincolumn="13" endcolumn="24" rule="OnlyOneReturn" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isDropoffYearNull" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="238" endline="245" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalFormValidator" method="isDropoffYearInRange" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="241" endline="241" begincolumn="13" endcolumn="25" rule="OnlyOneReturn" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isDropoffYearInRange" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="247" endline="253" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalFormValidator" method="isDropoffHourNull" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="248" endline="248" begincolumn="12" endcolumn="60" rule="LawOfDemeter" ruleset="Coupling" package="pricing" class="RentalFormValidator" method="isDropoffHourNull" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="248" endline="248" begincolumn="37" endcolumn="49" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="pricing" class="RentalFormValidator" method="isDropoffHourNull" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;dropoffHour&quot; appears 5 times in this file; the first occurrence is on line 248
+</violation>
+<violation beginline="250" endline="250" begincolumn="13" endcolumn="24" rule="OnlyOneReturn" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isDropoffHourNull" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="255" endline="262" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalFormValidator" method="isDropoffHourInRange" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="258" endline="258" begincolumn="13" endcolumn="25" rule="OnlyOneReturn" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isDropoffHourInRange" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="264" endline="270" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalFormValidator" method="isCarTypeNull" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="265" endline="265" begincolumn="12" endcolumn="56" rule="LawOfDemeter" ruleset="Coupling" package="pricing" class="RentalFormValidator" method="isCarTypeNull" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="265" endline="265" begincolumn="37" endcolumn="45" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="pricing" class="RentalFormValidator" method="isCarTypeNull" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;cartype&quot; appears 5 times in this file; the first occurrence is on line 265
+</violation>
+<violation beginline="267" endline="267" begincolumn="13" endcolumn="24" rule="OnlyOneReturn" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isCarTypeNull" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="272" endline="282" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalFormValidator" method="isCarTypeInRange" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="273" endline="273" begincolumn="14" endcolumn="76" rule="LawOfDemeter" ruleset="Coupling" package="pricing" class="RentalFormValidator" method="isCarTypeInRange" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="274" endline="274" begincolumn="21" endcolumn="84" rule="LawOfDemeter" ruleset="Coupling" package="pricing" class="RentalFormValidator" method="isCarTypeInRange" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="275" endline="275" begincolumn="21" endcolumn="82" rule="LawOfDemeter" ruleset="Coupling" package="pricing" class="RentalFormValidator" method="isCarTypeInRange" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="276" endline="276" begincolumn="21" endcolumn="83" rule="LawOfDemeter" ruleset="Coupling" package="pricing" class="RentalFormValidator" method="isCarTypeInRange" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="278" endline="278" begincolumn="13" endcolumn="25" rule="OnlyOneReturn" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isCarTypeInRange" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="284" endline="290" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalFormValidator" method="isCreditCardTypeNull" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="285" endline="285" begincolumn="12" endcolumn="63" rule="LawOfDemeter" ruleset="Coupling" package="pricing" class="RentalFormValidator" method="isCreditCardTypeNull" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="287" endline="287" begincolumn="13" endcolumn="24" rule="OnlyOneReturn" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isCreditCardTypeNull" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="292" endline="300" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalFormValidator" method="isCreditCardTypeInRange" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="293" endline="293" begincolumn="14" endcolumn="80" rule="LawOfDemeter" ruleset="Coupling" package="pricing" class="RentalFormValidator" method="isCreditCardTypeInRange" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="294" endline="294" begincolumn="21" endcolumn="93" rule="LawOfDemeter" ruleset="Coupling" package="pricing" class="RentalFormValidator" method="isCreditCardTypeInRange" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="296" endline="296" begincolumn="13" endcolumn="25" rule="OnlyOneReturn" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isCreditCardTypeInRange" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="302" endline="308" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalFormValidator" method="isCreditCardNoNull" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="303" endline="303" begincolumn="12" endcolumn="61" rule="LawOfDemeter" ruleset="Coupling" package="pricing" class="RentalFormValidator" method="isCreditCardNoNull" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="305" endline="305" begincolumn="13" endcolumn="24" rule="OnlyOneReturn" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isCreditCardNoNull" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="310" endline="328" begincolumn="12" endcolumn="5" rule="CyclomaticComplexity" ruleset="Code Size" package="pricing" class="RentalFormValidator" method="isCreditCardNoInRange" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/codesize.html#CyclomaticComplexity" priority="3">
+The method 'isCreditCardNoInRange' has a Cyclomatic Complexity of 12.
+</violation>
+<violation beginline="310" endline="328" begincolumn="12" endcolumn="5" rule="CommentRequired" ruleset="Comments" package="pricing" class="RentalFormValidator" method="isCreditCardNoInRange" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/comments.html#CommentRequired" priority="3">
+publicMethodCommentRequirement Required
+</violation>
+<violation beginline="311" endline="311" begincolumn="9" endcolumn="68" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="pricing" class="RentalFormValidator" method="isCreditCardNoInRange" variable="cardType" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'cardType' could be declared final
+</violation>
+<violation beginline="312" endline="312" begincolumn="9" endcolumn="71" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="pricing" class="RentalFormValidator" method="isCreditCardNoInRange" variable="cardNo" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'cardNo' could be declared final
+</violation>
+<violation beginline="312" endline="312" begincolumn="25" endcolumn="71" rule="LawOfDemeter" ruleset="Coupling" package="pricing" class="RentalFormValidator" method="isCreditCardNoInRange" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="314" endline="314" begincolumn="13" endcolumn="45" rule="PositionLiteralsFirstInCaseInsensitiveComparisons" ruleset="Design" package="pricing" class="RentalFormValidator" method="isCreditCardNoInRange" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/design.html#PositionLiteralsFirstInCaseInsensitiveComparisons" priority="3">
+Position literals first in String comparisons for EqualsIgnoreCase
+</violation>
+<violation beginline="314" endline="314" begincolumn="13" endcolumn="45" rule="LawOfDemeter" ruleset="Coupling" package="pricing" class="RentalFormValidator" method="isCreditCardNoInRange" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="315" endline="315" begincolumn="17" endcolumn="33" rule="LawOfDemeter" ruleset="Coupling" package="pricing" class="RentalFormValidator" method="isCreditCardNoInRange" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="315" endline="315" begincolumn="46" endcolumn="60" rule="LawOfDemeter" ruleset="Coupling" package="pricing" class="RentalFormValidator" method="isCreditCardNoInRange" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="315" endline="315" begincolumn="71" endcolumn="85" rule="LawOfDemeter" ruleset="Coupling" package="pricing" class="RentalFormValidator" method="isCreditCardNoInRange" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="317" endline="317" begincolumn="17" endcolumn="29" rule="OnlyOneReturn" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isCreditCardNoInRange" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="319" endline="319" begincolumn="20" endcolumn="58" rule="PositionLiteralsFirstInCaseInsensitiveComparisons" ruleset="Design" package="pricing" class="RentalFormValidator" method="isCreditCardNoInRange" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/design.html#PositionLiteralsFirstInCaseInsensitiveComparisons" priority="3">
+Position literals first in String comparisons for EqualsIgnoreCase
+</violation>
+<violation beginline="319" endline="319" begincolumn="20" endcolumn="58" rule="LawOfDemeter" ruleset="Coupling" package="pricing" class="RentalFormValidator" method="isCreditCardNoInRange" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="320" endline="320" begincolumn="20" endcolumn="42" rule="LawOfDemeter" ruleset="Coupling" package="pricing" class="RentalFormValidator" method="isCreditCardNoInRange" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="320" endline="320" begincolumn="48" endcolumn="70" rule="LawOfDemeter" ruleset="Coupling" package="pricing" class="RentalFormValidator" method="isCreditCardNoInRange" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="320" endline="320" begincolumn="76" endcolumn="98" rule="LawOfDemeter" ruleset="Coupling" package="pricing" class="RentalFormValidator" method="isCreditCardNoInRange" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="320" endline="320" begincolumn="104" endcolumn="126" rule="LawOfDemeter" ruleset="Coupling" package="pricing" class="RentalFormValidator" method="isCreditCardNoInRange" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="320" endline="320" begincolumn="132" endcolumn="154" rule="LawOfDemeter" ruleset="Coupling" package="pricing" class="RentalFormValidator" method="isCreditCardNoInRange" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="320" endline="324" begincolumn="13" endcolumn="13" rule="CollapsibleIfStatements" ruleset="Basic" package="pricing" class="RentalFormValidator" method="isCreditCardNoInRange" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+<violation beginline="321" endline="321" begincolumn="24" endcolumn="38" rule="LawOfDemeter" ruleset="Coupling" package="pricing" class="RentalFormValidator" method="isCreditCardNoInRange" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="323" endline="323" begincolumn="17" endcolumn="29" rule="OnlyOneReturn" ruleset="Controversial" package="pricing" class="RentalFormValidator" method="isCreditCardNoInRange" externalInfoUrl="http://pmd.sourceforge.net/snapshot/pmd-java/rules/java/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+</file>
+</pmd>
