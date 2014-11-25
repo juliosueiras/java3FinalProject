@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="juliosueiras-laptop" name="pricing.RentalBeanTest" skipped="0" tests="34" time="0.084" timestamp="2014-11-24T19:53:58">
+<testsuite errors="0" failures="0" hostname="juliosueiras-laptop" name="pricing.RentalBeanTest" skipped="0" tests="34" time="0.379" timestamp="2014-11-25T22:08:56">
   <properties>
     <property name="default.javac.source" value="1.4" />
     <property name="file.encoding.pkg" value="sun.io" />
@@ -63,7 +63,7 @@
     <property name="file.encoding" value="UTF-8" />
     <property name="dist.javadoc.dir" value="dist/javadoc" />
     <property name="ant.project.default-target" value="default" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner pricing.RentalBeanTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/build/test/results/TEST-pricing.RentalBeanTest.xml crashfile=/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/build/junitvmwatcher1227432507265745673.properties propsfile=/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/build/junit6045004782311115560.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner pricing.RentalBeanTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/build/test/results/TEST-pricing.RentalBeanTest.xml crashfile=/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/build/junitvmwatcher175093498011576274.properties propsfile=/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/build/junit4878599347056374827.properties" />
     <property name="libs.CopyLibs.displayName" value="CopyLibs Task" />
     <property name="ant.file" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/build.xml" />
     <property name="persistence.xml.dir" value="src/conf" />
@@ -74,7 +74,6 @@
     <property name="build.test.results.dir" value="build/test/results" />
     <property name="user.language" value="en" />
     <property name="line.separator" value="&#xa;" />
-    <property name="target" value="1.1" />
     <property name="libs.junit_4.displayName" value="JUnit 4.10" />
     <property name="javac.compilerargs" value="" />
     <property name="ant.file.finalProject" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/build.xml" />
@@ -88,8 +87,8 @@
     <property name="javadoc.private" value="false" />
     <property name="annotation.processing.processors.list" value="" />
     <property name="sun.desktop" value="gnome" />
-    <property name="build.test.classes.dir" value="build/test/classes" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="build.test.classes.dir" value="build/test/classes" />
     <property name="libs.javaee-endorsed-api-6.0.javadoc" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-endorsed-api-6.0/javaee-doc-api.jar" />
     <property name="jspc.dtds" value="/resources/dtds/" />
     <property name="test.binaryexcludes" value="" />
@@ -147,17 +146,17 @@
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
     <property name="libraries.dir.nativedirsep" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib" />
-    <property name="dist.ear.war" value="dist/finalProject.war" />
     <property name="javadoc.encoding.used" value="UTF-8" />
+    <property name="dist.ear.war" value="dist/finalProject.war" />
     <property name="javadoc.windowtitle" value="" />
-    <property name="j2ee.platform.classpath" value="/Applications/apache-tomcat-8.0.12/lib/annotations-api.jar:/Applications/apache-tomcat-8.0.12/lib/catalina-ant.jar:/Applications/apache-tomcat-8.0.12/lib/catalina-ha.jar:/Applications/apache-tomcat-8.0.12/lib/catalina-storeconfig.jar:/Applications/apache-tomcat-8.0.12/lib/catalina-tribes.jar:/Applications/apache-tomcat-8.0.12/lib/catalina.jar:/Applications/apache-tomcat-8.0.12/lib/ecj-4.4.jar:/Applications/apache-tomcat-8.0.12/lib/el-api.jar:/Applications/apache-tomcat-8.0.12/lib/jasper-el.jar:/Applications/apache-tomcat-8.0.12/lib/jasper.jar:/Applications/apache-tomcat-8.0.12/lib/jsp-api.jar:/Applications/apache-tomcat-8.0.12/lib/jstl-1.2.jar:/Applications/apache-tomcat-8.0.12/lib/jstl.jar:/Applications/apache-tomcat-8.0.12/lib/mysql-connector-java-5.1.32-bin.jar:/Applications/apache-tomcat-8.0.12/lib/servlet-api.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-api.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-coyote.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-dbcp.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-i18n-es.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-i18n-fr.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-i18n-ja.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-jdbc.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-jni.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-spdy.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-util-scan.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-util.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-websocket.jar:/Applications/apache-tomcat-8.0.12/lib/websocket-api.jar" />
     <property name="auxiliary.org-netbeans-modules-css-prep.sass_2e_mappings" value="/scss:/css" />
+    <property name="j2ee.platform.classpath" value="/Applications/apache-tomcat-8.0.12/lib/annotations-api.jar:/Applications/apache-tomcat-8.0.12/lib/catalina-ant.jar:/Applications/apache-tomcat-8.0.12/lib/catalina-ha.jar:/Applications/apache-tomcat-8.0.12/lib/catalina-storeconfig.jar:/Applications/apache-tomcat-8.0.12/lib/catalina-tribes.jar:/Applications/apache-tomcat-8.0.12/lib/catalina.jar:/Applications/apache-tomcat-8.0.12/lib/ecj-4.4.jar:/Applications/apache-tomcat-8.0.12/lib/el-api.jar:/Applications/apache-tomcat-8.0.12/lib/jasper-el.jar:/Applications/apache-tomcat-8.0.12/lib/jasper.jar:/Applications/apache-tomcat-8.0.12/lib/jsp-api.jar:/Applications/apache-tomcat-8.0.12/lib/jstl-1.2.jar:/Applications/apache-tomcat-8.0.12/lib/jstl.jar:/Applications/apache-tomcat-8.0.12/lib/mysql-connector-java-5.1.32-bin.jar:/Applications/apache-tomcat-8.0.12/lib/servlet-api.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-api.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-coyote.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-dbcp.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-i18n-es.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-i18n-fr.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-i18n-ja.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-jdbc.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-jni.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-spdy.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-util-scan.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-util.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-websocket.jar:/Applications/apache-tomcat-8.0.12/lib/websocket-api.jar" />
     <property name="selected.browser" value="default" />
     <property name="annotation.processing.enabled" value="true" />
     <property name="webinf.dir" value="web/WEB-INF" />
     <property name="run.jvmargs.ide" value="" />
-    <property name="nb.junit.single" value="false" />
     <property name="libs.CopyLibs.prop-version" value="2.0" />
+    <property name="nb.junit.single" value="false" />
     <property name="build.generated.sources.dir" value="build/generated-sources" />
     <property name="ant.project.name" value="finalProject" />
     <property name="java.vm.specification.version" value="1.8" />
@@ -166,7 +165,7 @@
     <property name="javadoc.use" value="true" />
     <property name="sun.cpu.isalist" value="" />
     <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext" />
-    <property name="os.version" value="3.16.0-24-generic" />
+    <property name="os.version" value="3.16.0-25-generic" />
     <property name="excludes" value="" />
     <property name="user.home" value="/home/juliosueiras" />
     <property name="libraries.basename" value="nblibraries" />
@@ -179,11 +178,11 @@
     <property name="sun.cpu.endian" value="little" />
     <property name="ant.file.type.finalProject-impl" value="file" />
     <property name="endorsed.classpath.cmd.line.arg" value="-Xbootclasspath/p:&apos;/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-endorsed-api-6.0/javax.annotation.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-endorsed-api-6.0/jaxb-api-osgi.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-endorsed-api-6.0/webservices-api-osgi.jar&apos;" />
+    <property name="test.binaryincludes" value="&lt;nothing&gt;" />
     <property name="libraries.dir" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib" />
     <property name="java.vm.version" value="25.25-b02" />
-    <property name="test.binaryincludes" value="&lt;nothing&gt;" />
-    <property name="dist.war" value="dist/finalProject.war" />
     <property name="java.class.path" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-web-api-7.0/javaee-web-api-7.0.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-api-7.0/javaee-api-7.0.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/build/web/WEB-INF/classes:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/junit_4/junit-4.10.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/build/test/classes:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.9.4.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar" />
+    <property name="dist.war" value="dist/finalProject.war" />
     <property name="ant.library.dir" value="/usr/share/ant/lib" />
     <property name="os.arch" value="amd64" />
     <property name="javac.deprecation" value="false" />
@@ -207,35 +206,18 @@
     <property name="javadoc.notree" value="false" />
     <property name="do.debug.server" value="true" />
     <property name="ant.file.type.finalProject" value="file" />
+    <property name="default.javac.target" value="1.4" />
     <property name="javac.classpath" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-web-api-7.0/javaee-web-api-7.0.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-api-7.0/javaee-api-7.0.jar" />
     <property name="javadoc.additionalparam" value="" />
-    <property name="default.javac.target" value="1.4" />
     <property name="build.classes.dir" value="build/web/WEB-INF/classes" />
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="javac.target" value="1.8" />
     <property name="java.specification.version" value="1.8" />
-    <property name="war.ear.name" value="finalProject.war" />
     <property name="j2ee.platform.embeddableejb.classpath" value="" />
+    <property name="war.ear.name" value="finalProject.war" />
     <property name="sun.arch.data.model" value="64" />
   </properties>
-  <testcase classname="pricing.RentalBeanTest" name="testGetPickupYear" time="0.002" />
-  <testcase classname="pricing.RentalBeanTest" name="testGetPickupHour" time="0.0" />
-  <testcase classname="pricing.RentalBeanTest" name="testSetPickupHour" time="0.0" />
-  <testcase classname="pricing.RentalBeanTest" name="testGetPickupMin" time="0.0" />
-  <testcase classname="pricing.RentalBeanTest" name="testSetPickupMin" time="0.0" />
-  <testcase classname="pricing.RentalBeanTest" name="testGetDropoffYear" time="0.0" />
-  <testcase classname="pricing.RentalBeanTest" name="testSetDropoffYear" time="0.0" />
-  <testcase classname="pricing.RentalBeanTest" name="testGetDropoffMon" time="0.0" />
-  <testcase classname="pricing.RentalBeanTest" name="testSetDropoffMon" time="0.0" />
-  <testcase classname="pricing.RentalBeanTest" name="testGetDropoffDay" time="0.0" />
-  <testcase classname="pricing.RentalBeanTest" name="testSetDropoffDay" time="0.001" />
-  <testcase classname="pricing.RentalBeanTest" name="testGetDropoffHour" time="0.0" />
-  <testcase classname="pricing.RentalBeanTest" name="testSetDropoffHour" time="0.0" />
-  <testcase classname="pricing.RentalBeanTest" name="testSetPickupYear" time="0.0" />
-  <testcase classname="pricing.RentalBeanTest" name="testGetPickupMon" time="0.0" />
-  <testcase classname="pricing.RentalBeanTest" name="testSetPickupMon" time="0.001" />
-  <testcase classname="pricing.RentalBeanTest" name="testGetPickupDay" time="0.001" />
-  <testcase classname="pricing.RentalBeanTest" name="testSetPickupDay" time="0.0" />
+  <testcase classname="pricing.RentalBeanTest" name="testSetDropoffHour" time="0.005" />
   <testcase classname="pricing.RentalBeanTest" name="testGetDropoffMin" time="0.0" />
   <testcase classname="pricing.RentalBeanTest" name="testSetDropoffMin" time="0.0" />
   <testcase classname="pricing.RentalBeanTest" name="testGetRentalType" time="0.0" />
@@ -244,32 +226,32 @@
   <testcase classname="pricing.RentalBeanTest" name="testSetCardType" time="0.0" />
   <testcase classname="pricing.RentalBeanTest" name="testGetCardNumber" time="0.0" />
   <testcase classname="pricing.RentalBeanTest" name="testSetCardNumber" time="0.0" />
-  <testcase classname="pricing.RentalBeanTest" name="testGetTaxRate" time="0.002" />
+  <testcase classname="pricing.RentalBeanTest" name="testGetTaxRate" time="0.02" />
   <testcase classname="pricing.RentalBeanTest" name="testSetTaxRate" time="0.0" />
-  <testcase classname="pricing.RentalBeanTest" name="testGetPrice" time="0.0" />
+  <testcase classname="pricing.RentalBeanTest" name="testGetPrice" time="0.001" />
   <testcase classname="pricing.RentalBeanTest" name="testSetPrice" time="0.0" />
   <testcase classname="pricing.RentalBeanTest" name="testSetPriceSchedule" time="0.001" />
-  <testcase classname="pricing.RentalBeanTest" name="testGetPriceSchedule" time="0.0" />
-  <testcase classname="pricing.RentalBeanTest" name="testGetCustomerNumber" time="0.0" />
+  <testcase classname="pricing.RentalBeanTest" name="testGetPriceSchedule" time="0.001" />
+  <testcase classname="pricing.RentalBeanTest" name="testGetCustomerNumber" time="0.001" />
   <testcase classname="pricing.RentalBeanTest" name="testSetCustomerNumber" time="0.0" />
-  <system-out><![CDATA[getPickupYear
-getPickupHour
-setPickupHour
-getPickupMin
-setPickupMin
-getDropoffYear
-setDropoffYear
-getDropoffMon
-setDropoffMon
-getDropoffDay
-setDropoffDay
-getDropoffHour
-setDropoffHour
-setPickupYear
-getPickupMon
-setPickupMon
-getPickupDay
-setPickupDay
+  <testcase classname="pricing.RentalBeanTest" name="testSetPickupYear" time="0.0" />
+  <testcase classname="pricing.RentalBeanTest" name="testGetPickupMon" time="0.0" />
+  <testcase classname="pricing.RentalBeanTest" name="testSetPickupMon" time="0.0" />
+  <testcase classname="pricing.RentalBeanTest" name="testSetPickupHour" time="0.001" />
+  <testcase classname="pricing.RentalBeanTest" name="testGetPickupMin" time="0.0" />
+  <testcase classname="pricing.RentalBeanTest" name="testSetPickupMin" time="0.001" />
+  <testcase classname="pricing.RentalBeanTest" name="testGetDropoffYear" time="0.0" />
+  <testcase classname="pricing.RentalBeanTest" name="testSetDropoffYear" time="0.0" />
+  <testcase classname="pricing.RentalBeanTest" name="testGetDropoffMon" time="0.0" />
+  <testcase classname="pricing.RentalBeanTest" name="testSetDropoffMon" time="0.002" />
+  <testcase classname="pricing.RentalBeanTest" name="testGetDropoffDay" time="0.0" />
+  <testcase classname="pricing.RentalBeanTest" name="testSetDropoffDay" time="0.0" />
+  <testcase classname="pricing.RentalBeanTest" name="testGetDropoffHour" time="0.0" />
+  <testcase classname="pricing.RentalBeanTest" name="testGetPickupDay" time="0.001" />
+  <testcase classname="pricing.RentalBeanTest" name="testSetPickupDay" time="0.002" />
+  <testcase classname="pricing.RentalBeanTest" name="testGetPickupHour" time="0.001" />
+  <testcase classname="pricing.RentalBeanTest" name="testGetPickupYear" time="0.001" />
+  <system-out><![CDATA[setDropoffHour
 getDropoffMin
 setDropoffMin
 getRentalType
@@ -286,6 +268,23 @@ setPriceSchedule
 getPriceSchedule
 getCustomerNumber
 setCustomerNumber
+setPickupYear
+getPickupMon
+setPickupMon
+setPickupHour
+getPickupMin
+setPickupMin
+getDropoffYear
+setDropoffYear
+getDropoffMon
+setDropoffMon
+getDropoffDay
+setDropoffDay
+getDropoffHour
+getPickupDay
+setPickupDay
+getPickupHour
+getPickupYear
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
