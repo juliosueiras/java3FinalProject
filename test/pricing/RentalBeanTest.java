@@ -52,7 +52,7 @@ public class RentalBeanTest {
         instance.setDropoffYear(2014);
         instance.setDropoffMin(2);
         instance.setRentalType("standard");
-        instance.setCardType("VISA");
+        instance.setCardType("visa");
         instance.setCardNumber("4123456789012");
     }
     
@@ -160,7 +160,7 @@ public class RentalBeanTest {
     @Test
     public void testGetPickupMin() {
         System.out.println("getPickupMin");
-        int expResult = 3;
+        int expResult = 2;
         int result = instance.getPickupMin();
         assertEquals(expResult, result);
     }
@@ -252,7 +252,7 @@ public class RentalBeanTest {
     @Test
     public void testGetDropoffHour() {
         System.out.println("getDropoffHour");
-        int expResult = 1;
+        int expResult = 10;
         int result = instance.getDropoffHour();
         assertEquals(expResult, result);
     }
@@ -264,9 +264,7 @@ public class RentalBeanTest {
     public void testSetDropoffHour() {
         System.out.println("setDropoffHour");
         int dropoffHour = 1;
-        RentalBean instance = new RentalBean();
         instance.setDropoffHour(dropoffHour);
-        
         int actual = instance.getDropoffHour();
         assertEquals(dropoffHour, actual);
     }
@@ -277,9 +275,7 @@ public class RentalBeanTest {
     @Test
     public void testGetDropoffMin() {
         System.out.println("getDropoffMin");
-        RentalBean instance = new RentalBean();
-        int expResult = 1;
-        instance.setDropoffMin(expResult);
+        int expResult = 2;
         int result = instance.getDropoffMin();
         assertEquals(expResult, result);
     }
@@ -291,7 +287,6 @@ public class RentalBeanTest {
     public void testSetDropoffMin() {
         System.out.println("setDropoffMin");
         int dropoffMin = 1;
-        RentalBean instance = new RentalBean();
         instance.setDropoffMin(dropoffMin);
         int actual = instance.getDropoffMin();
         assertEquals(dropoffMin, actual);
@@ -303,9 +298,7 @@ public class RentalBeanTest {
     @Test
     public void testGetRentalType() {
         System.out.println("getRentalType");
-        RentalBean instance = new RentalBean();
-        String expResult = "weekday";
-        instance.setRentalType(expResult);
+        String expResult = "standard";
         String result = instance.getRentalType();
         assertEquals(expResult, result);
     }
@@ -316,8 +309,7 @@ public class RentalBeanTest {
     @Test
     public void testSetRentalType() {
         System.out.println("setRentalType");
-        String rentalType = "weekday";
-        RentalBean instance = new RentalBean();
+        String rentalType = "economy";
         instance.setRentalType(rentalType);
         String actual = instance.getRentalType();
         assertEquals(rentalType, actual);
@@ -329,9 +321,7 @@ public class RentalBeanTest {
     @Test
     public void testGetCardType() {
         System.out.println("getCardType");
-        RentalBean instance = new RentalBean();
         String expResult = "visa";
-        instance.setCardType(expResult);
         String result = instance.getCardType();
         assertEquals(expResult, result);
     }
@@ -342,8 +332,7 @@ public class RentalBeanTest {
     @Test
     public void testSetCardType() {
         System.out.println("setCardType");
-        String cardType = "visa";
-        RentalBean instance = new RentalBean();
+        String cardType = "master";
         instance.setCardType(cardType);
         String actual = instance.getCardType();
         assertEquals(cardType, actual);
@@ -355,9 +344,7 @@ public class RentalBeanTest {
     @Test
     public void testGetCardNumber() {
         System.out.println("getCardNumber");
-        RentalBean instance = new RentalBean();
-        String expResult = "111";
-        instance.setCardNumber(expResult);
+        String expResult = "4123456789012";
         String result = instance.getCardNumber();
         assertEquals(expResult, result);
     }
@@ -368,8 +355,7 @@ public class RentalBeanTest {
     @Test
     public void testSetCardNumber() {
         System.out.println("setCardNumber");
-        String cardNumber = "111";
-        RentalBean instance = new RentalBean();
+        String cardNumber = "4123436589012";
         instance.setCardNumber(cardNumber);
         String actual = instance.getCardNumber();
         assertEquals(cardNumber, actual);
