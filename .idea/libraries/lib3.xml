@@ -5,6 +5,8 @@
       <root url="jar://$PROJECT_DIR$/build/web/WEB-INF/lib/javaee-api-7.0.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ideaLibSources/javaee-web-api-7.0-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

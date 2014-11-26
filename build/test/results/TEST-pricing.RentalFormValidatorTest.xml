@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="1" hostname="juliosueiras-laptop" name="pricing.RentalFormValidatorTest" skipped="0" tests="30" time="0.114" timestamp="2014-11-25T22:08:56">
+<testsuite errors="0" failures="0" hostname="juliosueiras-laptop" name="pricing.RentalFormValidatorTest" skipped="0" tests="30" time="0.178" timestamp="2014-11-26T02:49:16">
   <properties>
     <property name="default.javac.source" value="1.4" />
     <property name="file.encoding.pkg" value="sun.io" />
@@ -8,17 +8,21 @@
     <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre" />
     <property name="jspc.schemas" value="/resources/schemas/" />
     <property name="test.src.dir" value="test" />
+    <property name="sun.java2d.dpiaware" value="true" />
     <property name="javadoc.version" value="false" />
-    <property name="libs.CopyLibs.classpath" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar" />
+    <property name="libs.CopyLibs.classpath" value="/usr/local/netbeans-8.0.1/java/ant/extra/org-netbeans-modules-java-j2seproject-copylibstask.jar" />
     <property name="auxiliary.org-netbeans-modules-css-prep.less_2e_mappings" value="/less:/css" />
+    <property name="sun.font.fontmanager" value="sun.awt.X11FontManager" />
     <property name="do.tmp.war.package.with.custom.manifest" value="true" />
     <property name="libs.javaee-endorsed-api-6.0.classpath" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-endorsed-api-6.0/javax.annotation.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-endorsed-api-6.0/jaxb-api-osgi.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-endorsed-api-6.0/webservices-api-osgi.jar" />
     <property name="libraries.path" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/nblibraries.properties" />
     <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed" />
     <property name="libs.javaee-endorsed-api-7.0.displayName" value="Java EE 7 Endorsed API Library" />
     <property name="src.dir" value="src/java" />
+    <property name="sun.java2d.noddraw" value="true" />
     <property name="debug-args-line" value="-Xdebug" />
     <property name="source.root" value="src" />
+    <property name="netbeans.hash.code" value="unique=NB_CND_EXTIDE_GFMOD_GROOVY_JAVA_MOB_PHP_WEBCOMMON_WEBEE09ebd4903-1ea2-4671-be22-ddbd5e86f34f_64c8a989-8f95-4968-ae60-c08d342dbfed" />
     <property name="have.sources" value="true" />
     <property name="includes" value="**" />
     <property name="javac.fork" value="false" />
@@ -29,16 +33,21 @@
     <property name="auxiliary.org-netbeans-modules-css-prep.sass_2e_enabled" value="false" />
     <property name="java.vendor.url" value="http://java.oracle.com/" />
     <property name="libs.javaee-api-7.0.classpath" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-api-7.0/javaee-api-7.0.jar" />
-    <property name="do.display.browser.debug.old" value="true" />
     <property name="java.version" value="1.8.0_25" />
+    <property name="nb.show.statistics.ui" value="usageStatisticsEnabled" />
     <property name="build.web.excludes" value="**/*.java,**/*.form" />
     <property name="javac.debug" value="true" />
+    <property name="netbeans.running.environment" value="gnome" />
     <property name="display.browser" value="true" />
     <property name="conf.dir" value="src/conf" />
-    <property name="deploy.ant.properties.file" value="/Users/jhlee/Library/Application Support/NetBeans/8.0.1/tomcat80.properties" />
+    <property name="org.openide.major.version" value="IDE/1" />
+    <property name="deploy.ant.properties.file" value="/home/juliosueiras/.netbeans/8.0.1/tomcat80.properties" />
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="netbeans.autoupdate.variant" value="" />
     <property name="ant.file.finalProject-impl" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/nbproject/build-impl.xml" />
+    <property name="netbeans.buildnumber" value="201408251540" />
     <property name="ant.project.invoked-targets" value="test" />
+    <property name="jna.platform.library.path" value="/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/lib64:/usr/lib:/lib" />
     <property name="client.urlPart" value="" />
     <property name="annotation.processing.run.all.processors" value="true" />
     <property name="user.name" value="juliosueiras" />
@@ -50,34 +59,45 @@
     <property name="sun.jnu.encoding" value="UTF-8" />
     <property name="do.war.package.with.custom.manifest" value="true" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="jdk.home" value="/usr/lib/jvm/java-8-oracle" />
     <property name="lib.dir" value="web/WEB-INF/lib" />
+    <property name="netbeans.autoupdate.version" value="1.23" />
+    <property name="netbeans.dirs" value="/usr/local/netbeans-8.0.1/nb:/usr/local/netbeans-8.0.1/ergonomics:/usr/local/netbeans-8.0.1/ide:/usr/local/netbeans-8.0.1/extide:/usr/local/netbeans-8.0.1/java:/usr/local/netbeans-8.0.1/apisupport:/usr/local/netbeans-8.0.1/webcommon:/usr/local/netbeans-8.0.1/websvccommon:/usr/local/netbeans-8.0.1/enterprise:/usr/local/netbeans-8.0.1/mobility:/usr/local/netbeans-8.0.1/profiler:/usr/local/netbeans-8.0.1/python:/usr/local/netbeans-8.0.1/php:/usr/local/netbeans-8.0.1/identity:/usr/local/netbeans-8.0.1/harness:/usr/local/netbeans-8.0.1/cnd:/usr/local/netbeans-8.0.1/dlight:/usr/local/netbeans-8.0.1/groovy:/usr/local/netbeans-8.0.1/extra:/usr/local/netbeans-8.0.1/javacard:/usr/local/netbeans-8.0.1/javafx:" />
     <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="sun.awt.datatransfer.timeout" value="1000" />
     <property name="javadoc.author" value="false" />
     <property name="ap.proc.none.internal" value="" />
     <property name="user.timezone" value="America/Toronto" />
+    <property name="nb.native.filechooser" value="false" />
     <property name="web.docbase.dir" value="web" />
+    <property name="org.openide.specification.version" value="6.2" />
     <property name="path.separator" value=":" />
     <property name="testng.mode" value="testng" />
     <property name="version-output" value="java version &quot;1.8" />
-    <property name="j2ee.server.home" value="/Applications/apache-tomcat-8.0.12" />
+    <property name="j2ee.server.home" value="/home/juliosueiras/Servers/Tomcat8" />
+    <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
     <property name="file.encoding" value="UTF-8" />
     <property name="dist.javadoc.dir" value="dist/javadoc" />
     <property name="ant.project.default-target" value="default" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner pricing.RentalFormValidatorTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/build/test/results/TEST-pricing.RentalFormValidatorTest.xml crashfile=/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/build/junitvmwatcher4773784473275923516.properties propsfile=/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/build/junit8315423486989692028.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner pricing.RentalFormValidatorTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/build/test/results/TEST-pricing.RentalFormValidatorTest.xml crashfile=/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/build/junitvmwatcher4048140782454794803.properties propsfile=/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/build/junit646953901253517215.properties" />
+    <property name="https.nonProxyHosts" value="localhost|127.0.0.1|juliosueiras-laptop" />
     <property name="libs.CopyLibs.displayName" value="CopyLibs Task" />
+    <property name="ant.junit.enabletestlistenerevents" value="true" />
     <property name="ant.file" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/build.xml" />
     <property name="persistence.xml.dir" value="src/conf" />
     <property name="libs.junit_4.src" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/junit_4/junit-4.10-sources.jar" />
     <property name="junit.available" value="true" />
-    <property name="j2ee.server.instance" value="tomcat80:home=/Applications/apache-tomcat-8.0.12" />
+    <property name="j2ee.server.instance" value="tomcat80:home=/home/juliosueiras/Servers/Tomcat8" />
+    <property name="netbeans.autoupdate.language" value="en" />
     <property name="java.io.tmpdir" value="/tmp" />
     <property name="build.test.results.dir" value="build/test/results" />
     <property name="user.language" value="en" />
     <property name="line.separator" value="&#xa;" />
     <property name="libs.junit_4.displayName" value="JUnit 4.10" />
+    <property name="apple.laf.useScreenMenuBar" value="true" />
+    <property name="forceRedeploy" value="false" />
     <property name="javac.compilerargs" value="" />
     <property name="ant.file.finalProject" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/build.xml" />
-    <property name="ant.file.type" value="file" />
     <property name="war.name" value="finalProject.war" />
     <property name="jar.compress" value="false" />
     <property name="debug-transport-by-os" value="dt_socket" />
@@ -92,107 +112,128 @@
     <property name="libs.javaee-endorsed-api-6.0.javadoc" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-endorsed-api-6.0/javaee-doc-api.jar" />
     <property name="jspc.dtds" value="/resources/dtds/" />
     <property name="test.binaryexcludes" value="" />
+    <property name="netbeans.dynamic.classpath" value="/usr/local/netbeans-8.0.1/platform/core/org-openide-filesystems.jar:/usr/local/netbeans-8.0.1/platform/core/core.jar:/usr/local/netbeans-8.0.1/platform/core/locale/core_zh_CN.jar:/usr/local/netbeans-8.0.1/platform/core/locale/core_pt_BR.jar:/usr/local/netbeans-8.0.1/platform/core/locale/org-openide-filesystems_zh_CN.jar:/usr/local/netbeans-8.0.1/platform/core/locale/org-openide-filesystems_ja.jar:/usr/local/netbeans-8.0.1/platform/core/locale/org-openide-filesystems_ru.jar:/usr/local/netbeans-8.0.1/platform/core/locale/core_ja.jar:/usr/local/netbeans-8.0.1/platform/core/locale/org-openide-filesystems_pt_BR.jar:/usr/local/netbeans-8.0.1/platform/core/locale/core_ru.jar:/usr/local/netbeans-8.0.1/nb/core/org-netbeans-upgrader.jar:/usr/local/netbeans-8.0.1/nb/core/locale/org-netbeans-upgrader_ru.jar:/usr/local/netbeans-8.0.1/nb/core/locale/org-netbeans-upgrader_pt_BR.jar:/usr/local/netbeans-8.0.1/nb/core/locale/core_nb_zh_CN.jar:/usr/local/netbeans-8.0.1/nb/core/locale/core_nb_ja.jar:/usr/local/netbeans-8.0.1/nb/core/locale/core_nb_ru.jar:/usr/local/netbeans-8.0.1/nb/core/locale/core_nb_pt_BR.jar:/usr/local/netbeans-8.0.1/nb/core/locale/org-netbeans-upgrader_zh_CN.jar:/usr/local/netbeans-8.0.1/nb/core/locale/org-netbeans-upgrader_ja.jar:/usr/local/netbeans-8.0.1/nb/core/locale/core_nb.jar" />
     <property name="compile.jsps" value="false" />
     <property name="no.dist.ear.dir" value="true" />
     <property name="platform.active" value="default_platform" />
     <property name="ap.cmd.line.internal" value="" />
     <property name="jdkBug6558476" value="false" />
+    <property name="do.display.browser.debug" value="true" />
+    <property name="http.nonProxyHosts" value="localhost|127.0.0.1|juliosueiras-laptop" />
     <property name="libs.junit_4.javadoc" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/junit_4/junit-4.10-javadoc.jar" />
     <property name="endorsed.classpath" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-endorsed-api-6.0/javax.annotation.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-endorsed-api-6.0/jaxb-api-osgi.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-endorsed-api-6.0/webservices-api-osgi.jar" />
     <property name="libs.javaee-web-api-7.0.classpath" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-web-api-7.0/javaee-web-api-7.0.jar" />
+    <property name="netbeans.autoupdate.country" value="CA" />
     <property name="javadoc.encoding" value="UTF-8" />
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
     <property name="ap.processors.internal" value="" />
     <property name="libs.javaee-api-7.0.javadoc" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-api-7.0/javaee-doc-api.jar" />
-    <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on May 9 2014" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on April 29 2014" />
+    <property name="netbeans.home" value="/usr/local/netbeans-8.0.1/platform" />
     <property name="javadoc.nonavbar" value="false" />
     <property name="libs.javaee-endorsed-api-7.0.javadoc" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-endorsed-api-7.0/javaee-doc-api.jar" />
     <property name="libs.javaee-web-api-7.0.javadoc" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-web-api-7.0/javaee-doc-api.jar" />
     <property name="user.properties.file" value="/Users/jhlee/Library/Application Support/NetBeans/8.0.1/build.properties" />
     <property name="auxiliary.org-netbeans-modules-css-prep.less_2e_enabled" value="false" />
+    <property name="netbeans.importclass" value="org.netbeans.upgrade.AutoUpgrade" />
     <property name="build.web.dir" value="build/web" />
     <property name="annotation.processing.source.output" value="build/generated-sources/ap-source-output" />
     <property name="j2ee.server.type" value="Tomcat" />
     <property name="build.generated.dir" value="build/generated" />
+    <property name="netbeans.home+have.tests" value="true" />
+    <property name="apple.awt.graphics.UseQuartz" value="true" />
     <property name="os.name" value="Linux" />
     <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="nb.wait.for.caches" value="true" />
     <property name="run.test.classpath" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-web-api-7.0/javaee-web-api-7.0.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-api-7.0/javaee-api-7.0.jar:build/web/WEB-INF/classes:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/junit_4/junit-4.10.jar:build/test/classes" />
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="org.openide.version" value="deprecated" />
+    <property name="sun.awt.enableExtraMouseButtons" value="true" />
     <property name="ap.supported.internal" value="true" />
-    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib" />
+    <property name="java.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64:/usr/lib/jvm/java-8-oracle/jre/lib/i386::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib" />
     <property name="ant.java.version" value="1.8" />
     <property name="do.tmp.war.package" value="true" />
-    <property name="basedir" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject" />
     <property name="javadoc.noindex" value="false" />
+    <property name="basedir" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject" />
+    <property name="jna.boot.library.name" value="jnidispatch-410" />
     <property name="java.class.version" value="52.0" />
-    <property name="javac.test.classpath" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-web-api-7.0/javaee-web-api-7.0.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-api-7.0/javaee-api-7.0.jar:build/web/WEB-INF/classes:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/junit_4/junit-4.10.jar" />
     <property name="j2ee.platform" value="1.7-web" />
+    <property name="javac.test.classpath" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-web-api-7.0/javaee-web-api-7.0.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-api-7.0/javaee-api-7.0.jar:build/web/WEB-INF/classes:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/junit_4/junit-4.10.jar" />
     <property name="javac.processorpath" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-web-api-7.0/javaee-web-api-7.0.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-api-7.0/javaee-api-7.0.jar" />
-    <property name="ant.home" value="/usr/share/ant" />
+    <property name="ant.home" value="/usr/local/netbeans-8.0.1/extide/ant" />
     <property name="resource.dir" value="setup" />
     <property name="javadoc.splitindex" value="true" />
     <property name="javac.test.processorpath" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-web-api-7.0/javaee-web-api-7.0.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-api-7.0/javaee-api-7.0.jar:build/web/WEB-INF/classes:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/junit_4/junit-4.10.jar" />
     <property name="javadoc.preview" value="true" />
     <property name="runmain.jvmargs" value="" />
     <property name="auxiliary.org-netbeans-modules-css-prep.less_2e_compiler_2e_options" value="" />
-    <property name="test.binarytestincludes" value="" />
     <property name="libs.junit_4.classpath" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/junit_4/junit-4.10.jar" />
+    <property name="test.binarytestincludes" value="" />
     <property name="j2ee.compile.on.save" value="true" />
     <property name="dist.archive.excludes" value="" />
-    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64" />
+    <property name="nu.validator.spec.alt-advice" value="jar:file:/usr/local/netbeans-8.0.1/ide/modules/ext/validator.jar!/nu/validator/localentities/files/wiki_whatwg_org_wiki_Validator_nu_alt_advice" />
     <property name="build.dir" value="build" />
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64" />
     <property name="auxiliary.org-netbeans-modules-web-clientproject-api.js_2e_libs_2e_folder" value="js/libs" />
-    <property name="war.content.additional" value="" />
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="war.content.additional" value="" />
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
-    <property name="libraries.dir.nativedirsep" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib" />
     <property name="javadoc.encoding.used" value="UTF-8" />
+    <property name="libraries.dir.nativedirsep" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib" />
     <property name="dist.ear.war" value="dist/finalProject.war" />
     <property name="javadoc.windowtitle" value="" />
+    <property name="j2ee.platform.classpath" value="/home/juliosueiras/Servers/Tomcat8/lib/annotations-api.jar:/home/juliosueiras/Servers/Tomcat8/lib/catalina-ant.jar:/home/juliosueiras/Servers/Tomcat8/lib/catalina-ha.jar:/home/juliosueiras/Servers/Tomcat8/lib/catalina-storeconfig.jar:/home/juliosueiras/Servers/Tomcat8/lib/catalina-tribes.jar:/home/juliosueiras/Servers/Tomcat8/lib/catalina.jar:/home/juliosueiras/Servers/Tomcat8/lib/ecj-4.4.jar:/home/juliosueiras/Servers/Tomcat8/lib/el-api.jar:/home/juliosueiras/Servers/Tomcat8/lib/jasper-el.jar:/home/juliosueiras/Servers/Tomcat8/lib/jasper.jar:/home/juliosueiras/Servers/Tomcat8/lib/jsp-api.jar:/home/juliosueiras/Servers/Tomcat8/lib/servlet-api.jar:/home/juliosueiras/Servers/Tomcat8/lib/tomcat-api.jar:/home/juliosueiras/Servers/Tomcat8/lib/tomcat-coyote.jar:/home/juliosueiras/Servers/Tomcat8/lib/tomcat-dbcp.jar:/home/juliosueiras/Servers/Tomcat8/lib/tomcat-i18n-es.jar:/home/juliosueiras/Servers/Tomcat8/lib/tomcat-i18n-fr.jar:/home/juliosueiras/Servers/Tomcat8/lib/tomcat-i18n-ja.jar:/home/juliosueiras/Servers/Tomcat8/lib/tomcat-jdbc.jar:/home/juliosueiras/Servers/Tomcat8/lib/tomcat-jni.jar:/home/juliosueiras/Servers/Tomcat8/lib/tomcat-spdy.jar:/home/juliosueiras/Servers/Tomcat8/lib/tomcat-util-scan.jar:/home/juliosueiras/Servers/Tomcat8/lib/tomcat-util.jar:/home/juliosueiras/Servers/Tomcat8/lib/tomcat-websocket.jar:/home/juliosueiras/Servers/Tomcat8/lib/websocket-api.jar" />
     <property name="auxiliary.org-netbeans-modules-css-prep.sass_2e_mappings" value="/scss:/css" />
-    <property name="j2ee.platform.classpath" value="/Applications/apache-tomcat-8.0.12/lib/annotations-api.jar:/Applications/apache-tomcat-8.0.12/lib/catalina-ant.jar:/Applications/apache-tomcat-8.0.12/lib/catalina-ha.jar:/Applications/apache-tomcat-8.0.12/lib/catalina-storeconfig.jar:/Applications/apache-tomcat-8.0.12/lib/catalina-tribes.jar:/Applications/apache-tomcat-8.0.12/lib/catalina.jar:/Applications/apache-tomcat-8.0.12/lib/ecj-4.4.jar:/Applications/apache-tomcat-8.0.12/lib/el-api.jar:/Applications/apache-tomcat-8.0.12/lib/jasper-el.jar:/Applications/apache-tomcat-8.0.12/lib/jasper.jar:/Applications/apache-tomcat-8.0.12/lib/jsp-api.jar:/Applications/apache-tomcat-8.0.12/lib/jstl-1.2.jar:/Applications/apache-tomcat-8.0.12/lib/jstl.jar:/Applications/apache-tomcat-8.0.12/lib/mysql-connector-java-5.1.32-bin.jar:/Applications/apache-tomcat-8.0.12/lib/servlet-api.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-api.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-coyote.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-dbcp.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-i18n-es.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-i18n-fr.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-i18n-ja.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-jdbc.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-jni.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-spdy.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-util-scan.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-util.jar:/Applications/apache-tomcat-8.0.12/lib/tomcat-websocket.jar:/Applications/apache-tomcat-8.0.12/lib/websocket-api.jar" />
     <property name="selected.browser" value="default" />
+    <property name="netbeans.productversion" value="NetBeans IDE 8.0.1 (Build 201408251540)" />
     <property name="annotation.processing.enabled" value="true" />
-    <property name="webinf.dir" value="web/WEB-INF" />
     <property name="run.jvmargs.ide" value="" />
+    <property name="webinf.dir" value="web/WEB-INF" />
     <property name="libs.CopyLibs.prop-version" value="2.0" />
     <property name="nb.junit.single" value="false" />
     <property name="build.generated.sources.dir" value="build/generated-sources" />
+    <property name="build.compiler.emacs" value="true" />
     <property name="ant.project.name" value="finalProject" />
+    <property name="nu.validator.spec.microsyntax-descriptions" value="jar:file:/usr/local/netbeans-8.0.1/ide/modules/ext/validator.jar!/nu/validator/localentities/files/wiki_whatwg_org_wiki_MicrosyntaxDescriptions" />
+    <property name="org.openide.awt.SwingBrowserImpl.do-not-block-awt" value="false" />
     <property name="java.vm.specification.version" value="1.8" />
     <property name="j2ee.copy.static.files.on.save" value="true" />
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
     <property name="javadoc.use" value="true" />
     <property name="sun.cpu.isalist" value="" />
     <property name="java.ext.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/ext:/usr/java/packages/lib/ext" />
+    <property name="netbeans.default_userdir_root" value="/home/juliosueiras/.netbeans" />
     <property name="os.version" value="3.16.0-25-generic" />
     <property name="excludes" value="" />
     <property name="user.home" value="/home/juliosueiras" />
+    <property name="org.xml.sax.driver" value="com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser" />
     <property name="libraries.basename" value="nblibraries" />
     <property name="java.vm.vendor" value="Oracle Corporation" />
     <property name="libs.javaee-endorsed-api-6.0.displayName" value="Java EE 6 Endorsed API Library" />
-    <property name="libs.javaee-web-api-7.0.prop-maven-dependencies" value="javax:javaee-web-api:7.0:jar" />
     <property name="user.dir" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject" />
+    <property name="libs.javaee-web-api-7.0.prop-maven-dependencies" value="javax:javaee-web-api:7.0:jar" />
     <property name="debug-transport" value="dt_socket" />
     <property name="libs.javaee-api-7.0.prop-maven-dependencies" value="javax:javaee-api:7.0:jar" />
     <property name="sun.cpu.endian" value="little" />
     <property name="ant.file.type.finalProject-impl" value="file" />
+    <property name="ignore.failing.tests" value="true" />
     <property name="endorsed.classpath.cmd.line.arg" value="-Xbootclasspath/p:&apos;/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-endorsed-api-6.0/javax.annotation.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-endorsed-api-6.0/jaxb-api-osgi.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-endorsed-api-6.0/webservices-api-osgi.jar&apos;" />
-    <property name="test.binaryincludes" value="&lt;nothing&gt;" />
     <property name="libraries.dir" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib" />
     <property name="java.vm.version" value="25.25-b02" />
-    <property name="java.class.path" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-web-api-7.0/javaee-web-api-7.0.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-api-7.0/javaee-api-7.0.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/build/web/WEB-INF/classes:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/junit_4/junit-4.10.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/build/test/classes:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.9.4.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar" />
+    <property name="test.binaryincludes" value="&lt;nothing&gt;" />
     <property name="dist.war" value="dist/finalProject.war" />
-    <property name="ant.library.dir" value="/usr/share/ant/lib" />
+    <property name="java.class.path" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-web-api-7.0/javaee-web-api-7.0.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-api-7.0/javaee-api-7.0.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/build/web/WEB-INF/classes:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/junit_4/junit-4.10.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/build/test/classes:/home/juliosueiras/Servers/Tomcat8/lib/annotations-api.jar:/home/juliosueiras/Servers/Tomcat8/lib/catalina-ant.jar:/home/juliosueiras/Servers/Tomcat8/lib/catalina-ha.jar:/home/juliosueiras/Servers/Tomcat8/lib/catalina-storeconfig.jar:/home/juliosueiras/Servers/Tomcat8/lib/catalina-tribes.jar:/home/juliosueiras/Servers/Tomcat8/lib/catalina.jar:/home/juliosueiras/Servers/Tomcat8/lib/ecj-4.4.jar:/home/juliosueiras/Servers/Tomcat8/lib/el-api.jar:/home/juliosueiras/Servers/Tomcat8/lib/jasper-el.jar:/home/juliosueiras/Servers/Tomcat8/lib/jasper.jar:/home/juliosueiras/Servers/Tomcat8/lib/jsp-api.jar:/home/juliosueiras/Servers/Tomcat8/lib/servlet-api.jar:/home/juliosueiras/Servers/Tomcat8/lib/tomcat-api.jar:/home/juliosueiras/Servers/Tomcat8/lib/tomcat-coyote.jar:/home/juliosueiras/Servers/Tomcat8/lib/tomcat-dbcp.jar:/home/juliosueiras/Servers/Tomcat8/lib/tomcat-i18n-es.jar:/home/juliosueiras/Servers/Tomcat8/lib/tomcat-i18n-fr.jar:/home/juliosueiras/Servers/Tomcat8/lib/tomcat-i18n-ja.jar:/home/juliosueiras/Servers/Tomcat8/lib/tomcat-jdbc.jar:/home/juliosueiras/Servers/Tomcat8/lib/tomcat-jni.jar:/home/juliosueiras/Servers/Tomcat8/lib/tomcat-spdy.jar:/home/juliosueiras/Servers/Tomcat8/lib/tomcat-util-scan.jar:/home/juliosueiras/Servers/Tomcat8/lib/tomcat-util.jar:/home/juliosueiras/Servers/Tomcat8/lib/tomcat-websocket.jar:/home/juliosueiras/Servers/Tomcat8/lib/websocket-api.jar:/usr/local/netbeans-8.0.1/extide/ant/lib/ant-launcher.jar:/usr/local/netbeans-8.0.1/extide/ant/lib/ant.jar:/usr/local/netbeans-8.0.1/extide/ant/lib/ant-junit.jar:/usr/local/netbeans-8.0.1/extide/ant/lib/ant-junit4.jar" />
+    <property name="nb.internal.action.name" value="test" />
     <property name="os.arch" value="amd64" />
     <property name="javac.deprecation" value="false" />
     <property name="build.classes.excludes" value="**/*.java,**/*.form" />
     <property name="dist.dir" value="dist" />
+    <property name="netbeans.user" value="/home/juliosueiras/.netbeans/8.0.1" />
     <property name="debug.classpath" value="build/web/WEB-INF/classes:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-web-api-7.0/javaee-web-api-7.0.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-api-7.0/javaee-api-7.0.jar" />
     <property name="sun.java.launcher" value="SUN_STANDARD" />
     <property name="do.display.browser" value="true" />
     <property name="annotation.processing.enabled.in.editor" value="true" />
-    <property name="ant.core.lib" value="/usr/share/ant/lib/ant.jar" />
+    <property name="ant.core.lib" value="/usr/local/netbeans-8.0.1/extide/ant/lib/ant.jar" />
     <property name="java.vm.specification.vendor" value="Oracle Corporation" />
     <property name="file.separator" value="/" />
     <property name="java.runtime.version" value="1.8.0_25-b17" />
@@ -201,14 +242,16 @@
     <property name="nb.junit.batch" value="true" />
     <property name="have.tests" value="true" />
     <property name="libs.junit_4.prop-maven-dependencies" value="junit:junit:4.10:jar" />
+    <property name="java.util.logging.config.class" value="org.netbeans.core.startup.TopLogging" />
     <property name="user.country" value="CA" />
     <property name="libs.javaee-web-api-7.0.displayName" value="Java EE Web 7 API Library" />
+    <property name="browser.context" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject" />
     <property name="javadoc.notree" value="false" />
     <property name="do.debug.server" value="true" />
     <property name="ant.file.type.finalProject" value="file" />
     <property name="default.javac.target" value="1.4" />
-    <property name="javac.classpath" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-web-api-7.0/javaee-web-api-7.0.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-api-7.0/javaee-api-7.0.jar" />
     <property name="javadoc.additionalparam" value="" />
+    <property name="javac.classpath" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-web-api-7.0/javaee-web-api-7.0.jar:/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/lib/javaee-api-7.0/javaee-api-7.0.jar" />
     <property name="build.classes.dir" value="build/web/WEB-INF/classes" />
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="javac.target" value="1.8" />
@@ -217,43 +260,47 @@
     <property name="war.ear.name" value="finalProject.war" />
     <property name="sun.arch.data.model" value="64" />
   </properties>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsValid" time="0.005" />
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffYearNull" time="0.0" />
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffYearInRange" time="0.0" />
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupDayNull" time="0.006" />
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupDayInRange" time="0.001" />
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupMonthNull" time="0.001" />
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupMonthInRange" time="0.001" />
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupYearNull" time="0.001" />
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupYearInRange" time="0.0" />
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsValid" time="0.001" />
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCustomerNull" time="0.001" />
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCustomerNotNull" time="0.0" />
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCustomerNumeric" time="0.001" />
+  <testcase classname="pricing.RentalFormValidatorTest" name="testGetErrorCodes" time="0.001" />
   <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffHourNull" time="0.0" />
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffHourInRange" time="0.0" />
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffHourInRange" time="0.001" />
   <testcase classname="pricing.RentalFormValidatorTest" name="testIsCarTypeNull" time="0.001" />
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCarTypeInRange" time="0.0" />
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCreditCardTypeNull" time="0.0" />
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCreditCardTypeInRange" time="0.0" />
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCarTypeInRange" time="0.001" />
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCreditCardTypeNull" time="0.004" />
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCreditCardTypeInRange" time="0.001" />
   <testcase classname="pricing.RentalFormValidatorTest" name="testIsCreditCardNoNull" time="0.0" />
   <testcase classname="pricing.RentalFormValidatorTest" name="testIsCreditCardNoInRange" time="0.0" />
-  <testcase classname="pricing.RentalFormValidatorTest" name="testGetBean" time="0.0" />
-  <testcase classname="pricing.RentalFormValidatorTest" name="testGetErrorCodes" time="0.0" />
-  <testcase classname="pricing.RentalFormValidatorTest" name="testSetBean" time="0.0" />
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupDayNull" time="0.0" />
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupDayInRange" time="0.002" />
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupMonthNull" time="0.0" />
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupMonthInRange" time="0.0" />
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupYearNull" time="0.0" />
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupYearInRange" time="0.0" />
+  <testcase classname="pricing.RentalFormValidatorTest" name="testSetErrorCodes" time="0.0" />
+  <testcase classname="pricing.RentalFormValidatorTest" name="testGetBean" time="0.002" />
   <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupHourNull" time="0.0" />
   <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupHourInRange" time="0.001" />
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffDayNull" time="0.0" />
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffDayInRange" time="0.0" />
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffDayNull" time="0.002" />
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffDayInRange" time="0.004" />
   <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffMonthNull" time="0.0" />
   <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffMonthInRange" time="0.001" />
-  <testcase classname="pricing.RentalFormValidatorTest" name="testSetErrorCodes" time="0.0" />
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCustomerNull" time="0.0" />
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCustomerNotNull" time="0.015">
-    <failure message="expected:&lt;false&gt; but was:&lt;true&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;false&gt; but was:&lt;true&gt;
-	at pricing.RentalFormValidatorTest.testIsCustomerNotNull(RentalFormValidatorTest.java:121)
-</failure>
-  </testcase>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCustomerNumeric" time="0.001" />
-  <system-out><![CDATA[isValid
-isDropoffYearNull
-isDropoffYearInRange
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffYearNull" time="0.0" />
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffYearInRange" time="0.0" />
+  <testcase classname="pricing.RentalFormValidatorTest" name="testSetBean" time="0.0" />
+  <system-out><![CDATA[isPickupDayNull
+isPickupDayInRange
+isPickupMonthNull
+isPickupMonthInRange
+isPickupYearNull
+isPickupYearInRange
+isValid
+isCustomerNull
+isCustomerNotNull
+isCustomerNumeric
+getErrors
 isDropoffHourNull
 isDropoffHourInRange
 isCarTypeNull
@@ -262,25 +309,17 @@ isCreditCardTypeNull
 isCreditCardTypeInRange
 isCreditCardNoNull
 isCreditCardNoInRange
+setErrorCodes
 getBean
-getErrors
-setBean
-isPickupDayNull
-isPickupDayInRange
-isPickupMonthNull
-isPickupMonthInRange
-isPickupYearNull
-isPickupYearInRange
 isPickupHourNull
 isPickupHourInRange
 isDropoffDayNull
 isDropoffDayInRange
 isDropoffMonthNull
 isDropoffMonthInRange
-setErrorCodes
-isCustomerNull
-isCustomerNotNull
-isCustomerNumeric
+isDropoffYearNull
+isDropoffYearInRange
+setBean
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -317,14 +317,14 @@ public class RentalBean implements Serializable{
 
     public Calendar getPickupDate(){
         Calendar cPickUp = Calendar.getInstance();
-        cPickUp.set(getPickupYear(),getPickupMon(),getPickupDay(),getPickupHour(), getPickupMin());
+        cPickUp.set(getPickupYear(),getPickupMon(),getPickupDay());
         return cPickUp;
 
     }
 
     public Calendar getDropoffDate(){
         Calendar cDropOff = Calendar.getInstance();
-        cDropOff.set(getDropoffYear(),getDropoffMon(),getDropoffDay(),getDropoffHour(), getDropoffMin());
+        cDropOff.set(getDropoffYear(),getDropoffMon(),getDropoffDay());
         return cDropOff;
     }
 
