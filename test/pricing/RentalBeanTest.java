@@ -8,6 +8,8 @@ package pricing;
 import pricing.PriceSchedule;
 import pricing.RentalBean;
 import java.math.BigDecimal;
+import java.util.Calendar;
+
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -467,7 +469,12 @@ public class RentalBeanTest {
 
     @Test
     public void testGetPickupDate() throws Exception {
-
+/*        System.out.println("getPickUpDate");
+        Calendar cPickUpExpected = Calendar.getInstance();
+        cPickUpExpected.set(2014,3,10);
+        Calendar cPickUpActual = Calendar.getInstance();
+        cPickUpActual.set(instance.getPickupYear(),instance.getPickupMon(),instance.getPickupDay());
+        assertSame(cPickUpExpected.getTime(),cPickUpActual.getTime());*/
     }
 
     @Test
