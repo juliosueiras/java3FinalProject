@@ -1,4 +1,4 @@
-[![Stories in Ready](https://badge.waffle.io/juliosueiras/java3finalproject.png?label=ready&title=Ready)](https://waffle.io/juliosueiras/java3finalproject)
+
 java3FinalProject
 =================
 
