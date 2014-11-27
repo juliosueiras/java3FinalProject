@@ -7,6 +7,7 @@ All CI and Service Badges:
 ====
 [![Coverage Status](https://img.shields.io/coveralls/juliosueiras/java3FinalProject.svg)](https://coveralls.io/r/juliosueiras/java3FinalProject?branch=mavenVersion)
 [![Build Status](http://juliosueirasstuff.me:8080/buildStatus/icon?job=java3FinalProjectMaven)](http://juliosueirasstuff.me:8080/job/java3FinalProjectMaven/)
+[![Stories in Ready](https://badge.waffle.io/juliosueiras/java3finalproject.png?label=ready&title=Ready)](https://waffle.io/juliosueiras/java3finalproject)
 
 Travis CI:
 ======
