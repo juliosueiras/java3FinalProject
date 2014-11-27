@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testability excellent="2" good="0" needsWork="2" overall="618">
+    <class class="pricing.RentalBean" cost="1073">
+        <method cyclomatic="0" global="0" line="37" lod="0"
+            name="RentalBean()" overall="0"/>
+        <method cyclomatic="0" global="0" line="310" lod="0"
+            name="int getCustomerNumber()" overall="0"/>
+        <method cyclomatic="0" global="0" line="349" lod="1"
+            name="int getDropOffDayOfWeek()" overall="1">
+            <cost cyclomatic="0" file="pricing/RentalBean.java"
+                global="0" line="349" lod="1" overall="1" reason="cost from breaking the Law of Demeter"/>
+        </method>
+        <method cyclomatic="0" global="0" line="152" lod="0"
+            name="int getDropoffDay()" overall="0"/>
+        <method cyclomatic="0" global="0" line="166" lod="0"
+            name="int getDropoffHour()" overall="0"/>
+        <method cyclomatic="0" global="0" line="180" lod="0"
+            name="int getDropoffMin()" overall="0"/>
+        <method cyclomatic="0" global="0" line="138" lod="0"
+            name="int getDropoffMon()" overall="0"/>
+        <method cyclomatic="0" global="0" line="124" lod="0"
+            name="int getDropoffYear()" overall="0"/>
+        <method cyclomatic="0" global="0" line="338" lod="1"
+            name="int getPickUpDayOfWeek()" overall="1">
+            <cost cyclomatic="0" file="pricing/RentalBean.java"
+                global="0" line="338" lod="1" overall="1" reason="cost from breaking the Law of Demeter"/>
+        </method>
+        <method cyclomatic="0" global="0" line="82" lod="0"
+            name="int getPickupDay()" overall="0"/>
+        <method cyclomatic="0" global="0" line="96" lod="0"
+            name="int getPickupHour()" overall="0"/>
+        <method cyclomatic="0" global="0" line="110" lod="0"
+            name="int getPickupMin()" overall="0"/>
+        <method cyclomatic="0" global="0" line="68" lod="0"
+            name="int getPickupMon()" overall="0"/>
+        <method cyclomatic="0" global="0" line="54" lod="0"
+            name="int getPickupYear()" overall="0"/>
+        <method cyclomatic="7" global="0" line="342" lod="0"
+            name="java.lang.Boolean isDropoffDateWeekend()" overall="7">
+            <cost cyclomatic="1" file="pricing/RentalBean.java"
+                global="0" line="342" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalBean.java"
+                global="0" line="342" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalBean.java"
+                global="0" line="343" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalBean.java"
+                global="0" line="344" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalBean.java"
+                global="0" line="345" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalBean.java"
+                global="0" line="345" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalBean.java"
+                global="0" line="342" lod="0"
+                method="java.lang.Boolean valueOf(boolean)" overall="1" reason="cost from calling non-overridable method"/>
+        </method>
+        <method cyclomatic="7" global="0" line="331" lod="0"
+            name="java.lang.Boolean isPickupDateWeekend()" overall="7">
+            <cost cyclomatic="1" file="pricing/RentalBean.java"
+                global="0" line="331" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalBean.java"
+                global="0" line="331" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalBean.java"
+                global="0" line="332" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalBean.java"
+                global="0" line="333" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalBean.java"
+                global="0" line="334" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalBean.java"
+                global="0" line="334" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalBean.java"
+                global="0" line="331" lod="0"
+                method="java.lang.Boolean valueOf(boolean)" overall="1" reason="cost from calling non-overridable method"/>
+        </method>
+        <method cyclomatic="0" global="0" line="222" lod="0"
+            name="java.lang.String getCardNumber()" overall="0"/>
+        <method cyclomatic="0" global="0" line="208" lod="0"
+            name="java.lang.String getCardType()" overall="0"/>
+        <method cyclomatic="0" global="0" line="194" lod="0"
+            name="java.lang.String getRentalType()" overall="0"/>
+        <method cyclomatic="503" global="84" line="250" lod="8"
+            name="java.math.BigDecimal getPrice()" overall="1351">
+            <cost cyclomatic="1" file="pricing/RentalBean.java"
+                global="0" line="254" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalBean.java"
+                global="0" line="257" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalBean.java"
+                global="0" line="257" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalBean.java"
+                global="0" line="258" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalBean.java"
+                global="0" line="264" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalBean.java"
+                global="0" line="270" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalBean.java"
+                global="0" line="271" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalBean.java"
+                global="0" line="278" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalBean.java"
+                global="0" line="279" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalBean.java"
+                global="0" line="282" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalBean.java"
+                global="0" line="282" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="0" file="pricing/RentalBean.java"
+                global="0" line="255" lod="1" overall="1" reason="cost from breaking the Law of Demeter"/>
+            <cost cyclomatic="492" file="pricing/RentalBean.java"
+                global="84" line="292" lod="0"
+                method="BigDecimal(double)" overall="1332" reason="cost from calling non-overridable method"/>
+            <cost cyclomatic="0" file="pricing/RentalBean.java"
+                global="0" line="264" lod="1" overall="1" reason="cost from breaking the Law of Demeter"/>
+            <cost cyclomatic="0" file="pricing/RentalBean.java"
+                global="0" line="258" lod="1" overall="1" reason="cost from breaking the Law of Demeter"/>
+            <cost cyclomatic="0" file="pricing/RentalBean.java"
+                global="0" line="259" lod="1" overall="1" reason="cost from breaking the Law of Demeter"/>
+            <cost cyclomatic="0" file="pricing/RentalBean.java"
+                global="0" line="261" lod="1" overall="1" reason="cost from breaking the Law of Demeter"/>
+            <cost cyclomatic="0" file="pricing/RentalBean.java"
+                global="0" line="270" lod="1" overall="1" reason="cost from breaking the Law of Demeter"/>
+            <cost cyclomatic="0" file="pricing/RentalBean.java"
+                global="0" line="290" lod="1" overall="1" reason="cost from breaking the Law of Demeter"/>
+            <cost cyclomatic="0" file="pricing/RentalBean.java"
+                global="0" line="290" lod="1" overall="1" reason="cost from breaking the Law of Demeter"/>
+        </method>
+        <method cyclomatic="0" global="0" line="236" lod="0"
+            name="java.math.BigDecimal getTaxRate()" overall="0"/>
+        <method cyclomatic="331" global="21" line="325" lod="2"
+            name="java.util.Calendar getDropoffDate()" overall="543">
+            <cost cyclomatic="319" file="pricing/RentalBean.java"
+                global="21" line="325" lod="0"
+                method="java.util.Calendar getInstance()" overall="529" reason="cost from calling non-overridable method"/>
+            <cost cyclomatic="0" file="pricing/RentalBean.java"
+                global="0" line="1908" lod="1" overall="1" reason="cost from breaking the Law of Demeter"/>
+            <cost cyclomatic="0" file="pricing/RentalBean.java"
+                global="0" line="1909" lod="1" overall="1" reason="cost from breaking the Law of Demeter"/>
+            <cost cyclomatic="12" file="pricing/RentalBean.java"
+                global="0" line="326" lod="0"
+                method="void set(int, int, int)" overall="12" reason="cost from calling non-overridable method"/>
+        </method>
+        <method cyclomatic="343" global="33" line="318" lod="2"
+            name="java.util.Calendar getPickupDate()" overall="675">
+            <cost cyclomatic="331" file="pricing/RentalBean.java"
+                global="33" line="318" lod="0"
+                method="java.util.Calendar getInstance()" overall="661" reason="cost from calling non-overridable method"/>
+            <cost cyclomatic="0" file="pricing/RentalBean.java"
+                global="0" line="1908" lod="1" overall="1" reason="cost from breaking the Law of Demeter"/>
+            <cost cyclomatic="0" file="pricing/RentalBean.java"
+                global="0" line="1909" lod="1" overall="1" reason="cost from breaking the Law of Demeter"/>
+            <cost cyclomatic="12" file="pricing/RentalBean.java"
+                global="0" line="319" lod="0"
+                method="void set(int, int, int)" overall="12" reason="cost from calling non-overridable method"/>
+        </method>
+        <method cyclomatic="0" global="0" line="47" lod="0"
+            name="pricing.PriceSchedule getPriceSchedule()" overall="0"/>
+        <method cyclomatic="0" global="0" line="229" lod="0"
+            name="void setCardNumber(java.lang.String)" overall="0"/>
+        <method cyclomatic="0" global="0" line="215" lod="0"
+            name="void setCardType(java.lang.String)" overall="0"/>
+        <method cyclomatic="0" global="0" line="314" lod="0"
+            name="void setCustomerNumber(int)" overall="0"/>
+        <method cyclomatic="0" global="0" line="159" lod="0"
+            name="void setDropoffDay(int)" overall="0"/>
+        <method cyclomatic="0" global="0" line="173" lod="0"
+            name="void setDropoffHour(int)" overall="0"/>
+        <method cyclomatic="0" global="0" line="187" lod="0"
+            name="void setDropoffMin(int)" overall="0"/>
+        <method cyclomatic="0" global="0" line="145" lod="0"
+            name="void setDropoffMon(int)" overall="0"/>
+        <method cyclomatic="0" global="0" line="131" lod="0"
+            name="void setDropoffYear(int)" overall="0"/>
+        <method cyclomatic="0" global="0" line="89" lod="0"
+            name="void setPickupDay(int)" overall="0"/>
+        <method cyclomatic="0" global="0" line="103" lod="0"
+            name="void setPickupHour(int)" overall="0"/>
+        <method cyclomatic="0" global="0" line="117" lod="0"
+            name="void setPickupMin(int)" overall="0"/>
+        <method cyclomatic="0" global="0" line="75" lod="0"
+            name="void setPickupMon(int)" overall="0"/>
+        <method cyclomatic="0" global="0" line="61" lod="0"
+            name="void setPickupYear(int)" overall="0"/>
+        <method cyclomatic="0" global="0" line="299" lod="0"
+            name="void setPrice(java.math.BigDecimal)" overall="0"/>
+        <method cyclomatic="0" global="0" line="306" lod="0"
+            name="void setPriceSchedule(pricing.PriceSchedule)" overall="0"/>
+        <method cyclomatic="0" global="0" line="201" lod="0"
+            name="void setRentalType(java.lang.String)" overall="0"/>
+        <method cyclomatic="0" global="0" line="243" lod="0"
+            name="void setTaxRate(java.math.BigDecimal)" overall="0"/>
+    </class>
+    <class class="pricing.ValidationTest" cost="183">
+        <method cyclomatic="0" global="0" line="22" lod="0"
+            name="ValidationTest()" overall="0"/>
+        <method cyclomatic="0" global="0" line="109" lod="0"
+            name="java.lang.String getServletInfo()" overall="0"/>
+        <method cyclomatic="0" global="0" line="85" lod="0"
+            name="void doGet(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)" overall="0"/>
+        <method cyclomatic="0" global="0" line="99" lod="0"
+            name="void doPost(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)" overall="0"/>
+        <method cyclomatic="145" global="2" line="35" lod="18"
+            name="void processRequest(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)" overall="183">
+            <cost cyclomatic="1" file="pricing/ValidationTest.java"
+                global="0" line="-1" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/ValidationTest.java"
+                global="0" line="54" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/ValidationTest.java"
+                global="0" line="-1" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/ValidationTest.java"
+                global="0" line="65" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/ValidationTest.java"
+                global="0" line="70" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/ValidationTest.java"
+                global="0" line="70" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/ValidationTest.java"
+                global="0" line="70" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/ValidationTest.java"
+                global="0" line="70" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="131" file="pricing/ValidationTest.java"
+                global="1" line="36" lod="0" method="boolean isValid()"
+                overall="141" reason="cost from calling non-overridable method"/>
+            <cost cyclomatic="0" file="pricing/ValidationTest.java"
+                global="0" line="56" lod="1" overall="1" reason="cost from breaking the Law of Demeter"/>
+            <cost cyclomatic="0" file="pricing/ValidationTest.java"
+                global="0" line="57" lod="1" overall="1" reason="cost from breaking the Law of Demeter"/>
+            <cost cyclomatic="0" file="pricing/ValidationTest.java"
+                global="0" line="58" lod="1" overall="1" reason="cost from breaking the Law of Demeter"/>
+            <cost cyclomatic="0" file="pricing/ValidationTest.java"
+                global="0" line="59" lod="1" overall="1" reason="cost from breaking the Law of Demeter"/>
+            <cost cyclomatic="0" file="pricing/ValidationTest.java"
+                global="0" line="60" lod="1" overall="1" reason="cost from breaking the Law of Demeter"/>
+            <cost cyclomatic="0" file="pricing/ValidationTest.java"
+                global="0" line="61" lod="1" overall="1" reason="cost from breaking the Law of Demeter"/>
+            <cost cyclomatic="0" file="pricing/ValidationTest.java"
+                global="0" line="62" lod="1" overall="1" reason="cost from breaking the Law of Demeter"/>
+            <cost cyclomatic="0" file="pricing/ValidationTest.java"
+                global="0" line="63" lod="1" overall="1" reason="cost from breaking the Law of Demeter"/>
+            <cost cyclomatic="0" file="pricing/ValidationTest.java"
+                global="0" line="64" lod="1" overall="1" reason="cost from breaking the Law of Demeter"/>
+            <cost cyclomatic="0" file="pricing/ValidationTest.java"
+                global="0" line="66" lod="1" overall="1" reason="cost from breaking the Law of Demeter"/>
+            <cost cyclomatic="0" file="pricing/ValidationTest.java"
+                global="0" line="68" lod="1" overall="1" reason="cost from breaking the Law of Demeter"/>
+            <cost cyclomatic="0" file="pricing/ValidationTest.java"
+                global="0" line="69" lod="1" overall="1" reason="cost from breaking the Law of Demeter"/>
+            <cost cyclomatic="0" file="pricing/ValidationTest.java"
+                global="0" line="70" lod="1" overall="1" reason="cost from breaking the Law of Demeter"/>
+            <cost cyclomatic="0" file="pricing/ValidationTest.java"
+                global="0" line="70" lod="1" overall="1" reason="cost from breaking the Law of Demeter"/>
+            <cost cyclomatic="6" file="pricing/ValidationTest.java"
+                global="1" line="70" lod="0"
+                method="void addSuppressed(java.lang.Throwable)"
+                overall="16" reason="cost from calling non-overridable method"/>
+            <cost cyclomatic="0" file="pricing/ValidationTest.java"
+                global="0" line="70" lod="1" overall="1" reason="cost from breaking the Law of Demeter"/>
+            <cost cyclomatic="0" file="pricing/ValidationTest.java"
+                global="0" line="70" lod="1" overall="1" reason="cost from breaking the Law of Demeter"/>
+            <cost cyclomatic="0" file="pricing/ValidationTest.java"
+                global="0" line="70" lod="1" overall="1" reason="cost from breaking the Law of Demeter"/>
+            <cost cyclomatic="0" file="pricing/ValidationTest.java"
+                global="0" line="70" lod="1" overall="1" reason="cost from breaking the Law of Demeter"/>
+        </method>
+    </class>
+    <class class="pricing.RentalFormValidator" cost="28">
+        <method cyclomatic="0" global="0" line="23" lod="0"
+            name="RentalFormValidator(javax.servlet.http.HttpServletRequest)" overall="0"/>
+        <method cyclomatic="6" global="0" line="356" lod="0"
+            name="boolean isCarTypeInRange()" overall="6">
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="356" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="357" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="358" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="359" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="2" file="pricing/RentalFormValidator.java"
+                global="0" line="362" lod="0"
+                method="java.lang.Integer valueOf(int)" overall="2" reason="cost from calling non-overridable method"/>
+        </method>
+        <method cyclomatic="4" global="0" line="348" lod="0"
+            name="boolean isCarTypeNull()" overall="4">
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="348" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="348" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="2" file="pricing/RentalFormValidator.java"
+                global="0" line="349" lod="0"
+                method="java.lang.Integer valueOf(int)" overall="2" reason="cost from calling non-overridable method"/>
+        </method>
+        <method cyclomatic="13" global="0" line="399" lod="0"
+            name="boolean isCreditCardNoInRange()" overall="13">
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="402" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="403" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="404" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="404" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="411" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="412" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="412" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="412" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="412" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="412" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="413" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="2" file="pricing/RentalFormValidator.java"
+                global="0" line="408" lod="0"
+                method="java.lang.Integer valueOf(int)" overall="2" reason="cost from calling non-overridable method"/>
+        </method>
+        <method cyclomatic="4" global="0" line="391" lod="0"
+            name="boolean isCreditCardNoNull()" overall="4">
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="391" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="391" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="2" file="pricing/RentalFormValidator.java"
+                global="0" line="392" lod="0"
+                method="java.lang.Integer valueOf(int)" overall="2" reason="cost from calling non-overridable method"/>
+        </method>
+        <method cyclomatic="6" global="0" line="377" lod="0"
+            name="boolean isCreditCardTypeInRange()" overall="6">
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="385" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="385" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="377" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="378" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="2" file="pricing/RentalFormValidator.java"
+                global="0" line="381" lod="0"
+                method="java.lang.Integer valueOf(int)" overall="2" reason="cost from calling non-overridable method"/>
+        </method>
+        <method cyclomatic="4" global="0" line="368" lod="0"
+            name="boolean isCreditCardTypeNull()" overall="4">
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="368" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="368" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="2" file="pricing/RentalFormValidator.java"
+                global="0" line="369" lod="0"
+                method="java.lang.Integer valueOf(int)" overall="2" reason="cost from calling non-overridable method"/>
+        </method>
+        <method cyclomatic="4" global="0" line="148" lod="0"
+            name="boolean isCustomerNull()" overall="4">
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="152" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="148" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="2" file="pricing/RentalFormValidator.java"
+                global="0" line="149" lod="0"
+                method="java.lang.Integer valueOf(int)" overall="2" reason="cost from calling non-overridable method"/>
+        </method>
+        <method cyclomatic="25" global="0" line="160" lod="0"
+            name="boolean isCustomerNumeric()" overall="25">
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="161" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="24"
+                file="pricing/RentalFormValidator.java" global="0"
+                line="160" lod="0"
+                method="java.lang.Integer valueOf(java.lang.String)"
+                overall="24" reason="cost from calling non-overridable method"/>
+        </method>
+        <method cyclomatic="28" global="0" line="268" lod="0"
+            name="boolean isDropoffDayInRange()" overall="28">
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="275" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="275" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="268" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="268" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="22"
+                file="pricing/RentalFormValidator.java" global="0"
+                line="268" lod="0"
+                method="int parseInt(java.lang.String)" overall="22" reason="cost from calling non-overridable method"/>
+            <cost cyclomatic="2" file="pricing/RentalFormValidator.java"
+                global="0" line="269" lod="0"
+                method="java.lang.Integer valueOf(int)" overall="2" reason="cost from calling non-overridable method"/>
+        </method>
+        <method cyclomatic="4" global="0" line="259" lod="0"
+            name="boolean isDropoffDayNull()" overall="4">
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="259" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="259" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="2" file="pricing/RentalFormValidator.java"
+                global="0" line="260" lod="0"
+                method="java.lang.Integer valueOf(int)" overall="2" reason="cost from calling non-overridable method"/>
+        </method>
+        <method cyclomatic="28" global="0" line="335" lod="0"
+            name="boolean isDropoffHourInRange()" overall="28">
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="342" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="342" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="335" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="335" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="22"
+                file="pricing/RentalFormValidator.java" global="0"
+                line="335" lod="0"
+                method="int parseInt(java.lang.String)" overall="22" reason="cost from calling non-overridable method"/>
+            <cost cyclomatic="2" file="pricing/RentalFormValidator.java"
+                global="0" line="336" lod="0"
+                method="java.lang.Integer valueOf(int)" overall="2" reason="cost from calling non-overridable method"/>
+        </method>
+        <method cyclomatic="4" global="0" line="326" lod="0"
+            name="boolean isDropoffHourNull()" overall="4">
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="326" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="326" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="2" file="pricing/RentalFormValidator.java"
+                global="0" line="327" lod="0"
+                method="java.lang.Integer valueOf(int)" overall="2" reason="cost from calling non-overridable method"/>
+        </method>
+        <method cyclomatic="28" global="0" line="290" lod="0"
+            name="boolean isDropoffMonthInRange()" overall="28">
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="297" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="297" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="290" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="290" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="22"
+                file="pricing/RentalFormValidator.java" global="0"
+                line="290" lod="0"
+                method="int parseInt(java.lang.String)" overall="22" reason="cost from calling non-overridable method"/>
+            <cost cyclomatic="2" file="pricing/RentalFormValidator.java"
+                global="0" line="291" lod="0"
+                method="java.lang.Integer valueOf(int)" overall="2" reason="cost from calling non-overridable method"/>
+        </method>
+        <method cyclomatic="4" global="0" line="281" lod="0"
+            name="boolean isDropoffMonthNull()" overall="4">
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="281" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="281" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="2" file="pricing/RentalFormValidator.java"
+                global="0" line="282" lod="0"
+                method="java.lang.Integer valueOf(int)" overall="2" reason="cost from calling non-overridable method"/>
+        </method>
+        <method cyclomatic="6" global="0" line="312" lod="0"
+            name="boolean isDropoffYearInRange()" overall="6">
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="320" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="320" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="312" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="312" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="2" file="pricing/RentalFormValidator.java"
+                global="0" line="315" lod="0"
+                method="java.lang.Integer valueOf(int)" overall="2" reason="cost from calling non-overridable method"/>
+        </method>
+        <method cyclomatic="4" global="0" line="303" lod="0"
+            name="boolean isDropoffYearNull()" overall="4">
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="303" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="303" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="2" file="pricing/RentalFormValidator.java"
+                global="0" line="304" lod="0"
+                method="java.lang.Integer valueOf(int)" overall="2" reason="cost from calling non-overridable method"/>
+        </method>
+        <method cyclomatic="28" global="0" line="179" lod="0"
+            name="boolean isPickupDayInRange()" overall="28">
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="185" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="185" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="179" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="179" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="22"
+                file="pricing/RentalFormValidator.java" global="0"
+                line="179" lod="0"
+                method="int parseInt(java.lang.String)" overall="22" reason="cost from calling non-overridable method"/>
+            <cost cyclomatic="2" file="pricing/RentalFormValidator.java"
+                global="0" line="180" lod="0"
+                method="java.lang.Integer valueOf(int)" overall="2" reason="cost from calling non-overridable method"/>
+        </method>
+        <method cyclomatic="4" global="0" line="170" lod="0"
+            name="boolean isPickupDayNull()" overall="4">
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="170" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="170" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="2" file="pricing/RentalFormValidator.java"
+                global="0" line="171" lod="0"
+                method="java.lang.Integer valueOf(int)" overall="2" reason="cost from calling non-overridable method"/>
+        </method>
+        <method cyclomatic="28" global="0" line="246" lod="0"
+            name="boolean isPickupHourInRange()" overall="28">
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="253" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="253" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="246" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="246" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="22"
+                file="pricing/RentalFormValidator.java" global="0"
+                line="246" lod="0"
+                method="int parseInt(java.lang.String)" overall="22" reason="cost from calling non-overridable method"/>
+            <cost cyclomatic="2" file="pricing/RentalFormValidator.java"
+                global="0" line="247" lod="0"
+                method="java.lang.Integer valueOf(int)" overall="2" reason="cost from calling non-overridable method"/>
+        </method>
+        <method cyclomatic="4" global="0" line="237" lod="0"
+            name="boolean isPickupHourNull()" overall="4">
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="237" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="237" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="2" file="pricing/RentalFormValidator.java"
+                global="0" line="238" lod="0"
+                method="java.lang.Integer valueOf(int)" overall="2" reason="cost from calling non-overridable method"/>
+        </method>
+        <method cyclomatic="28" global="0" line="201" lod="0"
+            name="boolean isPickupMonthInRange()" overall="28">
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="208" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="208" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="201" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="201" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="22"
+                file="pricing/RentalFormValidator.java" global="0"
+                line="201" lod="0"
+                method="int parseInt(java.lang.String)" overall="22" reason="cost from calling non-overridable method"/>
+            <cost cyclomatic="2" file="pricing/RentalFormValidator.java"
+                global="0" line="202" lod="0"
+                method="java.lang.Integer valueOf(int)" overall="2" reason="cost from calling non-overridable method"/>
+        </method>
+        <method cyclomatic="4" global="0" line="192" lod="0"
+            name="boolean isPickupMonthNull()" overall="4">
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="192" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="192" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="2" file="pricing/RentalFormValidator.java"
+                global="0" line="193" lod="0"
+                method="java.lang.Integer valueOf(int)" overall="2" reason="cost from calling non-overridable method"/>
+        </method>
+        <method cyclomatic="6" global="0" line="223" lod="0"
+            name="boolean isPickupYearInRange()" overall="6">
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="231" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="231" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="223" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="223" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="2" file="pricing/RentalFormValidator.java"
+                global="0" line="226" lod="0"
+                method="java.lang.Integer valueOf(int)" overall="2" reason="cost from calling non-overridable method"/>
+        </method>
+        <method cyclomatic="4" global="0" line="214" lod="0"
+            name="boolean isPickupYearNull()" overall="4">
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="214" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="214" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="2" file="pricing/RentalFormValidator.java"
+                global="0" line="215" lod="0"
+                method="java.lang.Integer valueOf(int)" overall="2" reason="cost from calling non-overridable method"/>
+        </method>
+        <method cyclomatic="46" global="0" line="29" lod="0"
+            name="boolean isValid()" overall="46">
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="31" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="34" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="39" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="42" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="47" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="50" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="56" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="59" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="65" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="68" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="74" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="77" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="83" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="86" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="92" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="95" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="101" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="104" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="110" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="113" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="119" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="122" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="127" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="1" file="pricing/RentalFormValidator.java"
+                global="0" line="130" lod="0" overall="1" reason="cyclomatic complexity"/>
+            <cost cyclomatic="22"
+                file="pricing/RentalFormValidator.java" global="0"
+                line="37" lod="0"
+                method="int parseInt(java.lang.String)" overall="22" reason="cost from calling non-overridable method"/>
+        </method>
+        <method cyclomatic="0" global="0" line="143" lod="0"
+            name="java.util.ArrayList getErrorCodes()" overall="0"/>
+        <method cyclomatic="0" global="0" line="426" lod="0"
+            name="pricing.RentalBean getBean()" overall="0"/>
+        <method cyclomatic="0" global="0" line="430" lod="0"
+            name="void setBean(pricing.RentalBean)" overall="0"/>
+        <method cyclomatic="0" global="0" line="139" lod="0"
+            name="void setErrorCodes(java.util.ArrayList)" overall="0"/>
+    </class>
+    <class class="pricing.PriceSchedule" cost="0">
+        <method cyclomatic="0" global="0" line="27" lod="0"
+            name="PriceSchedule()" overall="0"/>
+        <method cyclomatic="0" global="0" line="20" lod="0"
+            name="PriceSchedule(java.lang.String, java.math.BigDecimal, java.math.BigDecimal, java.math.BigDecimal)" overall="0"/>
+        <method cyclomatic="0" global="0" line="34" lod="0"
+            name="java.lang.String getTypeName()" overall="0"/>
+        <method cyclomatic="0" global="0" line="88" lod="0"
+            name="java.lang.String toString()" overall="0"/>
+        <method cyclomatic="0" global="0" line="48" lod="0"
+            name="java.math.BigDecimal getWeekdayRate()" overall="0"/>
+        <method cyclomatic="0" global="0" line="62" lod="0"
+            name="java.math.BigDecimal getWeekendRate()" overall="0"/>
+        <method cyclomatic="0" global="0" line="76" lod="0"
+            name="java.math.BigDecimal getWeeklyRate()" overall="0"/>
+        <method cyclomatic="0" global="0" line="41" lod="0"
+            name="void setTypeName(java.lang.String)" overall="0"/>
+        <method cyclomatic="0" global="0" line="55" lod="0"
+            name="void setWeekdayRate(java.math.BigDecimal)" overall="0"/>
+        <method cyclomatic="0" global="0" line="69" lod="0"
+            name="void setWeekendRate(java.math.BigDecimal)" overall="0"/>
+        <method cyclomatic="0" global="0" line="83" lod="0"
+            name="void setWeeklyRate(java.math.BigDecimal)" overall="0"/>
+    </class>
+</testability>
