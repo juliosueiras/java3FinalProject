@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>RentalBean.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">finalProjects</a> &gt; <a href="index.source.html" class="el_package">pricing</a> &gt; <span class="el_source">RentalBean.java</span></div><h1>RentalBean.java</h1><pre class="source lang-java linenums">/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package pricing;
+
+import java.beans.*;
+import java.io.Serializable;
+import java.math.BigDecimal;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.HashMap;
+/**
+ *
+ * @author junghun lee and julio tain sueiras
+ */
+public class RentalBean implements Serializable{
+    private int pickupYear;
+    private int pickupMon;
+    private int pickupDay;
+    private int pickupHour;
+    private int pickupMin;
+    private int dropoffYear;
+    private int dropoffMon;
+    private int dropoffDay;
+    private int dropoffHour;
+    private int dropoffMin;
+    private String rentalType;
+    private String cardType;
+    private String cardNumber;
+    private int customerNumber;
+    private BigDecimal taxRate;
+    private BigDecimal price;
+    private PriceSchedule priceSchedule;
+      
+<span class="fc" id="L37">    public RentalBean() {</span>
+       
+<span class="fc" id="L39">    }</span>
+    
+    /**
+     * method for price estimation based on business rules
+     * @return 
+     */
+
+    public PriceSchedule getPriceSchedule() {
+<span class="fc" id="L47">        return priceSchedule;</span>
+    }
+    
+    /**
+     * @return the pickupYear
+     */
+    public int getPickupYear() {
+<span class="fc" id="L54">        return pickupYear;</span>
+    }
+
+    /**
+     * @param pickupYear the pickupYear to set
+     */
+    public void setPickupYear(int pickupYear) {
+<span class="fc" id="L61">        this.pickupYear = pickupYear;</span>
+<span class="fc" id="L62">    }</span>
+
+    /**
+     * @return the pickupMon
+     */
+    public int getPickupMon() {
+<span class="fc" id="L68">        return pickupMon;</span>
+    }
+
+    /**
+     * @param pickupMon the pickupMon to set
+     */
+    public void setPickupMon(int pickupMon) {
+<span class="fc" id="L75">        this.pickupMon = pickupMon;</span>
+<span class="fc" id="L76">    }</span>
+
+    /**
+     * @return the pickupDay
+     */
+    public int getPickupDay() {
+<span class="fc" id="L82">        return pickupDay;</span>
+    }
+
+    /**
+     * @param pickupDay the pickupDay to set
+     */
+    public void setPickupDay(int pickupDay) {
+<span class="fc" id="L89">            this.pickupDay = pickupDay;</span>
+<span class="fc" id="L90">    }</span>
+
+    /**
+     * @return the pickupHour
+     */
+    public int getPickupHour() {
+<span class="fc" id="L96">        return pickupHour;</span>
+    }
+
+    /**
+     * @param pickupHour the pickupHour to set
+     */
+    public void setPickupHour(int pickupHour) {
+<span class="fc" id="L103">        this.pickupHour = pickupHour;</span>
+<span class="fc" id="L104">    }</span>
+
+    /**
+     * @return the pickupMin
+     */
+    public int getPickupMin() {
+<span class="fc" id="L110">        return pickupMin;</span>
+    }
+
+    /**
+     * @param pickupMin the pickupMin to set
+     */
+    public void setPickupMin(int pickupMin) {
+<span class="fc" id="L117">        this.pickupMin = pickupMin;</span>
+<span class="fc" id="L118">    }</span>
+
+    /**
+     * @return the dropoffYear
+     */
+    public int getDropoffYear() {
+<span class="fc" id="L124">        return dropoffYear;</span>
+    }
+
+    /**
+     * @param dropoffYear the dropoffYear to set
+     */
+    public void setDropoffYear(int dropoffYear) {
+<span class="fc" id="L131">        this.dropoffYear = dropoffYear;</span>
+<span class="fc" id="L132">    }</span>
+
+    /**
+     * @return the dropoffMon
+     */
+    public int getDropoffMon() {
+<span class="fc" id="L138">        return dropoffMon;</span>
+    }
+
+    /**
+     * @param dropoffMon the dropoffMon to set
+     */
+    public void setDropoffMon(int dropoffMon) {
+<span class="fc" id="L145">        this.dropoffMon = dropoffMon;</span>
+<span class="fc" id="L146">    }</span>
+
+    /**
+     * @return the dropoffDay
+     */
+    public int getDropoffDay() {
+<span class="fc" id="L152">        return dropoffDay;</span>
+    }
+
+    /**
+     * @param dropoffDay the dropoffDay to set
+     */
+    public void setDropoffDay(int dropoffDay) {
+<span class="fc" id="L159">        this.dropoffDay = dropoffDay;</span>
+<span class="fc" id="L160">    }</span>
+
+    /**
+     * @return the dropoffHour
+     */
+    public int getDropoffHour() {
+<span class="fc" id="L166">        return dropoffHour;</span>
+    }
+
+    /**
+     * @param dropoffHour the dropoffHour to set
+     */
+    public void setDropoffHour(int dropoffHour) {
+<span class="fc" id="L173">        this.dropoffHour = dropoffHour;</span>
+<span class="fc" id="L174">    }</span>
+
+    /**
+     * @return the dropoffMin
+     */
+    public int getDropoffMin() {
+<span class="fc" id="L180">        return dropoffMin;</span>
+    }
+
+    /**
+     * @param dropoffMin the dropoffMin to set
+     */
+    public void setDropoffMin(int dropoffMin) {
+<span class="fc" id="L187">        this.dropoffMin = dropoffMin;</span>
+<span class="fc" id="L188">    }</span>
+
+    /**
+     * @return the rentalType
+     */
+    public String getRentalType() {
+<span class="fc" id="L194">        return rentalType;</span>
+    }
+
+    /**
+     * @param rentalType the rentalType to set
+     */
+    public void setRentalType(String rentalType) {
+<span class="fc" id="L201">        this.rentalType = rentalType;</span>
+<span class="fc" id="L202">    }</span>
+
+    /**
+     * @return the cardType
+     */
+    public String getCardType() {
+<span class="fc" id="L208">        return cardType;</span>
+    }
+
+    /**
+     * @param cardType the cardType to set
+     */
+    public void setCardType(String cardType) {
+<span class="fc" id="L215">        this.cardType = cardType;</span>
+<span class="fc" id="L216">    }</span>
+
+    /**
+     * @return the cardNumber
+     */
+    public String getCardNumber() {
+<span class="fc" id="L222">        return cardNumber;</span>
+    }
+
+    /**
+     * @param cardNumber the cardNumber to set
+     */
+    public void setCardNumber(String cardNumber) {
+<span class="fc" id="L229">        this.cardNumber = cardNumber;</span>
+<span class="fc" id="L230">    }</span>
+
+    /**
+     * @return the taxRate
+     */
+    public BigDecimal getTaxRate() {
+<span class="fc" id="L236">        return taxRate;</span>
+    }
+
+    /**
+     * @param taxRate the taxRate to set
+     */
+    public void setTaxRate(BigDecimal taxRate) {
+<span class="fc" id="L243">        this.taxRate = taxRate;</span>
+<span class="fc" id="L244">    }</span>
+
+    /**
+     * @return the price
+     */
+    public BigDecimal getPrice() {
+<span class="fc" id="L250">       double resultPrice = 0.00;</span>
+<span class="fc" id="L251">        int weekdays=0;</span>
+<span class="fc" id="L252">        int weekends=0;</span>
+
+<span class="pc bpc" id="L254" title="1 of 2 branches missed.">        if(getDropoffDay() - getPickupDay() &gt;= 5){</span>
+<span class="nc" id="L255">            resultPrice = priceSchedule.getWeeklyRate().doubleValue()*(getDropoffDay() - getPickupDay());</span>
+
+<span class="pc bpc" id="L257" title="3 of 4 branches missed.">        }else if((getPickupDay()+1 == getDropoffDay()) &amp;&amp; (getPickupHour() &gt; getDropoffHour())){</span>
+<span class="nc bnc" id="L258" title="All 2 branches missed.">            if(isPickupDateWeekend()){</span>
+<span class="nc" id="L259">                resultPrice = priceSchedule.getWeekendRate().doubleValue();</span>
+            }else{
+<span class="nc" id="L261">                resultPrice = priceSchedule.getWeekdayRate().doubleValue();</span>
+            }
+        }else{
+<span class="pc bpc" id="L264" title="1 of 2 branches missed.">            if(isPickupDateWeekend()){</span>
+<span class="nc" id="L265">                weekends++;</span>
+            }else{
+<span class="fc" id="L267">                weekdays++;</span>
+            }
+
+<span class="pc bpc" id="L270" title="1 of 2 branches missed.">            if(isDropoffDateWeekend()){</span>
+<span class="pc bpc" id="L271" title="1 of 2 branches missed.">                if(getDropOffDayOfWeek() != 7){</span>
+<span class="fc" id="L272">                    weekends++;</span>
+                }
+            }else{
+<span class="nc" id="L275">                weekdays++;</span>
+            }
+
+<span class="fc bfc" id="L278" title="All 2 branches covered.">            for(int dayOfWeek = getPickUpDayOfWeek() +1, i = 1; i &lt; getDropoffDay() - getPickupDay(); i++) {</span>
+<span class="fc bfc" id="L279" title="All 2 branches covered.">                if(dayOfWeek == 7){</span>
+<span class="fc" id="L280">                    dayOfWeek=1;</span>
+<span class="fc" id="L281">                    continue;</span>
+<span class="pc bpc" id="L282" title="1 of 4 branches missed.">                }else if(dayOfWeek == 5 || dayOfWeek == 6){</span>
+<span class="fc" id="L283">                    weekends++;</span>
+                }else{
+<span class="nc" id="L285">                    weekdays++;</span>
+                }
+<span class="fc" id="L287">                dayOfWeek++;</span>
+            }
+
+<span class="fc" id="L290">            resultPrice = priceSchedule.getWeekdayRate().doubleValue()*weekdays + priceSchedule.getWeekendRate().doubleValue()*weekends;</span>
+        }
+<span class="fc" id="L292">        return new BigDecimal(resultPrice);</span>
+    }
+
+    /**
+     * @param price the price to set
+     */
+    public void setPrice(BigDecimal price) {
+<span class="nc" id="L299">        this.price = price;</span>
+<span class="nc" id="L300">    }</span>
+
+    /**
+     * @param priceSchedule the priceSchedule to set
+     */
+    public void setPriceSchedule(PriceSchedule priceSchedule) {
+<span class="fc" id="L306">        this.priceSchedule = priceSchedule;</span>
+<span class="fc" id="L307">    }   </span>
+
+    public int getCustomerNumber() {
+<span class="fc" id="L310">        return customerNumber;</span>
+    }
+
+    public void setCustomerNumber(int customerNumber) {
+<span class="fc" id="L314">        this.customerNumber = customerNumber;</span>
+<span class="fc" id="L315">    }</span>
+
+    public Calendar getPickupDate(){
+<span class="fc" id="L318">        Calendar cPickUp = Calendar.getInstance();</span>
+<span class="fc" id="L319">        cPickUp.set(getPickupYear(),getPickupMon()-1,getPickupDay()-1);</span>
+<span class="fc" id="L320">        return cPickUp;</span>
+
+    }
+
+    public Calendar getDropoffDate(){
+<span class="fc" id="L325">        Calendar cDropOff = Calendar.getInstance();</span>
+<span class="fc" id="L326">        cDropOff.set(getDropoffYear(),getDropoffMon()-1,getDropoffDay()-1);</span>
+<span class="fc" id="L327">        return cDropOff;</span>
+    }
+
+    public Boolean isPickupDateWeekend(){
+<span class="pc bpc" id="L331" title="3 of 4 branches missed.">        return (getPickUpDayOfWeek() == 5 &amp;&amp; getPickupHour() &gt;= 7)</span>
+<span class="pc bpc" id="L332" title="1 of 2 branches missed.">                || getPickUpDayOfWeek() == 6</span>
+<span class="pc bpc" id="L333" title="1 of 2 branches missed.">                || getPickUpDayOfWeek() == 7</span>
+<span class="pc bpc" id="L334" title="3 of 4 branches missed.">                || (getPickUpDayOfWeek() == 1 &amp;&amp; getPickupHour() &lt;= 11);</span>
+    }
+
+    public int getPickUpDayOfWeek() {
+<span class="fc" id="L338">        return getPickupDate().get(Calendar.DAY_OF_WEEK);</span>
+    }
+
+    public Boolean isDropoffDateWeekend(){
+<span class="pc bpc" id="L342" title="3 of 4 branches missed.">        return (getDropOffDayOfWeek() == 5 &amp;&amp; getDropoffHour() &gt;= 7)</span>
+<span class="pc bpc" id="L343" title="1 of 2 branches missed.">                || getDropOffDayOfWeek() == 6</span>
+<span class="pc bpc" id="L344" title="1 of 2 branches missed.">                || getDropOffDayOfWeek() == 7</span>
+<span class="pc bpc" id="L345" title="2 of 4 branches missed.">                || (getDropOffDayOfWeek() == 1 &amp;&amp; getDropoffHour() &lt;= 11);</span>
+    }
+
+    public int getDropOffDayOfWeek() {
+<span class="fc" id="L349">        return getDropoffDate().get(Calendar.DAY_OF_WEEK);</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.2.201409121644</span></div></body></html>

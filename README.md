@@ -3,9 +3,10 @@ java3FinalProject
 
 Sheridan College Java 3 Final Project - Joshua and Julio
 
-Jenkins:
+All CI and Service Badges:
 ====
-[![Build Status](http://juliosueirasstuff.me:8080/job/julioRepoJava3FinalProject/badge/icon)](http://juliosueirasstuff.me:8080/job/julioRepoJava3FinalProject/)
+[![Build Status](https://travis-ci.org/juliosueiras/java3FinalProject.svg)](https://travis-ci.org/juliosueiras/java3FinalProject)
+[![Build Status](http://juliosueirasstuff.me:8080/buildStatus/icon?job=java3FinalProjectMaven)](http://juliosueirasstuff.me:8080/job/java3FinalProjectMaven/)
 
 Travis CI:
 ======
@@ -18,6 +19,8 @@ Drone.io:
 Circle CI:
 =====
 [![Circle CI](https://circleci.com/gh/juliosueiras/java3FinalProject.svg?style=svg)](https://circleci.com/gh/juliosueiras/java3FinalProject)
+
+
 
 To-Do:
 =====

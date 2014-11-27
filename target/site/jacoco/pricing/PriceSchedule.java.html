@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>PriceSchedule.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">finalProjects</a> &gt; <a href="index.source.html" class="el_package">pricing</a> &gt; <span class="el_source">PriceSchedule.java</span></div><h1>PriceSchedule.java</h1><pre class="source lang-java linenums">/*
+ *CarRates is used to represent the name of a class of rental car,
+ *such as &quot;Compact&quot; and all associated prices (e.g. weekly rate, weekday rate)
+ */
+package pricing;
+
+import java.io.Serializable;
+import java.math.BigDecimal;
+
+/**
+ *
+ * @author junghun lee and julio tain sueiras
+ */
+public class PriceSchedule implements Serializable {
+     private String typeName;
+     private BigDecimal weekdayRate;
+     private BigDecimal weekendRate;
+     private BigDecimal weeklyRate;
+
+<span class="fc" id="L20">    public PriceSchedule(String typeName, BigDecimal weekdayRate, BigDecimal weekendRate, BigDecimal weeklyRate) {</span>
+<span class="fc" id="L21">        this.typeName = typeName;</span>
+<span class="fc" id="L22">        this.weekdayRate = weekdayRate;</span>
+<span class="fc" id="L23">        this.weekendRate = weekendRate;</span>
+<span class="fc" id="L24">        this.weeklyRate = weeklyRate;</span>
+<span class="fc" id="L25">    }</span>
+
+<span class="fc" id="L27">    public PriceSchedule() {</span>
+<span class="fc" id="L28">    }</span>
+
+    /**
+     * @return the typeName
+     */
+    public String getTypeName() {
+<span class="nc" id="L34">        return typeName;</span>
+    }
+
+    /**
+     * @param typeName the typeName to set
+     */
+    public void setTypeName(String typeName) {
+<span class="nc" id="L41">        this.typeName = typeName;</span>
+<span class="nc" id="L42">    }</span>
+
+    /**
+     * @return the weekdayRate
+     */
+    public BigDecimal getWeekdayRate() {
+<span class="fc" id="L48">        return weekdayRate;</span>
+    }
+
+    /**
+     * @param weekdayRate the weekdayRate to set
+     */
+    public void setWeekdayRate(BigDecimal weekdayRate) {
+<span class="fc" id="L55">        this.weekdayRate = weekdayRate;</span>
+<span class="fc" id="L56">    }</span>
+
+    /**
+     * @return the weekendRate
+     */
+    public BigDecimal getWeekendRate() {
+<span class="fc" id="L62">        return weekendRate;</span>
+    }
+
+    /**
+     * @param weekendRate the weekendRate to set
+     */
+    public void setWeekendRate(BigDecimal weekendRate) {
+<span class="fc" id="L69">        this.weekendRate = weekendRate;</span>
+<span class="fc" id="L70">    }</span>
+
+    /**
+     * @return the weeklyRate
+     */
+    public BigDecimal getWeeklyRate() {
+<span class="nc" id="L76">        return weeklyRate;</span>
+    }
+
+    /**
+     * @param weeklyRate the weeklyRate to set
+     */
+    public void setWeeklyRate(BigDecimal weeklyRate) {
+<span class="fc" id="L83">        this.weeklyRate = weeklyRate;</span>
+<span class="fc" id="L84">    }</span>
+
+    @Override
+    public String toString() {
+<span class="nc" id="L88">        return &quot;CarRates{&quot; + &quot;typeName=&quot; + typeName +</span>
+                &quot;, weekdayRate=&quot; + weekdayRate +
+                &quot;, weekendRate=&quot; + weekendRate +
+                &quot;, weeklyRate=&quot; + weeklyRate + '}';
+    }    
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.2.201409121644</span></div></body></html>
