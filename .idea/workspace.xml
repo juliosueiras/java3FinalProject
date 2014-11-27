@@ -2,128 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2f4f3c9-c083-40f7-b66f-d1dbc4b81ff3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/META-INF/application.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test/classes/.netbeans_automatic_build" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test/classes/.netbeans_update_resources" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test/classes/pricing/MockRequest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test/classes/pricing/MockSession.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test/classes/pricing/RentalBeanTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test/classes/pricing/RentalFormValidatorTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test/results/TEST-pricing.PriceScheduleTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test/results/TEST-pricing.RentalBeanTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/test/results/TEST-pricing.RentalFormValidatorTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/web/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/web/META-INF/context.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/web/WEB-INF/classes/.netbeans_automatic_build" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/web/WEB-INF/classes/.netbeans_update_resources" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/web/WEB-INF/classes/pricing/PriceSchedule.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/web/WEB-INF/classes/pricing/RentalBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/web/WEB-INF/classes/pricing/RentalFormValidator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/web/WEB-INF/classes/pricing/ValidationTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/web/WEB-INF/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/web/WEB-INF/lib/javaee-api-7.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/web/WEB-INF/lib/javaee-web-api-7.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/web/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/codecover/intrumentCode/org/codecover/instrumentation/java/measurement/ConditionCounter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/codecover/intrumentCode/org/codecover/instrumentation/java/measurement/CounterContainer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/codecover/intrumentCode/org/codecover/instrumentation/java/measurement/CoverageLogPath.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/codecover/intrumentCode/org/codecover/instrumentation/java/measurement/CoverageResultLogFile.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/codecover/intrumentCode/org/codecover/instrumentation/java/measurement/LargeConditionCounter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/codecover/intrumentCode/org/codecover/instrumentation/java/measurement/LongContainer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/codecover/intrumentCode/org/codecover/instrumentation/java/measurement/MeasurementTimer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/codecover/intrumentCode/org/codecover/instrumentation/java/measurement/MediumConditionCounter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/codecover/intrumentCode/org/codecover/instrumentation/java/measurement/Protocol.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/codecover/intrumentCode/org/codecover/instrumentation/java/measurement/ProtocolImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/codecover/intrumentCode/org/codecover/instrumentation/java/measurement/SmallOneConditionCounter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/codecover/intrumentCode/org/codecover/instrumentation/java/measurement/SmallTwoConditionCounter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/codecover/intrumentCode/org/codecover/instrumentation/java/measurement/TestMethod.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/codecover/intrumentCode/org/codecover/instrumentation/java/measurement/jmx/JMXFileTransferException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/codecover/intrumentCode/org/codecover/instrumentation/java/measurement/jmx/LiveNotification.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/codecover/intrumentCode/org/codecover/instrumentation/java/measurement/jmx/LiveNotificationMBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/codecover/intrumentCode/org/codecover/instrumentation/measurement/CoverageCounterLog.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/codecover/intrumentCode/org/codecover/instrumentation/measurement/CoverageResultLog.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/codecover/intrumentCode/org/codecover/instrumentation/measurement/MeasurementConstants.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/codecover/intrumentCode/pricing/MockRequest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/codecover/intrumentCode/pricing/MockSession.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/codecover/intrumentCode/pricing/PriceSchedule.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/codecover/intrumentCode/pricing/PriceScheduleTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/codecover/intrumentCode/pricing/RentalBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/codecover/intrumentCode/pricing/RentalBeanTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/codecover/intrumentCode/pricing/RentalFormValidator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/codecover/intrumentCode/pricing/RentalFormValidatorTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/cpd.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/finalProject.war" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/javadoc/allclasses-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/javadoc/allclasses-noframe.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/javadoc/constant-values.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/javadoc/deprecated-list.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/javadoc/help-doc.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/javadoc/index-files/index-1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/javadoc/index-files/index-2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/javadoc/index-files/index-3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/javadoc/index-files/index-4.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/javadoc/index-files/index-5.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/javadoc/index-files/index-6.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/javadoc/index-files/index-7.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/javadoc/index-files/index-8.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/javadoc/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/javadoc/overview-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/javadoc/package-list" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/javadoc/pricing/PriceSchedule.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/javadoc/pricing/RentalBean.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/javadoc/pricing/RentalFormValidator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/javadoc/pricing/ValidationTest.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/javadoc/pricing/class-use/PriceSchedule.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/javadoc/pricing/class-use/RentalBean.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/javadoc/pricing/class-use/RentalFormValidator.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/javadoc/pricing/class-use/ValidationTest.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/javadoc/pricing/package-frame.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/javadoc/pricing/package-summary.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/javadoc/pricing/package-tree.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/javadoc/pricing/package-use.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/javadoc/script.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/javadoc/serialized-form.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/javadoc/stylesheet.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java3FinalProject.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/junithtml/TESTS-TestSuites.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nbproject/ant-deploy.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nbproject/build-impl.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nbproject/genfiles.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nbproject/private/private.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nbproject/private/private.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nbproject/project.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nbproject/project.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/java3FinalProject/pricing/PriceSchedule.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/java3FinalProject/pricing/RentalBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/java3FinalProject/pricing/RentalFormValidator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/java3FinalProject/pricing/ValidationTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/java3FinalProject/pricing/MockRequest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/java3FinalProject/pricing/MockSession.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/java3FinalProject/pricing/RentalBeanTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/test/java3FinalProject/pricing/RentalFormValidatorTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/pmd.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/conf/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/pricing/PriceSchedule.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/pricing/RentalBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/pricing/RentalFormValidator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/java/pricing/ValidationTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/pricing/MockRequest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/pricing/MockSession.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/pricing/RentalBeanTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/pricing/RentalFormValidatorTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/META-INF/context.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/index.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="java3FinalProject.iws" />
@@ -943,12 +821,12 @@
       <workItem from="1417032376221" duration="20000" />
       <workItem from="1417036902242" duration="1085000" />
       <workItem from="1417038013356" duration="11587000" />
-      <workItem from="1417061056924" duration="732000" />
+      <workItem from="1417061056924" duration="1352000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39187000" />
+    <option name="totallyTimeSpent" value="39807000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
