@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="30" failures="0" name="pricing.RentalFormValidatorTest" time="0.106" errors="0" skipped="0">
+<testsuite tests="30" failures="0" name="pricing.RentalFormValidatorTest" time="0.02" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
@@ -42,7 +42,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher site"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher cobertura:cobertura"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -61,34 +61,34 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupDayInRange" time="0.033"/>
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupDayInRange" time="0"/>
   <testcase classname="pricing.RentalFormValidatorTest" name="testIsCustomerNumeric" time="0"/>
   <testcase classname="pricing.RentalFormValidatorTest" name="testIsCarTypeInRange" time="0"/>
   <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupDayNull" time="0"/>
   <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffDayInRange" time="0.001"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupHourNull" time="0.001"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCustomerNull" time="0.002"/>
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupHourNull" time="0"/>
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCustomerNull" time="0"/>
   <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffYearInRange" time="0.001"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffYearNull" time="0"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testGetErrorCodes" time="0.001"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffMonthNull" time="0.001"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCreditCardTypeInRange" time="0.001"/>
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffYearNull" time="0.001"/>
+  <testcase classname="pricing.RentalFormValidatorTest" name="testGetErrorCodes" time="0"/>
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffMonthNull" time="0.002"/>
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCreditCardTypeInRange" time="0.011"/>
   <testcase classname="pricing.RentalFormValidatorTest" name="testIsCreditCardNoInRange" time="0"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testGetBean" time="0.005"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testSetErrorCodes" time="0.001"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupYearInRange" time="0.005"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffHourInRange" time="0.002"/>
+  <testcase classname="pricing.RentalFormValidatorTest" name="testGetBean" time="0"/>
+  <testcase classname="pricing.RentalFormValidatorTest" name="testSetErrorCodes" time="0.002"/>
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupYearInRange" time="0"/>
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffHourInRange" time="0"/>
   <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupMonthInRange" time="0"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCreditCardNoNull" time="0.001"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffHourNull" time="0.002"/>
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCreditCardNoNull" time="0"/>
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffHourNull" time="0"/>
   <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffMonthInRange" time="0.001"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCarTypeNull" time="0.006"/>
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCarTypeNull" time="0"/>
   <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupMonthNull" time="0"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupHourInRange" time="0.001"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCreditCardTypeNull" time="0.001"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testSetBean" time="0.003"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsValid" time="0.001"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupYearNull" time="0.001"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffDayNull" time="0.001"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCustomerNotNull" time="0.002"/>
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupHourInRange" time="0"/>
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCreditCardTypeNull" time="0"/>
+  <testcase classname="pricing.RentalFormValidatorTest" name="testSetBean" time="0"/>
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsValid" time="0"/>
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupYearNull" time="0"/>
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffDayNull" time="0"/>
+  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCustomerNotNull" time="0"/>
 </testsuite>
