@@ -5,7 +5,7 @@ Sheridan College Java 3 Final Project - Joshua and Julio
 
 All CI and Service Badges:
 ====
-[![Build Status](https://travis-ci.org/juliosueiras/java3FinalProject.svg)](https://travis-ci.org/juliosueiras/java3FinalProject)
+[![Coverage Status](https://img.shields.io/coveralls/juliosueiras/java3FinalProject.svg)](https://coveralls.io/r/juliosueiras/java3FinalProject?branch=mavenVersion)
 [![Build Status](http://juliosueirasstuff.me:8080/buildStatus/icon?job=java3FinalProjectMaven)](http://juliosueirasstuff.me:8080/job/java3FinalProjectMaven/)
 
 Travis CI:
