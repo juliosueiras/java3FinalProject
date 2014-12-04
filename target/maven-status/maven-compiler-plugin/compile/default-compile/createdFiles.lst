@@ -1,4 +1,6 @@
+pricing/CustomerServletController.class
+pricing/RentalBean.class
 pricing/ValidationTest.class
 pricing/PriceSchedule.class
 pricing/RentalFormValidator.class
-pricing/RentalBean.class
+dataaccess/DataAccess.class

@@ -2,12 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2f4f3c9-c083-40f7-b66f-d1dbc4b81ff3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_javaee_api_7_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/META-INF/application.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/sun-jaxws.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/web.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/index.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pricing/RentalBean.java" afterPath="$PROJECT_DIR$/src/main/java/pricing/RentalBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/lib2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/lib2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/lib3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/lib3.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="java3FinalProject.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +60,97 @@
     <favorites_list name="java3FinalProject" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="PriceSchedule.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pricing/PriceSchedule.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="1782">
+              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="context.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/webapp/META-INF/context.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="144">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RentalFormValidator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pricing/RentalFormValidator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="320" max-vertical-offset="7686">
+              <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#13614#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#3914#3915#0" expanded="false" />
+                <element signature="e#3958#3959#0" expanded="false" />
+                <element signature="e#13578#13579#0" expanded="false" />
+                <element signature="e#13610#13611#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/META-INF/application.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomerServletController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pricing/CustomerServletController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataAccess.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dataaccess/DataAccess.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1422">
+              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+              <folding>
+                <marker date="1417655174188" expanded="true" signature="1671:1710" placeholder="select custo..customer..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rentals.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/webapp/rentals.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -60,6 +166,11 @@
         <option value="/fragment.java" />
         <option value="$PROJECT_DIR$/test/pricing/RentalBeanTest.java" />
         <option value="$PROJECT_DIR$/src/java/pricing/RentalBean.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/pricing/PriceSchedule.java" />
+        <option value="$PROJECT_DIR$/web/META-INF/context.xml" />
+        <option value="$PROJECT_DIR$/web/errors.jsp" />
+        <option value="$PROJECT_DIR$/src/webapp/errors.jsp" />
       </list>
     </option>
   </component>
@@ -73,11 +184,38 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="dedicatedModuleDir" value="$PROJECT_DIR$" />
+        <option name="importAutomatically" value="true" />
+        <option name="lookForNested" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="finalProjects" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="54" />
-    <option name="y" value="-14" />
-    <option name="width" value="1323" />
-    <option name="height" value="793" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1301" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -104,17 +242,103 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java3FinalProject" />
+              <option name="myItemId" value="finalProjects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finalProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java3FinalProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finalProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java3FinalProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finalProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java3FinalProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finalProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java3FinalProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="finalProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java3FinalProject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -127,16 +351,31 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../android-checkin/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
     <property name="TODO_SCOPE" value="Project Files" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="com.intellij.ide.scratch.ScratchpadManager" value="JAVA" />
     <property name="extract.method.default.visibility" value="public" />
+    <property name="options.lastSelected" value="configurable.group.appearance" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dir.diff.last.used.directory" value="$PROJECT_DIR$/web" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/webapp" />
+      <recent name="$PROJECT_DIR$/web" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/web/WEB-INF" />
+      <recent name="$PROJECT_DIR$/web" />
+    </key>
   </component>
   <component name="RunManager" selected="JUnit.All in java3FinalProject (2)">
     <configuration default="false" name="All in java3FinalProject (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -476,6 +715,28 @@
       <setting name="testKind" value="Class" />
       <setting name="showProgressMessages" value="true" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
       <method />
     </configuration>
     <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
@@ -821,12 +1082,16 @@
       <workItem from="1417032376221" duration="20000" />
       <workItem from="1417036902242" duration="1085000" />
       <workItem from="1417038013356" duration="11587000" />
-      <workItem from="1417061056924" duration="1352000" />
+      <workItem from="1417061056924" duration="1991000" />
+      <workItem from="1417068220337" duration="800000" />
+      <workItem from="1417643902298" duration="762000" />
+      <workItem from="1417644732457" duration="3722000" />
+      <workItem from="1417653282342" duration="2732000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39807000" />
+    <option name="totallyTimeSpent" value="48462000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -849,47 +1114,48 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-14" width="1323" height="793" extended-state="6" />
+    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.49960285" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962668" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.50039715" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.49960285" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Code Outline" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962668" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.49960285" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962668" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2319301" sideWeight="0.4977029" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Analysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2494043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2494043" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2319301" sideWeight="0.5007657" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.49960285" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32924962" sideWeight="0.49960285" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32824427" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.49960285" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2319301" sideWeight="0.4977169" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962668" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2319301" sideWeight="0.5022971" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Analysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="EJB" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2319301" sideWeight="0.5022831" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2319301" sideWeight="0.50229007" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2319301" sideWeight="0.5022727" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962668" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="soapUI Navigator" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="12" side_tool="false" content_ui="combo" />
-      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34303215" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.49960285" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39969373" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35528332" sideWeight="0.49960285" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30976966" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962668" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.49960285" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="EJB" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -971,90 +1237,114 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/pricing/RentalBeanTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pricing/PriceSchedule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8676">
+        <state vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="1782">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/pricing/RentalFormValidatorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pricing/RentalBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="5584" max-vertical-offset="8244">
-          <caret line="303" column="4" selection-start-line="303" selection-start-column="4" selection-end-line="303" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="4025" max-vertical-offset="5040">
+          <caret line="304" column="16" selection-start-line="304" selection-start-column="16" selection-end-line="304" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#8226#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1169#1170#0" expanded="false" />
+            <element signature="e#1205#1206#0" expanded="false" />
+            <element signature="e#1289#1290#0" expanded="false" />
+            <element signature="e#1322#1323#0" expanded="false" />
+            <element signature="e#1434#1435#0" expanded="false" />
+            <element signature="e#1478#1479#0" expanded="false" />
+            <element signature="e#1556#1557#0" expanded="false" />
+            <element signature="e#1588#1589#0" expanded="false" />
+            <element signature="e#1696#1697#0" expanded="false" />
+            <element signature="e#1738#1739#0" expanded="false" />
+            <element signature="e#1816#1817#0" expanded="false" />
+            <element signature="e#1848#1849#0" expanded="false" />
+            <element signature="e#1956#1957#0" expanded="false" />
+            <element signature="e#2002#2003#0" expanded="false" />
+            <element signature="e#2082#2083#0" expanded="false" />
+            <element signature="e#2115#2116#0" expanded="false" />
+            <element signature="e#2227#2228#0" expanded="false" />
+            <element signature="e#2271#2272#0" expanded="false" />
+            <element signature="e#2349#2350#0" expanded="false" />
+            <element signature="e#2381#2382#0" expanded="false" />
+            <element signature="e#2489#2490#0" expanded="false" />
+            <element signature="e#2531#2532#0" expanded="false" />
+            <element signature="e#2613#2614#0" expanded="false" />
+            <element signature="e#2647#2648#0" expanded="false" />
+            <element signature="e#2763#2764#0" expanded="false" />
+            <element signature="e#2809#2810#0" expanded="false" />
+            <element signature="e#2889#2890#0" expanded="false" />
+            <element signature="e#2922#2923#0" expanded="false" />
+            <element signature="e#3034#3035#0" expanded="false" />
+            <element signature="e#3078#3079#0" expanded="false" />
+            <element signature="e#3158#3159#0" expanded="false" />
+            <element signature="e#3191#3192#0" expanded="false" />
+            <element signature="e#3303#3304#0" expanded="false" />
+            <element signature="e#3347#3348#0" expanded="false" />
+            <element signature="e#3429#3430#0" expanded="false" />
+            <element signature="e#3463#3464#0" expanded="false" />
+            <element signature="e#3579#3580#0" expanded="false" />
+            <element signature="e#3625#3626#0" expanded="false" />
+            <element signature="e#3705#3706#0" expanded="false" />
+            <element signature="e#3738#3739#0" expanded="false" />
+            <element signature="e#3850#3851#0" expanded="false" />
+            <element signature="e#3894#3895#0" expanded="false" />
+            <element signature="e#3977#3978#0" expanded="false" />
+            <element signature="e#4010#4011#0" expanded="false" />
+            <element signature="e#4125#4126#0" expanded="false" />
+            <element signature="e#4169#4170#0" expanded="false" />
+            <element signature="e#4248#4249#0" expanded="false" />
+            <element signature="e#4279#4280#0" expanded="false" />
+            <element signature="e#4386#4387#0" expanded="false" />
+            <element signature="e#4426#4427#0" expanded="false" />
+            <element signature="e#4509#4510#0" expanded="false" />
+            <element signature="e#4542#4543#0" expanded="false" />
+            <element signature="e#4657#4658#0" expanded="false" />
+            <element signature="e#4701#4702#0" expanded="false" />
+            <element signature="e#4782#4783#0" expanded="false" />
+            <element signature="e#4812#4813#0" expanded="false" />
+            <element signature="e#4919#4920#0" expanded="false" />
+            <element signature="e#4957#4958#0" expanded="false" />
+            <element signature="e#6654#6655#0" expanded="false" />
+            <element signature="e#6688#6689#0" expanded="false" />
+            <element signature="e#6913#6914#0" expanded="false" />
+            <element signature="e#6950#6951#0" expanded="false" />
+            <element signature="e#7007#7008#0" expanded="false" />
+            <element signature="e#7059#7060#0" expanded="false" />
+            <element signature="e#7767#7768#0" expanded="false" />
+            <element signature="e#7831#7832#0" expanded="false" />
+            <element signature="e#8157#8158#0" expanded="false" />
+            <element signature="e#8222#8223#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/pricing/RentalBeanTest.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9324">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3150">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/pricing/RentalFormValidatorTest.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1980" max-vertical-offset="8244">
-          <caret line="112" column="6" selection-start-line="112" selection-start-column="6" selection-end-line="112" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/pricing/RentalFormValidatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7812">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3150">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/pricing/RentalFormValidatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7812">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/pricing/RentalFormValidatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1206" max-vertical-offset="7812">
-          <caret line="78" column="6" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/pricing/RentalBeanTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="9162">
-          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/build/web/WEB-INF/lib/javaee-web-api-7.0.jar!/javax/validation/constraints/AssertFalse.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57908845" vertical-offset="0" max-vertical-offset="576">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/build/web/WEB-INF/lib/javaee-web-api-7.0.jar!/javax/validation/constraints/Digits.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.576" vertical-offset="0" max-vertical-offset="648">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/build/web/WEB-INF/lib/javaee-web-api-7.0.jar!/javax/validation/constraints/NotNull.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.576" vertical-offset="0" max-vertical-offset="576">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/pricing/RentalFormValidatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="5638" max-vertical-offset="8244">
-          <caret line="303" column="4" selection-start-line="303" selection-start-column="4" selection-end-line="303" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -1077,10 +1367,170 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/pricing/RentalBeanTest.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4600326" vertical-offset="6756" max-vertical-offset="8676">
-          <caret line="407" column="0" selection-start-line="407" selection-start-column="0" selection-end-line="407" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.20487805" vertical-offset="162" max-vertical-offset="3150">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pricing/RentalBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4043" max-vertical-offset="5040">
+          <caret line="305" column="16" selection-start-line="305" selection-start-column="16" selection-end-line="305" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#8226#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1169#1170#0" expanded="false" />
+            <element signature="e#1205#1206#0" expanded="false" />
+            <element signature="e#1289#1290#0" expanded="false" />
+            <element signature="e#1322#1323#0" expanded="false" />
+            <element signature="e#1434#1435#0" expanded="false" />
+            <element signature="e#1478#1479#0" expanded="false" />
+            <element signature="e#1556#1557#0" expanded="false" />
+            <element signature="e#1588#1589#0" expanded="false" />
+            <element signature="e#1696#1697#0" expanded="false" />
+            <element signature="e#1738#1739#0" expanded="false" />
+            <element signature="e#1816#1817#0" expanded="false" />
+            <element signature="e#1848#1849#0" expanded="false" />
+            <element signature="e#1956#1957#0" expanded="false" />
+            <element signature="e#2002#2003#0" expanded="false" />
+            <element signature="e#2082#2083#0" expanded="false" />
+            <element signature="e#2115#2116#0" expanded="false" />
+            <element signature="e#2227#2228#0" expanded="false" />
+            <element signature="e#2271#2272#0" expanded="false" />
+            <element signature="e#2349#2350#0" expanded="false" />
+            <element signature="e#2381#2382#0" expanded="false" />
+            <element signature="e#2489#2490#0" expanded="false" />
+            <element signature="e#2531#2532#0" expanded="false" />
+            <element signature="e#2613#2614#0" expanded="false" />
+            <element signature="e#2647#2648#0" expanded="false" />
+            <element signature="e#2763#2764#0" expanded="false" />
+            <element signature="e#2809#2810#0" expanded="false" />
+            <element signature="e#2889#2890#0" expanded="false" />
+            <element signature="e#2922#2923#0" expanded="false" />
+            <element signature="e#3034#3035#0" expanded="false" />
+            <element signature="e#3078#3079#0" expanded="false" />
+            <element signature="e#3158#3159#0" expanded="false" />
+            <element signature="e#3191#3192#0" expanded="false" />
+            <element signature="e#3303#3304#0" expanded="false" />
+            <element signature="e#3347#3348#0" expanded="false" />
+            <element signature="e#3429#3430#0" expanded="false" />
+            <element signature="e#3463#3464#0" expanded="false" />
+            <element signature="e#3579#3580#0" expanded="false" />
+            <element signature="e#3625#3626#0" expanded="false" />
+            <element signature="e#3705#3706#0" expanded="false" />
+            <element signature="e#3738#3739#0" expanded="false" />
+            <element signature="e#3850#3851#0" expanded="false" />
+            <element signature="e#3894#3895#0" expanded="false" />
+            <element signature="e#3977#3978#0" expanded="false" />
+            <element signature="e#4010#4011#0" expanded="false" />
+            <element signature="e#4125#4126#0" expanded="false" />
+            <element signature="e#4169#4170#0" expanded="false" />
+            <element signature="e#4248#4249#0" expanded="false" />
+            <element signature="e#4279#4280#0" expanded="false" />
+            <element signature="e#4386#4387#0" expanded="false" />
+            <element signature="e#4426#4427#0" expanded="false" />
+            <element signature="e#4509#4510#0" expanded="false" />
+            <element signature="e#4542#4543#0" expanded="false" />
+            <element signature="e#4657#4658#0" expanded="false" />
+            <element signature="e#4701#4702#0" expanded="false" />
+            <element signature="e#4782#4783#0" expanded="false" />
+            <element signature="e#4812#4813#0" expanded="false" />
+            <element signature="e#4919#4920#0" expanded="false" />
+            <element signature="e#4957#4958#0" expanded="false" />
+            <element signature="e#6654#6655#0" expanded="false" />
+            <element signature="e#6688#6689#0" expanded="false" />
+            <element signature="e#6913#6914#0" expanded="false" />
+            <element signature="e#6950#6951#0" expanded="false" />
+            <element signature="e#7007#7008#0" expanded="false" />
+            <element signature="e#7059#7060#0" expanded="false" />
+            <element signature="e#7767#7768#0" expanded="false" />
+            <element signature="e#7831#7832#0" expanded="false" />
+            <element signature="e#8157#8158#0" expanded="false" />
+            <element signature="e#8222#8223#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pricing/PriceSchedule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1782">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pricing/RentalFormValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="320" max-vertical-offset="7686">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#13614#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#3914#3915#0" expanded="false" />
+            <element signature="e#3958#3959#0" expanded="false" />
+            <element signature="e#13578#13579#0" expanded="false" />
+            <element signature="e#13610#13611#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/META-INF/application.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="522">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/webapp/META-INF/context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="144">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pricing/CustomerServletController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/webapp/errors.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27864584" vertical-offset="1" max-vertical-offset="684">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dataaccess/DataAccess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1422">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+          <folding>
+            <marker date="1417655174188" expanded="true" signature="1671:1710" placeholder="select custo..customer..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/webapp/rentals.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1104,7 +1554,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>EJB</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1139,7 +1589,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>EJB|java3FinalProject</last-edited>
+          <last-edited>finalProjects</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

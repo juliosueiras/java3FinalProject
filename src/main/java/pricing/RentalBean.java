@@ -247,7 +247,7 @@ public class RentalBean implements Serializable{
      * @return the price
      */
     public BigDecimal getPrice() {
-       double resultPrice = 0.00;
+        double resultPrice = 0.00;
         int weekdays=0;
         int weekends=0;
 

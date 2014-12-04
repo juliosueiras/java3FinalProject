@@ -12,6 +12,7 @@
     <properties>
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <aspectj.version>1.7.4</aspectj.version>
     </properties>
 
     <dependencies>
@@ -21,6 +22,7 @@
             <version>7.0</version>
             <scope>provided</scope>
         </dependency>
+
 
         <dependency>
             <groupId>junit</groupId>
@@ -32,6 +34,31 @@
 
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.14</version>
+                <configuration>
+                    <testFailureIgnore>false</testFailureIgnore>
+                    <argLine>
+                        -javaagent:${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar
+                    </argLine>
+                    <properties>
+                        <property>
+                            <name>listener</name>
+                            <value>ru.yandex.qatools.allure.junit.AllureRunListener</value>
+                        </property>
+                    </properties>
+                </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.aspectj</groupId>
+                        <artifactId>aspectjweaver</artifactId>
+                        <version>${aspectj.version}</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
+
             <plugin>
                 <groupId>org.eluder.coveralls</groupId>
                 <artifactId>coveralls-maven-plugin</artifactId>
@@ -67,14 +94,15 @@
                     </compilerArguments>
                 </configuration>
             </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-ejb-plugin</artifactId>
                 <version>2.3</version>
-                <configuration>
-                    <ejbVersion>3.1</ejbVersion>
+                <configuration> <ejbVersion>3.1</ejbVersion>
                 </configuration>
             </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-dependency-plugin</artifactId>
@@ -100,28 +128,24 @@
                     </execution>
                 </executions>
             </plugin>
-        <plugin>
-            <groupId>org.codehaus.mojo</groupId>
-            <artifactId>cobertura-maven-plugin</artifactId>
-            <version>2.6</version>
-            <configuration>
-                <formats>
-                    <format>html</format>
-                    <format>xml</format>
-                </formats>
-            </configuration>
-        </plugin>
+
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>cobertura-maven-plugin</artifactId>
+                <version>2.6</version>
+                <configuration>
+                    <formats>
+                        <format>html</format>
+                        <format>xml</format>
+                    </formats>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
     <reporting>
         <excludeDefaults>true</excludeDefaults>
         <plugins>
-            <plugin>
-                <groupId>ru.yandex.qatools.allure</groupId>
-                <artifactId>allure-maven-plugin</artifactId>
-                <version>{latest.version}</version>
-            </plugin>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>findbugs-maven-plugin</artifactId>
