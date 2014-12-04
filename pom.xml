@@ -151,7 +151,13 @@
                 <artifactId>findbugs-maven-plugin</artifactId>
                 <version>3.0.0</version>
             </plugin>
+            <plugin>
+        <groupId>com.google.testability-explorer</groupId>
+        <artifactId>maven-testability-plugin</artifactId>
+        <version>1.3.3</version>
+      </plugin>
         </plugins>
+
     </reporting>
 
 </project>
