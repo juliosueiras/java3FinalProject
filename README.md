@@ -21,6 +21,10 @@ Circle CI:
 =====
 [![Circle CI](https://circleci.com/gh/juliosueiras/java3FinalProject.svg?style=svg)](https://circleci.com/gh/juliosueiras/java3FinalProject)
 
+AppVeyor
+=======
+[![Build status](https://ci.appveyor.com/api/projects/status/ru82qsnfashsk2a9?svg=true)](https://ci.appveyor.com/project/juliosueiras/java3finalproject)
+
 
 
 To-Do:

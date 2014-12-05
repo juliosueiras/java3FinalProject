@@ -4,60 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2f4f3c9-c083-40f7-b66f-d1dbc4b81ff3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/javax_javaee_endorsed_api_7_0.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/META-INF/application.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/finalProjects_war/finalProjects_war.war" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/finalProjects_war_exploded/META-INF/context.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/finalProjects_war_exploded/WEB-INF/classes/.netbeans_automatic_build" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/finalProjects_war_exploded/WEB-INF/classes/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/finalProjects_war_exploded/WEB-INF/classes/dataaccess/CarTypeNotFoundException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/finalProjects_war_exploded/WEB-INF/classes/dataaccess/DataAccess.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/finalProjects_war_exploded/WEB-INF/classes/pricing/CustomerServletController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/finalProjects_war_exploded/WEB-INF/classes/pricing/PriceSchedule.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/finalProjects_war_exploded/WEB-INF/classes/pricing/RentalBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/finalProjects_war_exploded/WEB-INF/classes/pricing/RentalFormValidator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/finalProjects_war_exploded/WEB-INF/classes/pricing/ValidationTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/finalProjects_war_exploded/WEB-INF/lib/javaee-doc-api.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/finalProjects_war_exploded/WEB-INF/lib/javax.annotation-api.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/finalProjects_war_exploded/WEB-INF/lib/javax.xml.soap-api.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/finalProjects_war_exploded/WEB-INF/lib/jaxb-api-osgi.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/finalProjects_war_exploded/WEB-INF/lib/jaxws-api.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/finalProjects_war_exploded/WEB-INF/lib/jsr181-api.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/finalProjects_war_exploded/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/finalProjects_war_exploded/WEB-INF/lib/jstl-api-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/finalProjects_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.34.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/finalProjects_war_exploded/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/finalProjects_war_exploded/errors.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/finalProjects_war_exploded/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/finalProjects_war_exploded/invalidCustomer.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/finalProjects_war_exploded/rentals.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/pricing/CustomerServletController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/pricing/CustomerServletController.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/pricing/MockRequest.class" afterPath="$PROJECT_DIR$/target/test-classes/pricing/MockRequest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/pricing/MockSession.class" afterPath="$PROJECT_DIR$/target/test-classes/pricing/MockSession.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pricing/PriceSchedule.class" afterPath="$PROJECT_DIR$/target/classes/pricing/PriceSchedule.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/pricing/ValidationTest.class" afterPath="$PROJECT_DIR$/target/classes/pricing/ValidationTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-dataaccess.DataAccessTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-dataaccess.DataAccessTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-pricing.RentalBeanTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-pricing.RentalBeanTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-pricing.RentalFormValidatorTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-pricing.RentalFormValidatorTest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/pricing/ValidationTest.java" afterPath="$PROJECT_DIR$/src/main/java/pricing/ValidationTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/dataaccess.DataAccessTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/dataaccess.DataAccessTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/finalProjects.iml" afterPath="$PROJECT_DIR$/finalProjects.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/finalProjects_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/finalProjects_war.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/finalProjects_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/finalProjects_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/lib3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/lib3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/pricing.RentalBeanTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/pricing.RentalBeanTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/surefire-reports/pricing.RentalFormValidatorTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/pricing.RentalFormValidatorTest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/rentals.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/rentals.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="d2f4f3c9-c083-40f7-b66f-d1dbc4b81ff3" name="Default" comment="" />
     <ignored path="java3FinalProject.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -360,7 +307,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
+    <option name="x" value="-4033" />
     <option name="y" value="24" />
     <option name="width" value="1301" />
     <option name="height" value="744" />
@@ -1572,12 +1519,12 @@
       <workItem from="1417754456960" duration="5319000" />
       <workItem from="1417759891937" duration="8567000" />
       <workItem from="1417768594379" duration="1190000" />
-      <workItem from="1417770178968" duration="357000" />
+      <workItem from="1417770178968" duration="574000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88018000" />
+    <option name="totallyTimeSpent" value="88235000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1600,7 +1547,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1301" height="744" extended-state="6" />
+    <frame x="-4033" y="24" width="1301" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
