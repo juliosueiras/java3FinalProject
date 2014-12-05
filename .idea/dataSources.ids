@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - Cars@localhost" uuid="7e2238e5-ccb7-46f7-b8de-dbfd81af9afe">
+    <database-info product="MySQL" version="5.5.40-0ubuntu1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.34 ( Revision: jess.balint@oracle.com-20141014163213-wqbwpf1ok2kvo1om )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact"/>
+    <schema name="" catalog="Cars"/>
+    <table name="CarType" schema="" catalog="Cars" type="TABLE">
+      <column name="Id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="ShortName" sqlType="CHAR" precision="12" scale="0" nullable="false" jdbcType="1"/>
+      <column name="WeekdayRate" sqlType="DECIMAL" precision="9" scale="2" nullable="false" jdbcType="3" def="MC4wMA=="/>
+      <column name="WeekendRate" sqlType="DECIMAL" precision="9" scale="2" nullable="false" jdbcType="3" def="MC4wMA=="/>
+      <column name="WeeklyRate" sqlType="DECIMAL" precision="9" scale="2" nullable="false" jdbcType="3" def="MC4wMA=="/>
+      <primary-key name="PRIMARY" columns="Id"/>
+      <index name="ShortName" unique="true" columns="ShortName"/>
+    </table>
+    <table name="Customer" schema="" catalog="Cars" type="TABLE">
+      <column name="CustomerId" sqlType="VARCHAR" precision="3" scale="0" nullable="true" jdbcType="12"/>
+      <column name="LastName" sqlType="VARCHAR" precision="20" scale="0" nullable="true" jdbcType="12"/>
+      <column name="Firstname" sqlType="VARCHAR" precision="20" scale="0" nullable="true" jdbcType="12"/>
+    </table>
+    <table name="Discount" schema="" catalog="Cars" type="TABLE">
+      <column name="CarType" sqlType="VARCHAR" precision="16" scale="0" nullable="true" jdbcType="12"/>
+      <column name="Amount" sqlType="DECIMAL" precision="5" scale="2" nullable="false" jdbcType="3" def="MC4wMA=="/>
+    </table>
+    <table name="Employee" schema="" catalog="Cars" type="TABLE">
+      <column name="UserName" sqlType="VARCHAR" precision="16" scale="0" nullable="true" jdbcType="12"/>
+      <column name="Status" sqlType="VARCHAR" precision="16" scale="0" nullable="true" jdbcType="12"/>
+    </table>
+  </data-source>
+</component>

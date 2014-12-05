@@ -1,4 +1,7 @@
-/root/java3FinalProject/src/main/java/pricing/ValidationTest.java
-/root/java3FinalProject/src/main/java/pricing/RentalBean.java
-/root/java3FinalProject/src/main/java/pricing/RentalFormValidator.java
-/root/java3FinalProject/src/main/java/pricing/PriceSchedule.java
+/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/src/main/java/pricing/PriceSchedule.java
+/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/src/main/java/dataaccess/DataAccess.java
+/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/src/main/java/pricing/CustomerServletController.java
+/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/src/main/java/pricing/ValidationTest.java
+/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/src/main/java/pricing/RentalFormValidator.java
+/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/src/main/java/pricing/RentalBean.java
+/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/src/main/java/dataaccess/CarTypeNotFoundException.java

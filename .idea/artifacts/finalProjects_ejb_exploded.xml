@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-ejb" name="finalProjects:ejb exploded">
-    <output-path>$PROJECT_DIR$/target/finalProjects-1.0-SNAPSHOT</output-path>
+    <output-path>$PROJECT_DIR$/target/java3FinalProjects</output-path>
     <root id="root">
       <element id="javaee-facet-resources" facet="finalProjects/ejb/EJB" />
       <element id="directory" name="META-INF">

@@ -5,9 +5,12 @@ package pricing;
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+import dataaccess.DataAccess;
+
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -18,7 +21,7 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author junghun lee and julio tain sueiras
  */
-@WebServlet(urlPatterns = {"/ValidationTest"})
+@WebServlet(name = "ValidationTest")
 public class ValidationTest extends HttpServlet {
 
     /**
@@ -34,7 +37,30 @@ public class ValidationTest extends HttpServlet {
         
         RentalFormValidator formValidator = new RentalFormValidator(request);
         boolean validation = formValidator.isValid();
-        ArrayList<Integer> errorList = formValidator.getErrorCodes();
+        if(validation){
+            DataAccess db = new DataAccess();
+            db.connection();
+            boolean custNumberExist = db.doesCustNumberExist(Integer.parseInt(request.getParameter("customerNo")));
+
+            if(custNumberExist){
+                RentalBean bean = setUpBean(request);
+            }
+
+        } else{
+            ArrayList<Integer> errorList = formValidator.getErrorCodes();
+            request.setAttribute("errorCodes", errorList);
+            RequestDispatcher rd = getServletContext().getRequestDispatcher("/errors.jsp");
+            rd.forward(request,response);
+        }
+
+
+
+
+        try (PrintWriter out = response.getWriter()) {
+        }
+    }
+
+    public static RentalBean setUpBean(HttpServletRequest request){
         RentalBean bean = new RentalBean();
         bean.setCustomerNumber(Integer.parseInt(request.getParameter("customerNo")));
         bean.setPickupHour(Integer.parseInt(request.getParameter("pickupHour")));
@@ -48,28 +74,8 @@ public class ValidationTest extends HttpServlet {
         bean.setRentalType(request.getParameter("carType"));
         bean.setCardType(request.getParameter("cardType"));
         bean.setCardNumber(request.getParameter("creditCardNo"));
-
-
-        response.setContentType("text/html;charset=UTF-8");
-        try (PrintWriter out = response.getWriter()) {
-            /* TODO output your page here. You may use following sample code. */
-            out.println("<!DOCTYPE html>");
-            out.println("<html>");
-            out.println("<head>");
-            out.println("<title>Servlet ValidationTest</title>");            
-            out.println("</head>");
-            out.println("<body>");
-            out.println("<h1>Servlet ValidationTest at " + request.getContextPath() + "</h1>");
-            out.println("<h1>validation: "+validation+"</h1>");
-            out.println(bean.getCustomerNumber()+" "+bean.getPickupHour()+" "+bean.getPickupDay()+" "+bean.getPickupMon()+" "+bean.getPickupYear());
-            for(int error : errorList){
-                out.println("error code: "+error+"<br>");
-            }
-            out.println("</body>");
-            out.println("</html>");
-        }
+        return bean;
     }
-
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
     /**
      * Handles the HTTP <code>GET</code> method.

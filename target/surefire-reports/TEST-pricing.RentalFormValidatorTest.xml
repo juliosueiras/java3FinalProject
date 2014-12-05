@@ -1,6 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="30" failures="0" name="pricing.RentalFormValidatorTest" time="0.02" errors="0" skipped="0">
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pricing.RentalFormValidatorTest" time="0.005" tests="30" errors="0" skipped="0" failures="0">
   <properties>
+    <property name="idea.version" value="14.0.1"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
     <property name="java.vm.version" value="25.25-b02"/>
@@ -10,6 +11,7 @@
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="idea.launcher.port" value="7532"/>
     <property name="user.country" value="CA"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
@@ -20,14 +22,12 @@
     <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-8-oracle/jre/lib/endorsed"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="/tmp"/>
-    <property name="line.separator" value="
-"/>
+    <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Linux"/>
-    <property name="net.sourceforge.cobertura.datafile" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/target/cobertura/cobertura.ser"/>
-    <property name="classworlds.conf" value="/usr/share/maven//bin/m2.conf"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.library.path" value="/home/juliosueiras/idea-IU-139.224.1/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -35,14 +35,15 @@
     <property name="user.home" value="/home/juliosueiras"/>
     <property name="user.timezone" value="America/Toronto"/>
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
-    <property name="file.encoding" value="UTF-8"/>
     <property name="java.specification.version" value="1.8"/>
+    <property name="idea.launcher.bin.path" value="/home/juliosueiras/idea-IU-139.224.1/bin"/>
+    <property name="file.encoding" value="UTF-8"/>
     <property name="user.name" value="juliosueiras"/>
-    <property name="java.class.path" value="/usr/share/maven//boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar:/home/juliosueiras/idea-IU-139.224.1/lib/idea_rt.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher cobertura:cobertura"/>
+    <property name="sun.java.command" value="com.intellij.rt.execution.application.AppMain org.codehaus.classworlds.Launcher -Didea.version=14.0.1 org.mortbay.jetty:maven-jetty-plugin:6.1.26:run-war"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -57,38 +58,37 @@
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="project.build.outputDirectory" value="/home/juliosueiras/Documents/GitHubRepo/java3FinalProject/julioVersion/java3FinalProject/target/generated-classes/cobertura"/>
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupDayInRange" time="0"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCustomerNumeric" time="0"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCarTypeInRange" time="0"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupDayNull" time="0"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffDayInRange" time="0.001"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupHourNull" time="0"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCustomerNull" time="0"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffYearInRange" time="0.001"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffYearNull" time="0.001"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testGetErrorCodes" time="0"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffMonthNull" time="0.002"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCreditCardTypeInRange" time="0.011"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCreditCardNoInRange" time="0"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testGetBean" time="0"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testSetErrorCodes" time="0.002"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupYearInRange" time="0"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffHourInRange" time="0"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupMonthInRange" time="0"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCreditCardNoNull" time="0"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffHourNull" time="0"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffMonthInRange" time="0.001"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCarTypeNull" time="0"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupMonthNull" time="0"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupHourInRange" time="0"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCreditCardTypeNull" time="0"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testSetBean" time="0"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsValid" time="0"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsPickupYearNull" time="0"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsDropoffDayNull" time="0"/>
-  <testcase classname="pricing.RentalFormValidatorTest" name="testIsCustomerNotNull" time="0"/>
+  <testcase name="testIsPickupDayInRange" classname="pricing.RentalFormValidatorTest" time="0"/>
+  <testcase name="testIsCustomerNumeric" classname="pricing.RentalFormValidatorTest" time="0"/>
+  <testcase name="testIsCarTypeInRange" classname="pricing.RentalFormValidatorTest" time="0"/>
+  <testcase name="testIsPickupDayNull" classname="pricing.RentalFormValidatorTest" time="0"/>
+  <testcase name="testIsDropoffDayInRange" classname="pricing.RentalFormValidatorTest" time="0"/>
+  <testcase name="testIsPickupHourNull" classname="pricing.RentalFormValidatorTest" time="0"/>
+  <testcase name="testIsCustomerNull" classname="pricing.RentalFormValidatorTest" time="0"/>
+  <testcase name="testIsDropoffYearInRange" classname="pricing.RentalFormValidatorTest" time="0"/>
+  <testcase name="testIsDropoffYearNull" classname="pricing.RentalFormValidatorTest" time="0"/>
+  <testcase name="testGetErrorCodes" classname="pricing.RentalFormValidatorTest" time="0"/>
+  <testcase name="testIsDropoffMonthNull" classname="pricing.RentalFormValidatorTest" time="0.002"/>
+  <testcase name="testIsCreditCardTypeInRange" classname="pricing.RentalFormValidatorTest" time="0"/>
+  <testcase name="testIsCreditCardNoInRange" classname="pricing.RentalFormValidatorTest" time="0"/>
+  <testcase name="testGetBean" classname="pricing.RentalFormValidatorTest" time="0"/>
+  <testcase name="testSetErrorCodes" classname="pricing.RentalFormValidatorTest" time="0"/>
+  <testcase name="testIsPickupYearInRange" classname="pricing.RentalFormValidatorTest" time="0.001"/>
+  <testcase name="testIsDropoffHourInRange" classname="pricing.RentalFormValidatorTest" time="0.001"/>
+  <testcase name="testIsPickupMonthInRange" classname="pricing.RentalFormValidatorTest" time="0"/>
+  <testcase name="testIsCreditCardNoNull" classname="pricing.RentalFormValidatorTest" time="0"/>
+  <testcase name="testIsDropoffHourNull" classname="pricing.RentalFormValidatorTest" time="0"/>
+  <testcase name="testIsDropoffMonthInRange" classname="pricing.RentalFormValidatorTest" time="0.001"/>
+  <testcase name="testIsCarTypeNull" classname="pricing.RentalFormValidatorTest" time="0"/>
+  <testcase name="testIsPickupMonthNull" classname="pricing.RentalFormValidatorTest" time="0"/>
+  <testcase name="testIsPickupHourInRange" classname="pricing.RentalFormValidatorTest" time="0"/>
+  <testcase name="testIsCreditCardTypeNull" classname="pricing.RentalFormValidatorTest" time="0"/>
+  <testcase name="testSetBean" classname="pricing.RentalFormValidatorTest" time="0"/>
+  <testcase name="testIsValid" classname="pricing.RentalFormValidatorTest" time="0"/>
+  <testcase name="testIsPickupYearNull" classname="pricing.RentalFormValidatorTest" time="0"/>
+  <testcase name="testIsDropoffDayNull" classname="pricing.RentalFormValidatorTest" time="0"/>
+  <testcase name="testIsCustomerNotNull" classname="pricing.RentalFormValidatorTest" time="0"/>
 </testsuite>
