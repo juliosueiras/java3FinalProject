@@ -30,6 +30,7 @@
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="ejb" url="file://$PROJECT_DIR$" />
+    <file type="web" url="file://$PROJECT_DIR$" />
   </component>
   <component name="IdProvider" IDEtalkID="3E3580B7DCC8A2C4562649463713936E" />
   <component name="MavenProjectsManager">
