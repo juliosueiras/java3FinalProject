@@ -247,6 +247,7 @@ public class RentalBean implements Serializable{
      * @return the price
      */
     public BigDecimal getPrice() {
+        //TODO:Fix Month Calculation
         double resultPrice = 0.00;
         int weekdays=0;
         int weekends=0;
