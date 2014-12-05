@@ -13,7 +13,7 @@
     </head>
     <body>
         <h1>INVALID CUSTOMER NUMBER</h1><hr>
-        <h3>We could not find your customer number in our database.</h3>
+        <h3>We could not find your customer number in our database or there were a critical error occur.</h3>
         <h3>Please try again</h3><hr>
         <a href="index.html">start over</a>
     </body>
