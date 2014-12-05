@@ -39,7 +39,7 @@
                 <td>Credit Card No</td><td><c:out value="${bean.cardNumber}"/></td>
             </tr>
         </table><hr>
-        <h3>Price: <c:out value="${bean.price}"/></h3><hr>
+        <h3>Price: <c:out value="${bean.price}"/> CAD</h3><hr>
         <a href="index.html">start over</a>
 
 </body>

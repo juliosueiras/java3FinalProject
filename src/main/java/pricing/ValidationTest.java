@@ -49,8 +49,6 @@ public class ValidationTest extends HttpServlet {
 
                 if (custNumberExist) {
                     custBean = formValidator.getBean();
-                    custBean.setRentalType(request.getParameter("cartype"));
-                    custBean.setCardType(request.getParameter("creditCardType"));
 
                     try {
                         custBean.setPriceSchedule(db.getCarTypePriceSchedule(custBean.getRentalType()));
